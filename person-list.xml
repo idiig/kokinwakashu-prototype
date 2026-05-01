@@ -1,0 +1,1802 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>古今和歌集 人物一覧</title></titleStmt><publicationStmt><p>Extracted from kokinwakashu.xml</p></publicationStmt><sourceDesc><p>kokinwakashu.xml</p></sourceDesc></fileDesc></teiHeader><text><back><listPerson>
+        <person xml:id="藤原定家" sex="1">
+          <persName>藤原／定家</persName>
+          <persName>ふじわらの／さだいえ</persName>
+          <persName>ふじわらの／ていか</persName>
+          <persName>京極中納言</persName>
+          <persName>明静</persName>
+          <occupation/>
+          <birth when="1162">応保二年</birth>
+          <death when="1241">仁治二年</death>
+          <idno type="VIAF">http://viaf.org/viaf/29592327</idno>
+        </person>
+        <person xml:id="藤原俊成" sex="1">
+          <persName>藤原／俊成</persName>
+          <persName>ふじわらの／としなり</persName>
+          <persName>ふじわらの／しゅんぜい</persName>
+          <persName>五条三位</persName>
+          <persName>釈阿</persName>
+          <occupation/>
+          <birth when="1114">永久二年</birth>
+          <death when="1204">元久元年</death>
+          <idno type="VIAF"/>
+        </person>
+        <person xml:id="藤原為家" sex="1">
+          <persName>藤原／為家</persName>
+          <persName>ふじわらの／ためいえ</persName>
+          <persName>融覚</persName>
+          <occupation/>
+          <birth when="1198">建久九年</birth>
+          <death when="1275">建治元年</death>
+          <idno type="VIAF"/>
+        </person>
+        <person xml:id="藤原為相" sex="1">
+          <persName>藤原／為相</persName>
+          <persName>ふじわらの／ためすけ</persName>
+          <persName>冷泉／為相</persName>
+          <occupation/>
+          <birth when="1263">弘長三年</birth>
+          <death when="1328">嘉暦三年</death>
+          <idno type="VIAF"/>
+        </person>
+        <person xml:id="藤原為広" sex="1">
+          <persName>藤原／為広</persName>
+          <persName>ふじわらの／ためひろ</persName>
+          <persName>冷泉／為広</persName>
+          <occupation>宗清</occupation>
+          <birth when="1450">宝徳二年</birth>
+          <death when="1526">大永六年</death>
+          <idno type="VIAF"/>
+        </person>
+        <person xml:id="藤原為和" sex="1">
+          <persName>藤原／為和</persName>
+          <persName>ふじわらの／ためかず</persName>
+          <persName>冷泉／為和</persName>
+          <occupation/>
+          <birth when="1486">文明十八年</birth>
+          <death when="1549">天文十八年</death>
+          <idno type="VIAF"/>
+        </person>
+        <person xml:id="安倍清行" sex="1">
+          <persName>安倍／清行</persName>
+          <persName type="よみ">あべの／きよゆき</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth when="0825">天長二年</birth>
+          <death when="0900">昌泰三年</death>
+        </person>
+        <person xml:id="安倍仲麻呂" sex="1">
+          <persName>安倍／仲麻呂</persName>
+          <persName type="よみ">あべの／なかまろ</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/115734207</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth when="0701">大宝元年</birth>
+          <death when="0770">宝亀元年</death>
+        </person>
+        <person xml:id="阿保経覧" sex="1">
+          <persName>阿保／経覧</persName>
+          <persName type="よみ">あぼの／つねみ</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death when="0912">延喜十二年</death>
+        </person>
+        <person xml:id="洽子" sex="2">
+          <persName>洽子</persName>
+          <persName type="よみ">あまねいこ</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="あやもち" sex="3">
+          <persName>あやもち</persName>
+          <persName type="よみ">あやもち</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="在原滋春" sex="1">
+          <persName>在原／滋春</persName>
+          <persName type="よみ">ありわらの／しげはる</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">15350</idno>
+          <birth>不明</birth>
+          <death when="0905">延喜五年頃か</death>
+        </person>
+        <person xml:id="在原業平" sex="1">
+          <persName>在原／業平</persName>
+          <persName type="よみ">ありわらの／なりひら</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/117181478</idno>
+          <idno type="国書データベース">15349</idno>
+          <birth when="0825">天長二年</birth>
+          <death when="0880">元慶四年</death>
+        </person>
+        <person xml:id="伊都内親王" sex="2">
+          <persName>在原業平朝臣母</persName>
+          <persName type="よみ">ありわらのなりひらあそんのはは</persName>
+          <persName>伊都内親王</persName>
+          <persName>伊登内親王</persName>
+          <persName type="よみ">いとないしんのう</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/255093641</idno>
+          <idno type="国書データベース">38120</idno>
+          <birth>不明</birth>
+          <death when="0861">貞観三年</death>
+        </person>
+        <person xml:id="在原棟梁" sex="1">
+          <persName>在原／棟梁</persName>
+          <persName type="よみ">ありわらの／むねやな</persName>
+          <persName type="よみ">ありわらの／むねはり</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death when="0898">昌泰元年</death>
+        </person>
+        <person xml:id="在原元方" sex="1">
+          <persName>在原／元方</persName>
+          <persName type="よみ">ありわらの／もとかた</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/114305486</idno>
+          <idno type="国書データベース">588363</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="在原行平" sex="1">
+          <persName>在原／行平</persName>
+          <persName type="よみ">ありわらの／ゆきひら</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/171116284</idno>
+          <idno type="国書データベース">15338</idno>
+          <birth when="0818">弘仁九年</birth>
+          <death when="0893">寛平五年</death>
+        </person>
+        <person xml:id="伊香子淳行" sex="1">
+          <persName>伊香子／淳行</persName>
+          <persName type="よみ">いかごの／あつゆき</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="伊勢" sex="2">
+          <persName>伊勢</persName>
+          <persName type="よみ">いせ</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/251729740</idno>
+          <idno type="国書データベース">26982</idno>
+          <birth when="0875">貞観十七年頃か</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="因幡" sex="2">
+          <persName>因幡</persName>
+          <persName type="よみ">いなば</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="寵" sex="2">
+          <persName>寵</persName>
+          <persName type="よみ">うつく</persName>
+          <persName type="よみ">ちやう</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="采女" sex="2">
+          <persName>采女</persName>
+          <persName type="よみ">うねめ</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="大江千里" sex="1">
+          <persName>大江／千里</persName>
+          <persName type="よみ">おおえの／ちさと</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/255808812</idno>
+          <idno type="国書データベース">71749</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="凡河内躬恒" sex="1">
+          <persName>凡河内／躬恒</persName>
+          <persName type="よみ">おおしこうちの／みつね</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/251730015</idno>
+          <idno type="国書データベース">74715</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="大友黒主" sex="1">
+          <persName>大友／黒主</persName>
+          <persName type="よみ">おおともの／くろぬし</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/48731368</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="乙" sex="2">
+          <persName>乙</persName>
+          <persName type="よみ">おと</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="小野小町" sex="2">
+          <persName>小野／小町</persName>
+          <persName type="よみ">おのの／こまち</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/9073148947837154950000</idno>
+          <idno type="国書データベース">95556</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="小野小町姉" sex="2">
+          <persName>小野小町姉</persName>
+          <persName type="よみ">おののこまちがあね</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="小野貞樹" sex="1">
+          <persName>小野／貞樹</persName>
+          <persName type="よみ">おのの／さだき</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="小野滋蔭" sex="1">
+          <persName>小野／滋蔭</persName>
+          <persName type="よみ">おのの／しげかげ</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death when="0896">寛平八年</death>
+        </person>
+        <person xml:id="小野篁" sex="1">
+          <persName>小野／篁</persName>
+          <persName type="よみ">おのの／たかむら</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/35919067</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth when="0802">延暦二年</birth>
+          <death when="0852">仁寿二年</death>
+        </person>
+        <person xml:id="小野千古母" sex="2">
+          <persName>小野千古母</persName>
+          <persName type="よみ">おののちふるのはは</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="小野春風" sex="1">
+          <persName>小野／春風</persName>
+          <persName type="よみ">おのの／はるかぜ</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="小野美材" sex="1">
+          <persName>小野／美材</persName>
+          <persName type="よみ">おのの／よしき</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death when="0902">延喜二年</death>
+        </person>
+        <person xml:id="景式王" sex="1">
+          <persName>景式王</persName>
+          <persName type="よみ">かげのりおう</persName>
+          <persName type="よみ">かげのりのおほきみ</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="兼覧王" sex="1">
+          <persName>兼覧王</persName>
+          <persName type="よみ">かねみおう</persName>
+          <persName type="よみ">かねみのおほきみ</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth>不明</birth>
+          <death when="0932">承平二年</death>
+        </person>
+        <person xml:id="閑院" sex="2">
+          <persName>閑院</persName>
+          <persName type="よみ">かんいん</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="閑院五の皇女" sex="2">
+          <persName>閑院五の皇女</persName>
+          <persName type="よみ">かんいんのごのみこ</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="上野岑雄" sex="1">
+          <persName>上野／岑雄</persName>
+          <persName type="よみ">かむつけの／みねお</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="喜撰法師" sex="1">
+          <persName>喜撰法師</persName>
+          <persName type="よみ">きせんほうし</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/251432790</idno>
+          <idno type="国書データベース">140181</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="紀秋岑" sex="1">
+          <persName>紀／秋岑</persName>
+          <persName type="よみ">きの／あきみね</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="紀有常" sex="1">
+          <persName>紀／有常</persName>
+          <persName type="よみ">きの／ありつね</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth when="0815">弘仁六年</birth>
+          <death when="0877">貞観十九年</death>
+        </person>
+        <person xml:id="紀有常娘" sex="2">
+          <persName>紀有常娘</persName>
+          <persName type="よみ">きのありつねのむすめ</persName>
+          <persName type="よみ">きのありつねがむすめ</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="紀有朋" sex="1">
+          <persName>紀／有朋</persName>
+          <persName type="よみ">きの／ありとも</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death when="0880">元慶四年</death>
+        </person>
+        <person xml:id="紀惟岳" sex="1">
+          <persName>紀／惟岳</persName>
+          <persName>紀／惟岡</persName>
+          <persName>紀／惟熙</persName>
+          <persName type="よみ">きの／これおか</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="紀貫之" sex="1">
+          <persName>紀／貫之</persName>
+          <persName type="よみ">きの／つらゆき</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/1606145856885622920249</idno>
+          <idno type="国書データベース">134010</idno>
+          <birth when="0871">貞観十三年頃</birth>
+          <death when="0946">天慶九年か</death>
+        </person>
+        <person xml:id="紀利貞" sex="1">
+          <persName>紀／利貞</persName>
+          <persName type="よみ">きの／としさだ</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death when="0881">元慶五年</death>
+        </person>
+        <person xml:id="紀友則" sex="1">
+          <persName>紀／友則</persName>
+          <persName type="よみ">きの／とものり</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/66773373</idno>
+          <idno type="国書データベース">134678</idno>
+          <birth>不明</birth>
+          <death when="0905">延喜五年頃</death>
+        </person>
+        <person xml:id="紀乳母" sex="2">
+          <persName>紀乳母</persName>
+          <persName type="よみ">きのめのと</persName>
+          <persName>紀／全子</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="紀茂行" sex="1">
+          <persName>紀／茂行</persName>
+          <persName type="よみ">きの／もちゆき</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="紀淑人" sex="1">
+          <persName>紀／淑人</persName>
+          <persName type="よみ">きの／よしひと</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">134269</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="紀淑望" sex="1">
+          <persName>紀／淑望</persName>
+          <persName type="よみ">きの／よしもち</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/51650452</idno>
+          <idno type="国書データベース">134281</idno>
+          <birth>不明</birth>
+          <death when="0919">延喜十九年</death>
+        </person>
+        <person xml:id="敬信" sex="2">
+          <persName>敬信</persName>
+          <persName type="よみ">きょうしん</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="清原深養父" sex="1">
+          <persName>清原／深養父</persName>
+          <persName type="よみ">きよはらの／ふかやぶ</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/910168453527066300000</idno>
+          <idno type="国書データベース">155500</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="久曾" sex="2">
+          <persName>久曾</persName>
+          <persName type="よみ">くそ</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="兼芸法師" sex="1">
+          <persName>兼芸法師</persName>
+          <persName type="よみ">けんげいほうし</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="光孝天皇" sex="1">
+          <persName>光孝天皇</persName>
+          <persName type="よみ">こうこうてんのう</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/51470568</idno>
+          <idno type="国書データベース">184327</idno>
+          <birth when="0830">天長七年</birth>
+          <death when="0887">仁和三年</death>
+        </person>
+        <person xml:id="惟喬親王" sex="1">
+          <persName>惟喬親王</persName>
+          <persName type="よみ">これたかのみこ</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/313300794</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth when="0844">承和十一年</birth>
+          <death when="0897">寛平九年</death>
+        </person>
+        <person xml:id="酒井人真" sex="1">
+          <persName>酒井／人真</persName>
+          <persName type="よみ">さかいの／ひとざね</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death when="0917">延喜一七年</death>
+        </person>
+        <person xml:id="坂上是則" sex="1">
+          <persName>坂上／是則</persName>
+          <persName type="よみ">さかのうえの／これのり</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/263026921</idno>
+          <idno type="国書データベース">210526</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="貞登" sex="1">
+          <persName>貞／登</persName>
+          <persName type="よみ">さだの／のぼる</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="讃岐" sex="2">
+          <persName>讃岐</persName>
+          <persName type="よみ">さぬき</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="三条町" sex="2">
+          <persName>三条町</persName>
+          <persName type="よみ">さんじょうのまち</persName>
+          <persName>紀／静子</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death when="0866">貞観八年</death>
+        </person>
+        <person xml:id="下野雄宗" sex="1">
+          <persName>下野／雄宗</persName>
+          <persName type="よみ">しもつけの／おむね</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="勝延" sex="1">
+          <persName>勝延</persName>
+          <persName type="よみ">しょうえん</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">251207</idno>
+          <birth when="0827">天長四年</birth>
+          <death when="0901">昌泰四年</death>
+        </person>
+        <person xml:id="聖宝" sex="1">
+          <persName>聖宝</persName>
+          <persName type="よみ">しょうぼう</persName>
+          <persName type="俗名">恒蔭王</persName>
+          <persName type="諡号">理源大師</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/257568927</idno>
+          <idno type="国書データベース">259541</idno>
+          <birth when="0832">天長九年</birth>
+          <death when="0909">延喜九年</death>
+        </person>
+        <person xml:id="白女" sex="2">
+          <persName>白女</persName>
+          <persName type="よみ">しろめ</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="真静法師" sex="1">
+          <persName>真静法師</persName>
+          <persName type="よみ">しんじょうほうし</persName>
+          <persName type="よみ">しんせいほうし</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="神退法師" sex="1">
+          <persName>神退法師</persName>
+          <persName type="よみ">しんたいほうし</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="菅野高世" sex="1">
+          <persName>菅野／高世</persName>
+          <persName type="よみ">すがのの／たかよ</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="菅野忠臣" sex="1">
+          <persName>菅野／忠臣</persName>
+          <persName type="よみ">すがのの／ただおむ</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="菅原道真" sex="1">
+          <persName>菅原朝臣</persName>
+          <persName type="よみ">すがわらのあそん</persName>
+          <persName>菅原／道真</persName>
+          <persName type="よみ">すがわらの／みちざね</persName>
+          <idno type="VIAF">http://viaf.org/viaf/111068012</idno>
+          <idno type="国書データベース">274260</idno>
+          <birth when="0845">承和十二年</birth>
+          <death when="0903">延喜三年</death>
+        </person>
+        <person xml:id="承均法師" sex="1">
+          <persName>承均法師</persName>
+          <persName type="よみ">そうくほうし</persName>
+          <persName type="よみ">しょうきんほうし</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="素性法師" sex="1">
+          <persName>素性法師</persName>
+          <persName type="よみ">そせいほうし</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/9765921</idno>
+          <idno type="国書データベース">306434</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="衣通姫" sex="2">
+          <persName>衣通姫</persName>
+          <persName type="よみ">そとおりひめ</persName>
+          <persName type="よみ">そとおしのいらつめ</persName>
+          <persName type="よみ">そとおりのいらつめ</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="大輔" sex="2">
+          <persName>大輔</persName>
+          <persName type="よみ">たいふ</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="平篤行" sex="1">
+          <persName>平／篤行</persName>
+          <persName type="よみ">たいらの／あつゆき</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death when="0910">延喜一〇年</death>
+        </person>
+        <person xml:id="平貞文" sex="1">
+          <persName>平／貞文</persName>
+          <persName>平／定文</persName>
+          <persName type="よみ">たいらの／さだふむ</persName>
+          <persName type="よみ">たいらの／さだふん</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/48335548</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death when="0923">延長元年</death>
+        </person>
+        <person xml:id="平中興" sex="1">
+          <persName>平／中興</persName>
+          <persName type="よみ">たいらの／なかき</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="平元規" sex="1">
+          <persName>平／元規</persName>
+          <persName type="よみ">たいらの／もとのり</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death when="0908">延喜八年？</death>
+        </person>
+        <person xml:id="高向利春" sex="1">
+          <persName>高向／利春</persName>
+          <persName type="よみ">たかむこの／としはる</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="橘清樹" sex="1">
+          <persName>橘／清樹</persName>
+          <persName type="よみ">たちばなの／きよき</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death when="0899">昌泰二年</death>
+        </person>
+        <person xml:id="橘長盛" sex="1">
+          <persName>橘／長盛</persName>
+          <persName type="よみ">たちばなの／ながもり</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="常康親王" sex="1">
+          <persName>常康親王</persName>
+          <persName type="よみ">つねやすしんのう</persName>
+          <persName>雲林院親王</persName>
+          <persName type="よみ">うんりんいんのみこ</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">254080</idno>
+          <birth>不明</birth>
+          <death when="0869">貞観一一年</death>
+        </person>
+        <person xml:id="難波万雄" sex="1">
+          <persName>難波／万雄</persName>
+          <persName type="よみ">なにわの／よろずお</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="二条" sex="2">
+          <persName>二条</persName>
+          <persName type="よみ">にじょう</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="春道列樹" sex="1">
+          <persName>春道／列樹</persName>
+          <persName type="よみ">はるみちの／つらき</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death when="0920">延喜二十年</death>
+        </person>
+        <person xml:id="兵衛" sex="2">
+          <persName>兵衛</persName>
+          <persName type="よみ">ひょうえ</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="藤原興風" sex="1">
+          <persName>藤原／興風</persName>
+          <persName type="よみ">ふじわらの／おきかぜ</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/253209898</idno>
+          <idno type="国書データベース">463547</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="藤原勝臣" sex="1">
+          <persName>藤原／勝臣</persName>
+          <persName type="よみ">ふじわらの／かちおん</persName>
+          <persName type="よみ">ふじわらの／かちおみ</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="藤原兼輔" sex="1">
+          <persName>藤原／兼輔</persName>
+          <persName type="よみ">ふじわらの／かねすけ</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/258700924</idno>
+          <idno type="国書データベース">463956</idno>
+          <birth when="0877">元慶元年</birth>
+          <death when="0933">承平三年</death>
+        </person>
+        <person xml:id="藤原兼茂" sex="1">
+          <persName>藤原／兼茂</persName>
+          <persName type="よみ">ふじわらの／かねもち</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death when="0923">延喜二十三年</death>
+        </person>
+        <person xml:id="藤原国経" sex="1">
+          <persName>藤原／国経</persName>
+          <persName type="よみ">ふじわらの／くにつね</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">464437</idno>
+          <birth when="0827">天長四年</birth>
+          <death when="0908">延喜八年</death>
+        </person>
+        <person xml:id="藤原言直" sex="1">
+          <persName>藤原／言直</persName>
+          <persName type="よみ">ふじわらの／ことなお</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="藤原惟幹" sex="1">
+          <persName>藤原／惟幹</persName>
+          <persName type="よみ">ふじわらの／これもと</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="藤原定方" sex="1">
+          <persName>藤原／定方</persName>
+          <persName type="よみ">ふじわらの／さだかた</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">467163</idno>
+          <birth>不明</birth>
+          <death when="0932">承平二年</death>
+        </person>
+        <person xml:id="藤原菅根" sex="1">
+          <persName>藤原／菅根</persName>
+          <persName type="よみ">ふじわらの／すがね</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">463127</idno>
+          <birth when="0856">斉衡三年</birth>
+          <death when="0908">延喜八年</death>
+        </person>
+        <person xml:id="藤原関雄" sex="1">
+          <persName>藤原／関雄</persName>
+          <persName type="よみ">ふじわらの／せきお</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth when="0805">延暦二十四年</birth>
+          <death when="0853">仁寿三年</death>
+        </person>
+        <person xml:id="藤原高子" sex="2">
+          <persName>藤原／高子</persName>
+          <persName type="よみ">ふじわらの／こうし</persName>
+          <persName type="よみ">ふじわらの／たかきこ</persName>
+          <persName type="よみ">ふじわらの／たかいこ</persName>
+          <persName>二条后</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/77622685</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth when="0842">承和九年</birth>
+          <death when="0910">延喜十年</death>
+        </person>
+        <person xml:id="藤原忠房" sex="1">
+          <persName>藤原／忠房</persName>
+          <persName type="よみ">ふじわらの／ただふさ</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">466499</idno>
+          <birth>不明</birth>
+          <death when="0928">延長六年</death>
+        </person>
+        <person xml:id="藤原忠行" sex="1">
+          <persName>藤原／忠行</persName>
+          <persName type="よみ">ふじわらの／ただゆき</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death when="0906">延喜六年</death>
+        </person>
+        <person xml:id="藤原時平" sex="1">
+          <persName>藤原／時平</persName>
+          <persName type="よみ">ふじわらの／ときひら</persName>
+          <persName>左大臣</persName>
+          <persName type="よみ">ひだりのおほいまうちぎみ</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/50495139</idno>
+          <idno type="国書データベース">464926</idno>
+          <birth when="0871">貞観十三年</birth>
+          <death when="0909">延喜九年</death>
+        </person>
+        <person xml:id="藤原敏行" sex="1">
+          <persName>藤原／敏行</persName>
+          <persName type="よみ">ふじわらの／としゆき</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/259301048</idno>
+          <idno type="国書データベース">467527</idno>
+          <birth>不明</birth>
+          <death when="0901">昌泰四年</death>
+        </person>
+        <person xml:id="藤原直子" sex="2">
+          <persName>藤原／直子</persName>
+          <persName type="よみ">ふじわらの／なおいこ</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="藤原仲平" sex="1">
+          <persName>藤原／仲平</persName>
+          <persName type="よみ">ふじわらの／なかひら</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth when="0875">貞観十七年</birth>
+          <death when="0945">天慶八年</death>
+        </person>
+        <person xml:id="藤原後蔭" sex="1">
+          <persName>藤原／後蔭</persName>
+          <persName type="よみ">ふじわらの／のちかげ</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death when="0921">延喜二十一年</death>
+        </person>
+        <person xml:id="藤原好風" sex="1">
+          <persName>藤原／好風</persName>
+          <persName>藤原／良風</persName>
+          <persName type="よみ">ふじわらの／よしかぜ</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="藤原良房" sex="1">
+          <persName>藤原／良房</persName>
+          <persName type="よみ">ふじわらの／よしふさ</persName>
+          <persName>前太政大臣</persName>
+          <persName type="よみ">さきのおほきおほいまうちぎみ</persName>
+          <persName>忠仁公</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/112351019</idno>
+          <idno type="国書データベース">468291</idno>
+          <birth when="0804">延暦二十三年</birth>
+          <death when="0872">貞観十四年</death>
+        </person>
+        <person xml:id="藤原因香" sex="2">
+          <persName>藤原／因香</persName>
+          <persName type="よみ">ふじわらの／よるか</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="布留今道" sex="1">
+          <persName>布留／今道</persName>
+          <persName type="よみ">ふるの／いまみち</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="文屋朝康" sex="1">
+          <persName>文屋／朝康</persName>
+          <persName type="よみ">ふんやの／あさやす</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="文屋有季" sex="1">
+          <persName>文屋／有季</persName>
+          <persName type="よみ">ふんやの／ありすえ</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="文屋康秀" sex="1">
+          <persName>文屋／康秀</persName>
+          <persName>文室／康秀</persName>
+          <persName type="よみ">ふんやの／やすひで</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="平城天皇" sex="1">
+          <persName>平城天皇</persName>
+          <persName type="よみ">へいぜいてんわう</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/76097701</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth when="0774">宝亀五年</birth>
+          <death when="0824">天長一年</death>
+        </person>
+        <person xml:id="遍昭" sex="1">
+          <persName>遍昭</persName>
+          <persName>遍照</persName>
+          <persName type="よみ">へんじょう</persName>
+          <persName>僧正遍昭</persName>
+          <persName type="よみ">そうじょうへんじょう</persName>
+          <persName>良岑／宗貞</persName>
+          <persName type="よみ">よしみねの／むねさだ</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/114290824</idno>
+          <idno type="国書データベース">476108</idno>
+          <birth when="0816">弘仁七年</birth>
+          <death when="0890">寛平二年</death>
+        </person>
+        <person xml:id="三国町" sex="2">
+          <persName>三国町</persName>
+          <persName type="よみ">みくにのまち</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="陸奥" sex="2">
+          <persName>陸奥</persName>
+          <persName type="よみ">みちのく</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="源実" sex="1">
+          <persName>源／実</persName>
+          <persName type="よみ">みなもとの／さね</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death when="0900">昌泰三年</death>
+        </person>
+        <person xml:id="源融" sex="1">
+          <persName>源／融</persName>
+          <persName type="よみ">みなもとの／とおる</persName>
+          <persName>河原左大臣</persName>
+          <persName type="よみ">かはらのひだりのおほいまうちぎみ</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/258767042</idno>
+          <idno type="国書データベース">512618</idno>
+          <birth when="0822">弘仁十三年</birth>
+          <death when="0895">寛平七年</death>
+        </person>
+        <person xml:id="源常" sex="1">
+          <persName>源／常</persName>
+          <persName type="よみ">みなもとの／ときわ</persName>
+          <persName>東三条左大臣</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth when="0812">弘仁三年</birth>
+          <death when="0854">仁寿四年</death>
+        </person>
+        <person xml:id="源忠" sex="1">
+          <persName>源／忠</persName>
+          <persName>源／恵</persName>
+          <persName type="よみ">みなもとの／ほどこす</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death when="0931">延長九年</death>
+        </person>
+        <person xml:id="源当純" sex="1">
+          <persName>源／当純</persName>
+          <persName type="よみ">みなもとの／まさずみ</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">588307</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="源宗于" sex="1">
+          <persName>源／宗于</persName>
+          <persName type="よみ">みなもとの／むねゆき</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/259889628</idno>
+          <idno type="国書データベース">511604</idno>
+          <birth>不明</birth>
+          <death when="0939">天慶二年</death>
+        </person>
+        <person xml:id="源能有" sex="1">
+          <persName>源／能有</persName>
+          <persName type="よみ">みなもとの／よしあり</persName>
+          <persName>近院右大臣</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/33553173</idno>
+          <idno type="国書データベース">512425</idno>
+          <birth when="0845">承和十二年</birth>
+          <death when="0897">寛平九年</death>
+        </person>
+        <person xml:id="御春有助" sex="1">
+          <persName>御春／有助</persName>
+          <persName type="よみ">みはるの／ありすけ</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="壬生忠岑" sex="1">
+          <persName>壬生／忠岑</persName>
+          <persName type="よみ">みぶの／ただみね</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/308185544</idno>
+          <idno type="国書データベース">513702</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="都良香" sex="1">
+          <persName>都／良香</persName>
+          <persName type="よみ">みやこの／よしか</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/254407328</idno>
+          <idno type="国書データベース">515162</idno>
+          <birth when="0834">承和元年</birth>
+          <death when="0879">元慶三年</death>
+        </person>
+        <person xml:id="宮道潔興" sex="1">
+          <persName>宮道／潔興</persName>
+          <persName type="よみ">みやじの／きよき</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="宗岳大頼" sex="1">
+          <persName>宗岳／大頼</persName>
+          <persName type="よみ">むねおかの／おおより</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="物部良名" sex="1">
+          <persName>物部／良名</persName>
+          <persName>物部／吉名</persName>
+          <persName type="よみ">もののべの／よしな</persName>
+          <occupation/>
+          <idno type="VIAF">http://viaf.org/viaf/61021998</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="矢田部名実" sex="1">
+          <persName>矢田部／名実</persName>
+          <persName type="よみ">やたべの／なざね</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death when="0900">昌泰三年</death>
+        </person>
+        <person xml:id="幽仙法師" sex="1">
+          <persName>幽仙法師</persName>
+          <persName type="よみ">ゆうせんほうし</persName>
+          <persName type="よみ">藤原／末実</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth when="0836">承和三年</birth>
+          <death when="0900">昌泰三年</death>
+        </person>
+        <person xml:id="良岑秀崇" sex="1">
+          <persName>良岑／秀崇</persName>
+          <persName type="よみ">よしみねの／ひでおか</persName>
+          <persName>良峰／秀崇</persName>
+          <persName>良峰／秀岳</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="よみ人知らず" sex="3">
+          <persName>よみ人知らず</persName>
+          <persName type="よみ">よみひとしらず</persName>
+          <occupation/>
+          <idno type="VIAF">ナシ</idno>
+          <idno type="国書データベース">ナシ</idno>
+          <birth>不明</birth>
+          <death>不明</death>
+        </person>
+        <person xml:id="山部赤人">
+          <persName>山部／赤人</persName>
+          <persName type="よみ">やまべの／あかひと</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="藤原明子">
+          <persName>藤原／明子</persName>
+          <persName type="よみ">ふじわらの／あきらけいこ</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="慧子内親王">
+          <persName>慧子内親王</persName>
+          <persName type="よみ">あきらけいこないしんのう</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="東人">
+          <persName>中臣／東人</persName>
+          <persName type="よみ">なかとみの／あづまひと</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="敦慶親王">
+          <persName>敦慶親王</persName>
+          <persName type="よみ">あつよししんわう</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="天照大神">
+          <persName>天照大神</persName>
+          <persName type="よみ">あまてらすおほみかみ</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="天稚彦">
+          <persName>天稚彦</persName>
+          <persName type="よみ">あめわかひこ</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="伊弉諾尊">
+          <persName>伊弉諾尊</persName>
+          <persName type="よみ">いざなきのみこと</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="伊弉冉尊">
+          <persName>伊弉冉尊</persName>
+          <persName type="よみ">いざなみのみこと</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="允恭天皇">
+          <persName>允恭天皇</persName>
+          <persName type="よみ">いんぎようてんわう</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="宇治の橋姫">
+          <persName>宇治の橋姫</persName>
+          <persName type="よみ">うぢのはしひめ</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="宇多天皇">
+          <persName>宇多天皇</persName>
+          <persName type="よみ">うだてんわう</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="大津皇子">
+          <persName>大津皇子</persName>
+          <persName type="よみ">おほつのみこ</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="大直日神">
+          <persName>大直日神</persName>
+          <persName type="よみ">おほなほびのかみ</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="藤原温子">
+          <persName>藤原／温子</persName>
+          <persName type="よみ">ふじわらの／をんし</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="藤原公利">
+          <persName>藤原／公利</persName>
+          <persName type="よみ">ふじわらの／きみとし</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="橘清友">
+          <persName>橘／清友</persName>
+          <persName type="よみ">たちばなの／きよとも</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="藤原清生">
+          <persName>藤原／清生</persName>
+          <persName type="よみ">ふじわらの／きよふ</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="藤原惟岳">
+          <persName>藤原／惟岳</persName>
+          <persName type="よみ">ふじわらの／これをか</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="是貞親王">
+          <persName>是貞親王</persName>
+          <persName type="よみ">これさだしんわう</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="藤原定国">
+          <persName>藤原／定国</persName>
+          <persName type="よみ">ふじわらの／さだくに</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="貞辰親王">
+          <persName>貞辰親王</persName>
+          <persName type="よみ">さだときしんわう</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="貞保親王">
+          <persName>貞保親王</persName>
+          <persName type="よみ">さだやすしんわう</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="猿丸大夫">
+          <persName>猿丸大夫</persName>
+          <persName type="よみ">さるまるだいぶ</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="下照姫">
+          <persName>下照姫</persName>
+          <persName type="よみ">したてるひめ</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="藤原順子">
+          <persName>藤原／順子</persName>
+          <persName type="よみ">ふじわらの／じゆんし</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="淳和天皇">
+          <persName>淳和天皇</persName>
+          <persName type="よみ">じゆんわてんわう</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="聖徳太子">
+          <persName>聖徳太子</persName>
+          <persName type="よみ">しやうとくたいし</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="素戔嗚尊">
+          <persName>素戔嗚尊</persName>
+          <persName type="よみ">すさのをのみこと</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="清和天皇">
+          <persName>清和天皇</persName>
+          <persName type="よみ">せいわてんわう</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="醍醐天皇">
+          <persName>醍醐天皇</persName>
+          <persName type="よみ">だいごてんわう</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="高津内親王">
+          <persName>高津内親王</persName>
+          <persName type="よみ">たかつないしんわう</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="藤原高経">
+          <persName>藤原／高経</persName>
+          <persName type="よみ">ふじわらの／たかつね</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="竜田姫">
+          <persName>竜田姫</persName>
+          <persName type="よみ">たつたひめ</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="大江千古">
+          <persName>大江／千古</persName>
+          <persName type="よみ">おおえの／ちふる</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="小野千古">
+          <persName>小野／千古</persName>
+          <persName type="よみ">おのの／ちふる</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="藤原継蔭">
+          <persName>藤原／継蔭</persName>
+          <persName type="よみ">ふじわらの／つぎかげ</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="良岑経也">
+          <persName>良岑／経也</persName>
+          <persName type="よみ">よしみねの／つねなり</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="在原時春">
+          <persName>在原／時春</persName>
+          <persName type="よみ">ありわらの／ときはる</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="藤原利基">
+          <persName>藤原／利基</persName>
+          <persName type="よみ">ふじわらの／としもと</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="豊玉姫">
+          <persName>豊玉姫</persName>
+          <persName type="よみ">とよたまびめ</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="並松">
+          <persName>石上／並松</persName>
+          <persName type="よみ">いそのかみの／なむまつ</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="仁徳天皇">
+          <persName>仁徳天皇</persName>
+          <persName type="よみ">にんとくてんわう</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="仁和の中将の御息所">
+          <persName>仁和の中将の御息所</persName>
+          <persName type="よみ">にんわのちゆうじやうのみやすどころ</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="仁明天皇">
+          <persName>仁明天皇</persName>
+          <persName type="よみ">にんみやうてんわう</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="源昇">
+          <persName>源／昇</persName>
+          <persName type="よみ">みなもとの／のぼる</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="班子女王">
+          <persName>班子女王</persName>
+          <persName type="よみ">はんしぢよわう</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="彦火火出見尊">
+          <persName>彦火火出見尊</persName>
+          <persName type="よみ">ひこほほでみのみこと</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="柿本人麿">
+          <persName>柿本／人麿</persName>
+          <persName type="よみ">かきのもとの／ひとまろ</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="藤原満子">
+          <persName>藤原／満子</persName>
+          <persName type="よみ">ふじわらの／まんし</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="藤原三善">
+          <persName>藤原／三善</persName>
+          <persName type="よみ">ふじわらの／みよし</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="紀宗定">
+          <persName>紀／宗定</persName>
+          <persName type="よみ">きの／むねさだ</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="藤原基経">
+          <persName>藤原／基経</persName>
+          <persName type="よみ">ふじわらの／もとつね</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="本康親王">
+          <persName>本康親王</persName>
+          <persName type="よみ">もとやすしんわう</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="橘諸兄">
+          <persName>橘／諸兄</persName>
+          <persName type="よみ">たちばなの／もろえ</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="文徳天皇">
+          <persName>文徳天皇</persName>
+          <persName type="よみ">もんとくてんわう</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="保明親王">
+          <persName>保明親王</persName>
+          <persName type="よみ">やすあきらしんわう</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="陽成天皇">
+          <persName>陽成天皇</persName>
+          <persName type="よみ">やうぜいてんわう</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="藤原列子">
+          <persName>藤原／列子</persName>
+          <persName type="よみ">ふじわらの／れつし</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+        <person xml:id="王仁">
+          <persName>王仁</persName>
+          <persName type="よみ">わに</persName>
+          <occupation/>
+          <idno type="VIAF"/>
+          <idno type="国書データベース"/>
+          <birth/>
+          <death/>
+        </person>
+      </listPerson>
+    </back></text></TEI>

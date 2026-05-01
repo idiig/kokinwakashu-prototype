@@ -1,0 +1,1303 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>WLSP 意味分類体系</title></titleStmt><publicationStmt><p>Extracted from kokinwakashu.xml</p></publicationStmt><sourceDesc><p>kokinwakashu.xml</p></sourceDesc></fileDesc></teiHeader><text><back><div type="classification" xml:id="classWLSP">
+        <head>分類語彙表 (WLSP)</head>
+        <list>
+          <item xml:id="WLSP.1.1000">
+            <label>1.1000</label>
+            <desc>体-関係-事柄-事柄</desc>
+          </item>
+          <item xml:id="WLSP.1.1010">
+            <label>1.1010</label>
+            <desc>体-関係-事柄-こそあど・他</desc>
+          </item>
+          <item xml:id="WLSP.1.1020">
+            <label>1.1020</label>
+          </item>
+          <item xml:id="WLSP.1.1030">
+            <label>1.1030</label>
+            <desc>体-関係-事柄-真偽・是非</desc>
+          </item>
+          <item xml:id="WLSP.1.1040">
+            <label>1.1040</label>
+            <desc>体-関係-事柄-本体・代理</desc>
+          </item>
+          <item xml:id="WLSP.1.1100">
+            <label>1.1100</label>
+            <desc>体-関係-類-類・例</desc>
+          </item>
+          <item xml:id="WLSP.1.1101">
+            <label>1.1101</label>
+            <desc>体-関係-類-等級・系列</desc>
+          </item>
+          <item xml:id="WLSP.1.1110">
+            <label>1.1110</label>
+            <desc>体-関係-類-関係</desc>
+          </item>
+          <item xml:id="WLSP.1.1111">
+            <label>1.1111</label>
+            <desc>体-関係-類-本末</desc>
+          </item>
+          <item xml:id="WLSP.1.1112">
+            <label>1.1112</label>
+            <desc>体-関係-類-因果</desc>
+          </item>
+          <item xml:id="WLSP.1.1113">
+            <label>1.1113</label>
+            <desc>体-関係-類-理由・目的・証拠</desc>
+          </item>
+          <item xml:id="WLSP.1.1242">
+            <label>1.1242</label>
+          </item>
+          <item xml:id="WLSP.1.1244">
+            <label>1.1244</label>
+          </item>
+          <item xml:id="WLSP.1.1300">
+            <label>1.1300</label>
+            <desc>体-関係-様相-様相・情勢</desc>
+          </item>
+          <item xml:id="WLSP.1.1344">
+            <label>1.1344</label>
+            <desc>体-関係-様相-支障・損じ・荒廃</desc>
+          </item>
+          <item xml:id="WLSP.1.1520">
+            <label>1.1520</label>
+            <desc>体-関係-作用-進行・過程・経由</desc>
+          </item>
+          <item xml:id="WLSP.1.1521">
+            <label>1.1521</label>
+            <desc>体-関係-作用-移動・発着</desc>
+          </item>
+          <item xml:id="WLSP.1.1528">
+            <label>1.1528</label>
+          </item>
+          <item xml:id="WLSP.1.1533">
+            <label>1.1533</label>
+            <desc>体-関係-作用-漏れ・吸入など</desc>
+          </item>
+          <item xml:id="WLSP.1.1600">
+            <label>1.1600</label>
+            <desc>体-関係-時間-時間</desc>
+          </item>
+          <item xml:id="WLSP.1.1610">
+            <label>1.1610</label>
+          </item>
+          <item xml:id="WLSP.1.1611">
+            <label>1.1611</label>
+            <desc>体-関係-時間-時機・時刻</desc>
+          </item>
+          <item xml:id="WLSP.1.1612">
+            <label>1.1612</label>
+            <desc>体-関係-時間-毎日・毎度</desc>
+          </item>
+          <item xml:id="WLSP.1.1613">
+            <label>1.1613</label>
+          </item>
+          <item xml:id="WLSP.1.1620">
+            <label>1.1620</label>
+            <desc>体-関係-時間-期間</desc>
+          </item>
+          <item xml:id="WLSP.1.1621">
+            <label>1.1621</label>
+            <desc>体-関係-時間-永久・一生</desc>
+          </item>
+          <item xml:id="WLSP.1.1622">
+            <label>1.1622</label>
+            <desc>体-関係-時間-年配</desc>
+          </item>
+          <item xml:id="WLSP.1.1623">
+            <label>1.1623</label>
+            <desc>体-関係-時間-時代</desc>
+          </item>
+          <item xml:id="WLSP.1.1624">
+            <label>1.1624</label>
+            <desc>体-関係-時間-季節</desc>
+          </item>
+          <item xml:id="WLSP.1.1630">
+            <label>1.1630</label>
+            <desc>体-関係-時間-年</desc>
+          </item>
+          <item xml:id="WLSP.1.1632">
+            <label>1.1632</label>
+            <desc>体-関係-時間-週・週日</desc>
+          </item>
+          <item xml:id="WLSP.1.1634">
+            <label>1.1634</label>
+            <desc>体-関係-時間-節・節日</desc>
+          </item>
+          <item xml:id="WLSP.1.1635">
+            <label>1.1635</label>
+            <desc>体-関係-時間-朝晩</desc>
+          </item>
+          <item xml:id="WLSP.1.1641">
+            <label>1.1641</label>
+            <desc>体-関係-時間-現在</desc>
+          </item>
+          <item xml:id="WLSP.1.1642">
+            <label>1.1642</label>
+            <desc>体-関係-時間-過去</desc>
+          </item>
+          <item xml:id="WLSP.1.1643">
+            <label>1.1643</label>
+            <desc>体-関係-時間-未来</desc>
+          </item>
+          <item xml:id="WLSP.1.1651">
+            <label>1.1651</label>
+            <desc>体-関係-時間-終始</desc>
+          </item>
+          <item xml:id="WLSP.1.1670">
+            <label>1.1670</label>
+            <desc>体-関係-時間-時間的前後</desc>
+          </item>
+          <item xml:id="WLSP.1.1700">
+            <label>1.1700</label>
+            <desc>体-関係-空間-空間・場所</desc>
+          </item>
+          <item xml:id="WLSP.1.1710">
+            <label>1.1710</label>
+            <desc>体-関係-空間-点</desc>
+          </item>
+          <item xml:id="WLSP.1.1720">
+            <label>1.1720</label>
+            <desc>体-関係-空間-範囲・席・跡</desc>
+          </item>
+          <item xml:id="WLSP.1.1730">
+            <label>1.1730</label>
+            <desc>体-関係-空間-方向・方角</desc>
+          </item>
+          <item xml:id="WLSP.1.1731">
+            <label>1.1731</label>
+          </item>
+          <item xml:id="WLSP.1.1740">
+            <label>1.1740</label>
+            <desc>体-関係-空間-左右・前後・たてよこ</desc>
+          </item>
+          <item xml:id="WLSP.1.1742">
+            <label>1.1742</label>
+            <desc>体-関係-空間-中・隅・端</desc>
+          </item>
+          <item xml:id="WLSP.1.1750">
+            <label>1.1750</label>
+            <desc>体-関係-空間-面・側・表裏</desc>
+          </item>
+          <item xml:id="WLSP.1.1760">
+            <label>1.1760</label>
+          </item>
+          <item xml:id="WLSP.1.1770">
+            <label>1.1770</label>
+            <desc>体-関係-空間-内外</desc>
+          </item>
+          <item xml:id="WLSP.1.1771">
+            <label>1.1771</label>
+            <desc>体-関係-空間-奥・底・陰</desc>
+          </item>
+          <item xml:id="WLSP.1.1780">
+            <label>1.1780</label>
+            <desc>体-関係-空間-ふち・そば・まわり・沿い</desc>
+          </item>
+          <item xml:id="WLSP.1.1800">
+            <label>1.1800</label>
+            <desc>体-関係-形-形・型・姿・構え</desc>
+          </item>
+          <item xml:id="WLSP.1.1810">
+            <label>1.1810</label>
+            <desc>体-関係-形-角など</desc>
+          </item>
+          <item xml:id="WLSP.1.1830">
+            <label>1.1830</label>
+            <desc>体-関係-形-穴・口</desc>
+          </item>
+          <item xml:id="WLSP.1.1840">
+            <label>1.1840</label>
+            <desc>体-関係-形-模様・目</desc>
+          </item>
+          <item xml:id="WLSP.1.1850">
+            <label>1.1850</label>
+            <desc>体-関係-形-束・片・列・わく</desc>
+          </item>
+          <item xml:id="WLSP.1.1910">
+            <label>1.1910</label>
+            <desc>体-関係-量-多少</desc>
+          </item>
+          <item xml:id="WLSP.1.1911">
+            <label>1.1911</label>
+            <desc>体-関係-量-長短・高低・深浅・厚薄・遠近</desc>
+          </item>
+          <item xml:id="WLSP.1.1920">
+            <label>1.1920</label>
+            <desc>体-関係-量-程度・限度</desc>
+          </item>
+          <item xml:id="WLSP.1.1950">
+            <label>1.1950</label>
+            <desc>体-関係-量-単位</desc>
+          </item>
+          <item xml:id="WLSP.1.1960">
+            <label>1.1960</label>
+            <desc>体-関係-量-数記号（一二三）</desc>
+          </item>
+          <item xml:id="WLSP.1.1980">
+            <label>1.1980</label>
+          </item>
+          <item xml:id="WLSP.1.1981">
+            <label>1.1981</label>
+          </item>
+          <item xml:id="WLSP.1.1990">
+            <label>1.1990</label>
+          </item>
+          <item xml:id="WLSP.1.2000">
+            <label>1.2000</label>
+            <desc>体-主体-人間-人間</desc>
+          </item>
+          <item xml:id="WLSP.1.2010">
+            <label>1.2010</label>
+            <desc>体-主体-人間-われ・なれ・かれ</desc>
+          </item>
+          <item xml:id="WLSP.1.2020">
+            <label>1.2020</label>
+            <desc>体-主体-人間-自他</desc>
+          </item>
+          <item xml:id="WLSP.1.2030">
+            <label>1.2030</label>
+            <desc>体-主体-人間-神仏・精霊</desc>
+          </item>
+          <item xml:id="WLSP.1.2050">
+            <label>1.2050</label>
+            <desc>体-主体-人間-老少</desc>
+          </item>
+          <item xml:id="WLSP.1.2110">
+            <label>1.2110</label>
+            <desc>体-主体-家族-夫婦</desc>
+          </item>
+          <item xml:id="WLSP.1.2120">
+            <label>1.2120</label>
+            <desc>体-主体-家族-親・先祖</desc>
+          </item>
+          <item xml:id="WLSP.1.2130">
+            <label>1.2130</label>
+            <desc>体-主体-家族-子・子孫</desc>
+          </item>
+          <item xml:id="WLSP.1.2200">
+            <label>1.2200</label>
+            <desc>体-主体-仲間-相手・仲間</desc>
+          </item>
+          <item xml:id="WLSP.1.2210">
+            <label>1.2210</label>
+            <desc>体-主体-仲間-友・なじみ</desc>
+          </item>
+          <item xml:id="WLSP.1.2301">
+            <label>1.2301</label>
+            <desc>体-主体-人物-国民・住民</desc>
+          </item>
+          <item xml:id="WLSP.1.2320">
+            <label>1.2320</label>
+            <desc>体-主体-人物-君主</desc>
+          </item>
+          <item xml:id="WLSP.1.2413">
+            <label>1.2413</label>
+            <desc>体-主体-成員-農林水産業</desc>
+          </item>
+          <item xml:id="WLSP.1.2430">
+            <label>1.2430</label>
+            <desc>体-主体-成員-長</desc>
+          </item>
+          <item xml:id="WLSP.1.2452">
+            <label>1.2452</label>
+          </item>
+          <item xml:id="WLSP.1.2500">
+            <label>1.2500</label>
+            <desc>体-主体-公私-公私</desc>
+          </item>
+          <item xml:id="WLSP.1.2510">
+            <label>1.2510</label>
+            <desc>体-主体-公私-家</desc>
+          </item>
+          <item xml:id="WLSP.1.2520">
+            <label>1.2520</label>
+            <desc>体-主体-公私-郷里</desc>
+          </item>
+          <item xml:id="WLSP.1.2540">
+            <label>1.2540</label>
+            <desc>体-主体-公私-都会・田舎</desc>
+          </item>
+          <item xml:id="WLSP.1.2590">
+            <label>1.2590</label>
+            <desc>体-主体-公私-固有地名</desc>
+          </item>
+          <item xml:id="WLSP.1.2600">
+            <label>1.2600</label>
+            <desc>体-主体-社会-社会・世界</desc>
+          </item>
+          <item xml:id="WLSP.1.2610">
+            <label>1.2610</label>
+          </item>
+          <item xml:id="WLSP.1.2630">
+            <label>1.2630</label>
+            <desc>体-主体-社会-社寺・学校</desc>
+          </item>
+          <item xml:id="WLSP.1.2660">
+            <label>1.2660</label>
+            <desc>体-主体-社会-教室・兵営など</desc>
+          </item>
+          <item xml:id="WLSP.1.3000">
+            <label>1.3000</label>
+            <desc>体-活動-心-心</desc>
+          </item>
+          <item xml:id="WLSP.1.3002">
+            <label>1.3002</label>
+            <desc>体-活動-心-感動・興奮</desc>
+          </item>
+          <item xml:id="WLSP.1.3004">
+            <label>1.3004</label>
+          </item>
+          <item xml:id="WLSP.1.3011">
+            <label>1.3011</label>
+            <desc>体-活動-心-快・喜び</desc>
+          </item>
+          <item xml:id="WLSP.1.3012">
+            <label>1.3012</label>
+            <desc>体-活動-心-恐れ・怒り・悔しさ</desc>
+          </item>
+          <item xml:id="WLSP.1.3020">
+            <label>1.3020</label>
+            <desc>体-活動-心-好悪・愛憎</desc>
+          </item>
+          <item xml:id="WLSP.1.3031">
+            <label>1.3031</label>
+            <desc>体-活動-心-声</desc>
+          </item>
+          <item xml:id="WLSP.1.3050">
+            <label>1.3050</label>
+            <desc>体-活動-心-学習・習慣・記憶</desc>
+          </item>
+          <item xml:id="WLSP.1.3066">
+            <label>1.3066</label>
+            <desc>体-活動-心-判断・推測・評価</desc>
+          </item>
+          <item xml:id="WLSP.1.3072">
+            <label>1.3072</label>
+          </item>
+          <item xml:id="WLSP.1.3081">
+            <label>1.3081</label>
+            <desc>体-活動-心-方法</desc>
+          </item>
+          <item xml:id="WLSP.1.3092">
+            <label>1.3092</label>
+            <desc>体-活動-心-見せる</desc>
+          </item>
+          <item xml:id="WLSP.1.3101">
+            <label>1.3101</label>
+            <desc>体-活動-言語-言語</desc>
+          </item>
+          <item xml:id="WLSP.1.3102">
+            <label>1.3102</label>
+            <desc>体-活動-言語-名</desc>
+          </item>
+          <item xml:id="WLSP.1.3122">
+            <label>1.3122</label>
+            <desc>体-活動-言語-通信</desc>
+          </item>
+          <item xml:id="WLSP.1.3123">
+            <label>1.3123</label>
+            <desc>体-活動-言語-伝達・報知</desc>
+          </item>
+          <item xml:id="WLSP.1.3131">
+            <label>1.3131</label>
+            <desc>体-活動-言語-話・談話</desc>
+          </item>
+          <item xml:id="WLSP.1.3331">
+            <label>1.3331</label>
+            <desc>体-活動-生活-食生活</desc>
+          </item>
+          <item xml:id="WLSP.1.3360">
+            <label>1.3360</label>
+            <desc>体-活動-生活-行事・式典・宗教的行事</desc>
+          </item>
+          <item xml:id="WLSP.1.3370">
+            <label>1.3370</label>
+            <desc>体-活動-生活-遊楽</desc>
+          </item>
+          <item xml:id="WLSP.1.3371">
+            <label>1.3371</label>
+            <desc>体-活動-生活-旅・行楽</desc>
+          </item>
+          <item xml:id="WLSP.1.3391">
+            <label>1.3391</label>
+            <desc>体-活動-生活-立ち居</desc>
+          </item>
+          <item xml:id="WLSP.1.3430">
+            <label>1.3430</label>
+            <desc>体-活動-行為-行為・活動</desc>
+          </item>
+          <item xml:id="WLSP.1.3440">
+            <label>1.3440</label>
+            <desc>体-活動-行為-犯罪・罪</desc>
+          </item>
+          <item xml:id="WLSP.1.3811">
+            <label>1.3811</label>
+            <desc>体-活動-事業-牧畜・漁業・鉱業</desc>
+          </item>
+          <item xml:id="WLSP.1.4010">
+            <label>1.4010</label>
+            <desc>体-生産物-物品-持ち物・売り物・土産など</desc>
+          </item>
+          <item xml:id="WLSP.1.4030">
+            <label>1.4030</label>
+            <desc>体-生産物-物品-荷・包み</desc>
+          </item>
+          <item xml:id="WLSP.1.4100">
+            <label>1.4100</label>
+            <desc>体-生産物-資材-資材・ごみ</desc>
+          </item>
+          <item xml:id="WLSP.1.4120">
+            <label>1.4120</label>
+            <desc>体-生産物-資材-木・石・金</desc>
+          </item>
+          <item xml:id="WLSP.1.4130">
+            <label>1.4130</label>
+            <desc>体-生産物-資材-燃料・肥料</desc>
+          </item>
+          <item xml:id="WLSP.1.4152">
+            <label>1.4152</label>
+            <desc>体-生産物-資材-柄・つえ・へらなど</desc>
+          </item>
+          <item xml:id="WLSP.1.4153">
+            <label>1.4153</label>
+            <desc>体-生産物-資材-ばね・栓など</desc>
+          </item>
+          <item xml:id="WLSP.1.4160">
+            <label>1.4160</label>
+            <desc>体-生産物-資材-コード・縄・綱など</desc>
+          </item>
+          <item xml:id="WLSP.1.4200">
+            <label>1.4200</label>
+            <desc>体-生産物-衣料-衣料・綿・革・糸</desc>
+          </item>
+          <item xml:id="WLSP.1.4201">
+            <label>1.4201</label>
+            <desc>体-生産物-衣料-布・布地・織物</desc>
+          </item>
+          <item xml:id="WLSP.1.4210">
+            <label>1.4210</label>
+            <desc>体-生産物-衣料-衣服</desc>
+          </item>
+          <item xml:id="WLSP.1.4220">
+            <label>1.4220</label>
+            <desc>体-生産物-衣料-上着・コート</desc>
+          </item>
+          <item xml:id="WLSP.1.4240">
+            <label>1.4240</label>
+            <desc>体-生産物-衣料-そで・襟・身ごろ・ポケットなど</desc>
+          </item>
+          <item xml:id="WLSP.1.4250">
+            <label>1.4250</label>
+            <desc>体-生産物-衣料-帽子・マスクなど</desc>
+          </item>
+          <item xml:id="WLSP.1.4251">
+            <label>1.4251</label>
+            <desc>体-生産物-衣料-ネクタイ・帯・手袋・靴下など</desc>
+          </item>
+          <item xml:id="WLSP.1.4270">
+            <label>1.4270</label>
+            <desc>体-生産物-衣料-寝具</desc>
+          </item>
+          <item xml:id="WLSP.1.4330">
+            <label>1.4330</label>
+            <desc>体-生産物-食料-調味料・こうじなど</desc>
+          </item>
+          <item xml:id="WLSP.1.4360">
+            <label>1.4360</label>
+            <desc>体-生産物-食料-薬剤・薬品</desc>
+          </item>
+          <item xml:id="WLSP.1.4400">
+            <label>1.4400</label>
+            <desc>体-生産物-住居-住居</desc>
+          </item>
+          <item xml:id="WLSP.1.4410">
+            <label>1.4410</label>
+            <desc>体-生産物-住居-家屋・建物</desc>
+          </item>
+          <item xml:id="WLSP.1.4420">
+            <label>1.4420</label>
+            <desc>体-生産物-住居-門・塀</desc>
+          </item>
+          <item xml:id="WLSP.1.4430">
+            <label>1.4430</label>
+            <desc>体-生産物-住居-部屋・床・廊下・階段など</desc>
+          </item>
+          <item xml:id="WLSP.1.4460">
+            <label>1.4460</label>
+            <desc>体-生産物-住居-戸・カーテン・敷物・畳など</desc>
+          </item>
+          <item xml:id="WLSP.1.4500">
+            <label>1.4500</label>
+            <desc>体-生産物-道具-道具</desc>
+          </item>
+          <item xml:id="WLSP.1.4515">
+            <label>1.4515</label>
+            <desc>体-生産物-道具-かご・俵など</desc>
+          </item>
+          <item xml:id="WLSP.1.4530">
+            <label>1.4530</label>
+            <desc>体-生産物-道具-文具</desc>
+          </item>
+          <item xml:id="WLSP.1.4540">
+            <label>1.4540</label>
+            <desc>体-生産物-道具-農工具など</desc>
+          </item>
+          <item xml:id="WLSP.1.4550">
+            <label>1.4550</label>
+            <desc>体-生産物-道具-刃物</desc>
+          </item>
+          <item xml:id="WLSP.1.4551">
+            <label>1.4551</label>
+            <desc>体-生産物-道具-武器</desc>
+          </item>
+          <item xml:id="WLSP.1.4560">
+            <label>1.4560</label>
+            <desc>体-生産物-道具-楽器・レコードなど</desc>
+          </item>
+          <item xml:id="WLSP.1.4570">
+            <label>1.4570</label>
+            <desc>体-生産物-道具-遊具・置物・像など</desc>
+          </item>
+          <item xml:id="WLSP.1.4580">
+            <label>1.4580</label>
+            <desc>体-生産物-道具-標章・標識・旗など</desc>
+          </item>
+          <item xml:id="WLSP.1.4610">
+            <label>1.4610</label>
+            <desc>体-生産物-機械-鏡・レンズ・カメラ</desc>
+          </item>
+          <item xml:id="WLSP.1.4660">
+            <label>1.4660</label>
+            <desc>体-生産物-機械-乗り物（海上）</desc>
+          </item>
+          <item xml:id="WLSP.1.4700">
+            <label>1.4700</label>
+            <desc>体-生産物-土地利用-地類（土地利用）</desc>
+          </item>
+          <item xml:id="WLSP.1.4710">
+            <label>1.4710</label>
+            <desc>体-生産物-土地利用-道路・橋</desc>
+          </item>
+          <item xml:id="WLSP.1.4720">
+            <label>1.4720</label>
+            <desc>体-生産物-土地利用-その他の土木施設</desc>
+          </item>
+          <item xml:id="WLSP.1.5010">
+            <label>1.5010</label>
+            <desc>体-自然-自然-光</desc>
+          </item>
+          <item xml:id="WLSP.1.5020">
+            <label>1.5020</label>
+            <desc>体-自然-自然-色</desc>
+          </item>
+          <item xml:id="WLSP.1.5030">
+            <label>1.5030</label>
+            <desc>体-自然-自然-音</desc>
+          </item>
+          <item xml:id="WLSP.1.5040">
+            <label>1.5040</label>
+            <desc>体-自然-自然-におい</desc>
+          </item>
+          <item xml:id="WLSP.1.5111">
+            <label>1.5111</label>
+            <desc>体-自然-物質-鉱物</desc>
+          </item>
+          <item xml:id="WLSP.1.5130">
+            <label>1.5130</label>
+            <desc>体-自然-物質-水・乾湿</desc>
+          </item>
+          <item xml:id="WLSP.1.5151">
+            <label>1.5151</label>
+            <desc>体-自然-物質-風</desc>
+          </item>
+          <item xml:id="WLSP.1.5152">
+            <label>1.5152</label>
+            <desc>体-自然-物質-雲</desc>
+          </item>
+          <item xml:id="WLSP.1.5153">
+            <label>1.5153</label>
+            <desc>体-自然-物質-雨・雪</desc>
+          </item>
+          <item xml:id="WLSP.1.5155">
+            <label>1.5155</label>
+            <desc>体-自然-物質-波・潮</desc>
+          </item>
+          <item xml:id="WLSP.1.5160">
+            <label>1.5160</label>
+            <desc>体-自然-物質-物質の変化</desc>
+          </item>
+          <item xml:id="WLSP.1.5161">
+            <label>1.5161</label>
+            <desc>体-自然-物質-火</desc>
+          </item>
+          <item xml:id="WLSP.1.5200">
+            <label>1.5200</label>
+            <desc>体-自然-天地-宇宙・空</desc>
+          </item>
+          <item xml:id="WLSP.1.5210">
+            <label>1.5210</label>
+            <desc>体-自然-天地-天体</desc>
+          </item>
+          <item xml:id="WLSP.1.5240">
+            <label>1.5240</label>
+            <desc>体-自然-天地-山野</desc>
+          </item>
+          <item xml:id="WLSP.1.5250">
+            <label>1.5250</label>
+            <desc>体-自然-天地-川・湖</desc>
+          </item>
+          <item xml:id="WLSP.1.5260">
+            <label>1.5260</label>
+            <desc>体-自然-天地-海・島</desc>
+          </item>
+          <item xml:id="WLSP.1.5270">
+            <label>1.5270</label>
+            <desc>体-自然-天地-地相</desc>
+          </item>
+          <item xml:id="WLSP.1.5510">
+            <label>1.5510</label>
+          </item>
+          <item xml:id="WLSP.1.5520">
+            <label>1.5520</label>
+          </item>
+          <item xml:id="WLSP.1.5530">
+            <label>1.5530</label>
+          </item>
+          <item xml:id="WLSP.1.5610">
+            <label>1.5610</label>
+          </item>
+          <item xml:id="WLSP.1.5620">
+            <label>1.5620</label>
+          </item>
+          <item xml:id="WLSP.1.5630">
+            <label>1.5630</label>
+          </item>
+          <item xml:id="WLSP.1.5650">
+            <label>1.5650</label>
+          </item>
+          <item xml:id="WLSP.1.5660">
+            <label>1.5660</label>
+          </item>
+          <item xml:id="WLSP.1.5700">
+            <label>1.5700</label>
+            <desc>体-自然-生命-生命</desc>
+          </item>
+          <item xml:id="WLSP.1.5710">
+            <label>1.5710</label>
+            <desc>体-自然-生命-生理</desc>
+          </item>
+          <item xml:id="WLSP.1.5720">
+            <label>1.5720</label>
+            <desc>体-自然-生命-障害・けが</desc>
+          </item>
+          <item xml:id="WLSP.1.5730">
+            <label>1.5730</label>
+          </item>
+          <item xml:id="WLSP.1.5750">
+            <label>1.5750</label>
+          </item>
+          <item xml:id="WLSP.1.5760">
+            <label>1.5760</label>
+          </item>
+          <item xml:id="WLSP.1.5770">
+            <label>1.5770</label>
+          </item>
+          <item xml:id="WLSP.1.5800">
+            <label>1.5800</label>
+          </item>
+          <item xml:id="WLSP.1.5810">
+            <label>1.5810</label>
+          </item>
+          <item xml:id="WLSP.2.1110">
+            <label>2.1110</label>
+            <desc>用-関係-類-関係</desc>
+          </item>
+          <item xml:id="WLSP.2.1120">
+            <label>2.1120</label>
+            <desc>用-関係-類-相対</desc>
+          </item>
+          <item xml:id="WLSP.2.1130">
+            <label>2.1130</label>
+            <desc>用-関係-類-異同・類似</desc>
+          </item>
+          <item xml:id="WLSP.2.1200">
+            <label>2.1200</label>
+            <desc>用-関係-存在-存在</desc>
+          </item>
+          <item xml:id="WLSP.2.1210">
+            <label>2.1210</label>
+            <desc>用-関係-存在-出没</desc>
+          </item>
+          <item xml:id="WLSP.2.1220">
+            <label>2.1220</label>
+            <desc>用-関係-存在-成立</desc>
+          </item>
+          <item xml:id="WLSP.2.1240">
+            <label>2.1240</label>
+            <desc>用-関係-存在-保存</desc>
+          </item>
+          <item xml:id="WLSP.2.1250">
+            <label>2.1250</label>
+            <desc>用-関係-存在-消滅</desc>
+          </item>
+          <item xml:id="WLSP.2.1320">
+            <label>2.1320</label>
+            <desc>用-関係-様相-内容・構成</desc>
+          </item>
+          <item xml:id="WLSP.2.1330">
+            <label>2.1330</label>
+          </item>
+          <item xml:id="WLSP.2.1340">
+            <label>2.1340</label>
+            <desc>用-関係-様相-調和・混乱</desc>
+          </item>
+          <item xml:id="WLSP.2.1400">
+            <label>2.1400</label>
+            <desc>用-関係-力-力</desc>
+          </item>
+          <item xml:id="WLSP.2.1500">
+            <label>2.1500</label>
+            <desc>用-関係-作用-作用・変化</desc>
+          </item>
+          <item xml:id="WLSP.2.1501">
+            <label>2.1501</label>
+            <desc>用-関係-作用-変換・交換</desc>
+          </item>
+          <item xml:id="WLSP.2.1502">
+            <label>2.1502</label>
+            <desc>用-関係-作用-開始</desc>
+          </item>
+          <item xml:id="WLSP.2.1503">
+            <label>2.1503</label>
+            <desc>用-関係-作用-終了・中止・停止</desc>
+          </item>
+          <item xml:id="WLSP.2.1511">
+            <label>2.1511</label>
+            <desc>用-関係-作用-動揺・回転</desc>
+          </item>
+          <item xml:id="WLSP.2.1512">
+            <label>2.1512</label>
+          </item>
+          <item xml:id="WLSP.2.1513">
+            <label>2.1513</label>
+            <desc>用-関係-作用-固定・傾き・転倒など</desc>
+          </item>
+          <item xml:id="WLSP.2.1515">
+            <label>2.1515</label>
+          </item>
+          <item xml:id="WLSP.2.1516">
+            <label>2.1516</label>
+          </item>
+          <item xml:id="WLSP.2.1521">
+            <label>2.1521</label>
+            <desc>用-関係-作用-移動・発着</desc>
+          </item>
+          <item xml:id="WLSP.2.1523">
+            <label>2.1523</label>
+            <desc>用-関係-作用-巡回など</desc>
+          </item>
+          <item xml:id="WLSP.2.1524">
+            <label>2.1524</label>
+            <desc>用-関係-作用-通過・普及など</desc>
+          </item>
+          <item xml:id="WLSP.2.1525">
+            <label>2.1525</label>
+            <desc>用-関係-作用-連れ・導き・追い・逃げなど</desc>
+          </item>
+          <item xml:id="WLSP.2.1526">
+            <label>2.1526</label>
+            <desc>用-関係-作用-進退</desc>
+          </item>
+          <item xml:id="WLSP.2.1527">
+            <label>2.1527</label>
+            <desc>用-関係-作用-往復</desc>
+          </item>
+          <item xml:id="WLSP.2.1530">
+            <label>2.1530</label>
+            <desc>用-関係-作用-出入り</desc>
+          </item>
+          <item xml:id="WLSP.2.1531">
+            <label>2.1531</label>
+            <desc>用-関係-作用-出・出し</desc>
+          </item>
+          <item xml:id="WLSP.2.1532">
+            <label>2.1532</label>
+            <desc>用-関係-作用-入り・入れ</desc>
+          </item>
+          <item xml:id="WLSP.2.1540">
+            <label>2.1540</label>
+            <desc>用-関係-作用-上がり・下がり</desc>
+          </item>
+          <item xml:id="WLSP.2.1541">
+            <label>2.1541</label>
+            <desc>用-関係-作用-乗り降り・浮き沈み</desc>
+          </item>
+          <item xml:id="WLSP.2.1550">
+            <label>2.1550</label>
+            <desc>用-関係-作用-合体・出会い・集合など</desc>
+          </item>
+          <item xml:id="WLSP.2.1552">
+            <label>2.1552</label>
+            <desc>用-関係-作用-分割・分裂・分散</desc>
+          </item>
+          <item xml:id="WLSP.2.1553">
+            <label>2.1553</label>
+            <desc>用-関係-作用-開閉・封</desc>
+          </item>
+          <item xml:id="WLSP.2.1554">
+            <label>2.1554</label>
+          </item>
+          <item xml:id="WLSP.2.1556">
+            <label>2.1556</label>
+          </item>
+          <item xml:id="WLSP.2.1560">
+            <label>2.1560</label>
+            <desc>用-関係-作用-接近・接触・隔離</desc>
+          </item>
+          <item xml:id="WLSP.2.1561">
+            <label>2.1561</label>
+            <desc>用-関係-作用-当たり・打ちなど</desc>
+          </item>
+          <item xml:id="WLSP.2.1562">
+            <label>2.1562</label>
+            <desc>用-関係-作用-突き・押し・引き・すれなど</desc>
+          </item>
+          <item xml:id="WLSP.2.1563">
+            <label>2.1563</label>
+            <desc>用-関係-作用-防止・妨害・回避</desc>
+          </item>
+          <item xml:id="WLSP.2.1564">
+            <label>2.1564</label>
+          </item>
+          <item xml:id="WLSP.2.1565">
+            <label>2.1565</label>
+          </item>
+          <item xml:id="WLSP.2.1570">
+            <label>2.1570</label>
+            <desc>用-関係-作用-成形・変形</desc>
+          </item>
+          <item xml:id="WLSP.2.1571">
+            <label>2.1571</label>
+            <desc>用-関係-作用-切断</desc>
+          </item>
+          <item xml:id="WLSP.2.1580">
+            <label>2.1580</label>
+            <desc>用-関係-作用-増減・補充</desc>
+          </item>
+          <item xml:id="WLSP.2.1600">
+            <label>2.1600</label>
+            <desc>用-関係-時間-時間</desc>
+          </item>
+          <item xml:id="WLSP.2.1700">
+            <label>2.1700</label>
+            <desc>用-関係-空間-空間・場所</desc>
+          </item>
+          <item xml:id="WLSP.2.1900">
+            <label>2.1900</label>
+          </item>
+          <item xml:id="WLSP.2.3000">
+            <label>2.3000</label>
+            <desc>用-活動-心-心</desc>
+          </item>
+          <item xml:id="WLSP.2.3010">
+            <label>2.3010</label>
+          </item>
+          <item xml:id="WLSP.2.3020">
+            <label>2.3020</label>
+            <desc>用-活動-心-好悪・愛憎</desc>
+          </item>
+          <item xml:id="WLSP.2.3030">
+            <label>2.3030</label>
+            <desc>用-活動-心-表情・態度</desc>
+          </item>
+          <item xml:id="WLSP.2.3040">
+            <label>2.3040</label>
+            <desc>用-活動-心-信念・努力・忍耐</desc>
+          </item>
+          <item xml:id="WLSP.2.3041">
+            <label>2.3041</label>
+            <desc>用-活動-心-自信・誇り・恥・反省</desc>
+          </item>
+          <item xml:id="WLSP.2.3050">
+            <label>2.3050</label>
+            <desc>用-活動-心-学習・習慣・記憶</desc>
+          </item>
+          <item xml:id="WLSP.2.3060">
+            <label>2.3060</label>
+          </item>
+          <item xml:id="WLSP.2.3062">
+            <label>2.3062</label>
+            <desc>用-活動-心-注意・認知・了解</desc>
+          </item>
+          <item xml:id="WLSP.2.3063">
+            <label>2.3063</label>
+            <desc>用-活動-心-比較・参考・区別・選択</desc>
+          </item>
+          <item xml:id="WLSP.2.3091">
+            <label>2.3091</label>
+            <desc>用-活動-心-見る</desc>
+          </item>
+          <item xml:id="WLSP.2.3092">
+            <label>2.3092</label>
+            <desc>用-活動-心-見せる</desc>
+          </item>
+          <item xml:id="WLSP.2.3093">
+            <label>2.3093</label>
+            <desc>用-活動-心-聞く・味わう</desc>
+          </item>
+          <item xml:id="WLSP.2.3100">
+            <label>2.3100</label>
+            <desc>用-活動-言語-言語活動</desc>
+          </item>
+          <item xml:id="WLSP.2.3120">
+            <label>2.3120</label>
+          </item>
+          <item xml:id="WLSP.2.3130">
+            <label>2.3130</label>
+          </item>
+          <item xml:id="WLSP.2.3150">
+            <label>2.3150</label>
+            <desc>用-活動-言語-読み</desc>
+          </item>
+          <item xml:id="WLSP.2.3200">
+            <label>2.3200</label>
+            <desc>用-活動-芸術-創作・著述</desc>
+          </item>
+          <item xml:id="WLSP.2.3330">
+            <label>2.3330</label>
+            <desc>用-活動-生活-生活・起臥</desc>
+          </item>
+          <item xml:id="WLSP.2.3360">
+            <label>2.3360</label>
+            <desc>用-活動-生活-行事・式典・宗教的行事</desc>
+          </item>
+          <item xml:id="WLSP.2.3370">
+            <label>2.3370</label>
+            <desc>用-活動-生活-遊楽</desc>
+          </item>
+          <item xml:id="WLSP.2.3380">
+            <label>2.3380</label>
+            <desc>用-活動-生活-いたずら・騒ぎ</desc>
+          </item>
+          <item xml:id="WLSP.2.3392">
+            <label>2.3392</label>
+            <desc>用-活動-生活-手足の動作</desc>
+          </item>
+          <item xml:id="WLSP.2.3393">
+            <label>2.3393</label>
+            <desc>用-活動-生活-口・鼻・目の動作</desc>
+          </item>
+          <item xml:id="WLSP.2.3394">
+            <label>2.3394</label>
+          </item>
+          <item xml:id="WLSP.2.3420">
+            <label>2.3420</label>
+          </item>
+          <item xml:id="WLSP.2.3510">
+            <label>2.3510</label>
+            <desc>用-活動-交わり-集会</desc>
+          </item>
+          <item xml:id="WLSP.2.3520">
+            <label>2.3520</label>
+            <desc>用-活動-交わり-応接・送迎</desc>
+          </item>
+          <item xml:id="WLSP.2.3530">
+            <label>2.3530</label>
+            <desc>用-活動-交わり-約束</desc>
+          </item>
+          <item xml:id="WLSP.2.3670">
+            <label>2.3670</label>
+            <desc>用-活動-待遇-命令・制約・服従</desc>
+          </item>
+          <item xml:id="WLSP.2.3681">
+            <label>2.3681</label>
+            <desc>用-活動-待遇-礼</desc>
+          </item>
+          <item xml:id="WLSP.2.3683">
+            <label>2.3683</label>
+            <desc>用-活動-待遇-脅迫・中傷・愚弄など</desc>
+          </item>
+          <item xml:id="WLSP.2.3700">
+            <label>2.3700</label>
+            <desc>用-活動-経済-取得</desc>
+          </item>
+          <item xml:id="WLSP.2.3770">
+            <label>2.3770</label>
+            <desc>用-活動-経済-授受</desc>
+          </item>
+          <item xml:id="WLSP.2.3780">
+            <label>2.3780</label>
+            <desc>用-活動-経済-貸借</desc>
+          </item>
+          <item xml:id="WLSP.2.3810">
+            <label>2.3810</label>
+            <desc>用-活動-事業-農業・林業</desc>
+          </item>
+          <item xml:id="WLSP.2.3820">
+            <label>2.3820</label>
+            <desc>用-活動-事業-製造工業</desc>
+          </item>
+          <item xml:id="WLSP.2.3830">
+            <label>2.3830</label>
+            <desc>用-活動-事業-運輸</desc>
+          </item>
+          <item xml:id="WLSP.2.3840">
+            <label>2.3840</label>
+            <desc>用-活動-事業-裁縫</desc>
+          </item>
+          <item xml:id="WLSP.2.3851">
+            <label>2.3851</label>
+            <desc>用-活動-事業-練り・塗り・撃ち・録音・撮影</desc>
+          </item>
+          <item xml:id="WLSP.2.3860">
+            <label>2.3860</label>
+            <desc>用-活動-事業-製造・加工・包装</desc>
+          </item>
+          <item xml:id="WLSP.2.5010">
+            <label>2.5010</label>
+            <desc>用-自然-自然-光</desc>
+          </item>
+          <item xml:id="WLSP.2.5020">
+            <label>2.5020</label>
+            <desc>用-自然-自然-色</desc>
+          </item>
+          <item xml:id="WLSP.2.5030">
+            <label>2.5030</label>
+            <desc>用-自然-自然-音</desc>
+          </item>
+          <item xml:id="WLSP.2.5040">
+            <label>2.5040</label>
+            <desc>用-自然-自然-におい</desc>
+          </item>
+          <item xml:id="WLSP.2.5060">
+            <label>2.5060</label>
+            <desc>用-自然-自然-材質</desc>
+          </item>
+          <item xml:id="WLSP.2.5130">
+            <label>2.5130</label>
+            <desc>用-自然-物質-水・乾湿</desc>
+          </item>
+          <item xml:id="WLSP.2.5150">
+            <label>2.5150</label>
+            <desc>用-自然-物質-気象</desc>
+          </item>
+          <item xml:id="WLSP.2.5160">
+            <label>2.5160</label>
+            <desc>用-自然-物質-物質の変化</desc>
+          </item>
+          <item xml:id="WLSP.2.5161">
+            <label>2.5161</label>
+            <desc>用-自然-物質-火</desc>
+          </item>
+          <item xml:id="WLSP.2.5810">
+            <label>2.5810</label>
+          </item>
+          <item xml:id="WLSP.2.5820">
+            <label>2.5820</label>
+          </item>
+          <item xml:id="WLSP.3.1000">
+            <label>3.1000</label>
+          </item>
+          <item xml:id="WLSP.3.1010">
+            <label>3.1010</label>
+            <desc>相-関係-真偽-こそあど・他</desc>
+          </item>
+          <item xml:id="WLSP.3.1120">
+            <label>3.1120</label>
+            <desc>相-関係-類-相対</desc>
+          </item>
+          <item xml:id="WLSP.3.1140">
+            <label>3.1140</label>
+          </item>
+          <item xml:id="WLSP.3.1200">
+            <label>3.1200</label>
+            <desc>相-関係-存在-存在</desc>
+          </item>
+          <item xml:id="WLSP.3.1210">
+            <label>3.1210</label>
+            <desc>相-関係-存在-出没</desc>
+          </item>
+          <item xml:id="WLSP.3.1230">
+            <label>3.1230</label>
+            <desc>相-関係-存在-必然性</desc>
+          </item>
+          <item xml:id="WLSP.3.1300">
+            <label>3.1300</label>
+          </item>
+          <item xml:id="WLSP.3.1320">
+            <label>3.1320</label>
+          </item>
+          <item xml:id="WLSP.3.1330">
+            <label>3.1330</label>
+          </item>
+          <item xml:id="WLSP.3.1600">
+            <label>3.1600</label>
+            <desc>相-関係-時間-時間</desc>
+          </item>
+          <item xml:id="WLSP.3.1620">
+            <label>3.1620</label>
+          </item>
+          <item xml:id="WLSP.3.1650">
+            <label>3.1650</label>
+            <desc>相-関係-時間-順序</desc>
+          </item>
+          <item xml:id="WLSP.3.1660">
+            <label>3.1660</label>
+            <desc>相-関係-時間-新旧・遅速</desc>
+          </item>
+          <item xml:id="WLSP.3.1661">
+            <label>3.1661</label>
+          </item>
+          <item xml:id="WLSP.3.1920">
+            <label>3.1920</label>
+            <desc>相-関係-量-程度</desc>
+          </item>
+          <item xml:id="WLSP.3.1940">
+            <label>3.1940</label>
+            <desc>相-関係-量-一般・全体・部分</desc>
+          </item>
+          <item xml:id="WLSP.3.1950">
+            <label>3.1950</label>
+          </item>
+          <item xml:id="WLSP.3.1980">
+            <label>3.1980</label>
+          </item>
+          <item xml:id="WLSP.3.1992">
+            <label>3.1992</label>
+          </item>
+          <item xml:id="WLSP.3.1993">
+            <label>3.1993</label>
+          </item>
+          <item xml:id="WLSP.3.3010">
+            <label>3.3010</label>
+          </item>
+          <item xml:id="WLSP.3.3011">
+            <label>3.3011</label>
+            <desc>相-活動-心-快・喜び</desc>
+          </item>
+          <item xml:id="WLSP.3.3012">
+            <label>3.3012</label>
+            <desc>相-活動-心-恐れ・怒り・悔しさ</desc>
+          </item>
+          <item xml:id="WLSP.3.3020">
+            <label>3.3020</label>
+            <desc>相-活動-心-好悪・愛憎</desc>
+          </item>
+          <item xml:id="WLSP.3.3040">
+            <label>3.3040</label>
+            <desc>相-活動-心-信念・努力・忍耐</desc>
+          </item>
+          <item xml:id="WLSP.3.3060">
+            <label>3.3060</label>
+          </item>
+          <item xml:id="WLSP.3.3300">
+            <label>3.3300</label>
+            <desc>相-活動-生活-文化・歴史・風俗</desc>
+          </item>
+          <item xml:id="WLSP.3.3410">
+            <label>3.3410</label>
+            <desc>相-活動-行為-身上</desc>
+          </item>
+          <item xml:id="WLSP.3.3450">
+            <label>3.3450</label>
+          </item>
+          <item xml:id="WLSP.3.3470">
+            <label>3.3470</label>
+          </item>
+          <item xml:id="WLSP.3.5010">
+            <label>3.5010</label>
+            <desc>相-自然-自然-光</desc>
+          </item>
+          <item xml:id="WLSP.3.5020">
+            <label>3.5020</label>
+            <desc>相-自然-自然-色</desc>
+          </item>
+          <item xml:id="WLSP.3.5030">
+            <label>3.5030</label>
+            <desc>相-自然-自然-音</desc>
+          </item>
+          <item xml:id="WLSP.3.5150">
+            <label>3.5150</label>
+            <desc>相-自然-物質-気象</desc>
+          </item>
+          <item xml:id="WLSP.4.0000">
+            <label>4.0000</label>
+          </item>
+          <item xml:id="WLSP.4.1110">
+            <label>4.1110</label>
+            <desc>他--接続-累加</desc>
+          </item>
+          <item xml:id="WLSP.4.1120">
+            <label>4.1120</label>
+            <desc>他--接続-展開</desc>
+          </item>
+          <item xml:id="WLSP.4.1130">
+            <label>4.1130</label>
+            <desc>他--接続-反対</desc>
+          </item>
+          <item xml:id="WLSP.4.3010">
+            <label>4.3010</label>
+            <desc>他--感動-間投</desc>
+          </item>
+          <item xml:id="WLSP.4.3100">
+            <label>4.3100</label>
+            <desc>他--判断-判断</desc>
+          </item>
+          <item xml:id="WLSP.4.3120">
+            <label>4.3120</label>
+            <desc>他--判断-予期</desc>
+          </item>
+          <item xml:id="WLSP.4.3130">
+            <label>4.3130</label>
+            <desc>他--判断-希望</desc>
+          </item>
+          <item xml:id="WLSP.4.3210">
+            <label>4.3210</label>
+            <desc>他--呼び掛け-応答</desc>
+          </item>
+          <item xml:id="WLSP.5.0000">
+            <label>5.0000</label>
+          </item>
+          <item xml:id="WLSP.5.0090">
+            <label>5.0090</label>
+          </item>
+          <item xml:id="WLSP.5.1921">
+            <label>5.1921</label>
+          </item>
+          <item xml:id="WLSP.7.0010">
+            <label>7.0010</label>
+          </item>
+          <item xml:id="WLSP.7.0030">
+            <label>7.0030</label>
+          </item>
+          <item xml:id="WLSP.7.0040">
+            <label>7.0040</label>
+          </item>
+          <item xml:id="WLSP.8.0061">
+            <label>8.0061</label>
+          </item>
+          <item xml:id="WLSP.8.0064">
+            <label>8.0064</label>
+          </item>
+          <item xml:id="WLSP.8.0065">
+            <label>8.0065</label>
+          </item>
+          <item xml:id="WLSP.8.0066">
+            <label>8.0066</label>
+          </item>
+          <item xml:id="WLSP.8.0069">
+            <label>8.0069</label>
+          </item>
+          <item xml:id="WLSP.8.0071">
+            <label>8.0071</label>
+          </item>
+          <item xml:id="WLSP.9.0000">
+            <label>9.0000</label>
+          </item>
+          <item xml:id="WLSP.9.0010">
+            <label>9.0010</label>
+          </item>
+        </list>
+      </div>
+      </back></text></TEI>
