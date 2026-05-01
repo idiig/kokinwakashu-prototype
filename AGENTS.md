@@ -98,7 +98,23 @@ Example annotation:
 Do **not** use bare `#fragment` references for cross-file links — they only
 work for within-document IDs. Use the prefix form above.
 
-## Agent Self-Maintenance
+## Agent Self-Maintenance (Routine)
 
-When conventions or constraints change during a session, update this file
-(`AGENTS.md`) directly. Claude Code users: see `CLAUDE.md`.
+At the end of every session, perform the following updates before closing:
+
+### 1. Update `PLAN.md`
+- Mark completed phases as `✓`
+- Add or revise **Open Questions / Next Steps** to reflect what remains
+- Record any key decisions made during the session under **Key Decisions**
+
+### 2. Update `AGENTS.md`
+- Add new conventions, constraints, or ID patterns discovered during the session
+- Update file descriptions if new files were added or existing ones changed
+- Update the Cross-File Reference table if new prefixes were defined
+
+### 3. Update project memory (Claude Code only)
+- Write or update `~/.claude/projects/.../memory/submodule_prototype.md`
+- Record: what changed, why, and what is next
+- Update `MEMORY.md` index if a new memory file was created
+
+This routine ensures the next agent session starts with full context.
