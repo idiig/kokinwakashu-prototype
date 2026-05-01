@@ -386,6 +386,45 @@
           </bibl>
         </taxonomy>
       </classDecl>
+      <listPrefixDef>
+        <prefixDef ident="ri"
+          matchPattern="(.+)"
+          replacementPattern="reading-index.xml#$1">
+          <p>Prefix <code>ri:</code> expands to a fragment reference in
+            <ref target="reading-index.xml">reading-index.xml</ref> (Dict A:
+            kana reading index). Example: <code>ri:あさ.朝</code> →
+            <code>reading-index.xml#あさ.朝</code>.</p>
+        </prefixDef>
+        <prefixDef ident="li"
+          matchPattern="(.+)"
+          replacementPattern="lemma-index.xml#$1">
+          <p>Prefix <code>li:</code> expands to a fragment reference in
+            <ref target="lemma-index.xml">lemma-index.xml</ref> (Dict B:
+            lemma index). Example: <code>li:w.あし</code> →
+            <code>lemma-index.xml#w.あし</code>.</p>
+        </prefixDef>
+        <prefixDef ident="wlsp"
+          matchPattern="(.+)"
+          replacementPattern="wlsp-index.xml#$1">
+          <p>Prefix <code>wlsp:</code> expands to a fragment reference in
+            <ref target="wlsp-index.xml">wlsp-index.xml</ref> (WLSP semantic
+            classification taxonomy).</p>
+        </prefixDef>
+        <prefixDef ident="wlsph"
+          matchPattern="(.+)"
+          replacementPattern="wlsph-index.xml#$1">
+          <p>Prefix <code>wlsph:</code> expands to a fragment reference in
+            <ref target="wlsph-index.xml">wlsph-index.xml</ref> (WLSPH
+            historical kana variant taxonomy).</p>
+        </prefixDef>
+        <prefixDef ident="person"
+          matchPattern="(.+)"
+          replacementPattern="person-list.xml#$1">
+          <p>Prefix <code>person:</code> expands to a fragment reference in
+            <ref target="person-list.xml">person-list.xml</ref> (list of
+            poets and historical figures).</p>
+        </prefixDef>
+      </listPrefixDef>
     </encodingDesc>
     <revisionDesc>
       <change when="2024-10-14">
