@@ -77,6 +77,27 @@ uv run python <script>.py
 
 Types: `feat`, `fix`, `refactor`, `docs`, `chore`
 
+## Cross-File Reference Convention (prefixDef)
+
+`kokinwakashu.xml` declares five URI prefixes in `<encodingDesc><listPrefixDef>`.
+Use these when adding annotations that reference the standalone index files:
+
+| Prefix | Expands to | Use for |
+|--------|-----------|---------|
+| `ri:あさ.朝` | `reading-index.xml#あさ.朝` | Dict A hom IDs |
+| `li:w.あし` | `lemma-index.xml#w.あし` | Dict B entry IDs |
+| `wlsp:WLSP.1.1000` | `wlsp-index.xml#WLSP.1.1000` | WLSP taxonomy |
+| `wlsph:WLSPH.1.1000` | `wlsph-index.xml#WLSPH.1.1000` | WLSPH taxonomy |
+| `person:紀貫之` | `person-list.xml#紀貫之` | Person IDs |
+
+Example annotation:
+```xml
+<w lemmaRef="ri:あさ.朝">あさ</w>
+```
+
+Do **not** use bare `#fragment` references for cross-file links — they only
+work for within-document IDs. Use the prefix form above.
+
 ## Agent Self-Maintenance
 
 When conventions or constraints change during a session, update this file

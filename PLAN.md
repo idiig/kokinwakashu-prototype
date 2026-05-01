@@ -1,164 +1,66 @@
 # Plan: kokinwakashu-prototype Submodule
 
-## Status: AWAITING CONFIRMATION
+## Status: COMPLETE ✓
 
 ---
 
-## Overview
+## What Was Done
 
-Extract the five reference structures currently embedded in `kokinwakashu.xml`
-into standalone TEI files, housed in a new independent git repository
-`kokinwakashu-prototype`, added as a submodule at the root of this repo.
+This repository was created and populated in one session (2026-05-01) as a
+submodule of `kokin-tei-merge` (branch `separate-tei-dicts`).
 
-The new repo is self-contained — no dependencies on the Go tools or data
-pipeline in this repo.
+### Completed Phases
+
+- **Phase 1** ✓ — GitHub repo `idiig/kokinwakashu-prototype` created; added as
+  submodule at root of `kokin-tei-merge`
+- **Phase 2** ✓ — `flake.nix` (python3, uv, xmllint; `uv sync` in shellHook),
+  `AGENTS.md`, `CLAUDE.md` (@AGENTS.md), `pyproject.toml` + `uv.lock` (lxml)
+- **Phase 3** ✓ — `kokinwakashu.xml` moved from `kokin-tei-merge` root to here
+- **Phase 4–5** ✓ — `scripts/split.py` (lxml, recover=True) extracted all five
+  files; script deleted after run
+- **Phase 6–7** ✓ — Both repos committed and pushed
+- **Phase 8** ✓ — `prefixDef` added to `kokinwakashu.xml` `<encodingDesc>`
 
 ---
 
-## Target Structure (new repo)
+## Repository State
 
 ```
-kokinwakashu-prototype/         ← git repo (submodule here at root)
-  AGENTS.md                     ← general AI agent instructions (tool-agnostic)
-  CLAUDE.md                     ← Claude Code entry: @AGENTS.md
-  flake.nix                     ← Nix devShell (python, uv, xmllint)
-  pyproject.toml                ← uv project config (lxml dep)
-  kokinwakashu.xml              ← main body (moved from current repo root)
-  reading-index.xml             ← Dict A: kana reading → lemma homs
-  lemma-index.xml               ← Dict B: lemma entries (27k)
-  wlsp-index.xml                ← WLSP semantic classification taxonomy
-  wlsph-index.xml               ← WLSPH (historical variant) taxonomy
-  person-list.xml               ← listPerson: poets and historical figures
-  scripts/
-    split.py                    ← one-time extraction script (temporary)
-```
-
-Each extracted file is a complete standalone TEI document:
-```xml
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>…</teiHeader>
-  <text><body>
-    <!-- extracted div or list -->
-  </body></text>
-</TEI>
+kokinwakashu-prototype/
+  AGENTS.md              ← agent instructions (tool-agnostic)
+  CLAUDE.md              ← @AGENTS.md
+  flake.nix              ← Nix devShell: python3, uv, xmllint
+  pyproject.toml         ← uv project (lxml 6.1.0)
+  uv.lock
+  kokinwakashu.xml       ← Karoku 2 body; <back> stripped; prefixDef in header
+  reading-index.xml      ← Dict A: kana reading → lemma homs  (~571 KB)
+  lemma-index.xml        ← Dict B: lemma entries              (~1.1 MB)
+  wlsp-index.xml         ← WLSP semantic classification       (~47 KB)
+  wlsph-index.xml        ← WLSPH historical variant taxonomy  (~169 KB)
+  person-list.xml        ← listPerson: poets / figures        (~75 KB)
 ```
 
 ---
 
-## Source Structure in kokinwakashu.xml
+## Key Decisions
 
-| Line  | Element | Target file |
-|-------|---------|-------------|
-| 43334 | `<div type="reading-index">` | `reading-index.xml` |
-| 61369 | `<div type="dictionary">` | `lemma-index.xml` |
-| 88648 | `<div type="classification" xml:id="classWLSP">` | `wlsp-index.xml` |
-| 89949 | `<div type="classification" xml:id="classWLSPH">` | `wlsph-index.xml` |
-| 93988 | `<listPerson>` | `person-list.xml` |
-
-The `<back>` in `kokinwakashu.xml` will be emptied (or removed) after extraction.
-
----
-
-## Implementation Phases
-
-### Phase 1 — Create GitHub repo and submodule
-
-```bash
-gh repo create kokinwakashu-prototype --public --description "Kokinwakashu TEI reference data"
-git submodule add https://github.com/<user>/kokinwakashu-prototype.git kokinwakashu-prototype
-```
-
-### Phase 2 — Bootstrap new repo files
-
-In `kokinwakashu-prototype/`:
-- Write `flake.nix`: provides `python3`, `uv`, `xmllint`; `shellHook` runs `uv sync` to create and pin the venv on entry
-- Init uv project: `uv init && uv add lxml` (pins deps in `uv.lock`)
-- Write `AGENTS.md` (see spec below)
-- Write `CLAUDE.md`:
-  ```markdown
-  @AGENTS.md
-  ```
-
-### Phase 3 — Move kokinwakashu.xml
-
-```bash
-mv kokinwakashu.xml kokinwakashu-prototype/
-```
-
-Update `.gitignore` or submodule pointer accordingly.
-
-### Phase 4 — Write extraction script
-
-`scripts/split.py` — reads `kokinwakashu.xml`, extracts each `<back>` child into
-its own TEI wrapper file. One-time use; delete after running.
-
-Implementation notes:
-- Use `lxml.etree` for namespace-aware parsing
-- Wrap each extracted element in minimal TEI shell with matching `<teiHeader>`
-- Preserve `xmlns` and all `xml:id` attributes (critical for cross-references)
-- Use `etree.tostring(pretty_print=False)` on mixed-content nodes to avoid corrupting text
-
-### Phase 5 — Run extraction, verify, clean up
-
-```bash
-cd kokinwakashu-prototype
-nix develop --command bash -c "uv run python scripts/split.py"
-# verify each file parses and IDs are intact
-rm scripts/split.py
-```
-
-### Phase 6 — Initial commit in new repo
-
-```bash
-cd kokinwakashu-prototype
-git add .
-git commit -m "feat: initial TEI reference data split from kokinwakashu.xml"
-```
-
-### Phase 7 — Update submodule pointer in current repo
-
-```bash
-cd ..
-git add kokinwakashu-prototype
-git commit -m "feat: add kokinwakashu-prototype submodule"
-```
+- **No Go tooling** in this repo — Python + uv only
+- **Extraction was one-time**: `scripts/split.py` used `lxml` with
+  `recover=True` (source had duplicate `xml:id` values in WLSPH data)
+- **Body cross-references are fully internal**: all 925 `target="#..."` in
+  `kokinwakashu.xml` point to IDs within the same file; none reference the
+  extracted index files
+- **prefixDef convention** (see AGENTS.md): five prefixes defined for
+  cross-file annotation
 
 ---
 
-## AGENTS.md Spec (for new repo)
+## Open Questions / Next Steps
 
-Content mirrors the current `CLAUDE.md` in structure, adapted for the new repo:
-
-- **Language policy**: same (conversation Japanese, docs/code English, XML Japanese)
-- **Project overview**: standalone TEI reference data for Kokinwakashu
-- **Data format**: TEI XML P5; no schema modifications without validation
-- **Dev env**: `nix develop` provides `python3`, `uv`, `xmllint`; venv is created and pinned via `uv sync` in `shellHook`
-- **File descriptions**: one-line purpose for each `.xml` file
-- **Key constraints**:
-  - Do not modify original text content; only structural/metadata annotations
-  - Preserve TEI namespace in all processing
-  - Do not call `Indent()` on mixed content
-  - `xml:id` values are cross-referenced — never rename without global search
-- **Editor**: Helix (`hx`)
-
----
-
-## Risks
-
-| Risk | Severity | Mitigation |
-|---|---|---|
-| `xml:id` uniqueness must hold within each split file | HIGH | Verify with `xmllint --valid` after split |
-| `kokinwakashu.xml` body cross-references IDs in the back | MEDIUM | Audit `<ref target="#">` in body before stripping back |
-| Nix flake copy-paste may bring unused deps | LOW | Trim to minimal set needed |
-
----
-
-## Complexity: LOW–MEDIUM
-
-- Repo setup + submodule wiring: straightforward
-- Extraction script: ~80 LOC Go
-- AGENTS.md authoring: ~60 lines
-
----
-
-**WAITING FOR CONFIRMATION**: Proceed with this plan? (yes / no / modify)
+- [ ] The parent repo (`kokin-tei-merge`, branch `separate-tei-dicts`) has not
+  been merged to `main` yet — pending review
+- [ ] `kokin-annotated.xml` in the parent repo still embeds Dict A/B/Classification
+  inline in `<back>`; consider migrating its `lemmaRef="#..."` values to
+  `lemmaRef="ri:..."` using the prefixDef scheme
+- [ ] Duplicate `xml:id` values in `wlsph-index.xml` (`WLSPH.4.3100`,
+  `WLSPH.9.0060`) are a pre-existing data issue — not introduced by extraction
