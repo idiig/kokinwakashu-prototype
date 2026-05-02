@@ -25060,7 +25060,7 @@
         <entry xml:id="雑ず" type="simplex">
           <form type="lemma">
             <orth xml:lang="ja">雑ず</orth>
-            <pron notation="kana">まぜ</pron>
+            <pron notation="kana">まず</pron>
           </form>
           <gramGrp>
             <pos value="V.free">V.free</pos>
