@@ -62,12 +62,28 @@ uv run python <script>.py
 
 - Do not modify original Japanese text content in XML
 - Preserve TEI namespace (`http://www.tei-c.org/ns/1.0`) in all XML processing
+- For compound-entry cleanup, fix `<pron>` first and derive
+  `<form type="compound">` from that pronunciation analysis; do not treat the
+  pre-existing compound refs as the source of truth when they conflict
 - Validate after any structural modification:
   ```bash
   xmllint --noout --schema http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng <file>.xml
   ```
 - When serializing XML with Python/lxml: use `pretty_print=False` on mixed-content
   nodes (text + elements interleaved) — pretty-printing inserts spurious whitespace
+
+## Helper Scripts
+
+The repository may contain temporary-or-reusable helper scripts for compound
+cleanup work:
+
+- `apply_pron.py` — apply unambiguous `<pron>` decompositions to
+  `lemma-index.xml`
+- `check_compounds.py` — audit compound entries and report OK / ambiguous /
+  failed pronunciation decompositions
+- `count_pron.py` — count compound entries with plain vs decomposed `<pron>`
+
+Treat these scripts as developer aids. Validate XML after applying their output.
 
 ## Commit Message Format
 

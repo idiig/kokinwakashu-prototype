@@ -29,6 +29,9 @@ submodule of `kokin-tei-merge` (branch `separate-tei-dicts`).
 kokinwakashu-prototype/
   AGENTS.md              ← agent instructions (tool-agnostic)
   CLAUDE.md              ← @AGENTS.md
+  apply_pron.py          ← helper: auto-apply unambiguous compound pron decomposition
+  check_compounds.py     ← helper: audit compound pron decomposition candidates
+  count_pron.py          ← helper: count plain vs decomposed compound pron entries
   flake.nix              ← Nix devShell: python3, uv, xmllint
   pyproject.toml         ← uv project (lxml 6.1.0)
   uv.lock
@@ -52,11 +55,23 @@ kokinwakashu-prototype/
   extracted index files
 - **prefixDef convention** (see AGENTS.md): five prefixes defined for
   cross-file annotation
+- **Compound cleanup rule**: treat `<pron>` as the source of truth; derive
+  `<form type="compound">` from the corrected pronunciation analysis rather
+  than trusting the pre-existing component refs
+- **reading-index restoration rule**: if `lemma-index.xml` already contains
+  valid `ri:...` references, restore missing Dict A hom IDs in
+  `reading-index.xml` before reworking the lemma entry again
 
 ---
 
 ## Open Questions / Next Steps
 
+- [ ] Compound pronunciation decomposition is still in progress: 29 compound
+  entries in `lemma-index.xml` still have plain `<pron>` text and need
+  one-by-one review
+- [ ] The 20 missing Dict A hom IDs referenced by existing `ri:...` markup
+  were restored in `reading-index.xml`; run full decomposition checks again in
+  the Nix environment before the next cleanup pass
 - [ ] The parent repo (`kokin-tei-merge`, branch `separate-tei-dicts`) has not
   been merged to `main` yet — pending review
 - [ ] `kokin-annotated.xml` in the parent repo still embeds Dict A/B/Classification
