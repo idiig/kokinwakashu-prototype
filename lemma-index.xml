@@ -967,19 +967,6 @@
             <def xml:lang="ja">他--判断-予期</def>
           </sense>
         </entry>
-        <entry xml:id="とめる" type="simplex">
-          <form type="lemma">
-            <orth xml:lang="ja">とめる</orth>
-            <pron notation="kana">とめる</pron>
-          </form>
-          <gramGrp>
-            <pos value="V.free">V.free</pos>
-            <gram type="UPosTag">VERB</gram>
-            <gram type="IPAPosTag">動詞-自立</gram>
-            <gram type="UniDicPosTag">動詞-一般</gram>
-          </gramGrp>
-          <sense ana="wlsph:WLSPH.2.1512"/>
-        </entry>
         <entry xml:id="ど" type="simplex">
           <form type="lemma">
             <orth xml:lang="ja">ど</orth>
@@ -18087,9 +18074,6 @@
           <form type="lemma">
             <orth xml:lang="ja">留む</orth>
             <pron notation="kana">とどむ</pron>
-          </form>
-          <form type="modern">
-            <ref target="#とめる">とめる</ref>
           </form>
           <gramGrp>
             <pos value="V.free">V.free</pos>
