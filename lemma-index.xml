@@ -29,19 +29,6 @@
             <def xml:lang="ja">他--判断-判断</def>
           </sense>
         </entry>
-        <entry xml:id="あわい" type="simplex">
-          <form type="lemma">
-            <orth xml:lang="ja">あわい</orth>
-            <pron notation="kana">あわい</pron>
-          </form>
-          <gramGrp>
-            <pos value="Ai.free">Ai.free</pos>
-            <gram type="UPosTag">ADJ</gram>
-            <gram type="IPAPosTag">形容詞-自立</gram>
-            <gram type="UniDicPosTag">形容詞-一般</gram>
-          </gramGrp>
-          <sense ana="wlsph:WLSPH.3.5010"/>
-        </entry>
         <entry xml:id="いか_" type="simplex">
           <form type="lemma">
             <orth xml:lang="ja">いか−</orth>
@@ -16401,13 +16388,9 @@
         <entry xml:id="淡雪" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">淡雪</orth>
-            <pron notation="kana"><w lemmaRef="ri:あわい.あわい">あわ</w><w lemmaRef="ri:ゆき.雪">ゆき</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:あは.淡">あは</w><w lemmaRef="ri:ゆき.雪">ゆき</w></pron>
           </form>
-          <form type="compound">
-            <ref target="#あわい">あわい</ref>
-            <ref target="#雪">雪</ref>
-          </form>
-          <gramGrp>
+          <form type="compound"><ref target="#淡">淡</ref><ref target="#雪">雪</ref></form><gramGrp>
             <pos value="N.g">N.g</pos>
             <gram type="UPosTag">NOUN</gram>
             <gram type="IPAPosTag">名詞-一般</gram>

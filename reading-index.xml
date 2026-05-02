@@ -1041,14 +1041,6 @@
             <ref target="li:泡"/>
           </hom>
         </entry>
-        <entry xml:id="あわい">
-          <form type="pron">
-            <pron notation="kana">あわい</pron>
-          </form>
-          <hom n="1" xml:id="あわい.あわい">
-            <ref target="li:あわい"/>
-          </hom>
-        </entry>
         <entry xml:id="あわゆき">
           <form type="pron">
             <pron notation="kana">あわゆき</pron>
