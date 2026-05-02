@@ -22226,7 +22226,7 @@
           </form>
           <form type="compound">
             <ref target="#若い">若い</ref>
-            <ref target="#菜っぱ">菜っぱ</ref>
+            <ref target="#菜">菜</ref>
           </form>
           <gramGrp>
             <pos value="N.g">N.g</pos>
@@ -26477,7 +26477,7 @@
           </form>
           <form type="compound">
             <ref target="#青">青い</ref>
-            <ref target="#やなぎ">やなぎ</ref>
+            <ref target="#柳">柳</ref>
           </form>
           <gramGrp>
             <pos value="N.g">N.g</pos>
