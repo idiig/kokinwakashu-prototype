@@ -219,19 +219,6 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.1.4600"/>
         </entry>
-        <entry xml:id="かくれる" type="simplex">
-          <form type="lemma">
-            <orth xml:lang="ja">かくれる</orth>
-            <pron notation="kana">かくれる</pron>
-          </form>
-          <gramGrp>
-            <pos value="V.free">V.free</pos>
-            <gram type="UPosTag">VERB</gram>
-            <gram type="IPAPosTag">動詞-自立</gram>
-            <gram type="UniDicPosTag">動詞-一般</gram>
-          </gramGrp>
-          <sense ana="wlsph:WLSPH.2.3090"/>
-        </entry>
         <entry xml:id="かける" type="simplex">
           <form type="lemma">
             <orth xml:lang="ja">かける</orth>
@@ -25115,10 +25102,10 @@
         <entry xml:id="隠れ家" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">隠れ家</orth>
-            <pron notation="kana"><w lemmaRef="ri:かくれる.かくれる">かくれ</w><w lemmaRef="ri:か.家">が</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:かくれ.隠る">かくれ</w><w lemmaRef="ri:か.家">が</w></pron>
           </form>
           <form type="compound">
-            <ref target="#かくれる">かくれる</ref>
+            <ref target="#隠る">隠る</ref>
             <ref target="#家">家</ref>
           </form>
           <gramGrp>
@@ -25134,10 +25121,10 @@
         <entry xml:id="隠れ沼" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">隠れ沼</orth>
-            <pron notation="kana"><w lemmaRef="ri:かくれる.かくれる">かくれ</w><w lemmaRef="ri:ぬ.沼">ぬ</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:かくれ.隠る">かくれ</w><w lemmaRef="ri:ぬ.沼">ぬ</w></pron>
           </form>
           <form type="compound">
-            <ref target="#かくれる">かくれる</ref>
+            <ref target="#隠る">隠る</ref>
             <ref target="#沼">沼</ref>
           </form>
           <gramGrp>

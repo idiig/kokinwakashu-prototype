@@ -3374,14 +3374,6 @@
             <ref target="li:隠れ沼"/>
           </hom>
         </entry>
-        <entry xml:id="かくれる">
-          <form type="pron">
-            <pron notation="kana">かくれる</pron>
-          </form>
-          <hom n="1" xml:id="かくれる.かくれる">
-            <ref target="li:かくれる"/>
-          </hom>
-        </entry>
         <entry xml:id="かけ">
           <form type="pron">
             <pron notation="kana">かけ</pron>
