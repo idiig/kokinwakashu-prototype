@@ -2380,12 +2380,12 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.CH.29.0000"/>
         </entry>
-        <entry xml:id="三輪山" type="simplex">
+        <entry xml:id="三輪山" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">三輪山</orth>
-            <pron notation="kana">みわやま</pron>
+            <pron notation="kana"><w lemmaRef="ri:みわ.三輪">みわ</w><w lemmaRef="ri:やま.山">やま</w></pron>
           </form>
-          <gramGrp>
+          <form type="compound"><ref target="#三輪">三輪</ref><ref target="#山">山</ref></form><gramGrp>
             <pos value="N.Prop.p.g">N.Prop.p.g</pos>
             <gram type="UPosTag">PROPN</gram>
             <gram type="IPAPosTag">名詞-固有名詞-地域-一般</gram>
@@ -2739,12 +2739,12 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.1.4420"/>
         </entry>
-        <entry xml:id="中山" type="simplex">
+        <entry xml:id="中山" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">中山</orth>
-            <pron notation="kana">なかやま</pron>
+            <pron notation="kana"><w lemmaRef="ri:なか.中">なか</w><w lemmaRef="ri:やま.山">やま</w></pron>
           </form>
-          <gramGrp>
+          <form type="compound"><ref target="#中">中</ref><ref target="#山">山</ref></form><gramGrp>
             <pos value="N.Prop.p.g">N.Prop.p.g</pos>
             <gram type="UPosTag">PROPN</gram>
             <gram type="IPAPosTag">名詞-固有名詞-地域-一般</gram>
@@ -3824,12 +3824,12 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.CH.29.0000"/>
         </entry>
-        <entry xml:id="佐保山" type="simplex">
+        <entry xml:id="佐保山" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">佐保山</orth>
-            <pron notation="kana">さほやま</pron>
+            <pron notation="kana"><w lemmaRef="ri:さほ.佐保">さほ</w><w lemmaRef="ri:やま.山">やま</w></pron>
           </form>
-          <gramGrp>
+          <form type="compound"><ref target="#佐保">佐保</ref><ref target="#山">山</ref></form><gramGrp>
             <pos value="N.Prop.p.g">N.Prop.p.g</pos>
             <gram type="UPosTag">PROPN</gram>
             <gram type="IPAPosTag">名詞-固有名詞-地域-一般</gram>
@@ -6704,12 +6704,12 @@
             <def xml:lang="ja">体-生産物-食料-調味料・こうじなど</def>
           </sense>
         </entry>
-        <entry xml:id="塩の山" type="simplex">
+        <entry xml:id="塩の山" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">塩の山</orth>
-            <pron notation="kana">しほのやま</pron>
+            <pron notation="kana"><w lemmaRef="ri:しほ.塩">しほ</w><w lemmaRef="ri:の.の">の</w><w lemmaRef="ri:やま.山">やま</w></pron>
           </form>
-          <gramGrp>
+          <form type="compound"><ref target="#塩">塩</ref><ref target="#の">の</ref><ref target="#山">山</ref></form><gramGrp>
             <pos value="N.Prop.p.g">N.Prop.p.g</pos>
             <gram type="UPosTag">PROPN</gram>
             <gram type="IPAPosTag">名詞-固有名詞-地域-一般</gram>
@@ -7817,12 +7817,12 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.CH.26.0000"/>
         </entry>
-        <entry xml:id="宇治山" type="simplex">
+        <entry xml:id="宇治山" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">宇治山</orth>
-            <pron notation="kana">うぢやま</pron>
+            <pron notation="kana"><w lemmaRef="ri:うぢ.宇治">うぢ</w><w lemmaRef="ri:やま.山">やま</w></pron>
           </form>
-          <gramGrp>
+          <form type="compound"><ref target="#宇治">宇治</ref><ref target="#山">山</ref></form><gramGrp>
             <pos value="N.Prop.p.g">N.Prop.p.g</pos>
             <gram type="UPosTag">PROPN</gram>
             <gram type="IPAPosTag">名詞-固有名詞-地域-一般</gram>
@@ -7830,12 +7830,12 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.CH.26.5240"/>
         </entry>
-        <entry xml:id="宇治橋" type="simplex">
+        <entry xml:id="宇治橋" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">宇治橋</orth>
-            <pron notation="kana">うぢばし</pron>
+            <pron notation="kana"><w lemmaRef="ri:うぢ.宇治">うぢ</w><w lemmaRef="ri:はし.橋">ばし</w></pron>
           </form>
-          <gramGrp>
+          <form type="compound"><ref target="#宇治">宇治</ref><ref target="#橋">橋</ref></form><gramGrp>
             <pos value="N.Prop.p.g">N.Prop.p.g</pos>
             <gram type="UPosTag">PROPN</gram>
             <gram type="IPAPosTag">名詞-固有名詞-地域-一般</gram>
@@ -7859,12 +7859,12 @@
             <def xml:lang="ja">用-活動-交わり-約束</def>
           </sense>
         </entry>
-        <entry xml:id="守山" type="simplex">
+        <entry xml:id="守山" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">守山</orth>
-            <pron notation="kana">もるやま</pron>
+            <pron notation="kana"><w lemmaRef="ri:もる.守る">もる</w><w lemmaRef="ri:やま.山">やま</w></pron>
           </form>
-          <gramGrp>
+          <form type="compound"><ref target="#守る">守る</ref><ref target="#山">山</ref></form><gramGrp>
             <pos value="N.Prop.p.g">N.Prop.p.g</pos>
             <gram type="UPosTag">PROPN</gram>
             <gram type="IPAPosTag">名詞-固有名詞-地域-一般</gram>
@@ -9776,12 +9776,12 @@
             <def xml:lang="ja">用-関係-作用-往復</def>
           </sense>
         </entry>
-        <entry xml:id="帰山" type="simplex">
+        <entry xml:id="帰山" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">帰山</orth>
-            <pron notation="kana">かへるやま</pron>
+            <pron notation="kana"><w lemmaRef="ri:かへる.帰る">かへる</w><w lemmaRef="ri:やま.山">やま</w></pron>
           </form>
-          <gramGrp>
+          <form type="compound"><ref target="#帰る">帰る</ref><ref target="#山">山</ref></form><gramGrp>
             <pos value="N.Prop.p.g">N.Prop.p.g</pos>
             <gram type="UPosTag">PROPN</gram>
             <gram type="IPAPosTag">名詞-固有名詞-地域-一般</gram>
@@ -14127,12 +14127,12 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.1.1613"/>
         </entry>
-        <entry xml:id="朝の原" type="simplex">
+        <entry xml:id="朝の原" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">朝の原</orth>
-            <pron notation="kana">あしたのはら</pron>
+            <pron notation="kana"><w lemmaRef="ri:あした.朝">あした</w><w lemmaRef="ri:の.の">の</w><w lemmaRef="ri:はら.原">はら</w></pron>
           </form>
-          <gramGrp>
+          <form type="compound"><ref target="#朝">朝</ref><ref target="#の">の</ref><ref target="#原">原</ref></form><gramGrp>
             <pos value="N.Prop.p.g">N.Prop.p.g</pos>
             <gram type="UPosTag">PROPN</gram>
             <gram type="IPAPosTag">名詞-固有名詞-地域-一般</gram>
@@ -14353,12 +14353,12 @@
             <def xml:lang="ja">体-関係-時間-終始</def>
           </sense>
         </entry>
-        <entry xml:id="末の松山" type="simplex">
+        <entry xml:id="末の松山" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">末の松山</orth>
-            <pron notation="kana">すゑのまつやま</pron>
+            <pron notation="kana"><w lemmaRef="ri:すゑ.末">すゑ</w><w lemmaRef="ri:の.の">の</w><w lemmaRef="ri:まつやま.松山">まつやま</w></pron>
           </form>
-          <gramGrp>
+          <form type="compound"><ref target="#末">末</ref><ref target="#の">の</ref><ref target="#松山">松山</ref></form><gramGrp>
             <pos value="N.Prop.p.g">N.Prop.p.g</pos>
             <gram type="UPosTag">PROPN</gram>
             <gram type="IPAPosTag">名詞-固有名詞-地域-一般</gram>
@@ -14615,12 +14615,12 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.1.5520 wlsp:WLSP.1.5520"/>
         </entry>
-        <entry xml:id="松山" type="simplex">
+        <entry xml:id="松山" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">松山</orth>
-            <pron notation="kana">まつやま</pron>
+            <pron notation="kana"><w lemmaRef="ri:まつ.松">まつ</w><w lemmaRef="ri:やま.山">やま</w></pron>
           </form>
-          <gramGrp>
+          <form type="compound"><ref target="#松">松</ref><ref target="#山">山</ref></form><gramGrp>
             <pos value="N.Prop.p.g">N.Prop.p.g</pos>
             <gram type="UPosTag">PROPN</gram>
             <gram type="IPAPosTag">名詞-固有名詞-地域-一般</gram>
@@ -16902,12 +16902,12 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.CH.28.0000"/>
         </entry>
-        <entry xml:id="淡路島" type="simplex">
+        <entry xml:id="淡路島" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">淡路島</orth>
-            <pron notation="kana">あわぢしま</pron>
+            <pron notation="kana"><w lemmaRef="ri:あはぢ.淡路">あはぢ</w><w lemmaRef="ri:しま.島">しま</w></pron>
           </form>
-          <gramGrp>
+          <form type="compound"><ref target="#淡路">淡路</ref><ref target="#島">島</ref></form><gramGrp>
             <pos value="N.Prop.p.g">N.Prop.p.g</pos>
             <gram type="UPosTag">PROPN</gram>
             <gram type="IPAPosTag">名詞-固有名詞-地域-一般</gram>
@@ -18935,12 +18935,12 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.1.4551"/>
         </entry>
-        <entry xml:id="白河" type="simplex">
+        <entry xml:id="白河" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">白河</orth>
-            <pron notation="kana">しらかは</pron>
+            <pron notation="kana"><w lemmaRef="ri:しら.白">しら</w><w lemmaRef="ri:かは.河">かは</w></pron>
           </form>
-          <gramGrp>
+          <form type="compound"><ref target="#白">白</ref><ref target="#河">河</ref></form><gramGrp>
             <pos value="N.Prop.p.g">N.Prop.p.g</pos>
             <gram type="UPosTag">PROPN</gram>
             <gram type="IPAPosTag">名詞-固有名詞-地域-一般</gram>
@@ -20650,12 +20650,12 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.1.5520 wlsp:WLSP.1.5520"/>
         </entry>
-        <entry xml:id="篠原" type="simplex">
+        <entry xml:id="篠原" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">篠原</orth>
-            <pron notation="kana">しのはら</pron>
+            <pron notation="kana"><w lemmaRef="ri:しの.篠">しの</w><w lemmaRef="ri:はら.原">はら</w></pron>
           </form>
-          <gramGrp>
+          <form type="compound"><ref target="#篠">篠</ref><ref target="#原">原</ref></form><gramGrp>
             <pos value="N.Prop.p.g">N.Prop.p.g</pos>
             <gram type="UPosTag">PROPN</gram>
             <gram type="IPAPosTag">名詞-固有名詞-地域-一般</gram>
@@ -24269,12 +24269,12 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.2.1521"/>
         </entry>
-        <entry xml:id="越路" type="simplex">
+        <entry xml:id="越路" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">越路</orth>
-            <pron notation="kana">こしぢ</pron>
+            <pron notation="kana"><w lemmaRef="ri:こし.越">こし</w><w lemmaRef="ri:ぢ.路">ぢ</w></pron>
           </form>
-          <gramGrp>
+          <form type="compound"><ref target="#越">越</ref><ref target="#路">路</ref></form><gramGrp>
             <pos value="N.Prop.p.g">N.Prop.p.g</pos>
             <gram type="UPosTag">PROPN</gram>
             <gram type="IPAPosTag">名詞-固有名詞-地域-一般</gram>
@@ -25462,12 +25462,12 @@
             <def xml:lang="ja">体-生産物-機械-鏡・レンズ・カメラ</def>
           </sense>
         </entry>
-        <entry xml:id="鏡山" type="simplex">
+        <entry xml:id="鏡山" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">鏡山</orth>
-            <pron notation="kana">かがみやま</pron>
+            <pron notation="kana"><w lemmaRef="ri:かがみ.鏡">かがみ</w><w lemmaRef="ri:やま.山">やま</w></pron>
           </form>
-          <gramGrp>
+          <form type="compound"><ref target="#鏡">鏡</ref><ref target="#山">山</ref></form><gramGrp>
             <pos value="N.Prop.p.g">N.Prop.p.g</pos>
             <gram type="UPosTag">PROPN</gram>
             <gram type="IPAPosTag">名詞-固有名詞-地域-一般</gram>
@@ -26907,12 +26907,12 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.CH.29.0000"/>
         </entry>
-        <entry xml:id="飛鳥河" type="simplex">
+        <entry xml:id="飛鳥河" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">飛鳥河</orth>
-            <pron notation="kana">あすかがは</pron>
+            <pron notation="kana"><w lemmaRef="ri:あすか.飛鳥">あすか</w><w lemmaRef="ri:かは.河">がは</w></pron>
           </form>
-          <gramGrp>
+          <form type="compound"><ref target="#飛鳥">飛鳥</ref><ref target="#河">河</ref></form><gramGrp>
             <pos value="N.Prop.p.g">N.Prop.p.g</pos>
             <gram type="UPosTag">PROPN</gram>
             <gram type="IPAPosTag">名詞-固有名詞-地域-一般</gram>

@@ -7780,6 +7780,9 @@
           <hom n="1" xml:id="しら.知る">
             <ref target="li:知る"/>
           </hom>
+          <hom n="2" xml:id="しら.白">
+            <ref target="li:白"/>
+          </hom>
         </entry>
         <entry xml:id="しらいと">
           <form type="pron">
