@@ -1,14 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>古今和歌集 読み索引 (Dict A)</title></titleStmt><publicationStmt><p>Extracted from kokinwakashu.xml</p></publicationStmt><sourceDesc><p>kokinwakashu.xml</p></sourceDesc></fileDesc></teiHeader><text><back><div type="reading-index">
         <head>Reading Index</head>
-        <entry xml:id="あお">
-          <form type="pron">
-            <pron notation="kana">あお</pron>
-          </form>
-          <hom n="1" xml:id="あお.青">
-            <ref target="li:青"/>
-          </hom>
-        </entry>
         <entry xml:id="あを">
           <form type="pron">
             <pron notation="kana">あを</pron>
@@ -17,28 +9,12 @@
             <ref target="li:青"/>
           </hom>
         </entry>
-        <entry xml:id="あおい">
-          <form type="pron">
-            <pron notation="kana">あおい</pron>
-          </form>
-          <hom n="1" xml:id="あおい.青い">
-            <ref target="li:青い"/>
-          </hom>
-        </entry>
         <entry xml:id="あか">
           <form type="pron">
             <pron notation="kana">あか</pron>
           </form>
           <hom n="1" xml:id="あか.飽く">
             <ref target="li:飽く"/>
-          </hom>
-        </entry>
-        <entry xml:id="あかけれ">
-          <form type="pron">
-            <pron notation="kana">あかけれ</pron>
-          </form>
-          <hom n="1" xml:id="あかけれ.明し">
-            <ref target="li:明し"/>
           </hom>
         </entry>
         <entry xml:id="あかし">
@@ -50,14 +26,6 @@
           </hom>
           <hom n="2" xml:id="あかし.明石">
             <ref target="li:明石"/>
-          </hom>
-        </entry>
-        <entry xml:id="あかす">
-          <form type="pron">
-            <pron notation="kana">あかす</pron>
-          </form>
-          <hom n="1" xml:id="あかす.明かす">
-            <ref target="li:明かす"/>
           </hom>
         </entry>
         <entry xml:id="あかつき">
@@ -109,14 +77,6 @@
           </form>
           <hom n="1" xml:id="あきはぎ.秋萩">
             <ref target="li:秋萩"/>
-          </hom>
-        </entry>
-        <entry xml:id="あきやま">
-          <form type="pron">
-            <pron notation="kana">あきやま</pron>
-          </form>
-          <hom n="1" xml:id="あきやま.秋山">
-            <ref target="li:秋山"/>
           </hom>
         </entry>
         <entry xml:id="あく">
@@ -233,14 +193,6 @@
           </form>
           <hom n="1" xml:id="あさけ.朝明">
             <ref target="li:朝明"/>
-          </hom>
-        </entry>
-        <entry xml:id="あさせ">
-          <form type="pron">
-            <pron notation="kana">あさせ</pron>
-          </form>
-          <hom n="1" xml:id="あさせ.浅瀬">
-            <ref target="li:浅瀬"/>
           </hom>
         </entry>
         <entry xml:id="あさぢ">
@@ -447,36 +399,12 @@
             <ref target="li:飛鳥河"/>
           </hom>
         </entry>
-        <entry xml:id="あずさ">
-          <form type="pron">
-            <pron notation="kana">あずさ</pron>
-          </form>
-          <hom n="1" xml:id="あずさ.梓">
-            <ref target="li:梓"/>
-          </hom>
-        </entry>
         <entry xml:id="あづさ">
           <form type="pron">
             <pron notation="kana">あづさ</pron>
           </form>
           <hom n="1" xml:id="あづさ.梓">
             <ref target="li:梓"/>
-          </hom>
-        </entry>
-        <entry xml:id="あた">
-          <form type="pron">
-            <pron notation="kana">あた</pron>
-          </form>
-          <hom n="1" xml:id="あた.仇">
-            <ref target="li:仇"/>
-          </hom>
-        </entry>
-        <entry xml:id="あたらしい">
-          <form type="pron">
-            <pron notation="kana">あたらしい</pron>
-          </form>
-          <hom n="1" xml:id="あたらしい.新しい">
-            <ref target="li:新しい"/>
           </hom>
         </entry>
         <entry xml:id="あたらしき">
@@ -592,14 +520,6 @@
           </form>
           <hom n="1" xml:id="あだもの.徒物">
             <ref target="li:徒物"/>
-          </hom>
-        </entry>
-        <entry xml:id="あちら">
-          <form type="pron">
-            <pron notation="kana">あちら</pron>
-          </form>
-          <hom n="1" xml:id="あちら.あちら">
-            <ref target="li:あちら"/>
           </hom>
         </entry>
         <entry xml:id="あぢきなく">
@@ -754,13 +674,7 @@
           <hom n="1" xml:id="あふ.会ふ">
             <ref target="li:会ふ"/>
           </hom>
-          <hom n="2" xml:id="あふ.合ふ">
-            <ref target="li:合ふ"/>
-          </hom>
-          <hom n="3" xml:id="あふ.敢ふ">
-            <ref target="li:敢ふ"/>
-          </hom>
-          <hom n="4" xml:id="あふ.逢ふ">
+          <hom n="2" xml:id="あふ.逢ふ">
             <ref target="li:逢ふ"/>
           </hom>
         </entry>
@@ -989,10 +903,7 @@
           <hom n="1" xml:id="あらし.嵐">
             <ref target="li:嵐"/>
           </hom>
-          <hom n="2" xml:id="あらし.荒し">
-            <ref target="li:荒し"/>
-          </hom>
-        </entry>
+          </entry>
         <entry xml:id="あらたま">
           <form type="pron">
             <pron notation="kana">あらたま</pron>
@@ -1104,10 +1015,7 @@
           <form type="pron">
             <pron notation="kana">ある</pron>
           </form>
-          <hom n="1" xml:id="ある.ある">
-            <ref target="li:ある"/>
-          </hom>
-          <hom n="2" xml:id="ある.有り">
+          <hom n="1" xml:id="ある.有り">
             <ref target="li:有り"/>
           </hom>
         </entry>
@@ -1125,14 +1033,6 @@
             <ref target="li:荒る"/>
           </hom>
         </entry>
-        <entry xml:id="あれる">
-          <form type="pron">
-            <pron notation="kana">あれる</pron>
-          </form>
-          <hom n="1" xml:id="あれる.荒れる">
-            <ref target="li:荒れる"/>
-          </hom>
-        </entry>
         <entry xml:id="あわ">
           <form type="pron">
             <pron notation="kana">あわ</pron>
@@ -1147,14 +1047,6 @@
           </form>
           <hom n="1" xml:id="あわい.あわい">
             <ref target="li:あわい"/>
-          </hom>
-        </entry>
-        <entry xml:id="あわじしま">
-          <form type="pron">
-            <pron notation="kana">あわじしま</pron>
-          </form>
-          <hom n="1" xml:id="あわじしま.淡路島">
-            <ref target="li:淡路島"/>
           </hom>
         </entry>
         <entry xml:id="あわゆき">
@@ -1185,33 +1077,11 @@
           <form type="pron">
             <pron notation="kana">い</pron>
           </form>
-          <hom n="1" xml:id="い.井">
-            <ref target="li:井"/>
-          </hom>
-          <hom n="2" xml:id="い.寝">
+          <hom n="1" xml:id="い.寝">
             <ref target="li:寝"/>
           </hom>
-          <hom n="3" xml:id="い.衣">
-            <ref target="li:衣"/>
-          </hom>
-          <hom n="4" xml:id="い.斎">
+          <hom n="2" xml:id="い.斎">
             <ref target="li:斎"/>
-          </hom>
-        </entry>
-        <entry xml:id="いう">
-          <form type="pron">
-            <pron notation="kana">いう</pron>
-          </form>
-          <hom n="1" xml:id="いう.言う">
-            <ref target="li:言う"/>
-          </hom>
-        </entry>
-        <entry xml:id="いえ">
-          <form type="pron">
-            <pron notation="kana">いえ</pron>
-          </form>
-          <hom n="1" xml:id="いえ.家">
-            <ref target="li:家"/>
           </hom>
         </entry>
         <entry xml:id="いか">
@@ -1290,10 +1160,7 @@
           <form type="pron">
             <pron notation="kana">いく</pron>
           </form>
-          <hom n="1" xml:id="いく.いく">
-            <ref target="li:いく"/>
-          </hom>
-          <hom n="2" xml:id="いく.幾">
+          <hom n="1" xml:id="いく.幾">
             <ref target="li:幾"/>
           </hom>
         </entry>
@@ -1512,14 +1379,6 @@
           </form>
           <hom n="1" xml:id="いたゐ.板井">
             <ref target="li:板井"/>
-          </hom>
-        </entry>
-        <entry xml:id="いち">
-          <form type="pron">
-            <pron notation="kana">いち</pron>
-          </form>
-          <hom n="1" xml:id="いち.一">
-            <ref target="li:一"/>
           </hom>
         </entry>
         <entry xml:id="いつ">
@@ -1747,14 +1606,6 @@
             <ref target="li:古"/>
           </hom>
         </entry>
-        <entry xml:id="いぬ">
-          <form type="pron">
-            <pron notation="kana">いぬ</pron>
-          </form>
-          <hom n="1" xml:id="いぬ.寝ぬ">
-            <ref target="li:寝ぬ"/>
-          </hom>
-        </entry>
         <entry xml:id="いぬがみ">
           <form type="pron">
             <pron notation="kana">いぬがみ</pron>
@@ -1767,13 +1618,10 @@
           <form type="pron">
             <pron notation="kana">いね</pron>
           </form>
-          <hom n="1" xml:id="いね.いね">
-            <ref target="li:いね"/>
-          </hom>
-          <hom n="2" xml:id="いね.寝ぬ">
+          <hom n="1" xml:id="いね.寝ぬ">
             <ref target="li:寝ぬ"/>
           </hom>
-          <hom n="3" xml:id="いね.稲">
+          <hom n="2" xml:id="いね.稲">
             <ref target="li:稲"/>
           </hom>
         </entry>
@@ -1912,14 +1760,6 @@
             <ref target="li:庵"/>
           </hom>
         </entry>
-        <entry xml:id="いほり">
-          <form type="pron">
-            <pron notation="kana">いほり</pron>
-          </form>
-          <hom n="1" xml:id="いほり.庵">
-            <ref target="li:庵"/>
-          </hom>
-        </entry>
         <entry xml:id="いま">
           <form type="pron">
             <pron notation="kana">いま</pron>
@@ -1966,14 +1806,6 @@
           </form>
           <hom n="1" xml:id="いや.弥">
             <ref target="li:弥"/>
-          </hom>
-        </entry>
-        <entry xml:id="いやし">
-          <form type="pron">
-            <pron notation="kana">いやし</pron>
-          </form>
-          <hom n="1" xml:id="いやし.賎し">
-            <ref target="li:賎し"/>
           </hom>
         </entry>
         <entry xml:id="いやしき">
@@ -2190,10 +2022,7 @@
           <hom n="1" xml:id="うく.憂し">
             <ref target="li:憂し"/>
           </hom>
-          <hom n="2" xml:id="うく.浮く">
-            <ref target="li:浮く"/>
-          </hom>
-        </entry>
+          </entry>
         <entry xml:id="うぐひす">
           <form type="pron">
             <pron notation="kana">うぐひす</pron>
@@ -2437,10 +2266,7 @@
           <hom n="1" xml:id="うつる.うつる">
             <ref target="li:うつる"/>
           </hom>
-          <hom n="2" xml:id="うつる.移る">
-            <ref target="li:移る"/>
-          </hom>
-        </entry>
+          </entry>
         <entry xml:id="うつろは">
           <form type="pron">
             <pron notation="kana">うつろは</pron>
@@ -2561,14 +2387,6 @@
             <ref target="li:梅"/>
           </hom>
         </entry>
-        <entry xml:id="うもる">
-          <form type="pron">
-            <pron notation="kana">うもる</pron>
-          </form>
-          <hom n="1" xml:id="うもる.埋もる">
-            <ref target="li:埋もる"/>
-          </hom>
-        </entry>
         <entry xml:id="うもれ">
           <form type="pron">
             <pron notation="kana">うもれ</pron>
@@ -2621,14 +2439,6 @@
             <ref target="li:恨む"/>
           </hom>
         </entry>
-        <entry xml:id="うらみよ">
-          <form type="pron">
-            <pron notation="kana">うらみよ</pron>
-          </form>
-          <hom n="1" xml:id="うらみよ.恨む">
-            <ref target="li:恨む"/>
-          </hom>
-        </entry>
         <entry xml:id="うらむ">
           <form type="pron">
             <pron notation="kana">うらむ</pron>
@@ -2654,14 +2464,6 @@
           </form>
           <hom n="1" xml:id="うれ.末">
             <ref target="li:末"/>
-          </hom>
-        </entry>
-        <entry xml:id="うれい">
-          <form type="pron">
-            <pron notation="kana">うれい</pron>
-          </form>
-          <hom n="1" xml:id="うれい.憂い">
-            <ref target="li:憂い"/>
           </hom>
         </entry>
         <entry xml:id="うれし">
@@ -2753,22 +2555,11 @@
             <ref target="li:閻浮"/>
           </hom>
         </entry>
-        <entry xml:id="お">
-          <form type="pron">
-            <pron notation="kana">お</pron>
-          </form>
-          <hom n="1" xml:id="お.緒">
-            <ref target="li:緒"/>
-          </hom>
-        </entry>
         <entry xml:id="おい">
           <form type="pron">
             <pron notation="kana">おい</pron>
           </form>
-          <hom n="1" xml:id="おい.老い">
-            <ref target="li:老い"/>
-          </hom>
-          <hom n="2" xml:id="おい.老ゆ">
+          <hom n="1" xml:id="おい.老ゆ">
             <ref target="li:老ゆ"/>
           </hom>
         </entry>
@@ -2778,14 +2569,6 @@
           </form>
           <hom n="1" xml:id="おいらく.老いらく">
             <ref target="li:老いらく"/>
-          </hom>
-        </entry>
-        <entry xml:id="おうさか">
-          <form type="pron">
-            <pron notation="kana">おうさか</pron>
-          </form>
-          <hom n="1" xml:id="おうさか.逢坂">
-            <ref target="li:逢坂"/>
           </hom>
         </entry>
         <entry xml:id="おか">
@@ -2852,10 +2635,7 @@
           <form type="pron">
             <pron notation="kana">おく</pron>
           </form>
-          <hom n="1" xml:id="おく.おく">
-            <ref target="li:おく"/>
-          </hom>
-          <hom n="2" xml:id="おく.置く">
+          <hom n="1" xml:id="おく.置く">
             <ref target="li:置く"/>
           </hom>
         </entry>
@@ -2889,14 +2669,6 @@
           </form>
           <hom n="1" xml:id="おくれ.後る">
             <ref target="li:後る"/>
-          </hom>
-        </entry>
-        <entry xml:id="おぐら">
-          <form type="pron">
-            <pron notation="kana">おぐら</pron>
-          </form>
-          <hom n="1" xml:id="おぐら.小倉">
-            <ref target="li:小倉"/>
           </hom>
         </entry>
         <entry xml:id="おけ">
@@ -3228,14 +3000,6 @@
             <ref target="li:覚束無し"/>
           </hom>
         </entry>
-        <entry xml:id="おぼほる">
-          <form type="pron">
-            <pron notation="kana">おぼほる</pron>
-          </form>
-          <hom n="1" xml:id="おぼほる.溺ほる">
-            <ref target="li:溺ほる"/>
-          </hom>
-        </entry>
         <entry xml:id="おぼほれ">
           <form type="pron">
             <pron notation="kana">おぼほれ</pron>
@@ -3253,14 +3017,6 @@
           </hom>
           <hom n="2" xml:id="おも.面">
             <ref target="li:面"/>
-          </hom>
-        </entry>
-        <entry xml:id="おもう">
-          <form type="pron">
-            <pron notation="kana">おもう</pron>
-          </form>
-          <hom n="1" xml:id="おもう.思う">
-            <ref target="li:思う"/>
           </hom>
         </entry>
         <entry xml:id="おもかげ">
@@ -3343,14 +3099,6 @@
             <ref target="li:思ほゆ"/>
           </hom>
         </entry>
-        <entry xml:id="おもほゆ">
-          <form type="pron">
-            <pron notation="kana">おもほゆ</pron>
-          </form>
-          <hom n="1" xml:id="おもほゆ.思ほゆ">
-            <ref target="li:思ほゆ"/>
-          </hom>
-        </entry>
         <entry xml:id="おもほゆる">
           <form type="pron">
             <pron notation="kana">おもほゆる</pron>
@@ -3375,27 +3123,11 @@
             <ref target="li:親"/>
           </hom>
         </entry>
-        <entry xml:id="おゆ">
-          <form type="pron">
-            <pron notation="kana">おゆ</pron>
-          </form>
-          <hom n="1" xml:id="おゆ.老ゆ">
-            <ref target="li:老ゆ"/>
-          </hom>
-        </entry>
         <entry xml:id="おり">
           <form type="pron">
             <pron notation="kana">おり</pron>
           </form>
           <hom n="1" xml:id="おり.織る">
-            <ref target="li:織る"/>
-          </hom>
-        </entry>
-        <entry xml:id="おる">
-          <form type="pron">
-            <pron notation="kana">おる</pron>
-          </form>
-          <hom n="1" xml:id="おる.織る">
             <ref target="li:織る"/>
           </hom>
         </entry>
@@ -3449,14 +3181,6 @@
           </form>
           <hom n="1" xml:id="かい.櫂">
             <ref target="li:櫂"/>
-          </hom>
-        </entry>
-        <entry xml:id="かう">
-          <form type="pron">
-            <pron notation="kana">かう</pron>
-          </form>
-          <hom n="1" xml:id="かう.交う">
-            <ref target="li:交う"/>
           </hom>
         </entry>
         <entry xml:id="かから">
@@ -3568,13 +3292,10 @@
           <hom n="1" xml:id="かく.懸く">
             <ref target="li:懸く"/>
           </hom>
-          <hom n="2" xml:id="かく.掻く">
-            <ref target="li:掻く"/>
-          </hom>
-          <hom n="3" xml:id="かく.斯く">
+          <hom n="2" xml:id="かく.斯く">
             <ref target="li:斯く"/>
           </hom>
-          <hom n="4" xml:id="かく.書く">
+          <hom n="3" xml:id="かく.書く">
             <ref target="li:書く"/>
           </hom>
         </entry>
@@ -3852,14 +3573,6 @@
             <ref target="li:霞む"/>
           </hom>
         </entry>
-        <entry xml:id="かすむ">
-          <form type="pron">
-            <pron notation="kana">かすむ</pron>
-          </form>
-          <hom n="1" xml:id="かすむ.霞む">
-            <ref target="li:霞む"/>
-          </hom>
-        </entry>
         <entry xml:id="かず">
           <form type="pron">
             <pron notation="kana">かず</pron>
@@ -3874,14 +3587,6 @@
           </form>
           <hom n="1" xml:id="かずかずに.数々なり">
             <ref target="li:数々なり"/>
-          </hom>
-        </entry>
-        <entry xml:id="かずら">
-          <form type="pron">
-            <pron notation="kana">かずら</pron>
-          </form>
-          <hom n="1" xml:id="かずら.かずら">
-            <ref target="li:かずら"/>
           </hom>
         </entry>
         <entry xml:id="かせやま">
@@ -4257,13 +3962,10 @@
           <form type="pron">
             <pron notation="kana">かは</pron>
           </form>
-          <hom n="1" xml:id="かは.かは">
-            <ref target="li:かは"/>
-          </hom>
-          <hom n="2" xml:id="かは.川">
+          <hom n="1" xml:id="かは.川">
             <ref target="li:川"/>
           </hom>
-          <hom n="3" xml:id="かは.河">
+          <hom n="2" xml:id="かは.河">
             <ref target="li:河"/>
           </hom>
         </entry>
@@ -4284,14 +3986,6 @@
           </form>
           <hom n="1" xml:id="かはぎり.河霧">
             <ref target="li:河霧"/>
-          </hom>
-        </entry>
-        <entry xml:id="かはし">
-          <form type="pron">
-            <pron notation="kana">かはし</pron>
-          </form>
-          <hom n="1" xml:id="かはし.交す">
-            <ref target="li:交す"/>
           </hom>
         </entry>
         <entry xml:id="かはづ">
@@ -4472,10 +4166,7 @@
           <hom n="1" xml:id="かへる.帰る">
             <ref target="li:帰る"/>
           </hom>
-          <hom n="2" xml:id="かへる.返る">
-            <ref target="li:返る"/>
-          </hom>
-        </entry>
+          </entry>
         <entry xml:id="かへるがへる">
           <form type="pron">
             <pron notation="kana">かへるがへる</pron>
@@ -4587,14 +4278,6 @@
           </form>
           <hom n="1" xml:id="かやりび.蚊遣火">
             <ref target="li:蚊遣火"/>
-          </hom>
-        </entry>
-        <entry xml:id="かよう">
-          <form type="pron">
-            <pron notation="kana">かよう</pron>
-          </form>
-          <hom n="1" xml:id="かよう.通う">
-            <ref target="li:通う"/>
           </hom>
         </entry>
         <entry xml:id="かよは">
@@ -4718,10 +4401,7 @@
           <hom n="4" xml:id="かり.狩り">
             <ref target="li:狩り"/>
           </hom>
-          <hom n="5" xml:id="かり.狩る">
-            <ref target="li:狩る"/>
-          </hom>
-          <hom n="6" xml:id="かり.雁">
+          <hom n="5" xml:id="かり.雁">
             <ref target="li:雁"/>
           </hom>
         </entry>
@@ -4740,10 +4420,7 @@
           <hom n="1" xml:id="かりがね.雁">
             <ref target="li:雁"/>
           </hom>
-          <hom n="2" xml:id="かりがね.雁が音">
-            <ref target="li:雁が音"/>
-          </hom>
-        </entry>
+          </entry>
         <entry xml:id="かりこも">
           <form type="pron">
             <pron notation="kana">かりこも</pron>
@@ -4783,10 +4460,7 @@
           <hom n="1" xml:id="かりに.仮なり">
             <ref target="li:仮なり"/>
           </hom>
-          <hom n="2" xml:id="かりに.刈る">
-            <ref target="li:刈る"/>
-          </hom>
-        </entry>
+          </entry>
         <entry xml:id="かる">
           <form type="pron">
             <pron notation="kana">かる</pron>
@@ -4821,17 +4495,6 @@
           </hom>
           <hom n="3" xml:id="かれ.離る">
             <ref target="li:離る"/>
-          </hom>
-        </entry>
-        <entry xml:id="かわ">
-          <form type="pron">
-            <pron notation="kana">かわ</pron>
-          </form>
-          <hom n="1" xml:id="かわ.川">
-            <ref target="li:川"/>
-          </hom>
-          <hom n="2" xml:id="かわ.河">
-            <ref target="li:河"/>
           </hom>
         </entry>
         <entry xml:id="かわか">
@@ -5214,14 +4877,6 @@
             <ref target="li:草枕"/>
           </hom>
         </entry>
-        <entry xml:id="くさむら">
-          <form type="pron">
-            <pron notation="kana">くさむら</pron>
-          </form>
-          <hom n="1" xml:id="くさむら.草叢">
-            <ref target="li:草叢"/>
-          </hom>
-        </entry>
         <entry xml:id="くすり">
           <form type="pron">
             <pron notation="kana">くすり</pron>
@@ -5561,14 +5216,6 @@
             <ref target="li:呉竹"/>
           </hom>
         </entry>
-        <entry xml:id="くれない">
-          <form type="pron">
-            <pron notation="kana">くれない</pron>
-          </form>
-          <hom n="1" xml:id="くれない.くれない">
-            <ref target="li:くれない"/>
-          </hom>
-        </entry>
         <entry xml:id="くれなゐ">
           <form type="pron">
             <pron notation="kana">くれなゐ</pron>
@@ -5730,14 +5377,6 @@
             <ref target="li:げ"/>
           </hom>
         </entry>
-        <entry xml:id="げんじつ">
-          <form type="pron">
-            <pron notation="kana">げんじつ</pron>
-          </form>
-          <hom n="1" xml:id="げんじつ.現実">
-            <ref target="li:現実"/>
-          </hom>
-        </entry>
         <entry xml:id="こ">
           <form type="pron">
             <pron notation="kana">こ</pron>
@@ -5762,14 +5401,6 @@
           </hom>
           <hom n="7" xml:id="こ.濃し">
             <ref target="li:濃し"/>
-          </hom>
-        </entry>
-        <entry xml:id="こい">
-          <form type="pron">
-            <pron notation="kana">こい</pron>
-          </form>
-          <hom n="1" xml:id="こい.濃い">
-            <ref target="li:濃い"/>
           </hom>
         </entry>
         <entry xml:id="こえ">
@@ -5981,14 +5612,6 @@
             <ref target="li:答ふ"/>
           </hom>
         </entry>
-        <entry xml:id="こちら">
-          <form type="pron">
-            <pron notation="kana">こちら</pron>
-          </form>
-          <hom n="1" xml:id="こちら.こちら">
-            <ref target="li:こちら"/>
-          </hom>
-        </entry>
         <entry xml:id="こと">
           <form type="pron">
             <pron notation="kana">こと</pron>
@@ -6055,14 +5678,6 @@
           </form>
           <hom n="1" xml:id="こなた.此方">
             <ref target="li:此方"/>
-          </hom>
-        </entry>
-        <entry xml:id="この">
-          <form type="pron">
-            <pron notation="kana">この</pron>
-          </form>
-          <hom n="1" xml:id="この.此の">
-            <ref target="li:此の"/>
           </hom>
         </entry>
         <entry xml:id="こはぎ">
@@ -6346,14 +5961,6 @@
             <ref target="li:声"/>
           </hom>
         </entry>
-        <entry xml:id="ご">
-          <form type="pron">
-            <pron notation="kana">ご</pron>
-          </form>
-          <hom n="1" xml:id="ご.御">
-            <ref target="li:御"/>
-          </hom>
-        </entry>
         <entry xml:id="ごと">
           <form type="pron">
             <pron notation="kana">ごと</pron>
@@ -6374,14 +5981,6 @@
           </form>
           <hom n="1" xml:id="ごとく.如し">
             <ref target="li:如し"/>
-          </hom>
-        </entry>
-        <entry xml:id="ごとし">
-          <form type="pron">
-            <pron notation="kana">ごとし</pron>
-          </form>
-          <hom n="1" xml:id="ごとし.ごとし">
-            <ref target="li:ごとし"/>
           </hom>
         </entry>
         <entry xml:id="ごろも">
@@ -6426,14 +6025,6 @@
           </hom>
           <hom n="3" xml:id="さか.栄ゆ">
             <ref target="li:栄ゆ"/>
-          </hom>
-        </entry>
-        <entry xml:id="さかえる">
-          <form type="pron">
-            <pron notation="kana">さかえる</pron>
-          </form>
-          <hom n="1" xml:id="さかえる.栄える">
-            <ref target="li:栄える"/>
           </hom>
         </entry>
         <entry xml:id="さかき">
@@ -6779,14 +6370,6 @@
             <ref target="li:里"/>
           </hom>
         </entry>
-        <entry xml:id="さとびと">
-          <form type="pron">
-            <pron notation="kana">さとびと</pron>
-          </form>
-          <hom n="1" xml:id="さとびと.里人">
-            <ref target="li:里人"/>
-          </hom>
-        </entry>
         <entry xml:id="さなへ">
           <form type="pron">
             <pron notation="kana">さなへ</pron>
@@ -6899,14 +6482,6 @@
             <ref target="li:寒し"/>
           </hom>
         </entry>
-        <entry xml:id="さむから">
-          <form type="pron">
-            <pron notation="kana">さむから</pron>
-          </form>
-          <hom n="1" xml:id="さむから.寒し">
-            <ref target="li:寒し"/>
-          </hom>
-        </entry>
         <entry xml:id="さむく">
           <form type="pron">
             <pron notation="kana">さむく</pron>
@@ -7001,14 +6576,6 @@
           </form>
           <hom n="1" xml:id="さよ.小夜">
             <ref target="li:小夜"/>
-          </hom>
-        </entry>
-        <entry xml:id="さよなか">
-          <form type="pron">
-            <pron notation="kana">さよなか</pron>
-          </form>
-          <hom n="1" xml:id="さよなか.小夜中">
-            <ref target="li:小夜中"/>
           </hom>
         </entry>
         <entry xml:id="さら">
@@ -7146,14 +6713,6 @@
           </hom>
           <hom n="3" xml:id="し.す">
             <ref target="li:す"/>
-          </hom>
-        </entry>
-        <entry xml:id="しお">
-          <form type="pron">
-            <pron notation="kana">しお</pron>
-          </form>
-          <hom n="1" xml:id="しお.潮">
-            <ref target="li:潮"/>
           </hom>
         </entry>
         <entry xml:id="しか">
@@ -7333,14 +6892,6 @@
             <ref target="li:繁る"/>
           </hom>
         </entry>
-        <entry xml:id="しず">
-          <form type="pron">
-            <pron notation="kana">しず</pron>
-          </form>
-          <hom n="1" xml:id="しず.賤">
-            <ref target="li:賤"/>
-          </hom>
-        </entry>
         <entry xml:id="した">
           <form type="pron">
             <pron notation="kana">した</pron>
@@ -7387,14 +6938,6 @@
           </form>
           <hom n="1" xml:id="したひも.下紐">
             <ref target="li:下紐"/>
-          </hom>
-        </entry>
-        <entry xml:id="しだく">
-          <form type="pron">
-            <pron notation="kana">しだく</pron>
-          </form>
-          <hom n="1" xml:id="しだく.しだく">
-            <ref target="li:しだく"/>
           </hom>
         </entry>
         <entry xml:id="しづ">
@@ -7585,14 +7128,6 @@
             <ref target="li:忍草"/>
           </hom>
         </entry>
-        <entry xml:id="しのぶぐさ">
-          <form type="pron">
-            <pron notation="kana">しのぶぐさ</pron>
-          </form>
-          <hom n="1" xml:id="しのぶぐさ.忍草">
-            <ref target="li:忍草"/>
-          </hom>
-        </entry>
         <entry xml:id="しのぶる">
           <form type="pron">
             <pron notation="kana">しのぶる</pron>
@@ -7765,14 +7300,6 @@
             <ref target="li:霜夜"/>
           </hom>
         </entry>
-        <entry xml:id="しょ">
-          <form type="pron">
-            <pron notation="kana">しょ</pron>
-          </form>
-          <hom n="1" xml:id="しょ.所">
-            <ref target="li:所"/>
-          </hom>
-        </entry>
         <entry xml:id="しら">
           <form type="pron">
             <pron notation="kana">しら</pron>
@@ -7931,22 +7458,11 @@
             <ref target="li:著し"/>
           </hom>
         </entry>
-        <entry xml:id="しるす">
-          <form type="pron">
-            <pron notation="kana">しるす</pron>
-          </form>
-          <hom n="1" xml:id="しるす.記す">
-            <ref target="li:記す"/>
-          </hom>
-        </entry>
         <entry xml:id="しるべ">
           <form type="pron">
             <pron notation="kana">しるべ</pron>
           </form>
-          <hom n="1" xml:id="しるべ.導">
-            <ref target="li:導"/>
-          </hom>
-          <hom n="2" xml:id="しるべ.標">
+          <hom n="1" xml:id="しるべ.標">
             <ref target="li:標"/>
           </hom>
         </entry>
@@ -7958,27 +7474,11 @@
             <ref target="li:知る"/>
           </hom>
         </entry>
-        <entry xml:id="しろ">
-          <form type="pron">
-            <pron notation="kana">しろ</pron>
-          </form>
-          <hom n="1" xml:id="しろ.白">
-            <ref target="li:白"/>
-          </hom>
-        </entry>
         <entry xml:id="しろく">
           <form type="pron">
             <pron notation="kana">しろく</pron>
           </form>
           <hom n="1" xml:id="しろく.白し">
-            <ref target="li:白し"/>
-          </hom>
-        </entry>
-        <entry xml:id="しろし">
-          <form type="pron">
-            <pron notation="kana">しろし</pron>
-          </form>
-          <hom n="1" xml:id="しろし.白し">
             <ref target="li:白し"/>
           </hom>
         </entry>
@@ -8014,36 +7514,12 @@
             <ref target="li:じ"/>
           </hom>
         </entry>
-        <entry xml:id="じたばた">
-          <form type="pron">
-            <pron notation="kana">じたばた</pron>
-          </form>
-          <hom n="1" xml:id="じたばた.じたばた">
-            <ref target="li:じたばた"/>
-          </hom>
-        </entry>
         <entry xml:id="す">
           <form type="pron">
             <pron notation="kana">す</pron>
           </form>
           <hom n="1" xml:id="す.す">
             <ref target="li:す"/>
-          </hom>
-        </entry>
-        <entry xml:id="すうた">
-          <form type="pron">
-            <pron notation="kana">すうた</pron>
-          </form>
-          <hom n="1" xml:id="すうた.数多">
-            <ref target="li:数多"/>
-          </hom>
-        </entry>
-        <entry xml:id="すえ">
-          <form type="pron">
-            <pron notation="kana">すえ</pron>
-          </form>
-          <hom n="1" xml:id="すえ.末">
-            <ref target="li:末"/>
           </hom>
         </entry>
         <entry xml:id="すが">
@@ -8103,14 +7579,6 @@
           </hom>
           <hom n="2" xml:id="すぎ.過ぐ">
             <ref target="li:過ぐ"/>
-          </hom>
-        </entry>
-        <entry xml:id="すくなかり">
-          <form type="pron">
-            <pron notation="kana">すくなかり</pron>
-          </form>
-          <hom n="1" xml:id="すくなかり.少なし">
-            <ref target="li:少なし"/>
           </hom>
         </entry>
         <entry xml:id="すくなき">
@@ -8185,14 +7653,6 @@
             <ref target="li:荒む"/>
           </hom>
         </entry>
-        <entry xml:id="すじ">
-          <form type="pron">
-            <pron notation="kana">すじ</pron>
-          </form>
-          <hom n="1" xml:id="すじ.筋">
-            <ref target="li:筋"/>
-          </hom>
-        </entry>
         <entry xml:id="すすき">
           <form type="pron">
             <pron notation="kana">すすき</pron>
@@ -8218,14 +7678,6 @@
           </form>
           <hom n="1" xml:id="すずしく.涼し">
             <ref target="li:涼し"/>
-          </hom>
-        </entry>
-        <entry xml:id="すだれ">
-          <form type="pron">
-            <pron notation="kana">すだれ</pron>
-          </form>
-          <hom n="1" xml:id="すだれ.簾">
-            <ref target="li:簾"/>
           </hom>
         </entry>
         <entry xml:id="すぢ">
@@ -8422,14 +7874,6 @@
             <ref target="li:瀬"/>
           </hom>
         </entry>
-        <entry xml:id="せいけい">
-          <form type="pron">
-            <pron notation="kana">せいけい</pron>
-          </form>
-          <hom n="1" xml:id="せいけい.生計">
-            <ref target="li:生計"/>
-          </hom>
-        </entry>
         <entry xml:id="せき">
           <form type="pron">
             <pron notation="kana">せき</pron>
@@ -8484,14 +7928,6 @@
             <ref target="li:瀬瀬"/>
           </hom>
         </entry>
-        <entry xml:id="せっつ">
-          <form type="pron">
-            <pron notation="kana">せっつ</pron>
-          </form>
-          <hom n="1" xml:id="せっつ.摂津">
-            <ref target="li:摂津"/>
-          </hom>
-        </entry>
         <entry xml:id="せばき">
           <form type="pron">
             <pron notation="kana">せばき</pron>
@@ -8506,14 +7942,6 @@
           </form>
           <hom n="1" xml:id="せみ.蝉">
             <ref target="li:蝉"/>
-          </hom>
-        </entry>
-        <entry xml:id="せむ">
-          <form type="pron">
-            <pron notation="kana">せむ</pron>
-          </form>
-          <hom n="1" xml:id="せむ.責む">
-            <ref target="li:責む"/>
           </hom>
         </entry>
         <entry xml:id="せめ">
@@ -8546,14 +7974,6 @@
           </form>
           <hom n="1" xml:id="せよ.す">
             <ref target="li:す"/>
-          </hom>
-        </entry>
-        <entry xml:id="せん">
-          <form type="pron">
-            <pron notation="kana">せん</pron>
-          </form>
-          <hom n="1" xml:id="せん.千">
-            <ref target="li:千"/>
           </hom>
         </entry>
         <entry xml:id="そ">
@@ -8615,14 +8035,6 @@
             <pron notation="kana">そはり</pron>
           </form>
           <hom n="1" xml:id="そはり.添はる">
-            <ref target="li:添はる"/>
-          </hom>
-        </entry>
-        <entry xml:id="そはる">
-          <form type="pron">
-            <pron notation="kana">そはる</pron>
-          </form>
-          <hom n="1" xml:id="そはる.添はる">
             <ref target="li:添はる"/>
           </hom>
         </entry>
@@ -9081,14 +8493,6 @@
             <ref target="li:譬ふ"/>
           </hom>
         </entry>
-        <entry xml:id="たどり">
-          <form type="pron">
-            <pron notation="kana">たどり</pron>
-          </form>
-          <hom n="1" xml:id="たどり.辿る">
-            <ref target="li:辿る"/>
-          </hom>
-        </entry>
         <entry xml:id="たどる">
           <form type="pron">
             <pron notation="kana">たどる</pron>
@@ -9125,10 +8529,7 @@
           <form type="pron">
             <pron notation="kana">たなばた</pron>
           </form>
-          <hom n="1" xml:id="たなばた.七夕">
-            <ref target="li:七夕"/>
-          </hom>
-          <hom n="2" xml:id="たなばた.織女">
+          <hom n="1" xml:id="たなばた.織女">
             <ref target="li:織女"/>
           </hom>
         </entry>
@@ -9258,14 +8659,6 @@
           </form>
           <hom n="1" xml:id="たはれ.戯る">
             <ref target="li:戯る"/>
-          </hom>
-        </entry>
-        <entry xml:id="たばねる">
-          <form type="pron">
-            <pron notation="kana">たばねる</pron>
-          </form>
-          <hom n="1" xml:id="たばねる.たばねる">
-            <ref target="li:たばねる"/>
           </hom>
         </entry>
         <entry xml:id="たばね">
@@ -9445,7 +8838,7 @@
             <ref target="li:手向く"/>
           </hom>
         </entry>
-        <entry xml:id="たむく"><form type="pron"><pron notation="kana">たむく</pron></form><hom n="1" xml:id="たむく.手向く"><ref target="li:手向く"/></hom></entry><entry xml:id="たむけやま">
+        <entry xml:id="たむけやま">
           <form type="pron">
             <pron notation="kana">たむけやま</pron>
           </form>
@@ -9553,14 +8946,6 @@
             <ref target="li:誰"/>
           </hom>
         </entry>
-        <entry xml:id="たわわに">
-          <form type="pron">
-            <pron notation="kana">たわわに</pron>
-          </form>
-          <hom n="1" xml:id="たわわに.撓なり">
-            <ref target="li:撓なり"/>
-          </hom>
-        </entry>
         <entry xml:id="だに">
           <form type="pron">
             <pron notation="kana">だに</pron>
@@ -9618,22 +9003,6 @@
           </form>
           <hom n="1" xml:id="ちかけれ.近し">
             <ref target="li:近し"/>
-          </hom>
-        </entry>
-        <entry xml:id="ちかし">
-          <form type="pron">
-            <pron notation="kana">ちかし</pron>
-          </form>
-          <hom n="1" xml:id="ちかし.近し">
-            <ref target="li:近し"/>
-          </hom>
-        </entry>
-        <entry xml:id="ちぎり">
-          <form type="pron">
-            <pron notation="kana">ちぎり</pron>
-          </form>
-          <hom n="1" xml:id="ちぎり.契る">
-            <ref target="li:契る"/>
           </hom>
         </entry>
         <entry xml:id="ちぐさ">
@@ -9768,14 +9137,6 @@
             <ref target="li:つ"/>
           </hom>
         <hom n="2" xml:id="つ.津"><ref target="li:津"/></hom></entry>
-        <entry xml:id="つえ">
-          <form type="pron">
-            <pron notation="kana">つえ</pron>
-          </form>
-          <hom n="1" xml:id="つえ.杖">
-            <ref target="li:杖"/>
-          </hom>
-        </entry>
         <entry xml:id="つゑ">
           <form type="pron">
             <pron notation="kana">つゑ</pron>
@@ -9953,10 +9314,7 @@
           <hom n="1" xml:id="つぐ.告ぐ">
             <ref target="li:告ぐ"/>
           </hom>
-          <hom n="2" xml:id="つぐ.継ぐ">
-            <ref target="li:継ぐ"/>
-          </hom>
-        </entry>
+          </entry>
         <entry xml:id="つけ">
           <form type="pron">
             <pron notation="kana">つけ</pron>
@@ -10202,14 +9560,6 @@
             <ref target="li:露"/>
           </hom>
         </entry>
-        <entry xml:id="つゆけかり">
-          <form type="pron">
-            <pron notation="kana">つゆけかり</pron>
-          </form>
-          <hom n="1" xml:id="つゆけかり.露けし">
-            <ref target="li:露けし"/>
-          </hom>
-        </entry>
         <entry xml:id="つゆけき">
           <form type="pron">
             <pron notation="kana">つゆけき</pron>
@@ -10313,10 +9663,7 @@
           <hom n="1" xml:id="つる.つ">
             <ref target="li:つ"/>
           </hom>
-          <hom n="2" xml:id="つる.釣る">
-            <ref target="li:釣る"/>
-          </hom>
-          <hom n="3" xml:id="つる.鶴">
+          <hom n="2" xml:id="つる.鶴">
             <ref target="li:鶴"/>
           </hom>
         </entry>
@@ -10428,14 +9775,6 @@
             <ref target="li:照る"/>
           </hom>
         </entry>
-        <entry xml:id="てん">
-          <form type="pron">
-            <pron notation="kana">てん</pron>
-          </form>
-          <hom n="1" xml:id="てん.天">
-            <ref target="li:天"/>
-          </hom>
-        </entry>
         <entry xml:id="で">
           <form type="pron">
             <pron notation="kana">で</pron>
@@ -10456,14 +9795,6 @@
           </hom>
           <hom n="3" xml:id="と.門">
             <ref target="li:門"/>
-          </hom>
-        </entry>
-        <entry xml:id="とおく">
-          <form type="pron">
-            <pron notation="kana">とおく</pron>
-          </form>
-          <hom n="1" xml:id="とおく.遠く">
-            <ref target="li:遠く"/>
           </hom>
         </entry>
         <entry xml:id="とがむる">
@@ -10536,14 +9867,6 @@
             <ref target="li:解く"/>
           </hom>
         </entry>
-        <entry xml:id="とける">
-          <form type="pron">
-            <pron notation="kana">とける</pron>
-          </form>
-          <hom n="1" xml:id="とける.とける">
-            <ref target="li:とける"/>
-          </hom>
-        </entry>
         <entry xml:id="とこ">
           <form type="pron">
             <pron notation="kana">とこ</pron>
@@ -10555,14 +9878,6 @@
             <ref target="li:鳥籠"/>
           </hom>
         <hom n="3" xml:id="とこ.常"><ref target="li:常"/></hom></entry>
-        <entry xml:id="とことはに">
-          <form type="pron">
-            <pron notation="kana">とことはに</pron>
-          </form>
-          <hom n="1" xml:id="とことはに.常に">
-            <ref target="li:常に"/>
-          </hom>
-        </entry>
         <entry xml:id="とこなか">
           <form type="pron">
             <pron notation="kana">とこなか</pron>
@@ -10594,10 +9909,7 @@
           <hom n="1" xml:id="とし.年">
             <ref target="li:年"/>
           </hom>
-          <hom n="2" xml:id="とし.歳">
-            <ref target="li:歳"/>
-          </hom>
-        </entry>
+          </entry>
         <entry xml:id="とせ"><form type="pron"><pron notation="kana">とせ</pron></form><hom n="1" xml:id="とせ.年"><ref target="li:年"/></hom><hom n="2" xml:id="とせ.歳"><ref target="li:歳"/></hom></entry><entry xml:id="としつき">
           <form type="pron">
             <pron notation="kana">としつき</pron>
@@ -10807,14 +10119,6 @@
             <ref target="li:遠し"/>
           </hom>
         </entry>
-        <entry xml:id="とほけれ">
-          <form type="pron">
-            <pron notation="kana">とほけれ</pron>
-          </form>
-          <hom n="1" xml:id="とほけれ.遠し">
-            <ref target="li:遠し"/>
-          </hom>
-        </entry>
         <entry xml:id="とほざかる">
           <form type="pron">
             <pron notation="kana">とほざかる</pron>
@@ -10886,14 +10190,6 @@
           </hom>
           <hom n="2" xml:id="とめ.止む">
             <ref target="li:止む"/>
-          </hom>
-        </entry>
-        <entry xml:id="とめる">
-          <form type="pron">
-            <pron notation="kana">とめる</pron>
-          </form>
-          <hom n="1" xml:id="とめる.とめる">
-            <ref target="li:とめる"/>
           </hom>
         </entry>
         <entry xml:id="とも">
@@ -10995,10 +10291,7 @@
           <hom n="1" xml:id="ど.ど">
             <ref target="li:ど"/>
           </hom>
-          <hom n="2" xml:id="ど.度">
-            <ref target="li:度"/>
-          </hom>
-        </entry>
+          </entry>
         <entry xml:id="な">
           <form type="pron">
             <pron notation="kana">な</pron>
@@ -11201,14 +10494,6 @@
           </hom>
           <hom n="2" xml:id="ながら.長柄">
             <ref target="li:長柄"/>
-          </hom>
-        </entry>
-        <entry xml:id="ながらふ">
-          <form type="pron">
-            <pron notation="kana">ながらふ</pron>
-          </form>
-          <hom n="1" xml:id="ながらふ.永らふ">
-            <ref target="li:永らふ"/>
           </hom>
         </entry>
         <entry xml:id="ながらへ">
@@ -11430,14 +10715,6 @@
             <ref target="li:無し"/>
           </hom>
         </entry>
-        <entry xml:id="なしぶ">
-          <form type="pron">
-            <pron notation="kana">なしぶ</pron>
-          </form>
-          <hom n="1" xml:id="なしぶ.無しぶ">
-            <ref target="li:無しぶ"/>
-          </hom>
-        </entry>
         <entry xml:id="なす">
           <form type="pron">
             <pron notation="kana">なす</pron>
@@ -11455,14 +10732,6 @@
           </form>
           <hom n="1" xml:id="なぞ.何故">
             <ref target="li:何故"/>
-          </hom>
-        </entry>
-        <entry xml:id="なっぱ">
-          <form type="pron">
-            <pron notation="kana">なっぱ</pron>
-          </form>
-          <hom n="1" xml:id="なっぱ.菜っぱ">
-            <ref target="li:菜っぱ"/>
           </hom>
         </entry>
         <entry xml:id="なつ">
@@ -11498,14 +10767,6 @@
           </form>
           <hom n="1" xml:id="なつごろも.夏衣">
             <ref target="li:夏衣"/>
-          </hom>
-        </entry>
-        <entry xml:id="なつの">
-          <form type="pron">
-            <pron notation="kana">なつの</pron>
-          </form>
-          <hom n="1" xml:id="なつの.夏野">
-            <ref target="li:夏野"/>
           </hom>
         </entry>
         <entry xml:id="なつむし">
@@ -11660,10 +10921,7 @@
           <hom n="4" xml:id="なみ.浪">
             <ref target="li:浪"/>
           </hom>
-          <hom n="5" xml:id="なみ.無み">
-            <ref target="li:無み"/>
-          </hom>
-        </entry>
+          </entry>
         <entry xml:id="なみだ">
           <form type="pron">
             <pron notation="kana">なみだ</pron>
@@ -11857,10 +11115,7 @@
           <hom n="4" xml:id="に.ぬ">
             <ref target="li:ぬ"/>
           </hom>
-          <hom n="5" xml:id="に.二">
-            <ref target="li:二"/>
-          </hom>
-          <hom n="6" xml:id="に.似る">
+          <hom n="5" xml:id="に.似る">
             <ref target="li:似る"/>
           </hom>
         </entry>
@@ -11926,14 +11181,6 @@
           </form>
           <hom n="1" xml:id="にしき.錦">
             <ref target="li:錦"/>
-          </hom>
-        </entry>
-        <entry xml:id="にち">
-          <form type="pron">
-            <pron notation="kana">にち</pron>
-          </form>
-          <hom n="1" xml:id="にち.日">
-            <ref target="li:日"/>
           </hom>
         </entry>
         <entry xml:id="になひ">
@@ -12569,14 +11816,6 @@
             <ref target="li:斑"/>
           </hom>
         </entry>
-        <entry xml:id="はちじゅう">
-          <form type="pron">
-            <pron notation="kana">はちじゅう</pron>
-          </form>
-          <hom n="1" xml:id="はちじゅう.八十">
-            <ref target="li:八十"/>
-          </hom>
-        </entry>
         <entry xml:id="はちす">
           <form type="pron">
             <pron notation="kana">はちす</pron>
@@ -12593,14 +11832,6 @@
             <ref target="li:蓮葉"/>
           </hom>
         </entry>
-        <entry xml:id="はっせん">
-          <form type="pron">
-            <pron notation="kana">はっせん</pron>
-          </form>
-          <hom n="1" xml:id="はっせん.八千">
-            <ref target="li:八千"/>
-          </hom>
-        </entry>
         <entry xml:id="はつ">
           <form type="pron">
             <pron notation="kana">はつ</pron>
@@ -12608,10 +11839,7 @@
           <hom n="1" xml:id="はつ.初">
             <ref target="li:初"/>
           </hom>
-          <hom n="2" xml:id="はつ.果つ">
-            <ref target="li:果つ"/>
-          </hom>
-        </entry>
+          </entry>
         <entry xml:id="はつかぜ">
           <form type="pron">
             <pron notation="kana">はつかぜ</pron>
@@ -13081,14 +12309,6 @@
             <ref target="li:引く"/>
           </hom>
         </entry>
-        <entry xml:id="ひかば">
-          <form type="pron">
-            <pron notation="kana">ひかば</pron>
-          </form>
-          <hom n="1" xml:id="ひかば.引く">
-            <ref target="li:引く"/>
-          </hom>
-        </entry>
         <entry xml:id="ひかり">
           <form type="pron">
             <pron notation="kana">ひかり</pron>
@@ -13167,14 +12387,6 @@
             <pron notation="kana">ひさしかる</pron>
           </form>
           <hom n="1" xml:id="ひさしかる.久し">
-            <ref target="li:久し"/>
-          </hom>
-        </entry>
-        <entry xml:id="ひさしき">
-          <form type="pron">
-            <pron notation="kana">ひさしき</pron>
-          </form>
-          <hom n="1" xml:id="ひさしき.久し">
             <ref target="li:久し"/>
           </hom>
         </entry>
@@ -13438,14 +12650,6 @@
             <ref target="li:紐"/>
           </hom>
         </entry>
-        <entry xml:id="ひゃく">
-          <form type="pron">
-            <pron notation="kana">ひゃく</pron>
-          </form>
-          <hom n="1" xml:id="ひゃく.百">
-            <ref target="li:百"/>
-          </hom>
-        </entry>
         <entry xml:id="ひる">
           <form type="pron">
             <pron notation="kana">ひる</pron>
@@ -13470,14 +12674,6 @@
             <pron notation="kana">ひろひ</pron>
           </form>
           <hom n="1" xml:id="ひろひ.拾ふ">
-            <ref target="li:拾ふ"/>
-          </hom>
-        </entry>
-        <entry xml:id="ひろふ">
-          <form type="pron">
-            <pron notation="kana">ひろふ</pron>
-          </form>
-          <hom n="1" xml:id="ひろふ.拾ふ">
             <ref target="li:拾ふ"/>
           </hom>
         </entry>
@@ -13833,14 +13029,6 @@
             <ref target="li:降る"/>
           </hom>
         <hom n="5" xml:id="ふる.古し"><ref target="li:古し"/></hom></entry>
-        <entry xml:id="ふるい">
-          <form type="pron">
-            <pron notation="kana">ふるい</pron>
-          </form>
-          <hom n="1" xml:id="ふるい.旧い">
-            <ref target="li:旧い"/>
-          </hom>
-        </entry>
         <entry xml:id="ふるえ">
           <form type="pron">
             <pron notation="kana">ふるえ</pron>
@@ -14076,14 +13264,6 @@
             <ref target="li:穂"/>
           </hom>
         </entry>
-        <entry xml:id="ほう">
-          <form type="pron">
-            <pron notation="kana">ほう</pron>
-          </form>
-          <hom n="1" xml:id="ほう.方">
-            <ref target="li:方"/>
-          </hom>
-        </entry>
         <entry xml:id="ほえ">
           <form type="pron">
             <pron notation="kana">ほえ</pron>
@@ -14106,14 +13286,6 @@
           </form>
           <hom n="1" xml:id="ほがらほがらと.朗ら朗らと">
             <ref target="li:朗ら朗らと"/>
-          </hom>
-        </entry>
-        <entry xml:id="ほこらし">
-          <form type="pron">
-            <pron notation="kana">ほこらし</pron>
-          </form>
-          <hom n="1" xml:id="ほこらし.誇らし">
-            <ref target="li:誇らし"/>
           </hom>
         </entry>
         <entry xml:id="ほこらしき">
@@ -14250,14 +13422,6 @@
             <ref target="li:仄仄と"/>
           </hom>
         </entry>
-        <entry xml:id="ほゆ">
-          <form type="pron">
-            <pron notation="kana">ほゆ</pron>
-          </form>
-          <hom n="1" xml:id="ほゆ.吠ゆ">
-            <ref target="li:吠ゆ"/>
-          </hom>
-        </entry>
         <entry xml:id="ほり">
           <form type="pron">
             <pron notation="kana">ほり</pron>
@@ -14282,14 +13446,6 @@
             <ref target="li:ほろろ"/>
           </hom>
         </entry>
-        <entry xml:id="ほん">
-          <form type="pron">
-            <pron notation="kana">ほん</pron>
-          </form>
-          <hom n="1" xml:id="ほん.本">
-            <ref target="li:本"/>
-          </hom>
-        </entry>
         <entry xml:id="ま">
           <form type="pron">
             <pron notation="kana">ま</pron>
@@ -14297,10 +13453,7 @@
           <hom n="1" xml:id="ま.ま">
             <ref target="li:ま"/>
           </hom>
-          <hom n="2" xml:id="ま.住む">
-            <ref target="li:住む"/>
-          </hom>
-          <hom n="3" xml:id="ま.も">
+          <hom n="2" xml:id="ま.も">
             <ref target="li:も"/>
           </hom>
           <hom n="3" xml:id="ま.真">
@@ -14895,17 +14048,6 @@
             <ref target="li:衛る"/>
           </hom>
         </entry>
-        <entry xml:id="まもる">
-          <form type="pron">
-            <pron notation="kana">まもる</pron>
-          </form>
-          <hom n="1" xml:id="まもる.守る">
-            <ref target="li:守る"/>
-          </hom>
-          <hom n="2" xml:id="まもる.衛る">
-            <ref target="li:衛る"/>
-          </hom>
-        </entry>
         <entry xml:id="まゆみ">
           <form type="pron">
             <pron notation="kana">まゆみ</pron>
@@ -14944,14 +14086,6 @@
           </form>
           <hom n="1" xml:id="まれに.稀なり">
             <ref target="li:稀なり"/>
-          </hom>
-        </entry>
-        <entry xml:id="まん">
-          <form type="pron">
-            <pron notation="kana">まん</pron>
-          </form>
-          <hom n="1" xml:id="まん.万">
-            <ref target="li:万"/>
           </hom>
         </entry>
         <entry xml:id="み">
@@ -15034,14 +14168,6 @@
           </form>
           <hom n="1" xml:id="みかのはら.瓶原">
             <ref target="li:瓶原"/>
-          </hom>
-        </entry>
-        <entry xml:id="みき">
-          <form type="pron">
-            <pron notation="kana">みき</pron>
-          </form>
-          <hom n="1" xml:id="みき.幹">
-            <ref target="li:幹"/>
           </hom>
         </entry>
         <entry xml:id="みくさ">
@@ -15514,7 +14640,7 @@
             <ref target="li:向く"/>
           </hom>
         </entry>
-        <entry xml:id="むけ"><form type="pron"><pron notation="kana">むけ</pron></form><hom n="1" xml:id="むけ.向く"><ref target="li:向く"/></hom></entry><entry xml:id="むくい">
+        <entry xml:id="むくい">
           <form type="pron">
             <pron notation="kana">むくい</pron>
           </form>
@@ -15528,14 +14654,6 @@
           </form>
           <hom n="1" xml:id="むぐら.葎">
             <ref target="li:葎"/>
-          </hom>
-        </entry>
-        <entry xml:id="むける">
-          <form type="pron">
-            <pron notation="kana">むける</pron>
-          </form>
-          <hom n="1" xml:id="むける.向ける">
-            <ref target="li:向ける"/>
           </hom>
         </entry>
         <entry xml:id="むさしの">
@@ -15624,14 +14742,6 @@
             <ref target="li:睦まじ"/>
           </hom>
         </entry>
-        <entry xml:id="むつまじい">
-          <form type="pron">
-            <pron notation="kana">むつまじい</pron>
-          </form>
-          <hom n="1" xml:id="むつまじい.睦まじい">
-            <ref target="li:睦まじい"/>
-          </hom>
-        </entry>
         <entry xml:id="むなし">
           <form type="pron">
             <pron notation="kana">むなし</pron>
@@ -15696,14 +14806,6 @@
             <ref target="li:群"/>
           </hom>
         </entry>
-        <entry xml:id="むらがる">
-          <form type="pron">
-            <pron notation="kana">むらがる</pron>
-          </form>
-          <hom n="1" xml:id="むらがる.群がる">
-            <ref target="li:群がる"/>
-          </hom>
-        </entry>
         <entry xml:id="むらさき">
           <form type="pron">
             <pron notation="kana">むらさき</pron>
@@ -15728,22 +14830,11 @@
             <ref target="li:群群"/>
           </hom>
         </entry>
-        <entry xml:id="むる">
-          <form type="pron">
-            <pron notation="kana">むる</pron>
-          </form>
-          <hom n="1" xml:id="むる.群る">
-            <ref target="li:群る"/>
-          </hom>
-        </entry>
         <entry xml:id="むれ">
           <form type="pron">
             <pron notation="kana">むれ</pron>
           </form>
-          <hom n="1" xml:id="むれ.群れ">
-            <ref target="li:群れ"/>
-          </hom>
-          <hom n="2" xml:id="むれ.群る">
+          <hom n="1" xml:id="むれ.群る">
             <ref target="li:群る"/>
           </hom>
         </entry>
@@ -15765,14 +14856,6 @@
           </hom>
           <hom n="5" xml:id="め.雨">
             <ref target="li:雨"/>
-          </hom>
-        </entry>
-        <entry xml:id="めい">
-          <form type="pron">
-            <pron notation="kana">めい</pron>
-          </form>
-          <hom n="1" xml:id="めい.名">
-            <ref target="li:名"/>
           </hom>
         </entry>
         <entry xml:id="めぐり">
@@ -16025,14 +15108,6 @@
             <ref target="li:紅葉づ"/>
           </hom>
         </entry>
-        <entry xml:id="もめん">
-          <form type="pron">
-            <pron notation="kana">もめん</pron>
-          </form>
-          <hom n="1" xml:id="もめん.木綿">
-            <ref target="li:木綿"/>
-          </hom>
-        </entry>
         <entry xml:id="ももくさ">
           <form type="pron">
             <pron notation="kana">ももくさ</pron>
@@ -16134,10 +15209,7 @@
           <hom n="1" xml:id="もる.守る">
             <ref target="li:守る"/>
           </hom>
-          <hom n="2" xml:id="もる.漏る">
-            <ref target="li:漏る"/>
-          </hom>
-        </entry>
+          </entry>
         <entry xml:id="もるやま">
           <form type="pron">
             <pron notation="kana">もるやま</pron>
@@ -16174,14 +15246,6 @@
           </hom>
           <hom n="2" xml:id="や.夜">
             <ref target="li:夜"/>
-          </hom>
-        </entry>
-        <entry xml:id="やえ">
-          <form type="pron">
-            <pron notation="kana">やえ</pron>
-          </form>
-          <hom n="1" xml:id="やえ.八重">
-            <ref target="li:八重"/>
           </hom>
         </entry>
         <entry xml:id="やかた">
@@ -16312,14 +15376,6 @@
             <ref target="li:八千世"/>
           </hom>
         </entry>
-        <entry xml:id="やつるる">
-          <form type="pron">
-            <pron notation="kana">やつるる</pron>
-          </form>
-          <hom n="1" xml:id="やつるる.窶る">
-            <ref target="li:窶る"/>
-          </hom>
-        </entry>
         <entry xml:id="やど">
           <form type="pron">
             <pron notation="kana">やど</pron>
@@ -16348,10 +15404,7 @@
           <form type="pron">
             <pron notation="kana">やなぎ</pron>
           </form>
-          <hom n="1" xml:id="やなぎ.やなぎ">
-            <ref target="li:やなぎ"/>
-          </hom>
-          <hom n="2" xml:id="やなぎ.柳">
+          <hom n="1" xml:id="やなぎ.柳">
             <ref target="li:柳"/>
           </hom>
         </entry>
@@ -16410,10 +15463,7 @@
           <form type="pron">
             <pron notation="kana">やまおろし</pron>
           </form>
-          <hom n="1" xml:id="やまおろし.山おろし">
-            <ref target="li:山おろし"/>
-          </hom>
-          <hom n="2" xml:id="やまおろし.山颪">
+          <hom n="1" xml:id="やまおろし.山颪">
             <ref target="li:山颪"/>
           </hom>
         </entry>
@@ -16642,14 +15692,6 @@
           </form>
           <hom n="1" xml:id="やむ.止む">
             <ref target="li:止む"/>
-          </hom>
-        </entry>
-        <entry xml:id="やよし">
-          <form type="pron">
-            <pron notation="kana">やよし</pron>
-          </form>
-          <hom n="1" xml:id="やよし.多し">
-            <ref target="li:多し"/>
           </hom>
         </entry>
         <entry xml:id="やよけれ">
@@ -17247,27 +16289,11 @@
             <ref target="li:万世"/>
           </hom>
         </entry>
-        <entry xml:id="よわから">
-          <form type="pron">
-            <pron notation="kana">よわから</pron>
-          </form>
-          <hom n="1" xml:id="よわから.弱し">
-            <ref target="li:弱し"/>
-          </hom>
-        </entry>
         <entry xml:id="よわく">
           <form type="pron">
             <pron notation="kana">よわく</pron>
           </form>
           <hom n="1" xml:id="よわく.弱し">
-            <ref target="li:弱し"/>
-          </hom>
-        </entry>
-        <entry xml:id="よわし">
-          <form type="pron">
-            <pron notation="kana">よわし</pron>
-          </form>
-          <hom n="1" xml:id="よわし.弱し">
             <ref target="li:弱し"/>
           </hom>
         </entry>
@@ -17379,14 +16405,6 @@
             <ref target="li:有り"/>
           </hom>
         </entry>
-        <entry xml:id="ろ">
-          <form type="pron">
-            <pron notation="kana">ろ</pron>
-          </form>
-          <hom n="1" xml:id="ろ.路">
-            <ref target="li:路"/>
-          </hom>
-        </entry>
         <entry xml:id="わ">
           <form type="pron">
             <pron notation="kana">わ</pron>
@@ -17441,14 +16459,6 @@
           </form>
           <hom n="1" xml:id="わかな.若菜">
             <ref target="li:若菜"/>
-          </hom>
-        </entry>
-        <entry xml:id="わかゆ">
-          <form type="pron">
-            <pron notation="kana">わかゆ</pron>
-          </form>
-          <hom n="1" xml:id="わかゆ.若ゆ">
-            <ref target="li:若ゆ"/>
           </hom>
         </entry>
         <entry xml:id="わかる">
@@ -17511,14 +16521,6 @@
           </form>
           <hom n="1" xml:id="わぎもこ.我妹子">
             <ref target="li:我妹子"/>
-          </hom>
-        </entry>
-        <entry xml:id="わく">
-          <form type="pron">
-            <pron notation="kana">わく</pron>
-          </form>
-          <hom n="1" xml:id="わく.分く">
-            <ref target="li:分く"/>
           </hom>
         </entry>
         <entry xml:id="わくらばに">
@@ -17780,14 +16782,6 @@
             <ref target="li:侘ぶ"/>
           </hom>
         </entry>
-        <entry xml:id="わぶれ">
-          <form type="pron">
-            <pron notation="kana">わぶれ</pron>
-          </form>
-          <hom n="1" xml:id="わぶれ.侘ぶ">
-            <ref target="li:侘ぶ"/>
-          </hom>
-        </entry>
         <entry xml:id="わら">
           <form type="pron">
             <pron notation="kana">わら</pron>
@@ -17926,14 +16920,6 @@
             <ref target="li:筬"/>
           </hom>
         </entry>
-        <entry xml:id="をさをさし">
-          <form type="pron">
-            <pron notation="kana">をさをさし</pron>
-          </form>
-          <hom n="1" xml:id="をさをさし.長々し">
-            <ref target="li:長々し"/>
-          </hom>
-        </entry>
         <entry xml:id="をさをさく">
           <form type="pron">
             <pron notation="kana">をさをさく</pron>
@@ -18004,14 +16990,6 @@
           </form>
           <hom n="1" xml:id="をしほ.小塩">
             <ref target="li:小塩"/>
-          </hom>
-        </entry>
-        <entry xml:id="をしま">
-          <form type="pron">
-            <pron notation="kana">をしま</pron>
-          </form>
-          <hom n="1" xml:id="をしま.惜しむ">
-            <ref target="li:惜しむ"/>
           </hom>
         </entry>
         <entry xml:id="をしみ">
