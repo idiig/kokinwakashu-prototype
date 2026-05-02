@@ -219,19 +219,6 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.1.4600"/>
         </entry>
-        <entry xml:id="かける" type="simplex">
-          <form type="lemma">
-            <orth xml:lang="ja">かける</orth>
-            <pron notation="kana">かける</pron>
-          </form>
-          <gramGrp>
-            <pos value="V.free">V.free</pos>
-            <gram type="UPosTag">VERB</gram>
-            <gram type="IPAPosTag">動詞-自立</gram>
-            <gram type="UniDicPosTag">動詞-一般</gram>
-          </gramGrp>
-          <sense ana="wlsph:WLSPH.2.1515"/>
-        </entry>
         <entry xml:id="かし" type="simplex">
           <form type="lemma">
             <orth xml:lang="ja">かし</orth>
@@ -1166,19 +1153,6 @@
           <sense xml:id="ぬ.s1" ana="wlsph:WLSPH.3.1200"/>
           <sense xml:id="ぬ.s2" ana="wlsph:WLSPH.9.0010"/>
         </entry>
-        <entry xml:id="ぬれる" type="simplex">
-          <form type="lemma">
-            <orth xml:lang="ja">ぬれる</orth>
-            <pron notation="kana">ぬれる</pron>
-          </form>
-          <gramGrp>
-            <pos value="V.free">V.free</pos>
-            <gram type="UPosTag">VERB</gram>
-            <gram type="IPAPosTag">動詞-自立</gram>
-            <gram type="UniDicPosTag">動詞-一般</gram>
-          </gramGrp>
-          <sense ana="wlsph:WLSPH.2.5130"/>
-        </entry>
         <entry xml:id="の" type="simplex">
           <form type="lemma">
             <orth xml:lang="ja">の</orth>
@@ -1788,19 +1762,6 @@
             <gram type="UniDicPosTag">助動詞</gram>
           </gramGrp>
           <sense ana="wlsph:WLSPH.9.0040"/>
-        </entry>
-        <entry xml:id="わすれる" type="simplex">
-          <form type="lemma">
-            <orth xml:lang="ja">わすれる</orth>
-            <pron notation="kana">わすれる</pron>
-          </form>
-          <gramGrp>
-            <pos value="V.free">V.free</pos>
-            <gram type="UPosTag">VERB</gram>
-            <gram type="IPAPosTag">動詞-自立</gram>
-            <gram type="UniDicPosTag">動詞-一般</gram>
-          </gramGrp>
-          <sense ana="wlsph:WLSPH.2.3050"/>
         </entry>
         <entry xml:id="を" type="simplex">
           <form type="lemma">
@@ -3994,26 +3955,13 @@
             <def xml:lang="ja">用-関係-作用-出入り</def>
           </sense>
         </entry>
-        <entry xml:id="入れる" type="simplex">
-          <form type="lemma">
-            <orth xml:lang="ja">入れる</orth>
-            <pron notation="kana">いれる</pron>
-          </form>
-          <gramGrp>
-            <pos value="V.free">V.free</pos>
-            <gram type="UPosTag">VERB</gram>
-            <gram type="IPAPosTag">動詞-自立</gram>
-            <gram type="UniDicPosTag">動詞-一般</gram>
-          </gramGrp>
-          <sense ana="wlsph:WLSPH.2.1530"/>
-        </entry>
         <entry xml:id="入れ紐" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">入れ紐</orth>
-            <pron notation="kana"><w lemmaRef="ri:いれる.入れる">いれ</w><w lemmaRef="ri:ひも.ひも">ひも</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:いれる.入る">いれ</w><w lemmaRef="ri:ひも.ひも">ひも</w></pron>
           </form>
           <form type="compound">
-            <ref target="#入れる">入れる</ref>
+            <ref target="#入る">入る</ref>
             <ref target="#ひも">ひも</ref>
           </form>
           <gramGrp>
@@ -4492,19 +4440,6 @@
           <form type="lemma">
             <orth xml:lang="ja">分く</orth>
             <pron notation="kana">わく</pron>
-          </form>
-          <gramGrp>
-            <pos value="V.free">V.free</pos>
-            <gram type="UPosTag">VERB</gram>
-            <gram type="IPAPosTag">動詞-自立</gram>
-            <gram type="UniDicPosTag">動詞-一般</gram>
-          </gramGrp>
-          <sense ana="wlsph:WLSPH.2.1552"/>
-        </entry>
-        <entry xml:id="分ける" type="simplex">
-          <form type="lemma">
-            <orth xml:lang="ja">分ける</orth>
-            <pron notation="kana">わける</pron>
           </form>
           <gramGrp>
             <pos value="V.free">V.free</pos>
@@ -8518,11 +8453,11 @@
         <entry xml:id="山分け衣" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">山分け衣</orth>
-            <pron notation="kana"><w lemmaRef="ri:やま.山">やま</w><w lemmaRef="ri:わける.分ける">わけ</w><w lemmaRef="ri:ごろも.衣">ごろも</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:やま.山">やま</w><w lemmaRef="ri:わける.分く">わけ</w><w lemmaRef="ri:ごろも.衣">ごろも</w></pron>
           </form>
           <form type="compound">
             <ref target="#山">山</ref>
-            <ref target="#分ける">分ける</ref>
+            <ref target="#分く">分く</ref>
             <ref target="#衣">衣</ref>
           </form>
           <gramGrp>
@@ -10734,10 +10669,10 @@
         <entry xml:id="忘れ形見" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">忘れ形見</orth>
-            <pron notation="kana"><w lemmaRef="ri:わすれる.わすれる">わすれ</w><w lemmaRef="ri:かたみ.形見">がたみ</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:わすれる.忘る">わすれ</w><w lemmaRef="ri:かたみ.形見">がたみ</w></pron>
           </form>
           <form type="compound">
-            <ref target="#わすれる">わすれる</ref>
+            <ref target="#忘る">忘る</ref>
             <ref target="#形見">形見</ref>
           </form>
           <gramGrp>
@@ -10753,10 +10688,10 @@
         <entry xml:id="忘れ草" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">忘れ草</orth>
-            <pron notation="kana"><w lemmaRef="ri:わすれる.わすれる">わすれ</w><w lemmaRef="ri:くさ.草">ぐさ</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:わすれる.忘る">わすれ</w><w lemmaRef="ri:くさ.草">ぐさ</w></pron>
           </form>
           <form type="compound">
-            <ref target="#わすれる">わすれる</ref>
+            <ref target="#忘る">忘る</ref>
             <ref target="#草">草</ref>
           </form>
           <gramGrp>
@@ -10770,10 +10705,10 @@
         <entry xml:id="忘草" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">忘草</orth>
-            <pron notation="kana"><w lemmaRef="ri:わすれる.わすれる">わすれ</w><w lemmaRef="ri:くさ.草">ぐさ</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:わすれる.忘る">わすれ</w><w lemmaRef="ri:くさ.草">ぐさ</w></pron>
           </form>
           <form type="compound">
-            <ref target="#わすれる">わすれる</ref>
+            <ref target="#忘る">忘る</ref>
             <ref target="#草">草</ref>
           </form>
           <gramGrp>
@@ -11307,10 +11242,10 @@
         <entry xml:id="懸道" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">懸道</orth>
-            <pron notation="kana"><w lemmaRef="ri:かける.かける">かけ</w><w lemmaRef="ri:みち.道">みち</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:かける.掛く">かけ</w><w lemmaRef="ri:みち.道">みち</w></pron>
           </form>
           <form type="compound">
-            <ref target="#かける">かける</ref>
+            <ref target="#掛く">掛く</ref>
             <ref target="#道">道</ref>
           </form>
           <gramGrp>
@@ -11616,26 +11551,13 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.2.1516"/>
         </entry>
-        <entry xml:id="投げる" type="simplex">
-          <form type="lemma">
-            <orth xml:lang="ja">投げる</orth>
-            <pron notation="kana">なげる</pron>
-          </form>
-          <gramGrp>
-            <pos value="V.free">V.free</pos>
-            <gram type="UPosTag">VERB</gram>
-            <gram type="IPAPosTag">動詞-自立</gram>
-            <gram type="UniDicPosTag">動詞-一般</gram>
-          </gramGrp>
-          <sense ana="wlsph:WLSPH.2.1516"/>
-        </entry>
         <entry xml:id="投げ木" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">投げ木</orth>
-            <pron notation="kana"><w lemmaRef="ri:なげる.投げる">なげ</w><w lemmaRef="ri:き.木">き</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:なげる.投ぐ">なげ</w><w lemmaRef="ri:き.木">き</w></pron>
           </form>
           <form type="compound">
-            <ref target="#投げる">投げる</ref>
+            <ref target="#投ぐ">投ぐ</ref>
             <ref target="#木">木</ref>
           </form>
           <gramGrp>
@@ -15791,19 +15713,6 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.4.3130"/>
         </entry>
-        <entry xml:id="浅い" type="simplex">
-          <form type="lemma">
-            <orth xml:lang="ja">浅い</orth>
-            <pron notation="kana">あさい</pron>
-          </form>
-          <gramGrp>
-            <pos value="Ai.free">Ai.free</pos>
-            <gram type="UPosTag">ADJ</gram>
-            <gram type="IPAPosTag">形容詞-自立</gram>
-            <gram type="UniDicPosTag">形容詞-一般</gram>
-          </gramGrp>
-          <sense ana="wlsph:WLSPH.3.1920"/>
-        </entry>
         <entry xml:id="浅し" type="simplex">
           <form type="lemma">
             <orth xml:lang="ja">浅し</orth>
@@ -17063,10 +16972,10 @@
         <entry xml:id="濡衣" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">濡衣</orth>
-            <pron notation="kana"><w lemmaRef="ri:ぬれる.ぬれる">ぬれ</w><w lemmaRef="ri:きぬ.衣">ぎぬ</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:ぬれる.濡る">ぬれ</w><w lemmaRef="ri:きぬ.衣">ぎぬ</w></pron>
           </form>
           <form type="compound">
-            <ref target="#ぬれる">ぬれる</ref>
+            <ref target="#濡る">濡る</ref>
             <ref target="#衣">衣</ref>
           </form>
           <gramGrp>
@@ -21385,19 +21294,6 @@
             <def xml:lang="ja">体-生産物-物品-持ち物・売り物・土産など</def>
           </sense>
         </entry>
-        <entry xml:id="若い" type="simplex">
-          <form type="lemma">
-            <orth xml:lang="ja">若い</orth>
-            <pron notation="kana">わかい</pron>
-          </form>
-          <gramGrp>
-            <pos value="Ai.free">Ai.free</pos>
-            <gram type="UPosTag">ADJ</gram>
-            <gram type="IPAPosTag">形容詞-自立</gram>
-            <gram type="UniDicPosTag">形容詞-一般</gram>
-          </gramGrp>
-          <sense ana="wlsph:WLSPH.3.1660"/>
-        </entry>
         <entry xml:id="若し" type="simplex"><form type="lemma"><orth xml:lang="ja">若し</orth><pron notation="kana">わかし</pron></form><gramGrp><pos value="Ai.free">Ai.free</pos><gram type="UPosTag">ADJ</gram><gram type="IPAPosTag">形容詞-自立</gram><gram type="UniDicPosTag">形容詞-一般</gram></gramGrp><sense ana="wlsph:WLSPH.3.1660"/></entry><entry xml:id="若ゆ" type="simplex">
           <form type="lemma">
             <orth xml:lang="ja">若ゆ</orth>
@@ -24601,19 +24497,6 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.3.1920"/>
         </entry>
-        <entry xml:id="長い" type="simplex">
-          <form type="lemma">
-            <orth xml:lang="ja">長い</orth>
-            <pron notation="kana">ながい</pron>
-          </form>
-          <gramGrp>
-            <pos value="Ai.free">Ai.free</pos>
-            <gram type="UPosTag">ADJ</gram>
-            <gram type="IPAPosTag">形容詞-自立</gram>
-            <gram type="UniDicPosTag">形容詞-一般</gram>
-          </gramGrp>
-          <sense ana="wlsph:WLSPH.3.1920"/>
-        </entry>
         <entry xml:id="長く" type="simplex">
           <form type="lemma">
             <orth xml:lang="ja">長く</orth>
@@ -25177,7 +25060,7 @@
         <entry xml:id="雑ず" type="simplex">
           <form type="lemma">
             <orth xml:lang="ja">雑ず</orth>
-            <pron notation="kana">まず</pron>
+            <pron notation="kana">まぜ</pron>
           </form>
           <gramGrp>
             <pos value="V.free">V.free</pos>
