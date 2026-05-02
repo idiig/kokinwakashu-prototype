@@ -10426,7 +10426,7 @@
             <ref target="li:流す"/>
           </hom>
         </entry>
-        <entry xml:id="ながす">
+        <entry xml:id="なが"><form type="pron"><pron notation="kana">なが</pron></form><hom n="1" xml:id="なが.長し"><ref target="li:長し"/></hom></entry><entry xml:id="ながす">
           <form type="pron">
             <pron notation="kana">ながす</pron>
           </form>
@@ -16412,7 +16412,7 @@
           <hom n="1" xml:id="わか.分く">
             <ref target="li:分く"/>
           </hom>
-        </entry>
+        <hom n="2" xml:id="わか.若し"><ref target="li:若し"/></hom></entry>
         <entry xml:id="わかい">
           <form type="pron">
             <pron notation="kana">わかい</pron>

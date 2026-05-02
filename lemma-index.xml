@@ -15863,10 +15863,10 @@
         <entry xml:id="浅緑" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">浅緑</orth>
-            <pron notation="kana"><w lemmaRef="ri:あさい.浅い">あさ</w><w lemmaRef="ri:みどり.緑">みどり</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:あさ.浅し">あさ</w><w lemmaRef="ri:みどり.緑">みどり</w></pron>
           </form>
           <form type="compound">
-            <ref target="#浅い">浅い</ref>
+            <ref target="#浅し">浅し</ref>
             <ref target="#緑">緑</ref>
           </form>
           <gramGrp>
@@ -21427,7 +21427,7 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.3.1660"/>
         </entry>
-        <entry xml:id="若ゆ" type="simplex">
+        <entry xml:id="若し" type="simplex"><form type="lemma"><orth xml:lang="ja">若し</orth><pron notation="kana">わかし</pron></form><gramGrp><pos value="Ai.free">Ai.free</pos><gram type="UPosTag">ADJ</gram><gram type="IPAPosTag">形容詞-自立</gram><gram type="UniDicPosTag">形容詞-一般</gram></gramGrp><sense ana="wlsph:WLSPH.3.1660"/></entry><entry xml:id="若ゆ" type="simplex">
           <form type="lemma">
             <orth xml:lang="ja">若ゆ</orth>
             <pron notation="kana">わかゆ</pron>
@@ -21443,10 +21443,10 @@
         <entry xml:id="若草" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">若草</orth>
-            <pron notation="kana"><w lemmaRef="ri:わかい.若い">わか</w><w lemmaRef="ri:くさ.草">くさ</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:わか.若し">わか</w><w lemmaRef="ri:くさ.草">くさ</w></pron>
           </form>
           <form type="compound">
-            <ref target="#若い">若い</ref>
+            <ref target="#若し">若し</ref>
             <ref target="#草">草</ref>
           </form>
           <gramGrp>
@@ -21460,10 +21460,10 @@
         <entry xml:id="若菜" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">若菜</orth>
-            <pron notation="kana"><w lemmaRef="ri:わかい.若い">わか</w><w lemmaRef="ri:な.菜">な</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:わか.若し">わか</w><w lemmaRef="ri:な.菜">な</w></pron>
           </form>
           <form type="compound">
-            <ref target="#若い">若い</ref>
+            <ref target="#若し">若し</ref>
             <ref target="#菜">菜</ref>
           </form>
           <gramGrp>
@@ -21477,10 +21477,10 @@
         <entry xml:id="若菰" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">若菰</orth>
-            <pron notation="kana"><w lemmaRef="ri:わかい.若い">わか</w><w lemmaRef="ri:こも.菰">ごも</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:わか.若し">わか</w><w lemmaRef="ri:こも.菰">ごも</w></pron>
           </form>
           <form type="compound">
-            <ref target="#若い">若い</ref>
+            <ref target="#若し">若し</ref>
             <ref target="#菰">菰</ref>
           </form>
           <gramGrp>
@@ -24743,10 +24743,10 @@
         <entry xml:id="長雨" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">長雨</orth>
-            <pron notation="kana"><w lemmaRef="ri:ながい.長い">なが</w><w lemmaRef="ri:め.雨">め</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:なが.長し">なが</w><w lemmaRef="ri:め.雨">め</w></pron>
           </form>
           <form type="compound">
-            <ref target="#長い">長い</ref>
+            <ref target="#長し">長し</ref>
             <ref target="#雨">雨</ref>
           </form>
           <gramGrp>
