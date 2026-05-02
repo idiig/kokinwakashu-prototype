@@ -29,9 +29,9 @@
             <def xml:lang="ja">他--判断-判断</def>
           </sense>
         </entry>
-        <entry xml:id="いか_" type="simplex">
+        <entry xml:id="如何" type="simplex">
           <form type="lemma">
-            <orth xml:lang="ja">いか−</orth>
+            <orth xml:lang="ja">如何</orth>
             <pron notation="kana">いか</pron>
           </form>
           <gramGrp>
@@ -7300,10 +7300,10 @@
         <entry xml:id="如何許り" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">如何許り</orth>
-            <pron notation="kana"><w lemmaRef="ri:いか.いか_">いか</w><w lemmaRef="ri:ばかり.許り">ばかり</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:いか.如何">いか</w><w lemmaRef="ri:ばかり.許り">ばかり</w></pron>
           </form>
           <form type="compound">
-            <ref target="#いか_">いか−</ref>
+            <ref target="#如何">如何</ref>
             <ref target="#許り">許り</ref>
           </form>
           <gramGrp>

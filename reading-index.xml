@@ -1080,8 +1080,8 @@
           <form type="pron">
             <pron notation="kana">いか</pron>
           </form>
-          <hom n="1" xml:id="いか.いか_">
-            <ref target="li:いか_"/>
+          <hom n="1" xml:id="いか.如何">
+            <ref target="li:如何"/>
           </hom>
         </entry>
         <entry xml:id="いかが">
