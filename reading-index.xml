@@ -7404,7 +7404,7 @@
           <hom n="1" xml:id="しづ.倭文">
             <ref target="li:倭文"/>
           </hom>
-        </entry>
+        <hom n="2" xml:id="しづ.静かなり"><ref target="li:静かなり"/></hom></entry>
         <entry xml:id="しづく">
           <form type="pron">
             <pron notation="kana">しづく</pron>
@@ -18224,5 +18224,5 @@
             <ref target="li:群る"/>
           </hom>
         </entry>
-      <entry xml:id="はつせ"><form type="pron"><pron notation="kana">はつせ</pron></form><hom n="1" xml:id="はつせ.初瀬"><ref target="li:初瀬"/></hom></entry><entry xml:id="しはつ"><form type="pron"><pron notation="kana">しはつ</pron></form><hom n="1" xml:id="しはつ.四極"><ref target="li:四極"/></hom></entry><entry xml:id="おほゐ"><form type="pron"><pron notation="kana">おほゐ</pron></form><hom n="1" xml:id="おほゐ.大井"><ref target="li:大井"/></hom></entry><entry xml:id="もがみ"><form type="pron"><pron notation="kana">もがみ</pron></form><hom n="1" xml:id="もがみ.最上"><ref target="li:最上"/></hom></entry><entry xml:id="をば"><form type="pron"><pron notation="kana">をば</pron></form><hom n="1" xml:id="をば.姨"><ref target="li:姨"/></hom></entry><entry xml:id="をばすて"><form type="pron"><pron notation="kana">をばすて</pron></form><hom n="1" xml:id="をばすて.姨捨"><ref target="li:姨捨"/></hom></entry><entry xml:id="さしで"><form type="pron"><pron notation="kana">さしで</pron></form><hom n="1" xml:id="さしで.差出"><ref target="li:差出"/></hom></entry></div>
+      <entry xml:id="はつせ"><form type="pron"><pron notation="kana">はつせ</pron></form><hom n="1" xml:id="はつせ.初瀬"><ref target="li:初瀬"/></hom></entry><entry xml:id="しはつ"><form type="pron"><pron notation="kana">しはつ</pron></form><hom n="1" xml:id="しはつ.四極"><ref target="li:四極"/></hom></entry><entry xml:id="おほゐ"><form type="pron"><pron notation="kana">おほゐ</pron></form><hom n="1" xml:id="おほゐ.大井"><ref target="li:大井"/></hom></entry><entry xml:id="もがみ"><form type="pron"><pron notation="kana">もがみ</pron></form><hom n="1" xml:id="もがみ.最上"><ref target="li:最上"/></hom></entry><entry xml:id="をば"><form type="pron"><pron notation="kana">をば</pron></form><hom n="1" xml:id="をば.姨"><ref target="li:姨"/></hom></entry><entry xml:id="をばすて"><form type="pron"><pron notation="kana">をばすて</pron></form><hom n="1" xml:id="をばすて.姨捨"><ref target="li:姨捨"/></hom></entry><entry xml:id="さしで"><form type="pron"><pron notation="kana">さしで</pron></form><hom n="1" xml:id="さしで.差出"><ref target="li:差出"/></hom></entry><entry xml:id="くし"><form type="pron"><pron notation="kana">くし</pron></form><hom n="1" xml:id="くし.串"><ref target="li:串"/></hom></entry></div>
       </back></text></TEI>

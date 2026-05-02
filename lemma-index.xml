@@ -6936,11 +6936,7 @@
             <orth xml:lang="ja">夏野</orth>
             <pron notation="kana"><w lemmaRef="ri:なつ.夏">なつ</w><w lemmaRef="ri:の.野">の</w></pron>
           </form>
-          <form type="compound">
-            <ref target="#なつ">なつ</ref>
-            <ref target="#野">野</ref>
-          </form>
-          <gramGrp>
+          <form type="compound"><ref target="#夏">夏</ref><ref target="#野">野</ref></form><gramGrp>
             <pos value="N.g">N.g</pos>
             <gram type="UPosTag">NOUN</gram>
             <gram type="IPAPosTag">名詞-一般</gram>
@@ -16104,11 +16100,7 @@
             <orth xml:lang="ja">河原</orth>
             <pron notation="kana"><w lemmaRef="ri:かは.川">かは</w><w lemmaRef="ri:ら.原">ら</w></pron>
           </form>
-          <form type="compound">
-            <ref target="#河">河</ref>
-            <ref target="#原">原</ref>
-          </form>
-          <gramGrp>
+          <form type="compound"><ref target="#川">川</ref><ref target="#原">原</ref></form><gramGrp>
             <pos value="N.g">N.g</pos>
             <gram type="UPosTag">NOUN</gram>
             <gram type="IPAPosTag">名詞-一般</gram>
@@ -17779,11 +17771,7 @@
             <orth xml:lang="ja">無き名</orth>
             <pron notation="kana"><w lemmaRef="ri:なき.無し">なき</w><w lemmaRef="ri:な.名">な</w></pron>
           </form>
-          <form type="compound">
-            <ref target="#無み">無み</ref>
-            <ref target="#名">名</ref>
-          </form>
-          <gramGrp>
+          <form type="compound"><ref target="#無し">無し</ref><ref target="#名">名</ref></form><gramGrp>
             <pos value="N.g">N.g</pos>
             <gram type="UPosTag">NOUN</gram>
             <gram type="IPAPosTag">名詞-一般</gram>
@@ -18321,11 +18309,7 @@
             <orth xml:lang="ja">玉垂れ</orth>
             <pron notation="kana"><w lemmaRef="ri:たま.玉">たま</w><w lemmaRef="ri:たれ.垂る">だれ</w></pron>
           </form>
-          <form type="compound">
-            <ref target="#珠">珠</ref>
-            <ref target="#簾">簾</ref>
-          </form>
-          <gramGrp>
+          <form type="compound"><ref target="#玉">玉</ref><ref target="#垂る">垂る</ref></form><gramGrp>
             <pos value="N.g">N.g</pos>
             <gram type="UPosTag">NOUN</gram>
             <gram type="IPAPosTag">名詞-一般</gram>
@@ -20270,11 +20254,7 @@
             <orth xml:lang="ja">空五倍子染め</orth>
             <pron notation="kana"><w lemmaRef="ri:うつぶし.空五倍子">うつぶし</w><w lemmaRef="ri:そめ.染む">ぞめ</w></pron>
           </form>
-          <form type="compound">
-            <ref target="#空五倍子">空五倍子</ref>
-            <ref target="#物">物</ref>
-          </form>
-          <gramGrp>
+          <form type="compound"><ref target="#空五倍子">空五倍子</ref><ref target="#染む">染む</ref></form><gramGrp>
             <pos value="N.g">N.g</pos>
             <gram type="UPosTag">NOUN</gram>
             <gram type="IPAPosTag">名詞-一般</gram>
@@ -20371,12 +20351,7 @@
             <orth xml:lang="ja">立田山</orth>
             <pron notation="kana"><w lemmaRef="ri:たつた.立田">たつた</w><w lemmaRef="ri:やま.山">やま</w></pron>
           </form>
-          <form type="compound">
-            <ref target="#立田">立田</ref>
-            <ref target="#の">の</ref>
-            <ref target="#山">山</ref>
-          </form>
-          <gramGrp>
+          <form type="compound"><ref target="#立田">立田</ref><ref target="#山">山</ref></form><gramGrp>
             <pos value="N.Prop.p.g">N.Prop.p.g</pos>
             <gram type="UPosTag">PROPN</gram>
             <gram type="IPAPosTag">名詞-固有名詞-地域-一般</gram>
@@ -20389,12 +20364,7 @@
             <orth xml:lang="ja">立田河</orth>
             <pron notation="kana"><w lemmaRef="ri:たつた.立田">たつた</w><w lemmaRef="ri:かは.川">かは</w></pron>
           </form>
-          <form type="compound">
-            <ref target="#立田">立田</ref>
-            <ref target="#の">の</ref>
-            <ref target="#川">川</ref>
-          </form>
-          <gramGrp>
+          <form type="compound"><ref target="#立田">立田</ref><ref target="#川">川</ref></form><gramGrp>
             <pos value="N.Prop.p.g">N.Prop.p.g</pos>
             <gram type="UPosTag">PROPN</gram>
             <gram type="IPAPosTag">名詞-固有名詞-地域-一般</gram>
@@ -20407,12 +20377,7 @@
             <orth xml:lang="ja">竜田河</orth>
             <pron notation="kana"><w lemmaRef="ri:たつた.立田">たつた</w><w lemmaRef="ri:かは.川">がは</w></pron>
           </form>
-          <form type="compound">
-            <ref target="#立田">立田</ref>
-            <ref target="#の">の</ref>
-            <ref target="#川">川</ref>
-          </form>
-          <gramGrp>
+          <form type="compound"><ref target="#立田">立田</ref><ref target="#川">川</ref></form><gramGrp>
             <pos value="N.Prop.p.g">N.Prop.p.g</pos>
             <gram type="UPosTag">PROPN</gram>
             <gram type="IPAPosTag">名詞-固有名詞-地域-一般</gram>
@@ -22451,11 +22416,7 @@
             <orth xml:lang="ja">菅原</orth>
             <pron notation="kana"><w lemmaRef="ri:すが.菅">すが</w><w lemmaRef="ri:はら.原">はら</w></pron>
           </form>
-          <form type="compound">
-            <ref target="#梓">梓</ref>
-            <ref target="#原">原</ref>
-          </form>
-          <gramGrp>
+          <form type="compound"><ref target="#菅">菅</ref><ref target="#原">原</ref></form><gramGrp>
             <pos value="N.g">N.g</pos>
             <gram type="UPosTag">NOUN</gram>
             <gram type="IPAPosTag">名詞-一般</gram>
@@ -26522,11 +26483,7 @@
             <orth xml:lang="ja">静心</orth>
             <pron notation="kana"><w lemmaRef="ri:しづ.静かなり">しづ</w><w lemmaRef="ri:こころ.心">ごころ</w></pron>
           </form>
-          <form type="compound">
-            <ref target="#じたばた">じたばた</ref>
-            <ref target="#心">心</ref>
-          </form>
-          <gramGrp>
+          <form type="compound"><ref target="#静かなり">静かなり</ref><ref target="#心">心</ref></form><gramGrp>
             <pos value="N.g">N.g</pos>
             <gram type="UPosTag">NOUN</gram>
             <gram type="IPAPosTag">名詞-一般</gram>
@@ -26634,12 +26591,7 @@
             <orth xml:lang="ja">音羽山</orth>
             <pron notation="kana"><w lemmaRef="ri:おとは.音羽">おとは</w><w lemmaRef="ri:やま.山">やま</w></pron>
           </form>
-          <form type="compound">
-            <ref target="#音羽">音羽</ref>
-            <ref target="#の">の</ref>
-            <ref target="#山">山</ref>
-          </form>
-          <gramGrp>
+          <form type="compound"><ref target="#音羽">音羽</ref><ref target="#山">山</ref></form><gramGrp>
             <pos value="N.Prop.p.g">N.Prop.p.g</pos>
             <gram type="UPosTag">PROPN</gram>
             <gram type="IPAPosTag">名詞-固有名詞-地域-一般</gram>
