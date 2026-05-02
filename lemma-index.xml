@@ -9827,11 +9827,7 @@
             <orth xml:lang="ja">常夏</orth>
             <pron notation="kana"><w lemmaRef="ri:とこ.常">とこ</w><w lemmaRef="ri:なつ.夏">なつ</w></pron>
           </form>
-          <form type="compound">
-            <ref target="#常">常</ref>
-            <ref target="#なつ">なつ</ref>
-          </form>
-          <gramGrp>
+          <form type="compound"><ref target="#常">常</ref><ref target="#夏">夏</ref></form><gramGrp>
             <pos value="N.g">N.g</pos>
             <gram type="UPosTag">NOUN</gram>
             <gram type="IPAPosTag">名詞-一般</gram>
@@ -13953,13 +13949,9 @@
         <entry xml:id="有数" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">有数</orth>
-            <pron notation="kana"><w lemmaRef="ri:あり.有り">あり</w><w lmmaRef="ri:かず.数">かず</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:あり.有り">あり</w><w lemmaRef="ri:かず.数">かず</w></pron>
           </form>
-          <form type="compound">
-            <ref target="#有り">有り</ref>
-            <ref target="#数">数</ref>
-          </form>
-          <gramGrp>
+          <form type="compound"><ref target="#有り">有り</ref><ref target="#数">数</ref></form><gramGrp>
             <pos value="N.g">N.g</pos>
             <gram type="UPosTag">NOUN</gram>
             <gram type="IPAPosTag">名詞-一般</gram>
@@ -18442,11 +18434,7 @@
             <orth xml:lang="ja">現し心</orth>
             <pron notation="kana"><w lemmaRef="ri:うつし.現">うつし</w><w lemmaRef="ri:こころ.心">ごころ</w></pron>
           </form>
-          <form type="compound">
-            <ref target="#現実">現実</ref>
-            <ref target="#心">心</ref>
-          </form>
-          <gramGrp>
+          <form type="compound"><ref target="#現">現</ref><ref target="#心">心</ref></form><gramGrp>
             <pos value="N.g">N.g</pos>
             <gram type="UPosTag">NOUN</gram>
             <gram type="IPAPosTag">名詞-一般</gram>
@@ -24940,11 +24928,7 @@
             <orth xml:lang="ja">遠近</orth>
             <pron notation="kana"><w lemmaRef="ri:をち.遠方">をち</w><w lemmaRef="ri:こち.此方">こち</w></pron>
           </form>
-          <form type="compound">
-            <ref target="#あちら">あちら</ref>
-            <ref target="#こちら">こちら</ref>
-          </form>
-          <gramGrp>
+          <form type="compound"><ref target="#遠方">遠方</ref><ref target="#此方">此方</ref></form><gramGrp>
             <pos value="N.g">N.g</pos>
             <gram type="UPosTag">NOUN</gram>
             <gram type="IPAPosTag">名詞-一般</gram>
