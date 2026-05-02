@@ -8466,11 +8466,7 @@
             <pron notation="kana"><w lemmaRef="ri:さ.小">さ</w><w lemmaRef="ri:や.夜">や</w></pron>
             <pron notation="kana"><w lemmaRef="ri:さ.小">さ</w><w lemmaRef="ri:よ.夜">よ</w></pron>
           </form>
-          <form type="compound">
-            <ref target="#小">小</ref>
-            <ref target="#夜">夜</ref>
-          </form>
-          <gramGrp>
+          <form type="compound"><ref target="#小">小</ref><ref target="#夜">夜</ref></form><gramGrp>
             <pos value="N.g">N.g</pos>
             <gram type="UPosTag">NOUN</gram>
             <gram type="IPAPosTag">名詞-一般</gram>
@@ -12937,12 +12933,7 @@
             <pron notation="kana"><w lemmaRef="ri:あら.新">あら</w><w lemmaRef="ri:を.小">を</w><w lemmaRef="ri:た.田">だ</w></pron>
             <pron notation="kana"><w lemmaRef="ri:あら.荒し">あら</w><w lemmaRef="ri:を.小">を</w><w lemmaRef="ri:た.田">だ</w></pron>
           </form>
-          <form type="compound">
-            <ref target="#新">新</ref>
-            <ref target="#小">小</ref>
-            <ref target="#田">田</ref>
-          </form>
-          <gramGrp>
+          <form type="compound"><ref target="#新">新</ref><ref target="#小">小</ref><ref target="#田">田</ref></form><form type="compound"><ref target="#荒し">荒し</ref><ref target="#小">小</ref><ref target="#田">田</ref></form><gramGrp>
             <pos value="N.g">N.g</pos>
             <gram type="UPosTag">NOUN</gram>
             <gram type="IPAPosTag">名詞-一般</gram>
@@ -15787,11 +15778,7 @@
             <pron notation="kana"><w lemmaRef="ri:みず.水">みづ</w><w lemmaRef="ri:そこ.底">ぞこ</w></pron>
             <pron notation="kana"><w lemmaRef="ri:みな.水">みな</w><w lemmaRef="ri:そこ.底">そこ</w></pron>
           </form>
-          <form type="compound">
-            <ref target="#水">水</ref>
-            <ref target="#底ひ">底ひ</ref>
-          </form>
-          <gramGrp>
+          <form type="compound"><ref target="#水">水</ref><ref target="#底">底</ref></form><gramGrp>
             <pos value="N.g">N.g</pos>
             <gram type="UPosTag">NOUN</gram>
             <gram type="IPAPosTag">名詞-一般</gram>
@@ -17521,11 +17508,7 @@
             <pron notation="kana"><w lemmaRef="ri:みを.澪">みを</w><w lemmaRef="ri:つ.つ">つ</w><w lemmaRef="ri:くし.串">くし</w></pron>
             <pron notation="kana"><w lemmaRef="ri:み.身">み</w><w lemmaRef="ri:を.を">を</w><w lemmaRef="ri:つくし.尽す">つくし</w></pron>
           </form>
-          <form type="compound">
-            <ref target="#澪">澪</ref>
-            <ref target="#導">導</ref>
-          </form>
-          <gramGrp>
+          <form type="compound"><ref target="#澪">澪</ref><ref target="#つ">つ</ref><ref target="#串">串</ref></form><form type="compound"><ref target="#身">身</ref><ref target="#を">を</ref><ref target="#尽す">尽す</ref></form><gramGrp>
             <pos value="N.g">N.g</pos>
             <gram type="UPosTag">NOUN</gram>
             <gram type="IPAPosTag">名詞-一般</gram>
