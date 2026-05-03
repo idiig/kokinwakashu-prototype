@@ -1,19 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>古今和歌集 見出し語索引 (Dict B)</title></titleStmt><publicationStmt><p>Extracted from kokinwakashu.xml</p></publicationStmt><sourceDesc><p>kokinwakashu.xml</p></sourceDesc></fileDesc></teiHeader><text><back><div type="dictionary">
         <head>Wordlist</head>
-        <entry xml:id="あし" type="simplex">
-          <form type="lemma">
-            <orth xml:lang="ja">あし</orth>
-            <pron notation="kana">あし</pron>
-          </form>
-          <gramGrp>
-            <pos value="N.g">N.g</pos>
-            <gram type="UPosTag">NOUN</gram>
-            <gram type="IPAPosTag">名詞-一般</gram>
-            <gram type="UniDicPosTag">名詞-普通名詞-一般</gram>
-          </gramGrp>
-          <sense ana="wlsph:WLSPH.1.5520"/>
-        </entry>
         <entry xml:id="あな" type="simplex">
           <form type="lemma">
             <orth xml:lang="ja">あな</orth>
@@ -206,20 +193,13 @@
           <sense xml:id="か.s1" ana="wlsph:WLSPH.8.0065"/>
           <sense xml:id="か.s2" ana="wlsph:WLSPH.8.0069"/>
         </entry>
-        <entry xml:id="かがり" type="simplex">
-          <form type="lemma">
-            <orth xml:lang="ja">かがり</orth>
-            <pron notation="kana">かがり</pron>
-          </form>
-          <gramGrp>
+        <entry xml:id="篝" type="simplex"><form type="lemma"><orth xml:lang="ja">篝</orth><pron notation="kana">かがり</pron></form><gramGrp>
             <pos value="N.g">N.g</pos>
             <gram type="UPosTag">NOUN</gram>
             <gram type="IPAPosTag">名詞-一般</gram>
             <gram type="UniDicPosTag">名詞-普通名詞-一般</gram>
           </gramGrp>
-          <sense ana="wlsph:WLSPH.1.4600"/>
-        </entry>
-        <entry xml:id="かし" type="simplex">
+          <sense ana="wlsph:WLSPH.1.4600 wlsp:WLSP.1.4600"/></entry><entry xml:id="かし" type="simplex">
           <form type="lemma">
             <orth xml:lang="ja">かし</orth>
             <pron notation="kana">かし</pron>
@@ -231,19 +211,6 @@
             <gram type="UniDicPosTag">助詞-終助詞</gram>
           </gramGrp>
           <sense ana="wlsph:WLSPH.8.0069"/>
-        </entry>
-        <entry xml:id="かめ" type="simplex">
-          <form type="lemma">
-            <orth xml:lang="ja">かめ</orth>
-            <pron notation="kana">かめ</pron>
-          </form>
-          <gramGrp>
-            <pos value="N.g">N.g</pos>
-            <gram type="UPosTag">NOUN</gram>
-            <gram type="IPAPosTag">名詞-一般</gram>
-            <gram type="UniDicPosTag">名詞-普通名詞-一般</gram>
-          </gramGrp>
-          <sense ana="wlsph:WLSPH.1.5630"/>
         </entry>
         <entry xml:id="かも" type="simplex">
           <form type="lemma">
@@ -269,7 +236,13 @@
           <sense xml:id="かも.s1" ana="wlsph:WLSPH.8.0069"/>
           <sense xml:id="かも.s2" ana="wlsph:WLSPH.1.5620"/>
         </entry>
-        <entry xml:id="から" type="simplex">
+        <entry xml:id="鴨" type="simplex"><form type="lemma"><orth xml:lang="ja">鴨</orth><pron notation="kana">かも</pron></form><gramGrp>
+            <pos value="N.g">N.g</pos>
+            <gram type="UPosTag">NOUN</gram>
+            <gram type="IPAPosTag">名詞-一般</gram>
+            <gram type="UniDicPosTag">名詞-普通名詞-一般</gram>
+          </gramGrp>
+          <sense ana="wlsph:WLSPH.1.5620 wlsp:WLSP.1.5620"/></entry><entry xml:id="から" type="simplex">
           <form type="lemma">
             <orth xml:lang="ja">から</orth>
             <pron notation="kana">から</pron>
@@ -357,19 +330,6 @@
             <gram type="UniDicPosTag">助動詞</gram>
           </gramGrp>
           <sense ana="wlsph:WLSPH.9.0010 wlsp:WLSP.9.0010"/>
-        </entry>
-        <entry xml:id="きく" type="simplex">
-          <form type="lemma">
-            <orth xml:lang="ja">きく</orth>
-            <pron notation="kana">きく</pron>
-          </form>
-          <gramGrp>
-            <pos value="N.g">N.g</pos>
-            <gram type="UPosTag">NOUN</gram>
-            <gram type="IPAPosTag">名詞-一般</gram>
-            <gram type="UniDicPosTag">名詞-普通名詞-一般</gram>
-          </gramGrp>
-          <sense ana="wlsph:WLSPH.1.5520"/>
         </entry>
         <entry xml:id="く" type="simplex">
           <form type="lemma">
@@ -477,33 +437,13 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.7.0010"/>
         </entry>
-        <entry xml:id="さかき" type="simplex">
-          <form type="lemma">
-            <orth xml:lang="ja">さかき</orth>
-            <pron notation="kana">さかき</pron>
-          </form>
-          <gramGrp>
+        <entry xml:id="榊" type="simplex"><form type="lemma"><orth xml:lang="ja">榊</orth><pron notation="kana">さかき</pron></form><gramGrp>
             <pos value="N.g">N.g</pos>
             <gram type="UPosTag">NOUN</gram>
             <gram type="IPAPosTag">名詞-一般</gram>
             <gram type="UniDicPosTag">名詞-普通名詞-一般</gram>
           </gramGrp>
-          <sense ana="wlsph:WLSPH.1.5520"/>
-        </entry>
-        <entry xml:id="さくら" type="simplex">
-          <form type="lemma">
-            <orth xml:lang="ja">さくら</orth>
-            <pron notation="kana">さくら</pron>
-          </form>
-          <gramGrp>
-            <pos value="N.g">N.g</pos>
-            <gram type="UPosTag">NOUN</gram>
-            <gram type="IPAPosTag">名詞-一般</gram>
-            <gram type="UniDicPosTag">名詞-普通名詞-一般</gram>
-          </gramGrp>
-          <sense ana="wlsph:WLSPH.1.5520"/>
-        </entry>
-        <entry xml:id="さす" type="simplex">
+          <sense ana="wlsph:WLSPH.1.5520 wlsp:WLSP.1.5520"/></entry><entry xml:id="さす" type="simplex">
           <form type="lemma">
             <orth xml:lang="ja">さす</orth>
             <pron notation="kana">さす</pron>
@@ -633,19 +573,6 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.3.1600"/>
         </entry>
-        <entry xml:id="すすき" type="simplex">
-          <form type="lemma">
-            <orth xml:lang="ja">すすき</orth>
-            <pron notation="kana">すすき</pron>
-          </form>
-          <gramGrp>
-            <pos value="N.g">N.g</pos>
-            <gram type="UPosTag">NOUN</gram>
-            <gram type="IPAPosTag">名詞-一般</gram>
-            <gram type="UniDicPosTag">名詞-普通名詞-一般</gram>
-          </gramGrp>
-          <sense ana="wlsph:WLSPH.1.5520"/>
-        </entry>
         <entry xml:id="裾" type="simplex">
           <form type="lemma">
             <orth xml:lang="ja">裾</orth>
@@ -712,19 +639,6 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.8.0069"/>
         </entry>
-        <entry xml:id="たちばな" type="simplex">
-          <form type="lemma">
-            <orth xml:lang="ja">たちばな</orth>
-            <pron notation="kana">たちばな</pron>
-          </form>
-          <gramGrp>
-            <pos value="N.g">N.g</pos>
-            <gram type="UPosTag">NOUN</gram>
-            <gram type="IPAPosTag">名詞-一般</gram>
-            <gram type="UniDicPosTag">名詞-普通名詞-一般</gram>
-          </gramGrp>
-          <sense ana="wlsph:WLSPH.1.5520"/>
-        </entry>
         <entry xml:id="束ぬ" type="simplex">
           <form type="lemma">
             <orth xml:lang="ja">束ぬ</orth>
@@ -763,19 +677,6 @@
             <gram type="UniDicPosTag">助詞-副助詞</gram>
           </gramGrp>
           <sense ana="wlsph:WLSPH.1.1990 wlsp:WLSP.1.1990"/>
-        </entry>
-        <entry xml:id="ちどり" type="simplex">
-          <form type="lemma">
-            <orth xml:lang="ja">ちどり</orth>
-            <pron notation="kana">ちどり</pron>
-          </form>
-          <gramGrp>
-            <pos value="N.g">N.g</pos>
-            <gram type="UPosTag">NOUN</gram>
-            <gram type="IPAPosTag">名詞-一般</gram>
-            <gram type="UniDicPosTag">名詞-普通名詞-一般</gram>
-          </gramGrp>
-          <sense ana="wlsph:WLSPH.1.5620"/>
         </entry>
         <entry xml:id="つ" type="simplex">
           <form type="lemma">
@@ -1006,33 +907,13 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.8.0064 wlsp:WLSP.8.0064"/>
         </entry>
-        <entry xml:id="なつ" type="simplex">
-          <form type="lemma">
-            <orth xml:lang="ja">なつ</orth>
-            <pron notation="kana">なつ</pron>
-          </form>
-          <gramGrp>
+        <entry xml:id="撫子" type="simplex"><form type="lemma"><orth xml:lang="ja">撫子</orth><pron notation="kana">なでしこ</pron></form><gramGrp>
             <pos value="N.g">N.g</pos>
             <gram type="UPosTag">NOUN</gram>
             <gram type="IPAPosTag">名詞-一般</gram>
             <gram type="UniDicPosTag">名詞-普通名詞-一般</gram>
           </gramGrp>
-          <sense ana="wlsph:WLSPH.1.1624"/>
-        </entry>
-        <entry xml:id="なでしこ" type="simplex">
-          <form type="lemma">
-            <orth xml:lang="ja">なでしこ</orth>
-            <pron notation="kana">なでしこ</pron>
-          </form>
-          <gramGrp>
-            <pos value="N.g">N.g</pos>
-            <gram type="UPosTag">NOUN</gram>
-            <gram type="IPAPosTag">名詞-一般</gram>
-            <gram type="UniDicPosTag">名詞-普通名詞-一般</gram>
-          </gramGrp>
-          <sense ana="wlsph:WLSPH.1.5520"/>
-        </entry>
-        <entry xml:id="なへに" type="simplex">
+          <sense ana="wlsph:WLSPH.1.5520 wlsp:WLSP.1.5520"/></entry><entry xml:id="なへに" type="simplex">
           <form type="lemma">
             <orth xml:lang="ja">なへに</orth>
             <pron notation="kana">なへに</pron>
@@ -1202,19 +1083,6 @@
             <gram type="UniDicPosTag">助詞-係助詞</gram>
           </gramGrp>
           <sense ana="wlsph:WLSPH.8.0065"/>
-        </entry>
-        <entry xml:id="はぎ" type="simplex">
-          <form type="lemma">
-            <orth xml:lang="ja">はぎ</orth>
-            <pron notation="kana">はぎ</pron>
-          </form>
-          <gramGrp>
-            <pos value="N.g">N.g</pos>
-            <gram type="UPosTag">NOUN</gram>
-            <gram type="IPAPosTag">名詞-一般</gram>
-            <gram type="UniDicPosTag">名詞-普通名詞-一般</gram>
-          </gramGrp>
-          <sense ana="wlsph:WLSPH.1.5520"/>
         </entry>
         <entry xml:id="はも" type="simplex">
           <form type="lemma">
@@ -1395,19 +1263,6 @@
             <def xml:lang="ja">相-関係-時間-順序</def>
           </sense>
         </entry>
-        <entry xml:id="まつ" type="simplex">
-          <form type="lemma">
-            <orth xml:lang="ja">まつ</orth>
-            <pron notation="kana">まつ</pron>
-          </form>
-          <gramGrp>
-            <pos value="V.free">V.free</pos>
-            <gram type="UPosTag">VERB</gram>
-            <gram type="IPAPosTag">動詞-自立</gram>
-            <gram type="UniDicPosTag">動詞-一般</gram>
-          </gramGrp>
-          <sense ana="wlsph:WLSPH.1.5520"/>
-        </entry>
         <entry xml:id="まで" type="simplex">
           <form type="lemma">
             <orth xml:lang="ja">まで</orth>
@@ -1466,20 +1321,13 @@
             <def xml:lang="ja">体-関係-類-理由・目的・証拠</def>
           </sense>
         </entry>
-        <entry xml:id="みの" type="simplex">
-          <form type="lemma">
-            <orth xml:lang="ja">みの</orth>
-            <pron notation="kana">みの</pron>
-          </form>
-          <gramGrp>
+        <entry xml:id="蓑" type="simplex"><form type="lemma"><orth xml:lang="ja">蓑</orth><pron notation="kana">みの</pron></form><gramGrp>
             <pos value="N.g">N.g</pos>
             <gram type="UPosTag">NOUN</gram>
             <gram type="IPAPosTag">名詞-一般</gram>
             <gram type="UniDicPosTag">名詞-普通名詞-一般</gram>
           </gramGrp>
-          <sense ana="wlsph:WLSPH.1.4230"/>
-        </entry>
-        <entry xml:id="み吉野" type="simplex">
+          <sense ana="wlsph:WLSPH.1.4230 wlsp:WLSP.1.4230"/></entry><entry xml:id="み吉野" type="simplex">
           <form type="lemma">
             <orth xml:lang="ja">み吉野</orth>
             <pron notation="kana">みよしの</pron>
@@ -6492,10 +6340,10 @@
         <entry xml:id="夏山" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">夏山</orth>
-            <pron notation="kana"><w lemmaRef="ri:なつ.なつ">なつ</w><w lemmaRef="ri:やま.山">やま</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:なつ.夏">なつ</w><w lemmaRef="ri:やま.山">やま</w></pron>
           </form>
           <form type="compound">
-            <ref target="#なつ">なつ</ref>
+            <ref target="#夏">なつ</ref>
             <ref target="#山">山</ref>
           </form>
           <gramGrp>
@@ -6511,10 +6359,10 @@
         <entry xml:id="夏草" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">夏草</orth>
-            <pron notation="kana"><w lemmaRef="ri:なつ.なつ">なつ</w><w lemmaRef="ri:くさ.草">くさ</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:なつ.夏">なつ</w><w lemmaRef="ri:くさ.草">くさ</w></pron>
           </form>
           <form type="compound">
-            <ref target="#なつ">なつ</ref>
+            <ref target="#夏">なつ</ref>
             <ref target="#草">草</ref>
           </form>
           <gramGrp>
@@ -6528,10 +6376,10 @@
         <entry xml:id="夏虫" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">夏虫</orth>
-            <pron notation="kana"><w lemmaRef="ri:なつ.なつ">なつ</w><w lemmaRef="ri:むし.虫">むし</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:なつ.夏">なつ</w><w lemmaRef="ri:むし.虫">むし</w></pron>
           </form>
           <form type="compound">
-            <ref target="#なつ">なつ</ref>
+            <ref target="#夏">なつ</ref>
             <ref target="#虫">虫</ref>
           </form>
           <gramGrp>
@@ -6545,10 +6393,10 @@
         <entry xml:id="夏衣" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">夏衣</orth>
-            <pron notation="kana"><w lemmaRef="ri:なつ.なつ">なつ</w><w lemmaRef="ri:ごろも.衣">ごろも</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:なつ.夏">なつ</w><w lemmaRef="ri:ごろも.衣">ごろも</w></pron>
           </form>
           <form type="compound">
-            <ref target="#なつ">なつ</ref>
+            <ref target="#夏">なつ</ref>
             <ref target="#衣">衣</ref>
           </form>
           <gramGrp>
@@ -6833,11 +6681,11 @@
         <entry xml:id="大和撫子" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">大和撫子</orth>
-            <pron notation="kana"><w lemmaRef="ri:やまと.大和">やまと</w><w lemmaRef="ri:なでしこ.なでしこ">なでしこ</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:やまと.大和">やまと</w><w lemmaRef="ri:なでしこ.撫子">なでしこ</w></pron>
           </form>
           <form type="compound">
             <ref target="#大和">大和</ref>
-            <ref target="#なでしこ">なでしこ</ref>
+            <ref target="#撫子">なでしこ</ref>
           </form>
           <gramGrp>
             <pos value="N.g">N.g</pos>
@@ -7325,12 +7173,12 @@
         <entry xml:id="姫小松" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">姫小松</orth>
-            <pron notation="kana"><w lemmaRef="ri:ひめ.姫">ひめ</w><w lemmaRef="ri:こ.小">こ</w><w lemmaRef="ri:まつ.まつ">まつ</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:ひめ.姫">ひめ</w><w lemmaRef="ri:こ.小">こ</w><w lemmaRef="ri:まつ.松">まつ</w></pron>
           </form>
           <form type="compound">
             <ref target="#姫">姫</ref>
             <ref target="#小">小</ref>
-            <ref target="#まつ">まつ</ref>
+            <ref target="#松">まつ</ref>
           </form>
           <gramGrp>
             <pos value="N.g">N.g</pos>
@@ -7343,11 +7191,11 @@
         <entry xml:id="姫松" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">姫松</orth>
-            <pron notation="kana"><w lemmaRef="ri:ひめ.姫">ひめ</w><w lemmaRef="ri:まつ.まつ">まつ</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:ひめ.姫">ひめ</w><w lemmaRef="ri:まつ.松">まつ</w></pron>
           </form>
           <form type="compound">
             <ref target="#姫">姫</ref>
-            <ref target="#まつ">まつ</ref>
+            <ref target="#松">まつ</ref>
           </form>
           <gramGrp>
             <pos value="N.g">N.g</pos>
@@ -7976,11 +7824,11 @@
         <entry xml:id="小亀" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">小亀</orth>
-            <pron notation="kana"><w lemmaRef="ri:こ.小">こ</w><w lemmaRef="ri:かめ.かめ">がめ</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:こ.小">こ</w><w lemmaRef="ri:かめ.亀">がめ</w></pron>
           </form>
           <form type="compound">
             <ref target="#小">小</ref>
-            <ref target="#かめ">かめ</ref>
+            <ref target="#亀">かめ</ref>
           </form>
           <gramGrp>
             <pos value="N.g">N.g</pos>
@@ -8083,11 +7931,11 @@
         <entry xml:id="小松" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">小松</orth>
-            <pron notation="kana"><w lemmaRef="ri:こ.小">こ</w><w lemmaRef="ri:まつ.まつ">まつ</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:こ.小">こ</w><w lemmaRef="ri:まつ.松">まつ</w></pron>
           </form>
           <form type="compound">
             <ref target="#小">小</ref>
-            <ref target="#まつ">まつ</ref>
+            <ref target="#松">まつ</ref>
           </form>
           <gramGrp>
             <pos value="N.g">N.g</pos>
@@ -8128,11 +7976,11 @@
         <entry xml:id="小萩" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">小萩</orth>
-            <pron notation="kana"><w lemmaRef="ri:こ.小">こ</w><w lemmaRef="ri:はぎ.はぎ">はぎ</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:こ.小">こ</w><w lemmaRef="ri:はぎ.萩">はぎ</w></pron>
           </form>
           <form type="compound">
             <ref target="#小">小</ref>
-            <ref target="#はぎ">はぎ</ref>
+            <ref target="#萩">はぎ</ref>
           </form>
           <gramGrp>
             <pos value="N.g">N.g</pos>
@@ -8563,11 +8411,11 @@
         <entry xml:id="山本" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">山本</orth>
-            <pron notation="kana"><w lemmaRef="ri:やま.山">やま</w><w lemmaRef="ri:もと.元">もと</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:やま.山">やま</w><w lemmaRef="ri:もと.本">もと</w></pron>
           </form>
           <form type="compound">
             <ref target="#山">山</ref>
-            <ref target="#元">元</ref>
+            <ref target="#本">元</ref>
           </form>
           <gramGrp>
             <pos value="N.g">N.g</pos>
@@ -8597,11 +8445,11 @@
         <entry xml:id="山橘" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">山橘</orth>
-            <pron notation="kana"><w lemmaRef="ri:やま.山">やま</w><w lemmaRef="ri:たちばな.たちばな">たちばな</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:やま.山">やま</w><w lemmaRef="ri:たちばな.橘">たちばな</w></pron>
           </form>
           <form type="compound">
             <ref target="#山">山</ref>
-            <ref target="#たちばな">たちばな</ref>
+            <ref target="#橘">たちばな</ref>
           </form>
           <gramGrp>
             <pos value="N.g">N.g</pos>
@@ -13856,10 +13704,10 @@
         <entry xml:id="本荒" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">本荒</orth>
-            <pron notation="kana"><w lemmaRef="ri:もと.元">もと</w><w lemmaRef="ri:あら.荒し">あら</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:もと.本">もと</w><w lemmaRef="ri:あら.荒し">あら</w></pron>
           </form>
           <form type="compound">
-            <ref target="#元">元</ref>
+            <ref target="#本">元</ref>
             <ref target="#荒し">荒し</ref>
           </form>
           <gramGrp>
@@ -13869,19 +13717,6 @@
             <gram type="UniDicPosTag">名詞-普通名詞-一般</gram>
           </gramGrp>
           <sense ana="wlsph:WLSPH.1.5240"/>
-        </entry>
-        <entry xml:id="朽ちる" type="simplex">
-          <form type="lemma">
-            <orth xml:lang="ja">朽ちる</orth>
-            <pron notation="kana">くちる</pron>
-          </form>
-          <gramGrp>
-            <pos value="V.free">V.free</pos>
-            <gram type="UPosTag">VERB</gram>
-            <gram type="IPAPosTag">動詞-自立</gram>
-            <gram type="UniDicPosTag">動詞-一般</gram>
-          </gramGrp>
-          <sense ana="wlsph:WLSPH.2.5830"/>
         </entry>
         <entry xml:id="朽つ" type="simplex">
           <form type="lemma">
@@ -13899,10 +13734,10 @@
         <entry xml:id="朽木" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">朽木</orth>
-            <pron notation="kana"><w lemmaRef="ri:くちる.朽ちる">くち</w><w lemmaRef="ri:き.木">き</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:くち.朽つ">くち</w><w lemmaRef="ri:き.木">き</w></pron>
           </form>
           <form type="compound">
-            <ref target="#朽ちる">朽ちる</ref>
+            <ref target="#朽つ">朽ちる</ref>
             <ref target="#木">木</ref>
           </form>
           <gramGrp>
@@ -14392,10 +14227,10 @@
         <entry xml:id="桜色" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">桜色</orth>
-            <pron notation="kana"><w lemmaRef="ri:さくら.さくら">さくら</w><w lemmaRef="ri:いろ.色">いろ</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:さくら.桜">さくら</w><w lemmaRef="ri:いろ.色">いろ</w></pron>
           </form>
           <form type="compound">
-            <ref target="#さくら">さくら</ref>
+            <ref target="#桜">さくら</ref>
             <ref target="#色">色</ref>
           </form>
           <gramGrp>
@@ -14411,10 +14246,10 @@
         <entry xml:id="桜花" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">桜花</orth>
-            <pron notation="kana"><w lemmaRef="ri:さくら.さくら">さくら</w><w lemmaRef="ri:はな.花">ばな</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:さくら.桜">さくら</w><w lemmaRef="ri:はな.花">ばな</w></pron>
           </form>
           <form type="compound">
-            <ref target="#さくら">さくら</ref>
+            <ref target="#桜">さくら</ref>
             <ref target="#花">花</ref>
           </form>
           <gramGrp>
@@ -14675,10 +14510,10 @@
         <entry xml:id="榊葉" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">榊葉</orth>
-            <pron notation="kana"><w lemmaRef="ri:さかき.さかき">さかき</w><w lemmaRef="ri:は.葉">ば</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:さかき.榊">さかき</w><w lemmaRef="ri:は.葉">ば</w></pron>
           </form>
           <form type="compound">
-            <ref target="#さかき">さかき</ref>
+            <ref target="#榊">さかき</ref>
             <ref target="#葉">葉</ref>
           </form>
           <gramGrp>
@@ -15819,11 +15654,11 @@
         <entry xml:id="浜千鳥" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">浜千鳥</orth>
-            <pron notation="kana"><w lemmaRef="ri:はま.浜">はま</w><w lemmaRef="ri:ちどり.ちどり">ちどり</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:はま.浜">はま</w><w lemmaRef="ri:ちどり.千鳥">ちどり</w></pron>
           </form>
           <form type="compound">
             <ref target="#浜">浜</ref>
-            <ref target="#ちどり">ちどり</ref>
+            <ref target="#千鳥">ちどり</ref>
           </form>
           <gramGrp>
             <pos value="N.g">N.g</pos>
@@ -15836,11 +15671,11 @@
         <entry xml:id="浜松" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">浜松</orth>
-            <pron notation="kana"><w lemmaRef="ri:はま.浜">はま</w><w lemmaRef="ri:まつ.まつ">まつ</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:はま.浜">はま</w><w lemmaRef="ri:まつ.松">まつ</w></pron>
           </form>
           <form type="compound">
             <ref target="#浜">浜</ref>
-            <ref target="#まつ">まつ</ref>
+            <ref target="#松">まつ</ref>
           </form>
           <gramGrp>
             <pos value="N.g">N.g</pos>
@@ -17872,11 +17707,11 @@
         <entry xml:id="田蓑" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">田蓑</orth>
-            <pron notation="kana"><w lemmaRef="ri:た.田">た</w><w lemmaRef="ri:みの.みの">みの</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:た.田">た</w><w lemmaRef="ri:みの.蓑">みの</w></pron>
           </form>
           <form type="compound">
             <ref target="#田">田</ref>
-            <ref target="#みの">みの</ref>
+            <ref target="#蓑">みの</ref>
           </form>
           <gramGrp>
             <pos value="N.g">N.g</pos>
@@ -18240,11 +18075,11 @@
         <entry xml:id="白菊" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">白菊</orth>
-            <pron notation="kana"><w lemmaRef="ri:しら.白">しら</w><w lemmaRef="ri:きく.きく">ぎく</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:しら.白">しら</w><w lemmaRef="ri:きく.菊">ぎく</w></pron>
           </form>
           <form type="compound">
             <ref target="#白">白</ref>
-            <ref target="#きく">きく</ref>
+            <ref target="#菊">きく</ref>
           </form>
           <gramGrp>
             <pos value="N.g">N.g</pos>
@@ -19132,11 +18967,11 @@
         <entry xml:id="秋萩" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">秋萩</orth>
-            <pron notation="kana"><w lemmaRef="ri:あき.秋">あき</w><w lemmaRef="ri:はぎ.はぎ">はぎ</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:あき.秋">あき</w><w lemmaRef="ri:はぎ.萩">はぎ</w></pron>
           </form>
           <form type="compound">
             <ref target="#秋">秋</ref>
-            <ref target="#はぎ">はぎ</ref>
+            <ref target="#萩">はぎ</ref>
           </form>
           <gramGrp>
             <pos value="N.g">N.g</pos>
@@ -19795,10 +19630,10 @@
         <entry xml:id="篝火" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">篝火</orth>
-            <pron notation="kana"><w lemmaRef="ri:かがり.かがり">かがり</w><w lemmaRef="ri:ひ.火">び</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:かがり.篝">かがり</w><w lemmaRef="ri:ひ.火">び</w></pron>
           </form>
           <form type="compound">
-            <ref target="#かがり">かがり</ref>
+            <ref target="#篝">かがり</ref>
             <ref target="#火">火</ref>
           </form>
           <gramGrp>
@@ -21123,11 +20958,11 @@
         <entry xml:id="花桜" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">花桜</orth>
-            <pron notation="kana"><w lemmaRef="ri:はな.花">はな</w><w lemmaRef="ri:さくら.さくら">ざくら</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:はな.花">はな</w><w lemmaRef="ri:さくら.桜">ざくら</w></pron>
           </form>
           <form type="compound">
             <ref target="#花">花</ref>
-            <ref target="#さくら">さくら</ref>
+            <ref target="#桜">さくら</ref>
           </form>
           <gramGrp>
             <pos value="N.g">N.g</pos>
@@ -21140,11 +20975,11 @@
         <entry xml:id="花橘" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">花橘</orth>
-            <pron notation="kana"><w lemmaRef="ri:はな.花">はな</w><w lemmaRef="ri:たちばな.たちばな">たちばな</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:はな.花">はな</w><w lemmaRef="ri:たちばな.橘">たちばな</w></pron>
           </form>
           <form type="compound">
             <ref target="#花">花</ref>
-            <ref target="#たちばな">たちばな</ref>
+            <ref target="#橘">たちばな</ref>
           </form>
           <gramGrp>
             <pos value="N.g">N.g</pos>
@@ -21211,11 +21046,11 @@
         <entry xml:id="花薄" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">花薄</orth>
-            <pron notation="kana"><w lemmaRef="ri:はな.花">はな</w><w lemmaRef="ri:すすき.すすき">すすき</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:はな.花">はな</w><w lemmaRef="ri:すすき.薄">すすき</w></pron>
           </form>
           <form type="compound">
             <ref target="#花">花</ref>
-            <ref target="#すすき">すすき</ref>
+            <ref target="#薄">すすき</ref>
           </form>
           <gramGrp>
             <pos value="N.g">N.g</pos>
@@ -21632,10 +21467,10 @@
         <entry xml:id="萩原" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">萩原</orth>
-            <pron notation="kana"><w lemmaRef="ri:はぎ.はぎ">はぎ</w><w lemmaRef="ri:はら.原">はら</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:はぎ.萩">はぎ</w><w lemmaRef="ri:はら.原">はら</w></pron>
           </form>
           <form type="compound">
-            <ref target="#はぎ">はぎ</ref>
+            <ref target="#萩">はぎ</ref>
             <ref target="#原">原</ref>
           </form>
           <gramGrp>
@@ -21761,10 +21596,10 @@
         <entry xml:id="葦辺" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">葦辺</orth>
-            <pron notation="kana"><w lemmaRef="ri:あし.あし">あし</w><w lemmaRef="ri:べ.辺">べ</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:あし.葦">あし</w><w lemmaRef="ri:べ.辺">べ</w></pron>
           </form>
           <form type="compound">
-            <ref target="#あし">あし</ref>
+            <ref target="#葦">あし</ref>
             <ref target="#辺">辺</ref>
           </form>
           <gramGrp>
@@ -21780,10 +21615,10 @@
         <entry xml:id="葦鶴" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">葦鶴</orth>
-            <pron notation="kana"><w lemmaRef="ri:あし.あし">あし</w><w lemmaRef="ri:たづ.鶴">たづ</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:あし.葦">あし</w><w lemmaRef="ri:たづ.鶴">たづ</w></pron>
           </form>
           <form type="compound">
-            <ref target="#あし">あし</ref>
+            <ref target="#葦">あし</ref>
             <ref target="#鶴">鶴</ref>
           </form>
           <gramGrp>
@@ -22115,11 +21950,11 @@
         <entry xml:id="蘆鴨" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">蘆鴨</orth>
-            <pron notation="kana"><w lemmaRef="ri:あし.あし">あし</w><w lemmaRef="ri:かも.かも">がも</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:あし.葦">あし</w><w lemmaRef="ri:かも.鴨">がも</w></pron>
           </form>
           <form type="compound">
-            <ref target="#あし">あし</ref>
-            <ref target="#かも">かも</ref>
+            <ref target="#葦">あし</ref>
+            <ref target="#鴨">かも</ref>
           </form>
           <gramGrp>
             <pos value="N.g">N.g</pos>
@@ -22132,10 +21967,10 @@
         <entry xml:id="蘆鶴" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">蘆鶴</orth>
-            <pron notation="kana"><w lemmaRef="ri:あし.あし">あし</w><w lemmaRef="ri:たづ.鶴">たづ</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:あし.葦">あし</w><w lemmaRef="ri:たづ.鶴">たづ</w></pron>
           </form>
           <form type="compound">
-            <ref target="#あし">あし</ref>
+            <ref target="#葦">あし</ref>
             <ref target="#鶴">鶴</ref>
           </form>
           <gramGrp>
