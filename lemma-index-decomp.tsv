@@ -1,342 +1,1771 @@
-id	type	decomp1	decomp2	decomp3	decomp4	decomp5
-うたた寝	compound	転た	寝			
-けらし	compound	けり	らし			
-てふ	compound	と	言ふ			
-てへ	compound	と	言う			
-とて	compound	と	て			
-な_む	compound	ぬ	む			
-ならし	compound	なり	らし			
-べらなり	compound	べし	ら	なり		
-まれ	compound	も	有り			
-一夜	compound	一	夜			
-一年	compound	一	年			
-一度	compound	一	度			
-一時	compound	一	時			
-一本	compound	一	本			
-一染	compound	一	潮			
-一群	compound	一	群			
-万世	compound	万	世			
-三輪山	compound	三輪	山			
-下紐	compound	下	ひも			
-下草	compound	下	草			
-下葉	compound	下	葉			
-世の中	compound	世	の	中		
-世人	compound	世	人			
-中垣	compound	中	垣			
-中山	compound	中	山			
-中道	compound	中	道			
-二本	compound	二	本			
-五月山	compound	さつき	山			
-人目	compound	人	眼			
-人言	compound	人	言			
-今年	compound	此	年			
-仮庵	compound	仮り	庵			
-佐保山	compound	佐保	山			
-入れ紐	compound	入る	ひも			
-八十島	compound	八十	島			
-八千世	compound	八千	世			
-八千種	compound	八千	草			
-八重葎	compound	八重	葎			
-冬河	compound	冬	河			
-冬草	compound	冬	草			
-刈菰	compound	刈る	菰			
-初瀬河	compound	初瀬	河			
-初花	compound	初	花			
-初雁	compound	初	雁			
-初霜	compound	初	霜			
-初風	compound	初	風			
-別地	compound	分かる	路			
-千世	compound	千	代			
-千代	compound	千	代			
-千年	compound	千	歳			
-千歳	compound	千	歳			
-千種	compound	千	草			
-卯花	compound	卯	の	花		
-古幹	compound	古し	幹			
-古枝	compound	古し	枝			
-古里人	compound	ふるさと	人			
-吉野河	compound	吉野	川			
-唐紅	compound	唐	紅			
-唐衣	compound	唐	衣			
-唐錦	compound	唐	錦			
-四極山	compound	四極	山			
-垣根	compound	垣	根			
-垣穂	compound	垣	穂			
-埋れ木	compound	埋もる	木			
-塩の山	compound	塩	の	山		
-夏山	compound	夏	山			
-夏草	compound	夏	草			
-夏虫	compound	夏	虫			
-夏衣	compound	夏	衣			
-夕影	compound	夕	陰			
-夕月夜	compound	夕	月	夜		
-夢路	compound	夢	路			
-大井河	compound	大井	河			
-大和撫子	compound	大和	撫子			
-大幣	compound	大	幣			
-大河	compound	大	河			
-大空	compound	大	空			
-大舟	compound	大	舟			
-天の原	compound	天	の	原		
-天の河	compound	天	の	河		
-天雲	compound	天	雲			
-如何許り	compound	如何	許り			
-姨捨山	compound	姨捨	山			
-姫小松	compound	姫	小	松		
-姫松	compound	姫	松			
-宇治山	compound	宇治	山			
-宇治橋	compound	宇治	橋			
-守山	compound	守る	山			
-家路	compound	家	路			
-寄る辺	compound	寄る	辺			
-小亀	compound	小	亀			
-小倉山	compound	小倉	山			
-小夜	compound	小	夜			
-小島	compound	小	島			
-小松	compound	小	松			
-小萩	compound	小	萩			
-山の井	compound	山	の	井		
-山下	compound	山	下			
-山下水	compound	山	下	水		
-山下風	compound	山	下	風		
-山中	compound	山	中			
-山人	compound	山	人			
-山分け衣	compound	山	分く	衣		
-山姫	compound	山	姫			
-山嵐	compound	山	嵐			
-山時鳥	compound	山	郭公			
-山本	compound	山	本			
-山桜	compound	山	桜			
-山橘	compound	山	橘			
-山田	compound	山	田			
-山賤	compound	山	賤			
-山路	compound	山	路			
-山辺	compound	山	辺			
-山郭公	compound	山	郭公			
-山里	compound	山	里			
-山風	compound	山	風			
-山颪	compound	山	おろし			
-山鬘	compound	山	鬘			
-岡辺	compound	岡	辺			
-岩垣	compound	岩	垣			
-岩根	compound	岩	根			
-岩波	compound	岩	波			
-岩清水	compound	岩	清水			
-川原	compound	川	原			
-川風	compound	川	風			
-差出	compound	差す	出づ			
-差出の磯	compound	差出	の	磯		
-姨捨	compound	姨	捨つ			
-布留河	compound	布留	川			
-帰山	compound	帰る	山			
-常夏	compound	常	夏			
-常盤山	compound	常磐	山			
-年月	compound	年	月			
-幾世	compound	幾	代			
-幾夜	compound	幾	夜			
-幾日	compound	幾	日			
-弱竹	compound	なよよかなり	竹			
-待ち遠	compound	待つ	遠し			
-徒し心	compound	徒し	心			
-徒人	compound	徒	人			
-徒浪	compound	徒なり	波			
-御垣	compound	御	垣			
-御手洗河	compound	御手洗	河			
-御雪	compound	御	雪			
-心当て	compound	心	当て			
-忍草	compound	忍ぶ	草			
-忘れ形見	compound	忘る	形見			
-忘れ草	compound	忘る	草			
-忘草	compound	忘る	草			
-思ひ寝	compound	思ふ	寝			
-恋忘草	compound	恋ふ	忘る	草		
-憂き名	compound	憂し	名			
-懸道	compound	掛く	道			
-手向く	compound	手	向く			
-手向山	compound	手向く	山			
-手枕	compound	手	枕			
-投げ木	compound	投ぐ	木			
-振舞ふ	compound	振る	舞ふ			
-数多度	compound	数多	度			
-斎垣	compound	斎	垣			
-新小田	compound	新	小	田		
-旅心地	compound	旅	心地			
-春雨	compound	春	雨			
-春霞	compound	春	霞			
-春風	compound	春	風			
-暗部山	compound	暗部	山			
-曇り日	compound	曇り	日			
-最上河	compound	最上	河			
-月夜	compound	月	夜			
-月日	compound	月	日			
-月草	compound	月	草			
-有処	compound	有り	所			
-有数	compound	有り	数			
-有磯海	compound	有磯	海			
-朝な日に	compound	朝な	日	に		
-朝な朝な	compound	朝な	朝な			
-朝の原	compound	朝	の	原		
-朝霧	compound	朝	霧			
-朝露	compound	朝	露			
-木綿襷	compound	木綿	襷			
-末の松山	compound	末	の	松山		
-末枝	compound	穂	つ	枝		
-本荒	compound	本	荒し			
-朽木	compound	朽つ	木			
-束緒	compound	束ぬ	緒			
-東路	compound	東	路			
-松山	compound	松	山			
-板戸	compound	板	戸			
-栄行く	compound	栄ゆ	行く			
-桜色	compound	桜	色			
-桜花	compound	桜	花			
-梓弓	compound	梓	弓			
-棚橋	compound	棚	橋			
-棚無し小舟	compound	棚	無し	小	舟	
-榊葉	compound	榊	葉			
-橋姫	compound	橋	姫			
-橋守	compound	橋	守る			
-水底	compound	水	底			
-水草	compound	水	草			
-沢水	compound	沢	水			
-河原	compound	川	原			
-河霧	compound	河	霧			
-河風	compound	河	風			
-沼水	compound	沼	水			
-泉河	compound	泉	河			
-津の国	compound	津	の	国		
-浅緑	compound	浅し	緑			
-浜千鳥	compound	浜	千鳥			
-浜松	compound	浜	松			
-浮草	compound	浮く	草			
-海人衣	compound	海人	衣			
-海神	compound	海	つ	神		
-涙河	compound	涙	河			
-淡路島山	compound	淡路	島	山		
-淡雪	compound	淡	雪			
-淵瀬	compound	淵	瀬			
-清滝	compound	清し	滝			
-渡守	compound	渡す	守る			
-潮合	compound	潮	合ふ			
-澪標	compound	澪	つ	串		
-濃紫	compound	濃し	紫			
-濡衣	compound	濡る	衣			
-無き名	compound	無し	名			
-熾火	compound	燠	火			
-片恋	compound	片	恋ふ			
-片糸	compound	片	糸			
-狩衣	compound	狩り	衣			
-玉垂れ	compound	玉	垂る			
-玉津島	compound	玉津	島			
-玉葛	compound	玉	葛			
-玉藻	compound	珠	藻			
-玉襷	compound	珠	襷			
-現し心	compound	現	心			
-田蓑	compound	田	蓑			
-男山	compound	男	山			
-白山	compound	白	山			
-白檀弓	compound	白	真	弓		
-白河	compound	白	河			
-白浪	compound	白	波			
-白玉	compound	白	珠			
-白糸	compound	白	糸			
-白菊	compound	白	菊			
-白雪	compound	白	雪			
-白雲	compound	白	雲			
-白露	compound	白	露			
-百羽掻き	compound	百	羽	掻く		
-相坂山	compound	逢坂	山			
-真弓	compound	真	弓			
-真菰	compound	真	菰			
-睦言	compound	睦まし	言			
-石間	compound	石	間			
-磯菜	compound	磯	菜			
-磯辺	compound	磯	辺			
-神垣	compound	神	垣			
-神奈備山	compound	神奈備	山			
-秋田	compound	秋	田			
-秋萩	compound	秋	萩			
-秋霧	compound	秋	霧			
-秋風	compound	秋	風			
-移り香	compound	移る	香			
-稲舟	compound	稲	舟			
-稲葉	compound	稲	葉			
-空五倍子染め	compound	空五倍子	染む			
-立田姫	compound	立田	姫			
-立田山	compound	立田	山			
-立田河	compound	立田	川			
-竜田河	compound	立田	川			
-笠取山	compound	笠取	山			
-笠結ひ	compound	笠	結ふ			
-筑波嶺	compound	筑波	嶺			
-篝火	compound	篝	火			
-篠原	compound	篠	原			
-篠薄	compound	篠	薄			
-糸筋	compound	糸	筋			
-紅葉葉	compound	紅葉	葉			
-置き所	compound	置く	所			
-美濃国	compound	美濃	の	国		
-群鳥	compound	群	鳥			
-羽風	compound	羽	風			
-色香	compound	色	香			
-花桜	compound	花	桜			
-花橘	compound	花	橘			
-花笠	compound	花	笠			
-花筐	compound	花	筐			
-花色衣	compound	花	色	衣		
-花薄	compound	花	薄			
-若草	compound	若し	草			
-若菜	compound	若し	菜			
-若菰	compound	若し	菰			
-草木	compound	草	木			
-草葉	compound	草	葉			
-菅原	compound	菅	原			
-菖蒲草	compound	菖蒲	草			
-萩原	compound	萩	原			
-葛城山	compound	葛城	山			
-葦辺	compound	葦	辺			
-葦鶴	compound	葦	鶴			
-蓮葉	compound	蓮	葉			
-藁火	compound	藁	火			
-藤波	compound	藤	波			
-藤浪	compound	藤	波			
-藤衣	compound	藤	衣			
-藤袴	compound	藤	袴			
-藻屑	compound	藻	屑			
-蘆垣	compound	蘆	垣			
-蘆鴨	compound	葦	鴨			
-蘆鶴	compound	葦	鶴			
-行き交ひ路	compound	行く	交ふ	路		
-行き来	compound	行く	来			
-行方	compound	行く	方			
-谷風	compound	谷	風			
-越の国	compound	越	の	国		
-越路	compound	越	路			
-通ひ路	compound	通ふ	路			
-遠ざかる	compound	遠し	離かる			
-遠方人	compound	遠方	人			
-遠近	compound	遠方	此方			
-都人	compound	都	人			
-都鳥	compound	都	鳥			
-野守	compound	野	守る			
-野風	compound	野	風			
-釣縄	compound	釣る	縄			
-釣舟	compound	釣る	舟			
-鏡山	compound	鏡	山			
-長雨	compound	長し	雨			
-隠れ家	compound	隠る	家			
-隠れ沼	compound	隠る	沼			
-難波潟	compound	難波	潟			
-雪消	compound	雪	消ゆ			
-雪間	compound	雪	間			
-霜夜	compound	霜	夜			
-露霜	compound	露	霜			
-青柳	compound	青	柳			
-青葛	compound	青	葛			
-静心	compound	静かなり	心			
-音羽山	compound	音羽	山			
-音羽河	compound	音羽	河			
-頬杖	compound	頬	杖			
-飛鳥河	compound	飛鳥	河			
-鹿背山	compound	鹿背	山			
-黒髪	compound	黒	髪			
+id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
+あな	simplex	あな				
+如何	simplex	いか				
+いさ	simplex	いさ				
+いざ	simplex	いざ				
+いで	simplex	いで				
+いと	simplex	いと				
+いとど	simplex	いとど				
+泉	simplex	いづみ				
+うたた寝	compound	うたたね	転た	寝			
+うつる	simplex	うつる				
+うらびる	simplex	うらびる				
+え	simplex	え				
+おろし	simplex	おろし				
+か	simplex	か				
+篝	simplex	かがり				
+かし	simplex	かし				
+かも	simplex	かも				
+鴨	simplex	かも				
+から	simplex	から				
+からに	simplex	からに				
+が	simplex	が				
+がてら	simplex	がてら				
+がに	simplex	がに				
+き	simplex	き				
+く	simplex	く				
+けむ	simplex	けむ				
+けらし	compound	けらし	けり	らし			
+けり	simplex	けり				
+げ	simplex	げ				
+こそ	simplex	こそ				
+さ	simplex	さ				
+榊	simplex	さかき				
+さす	simplex	さす				
+さつき	simplex	さつき				
+さへ	simplex	さへ				
+し	simplex	し				
+しが	simplex	しが				
+しがな	simplex	しがな				
+して	simplex	して				
+じ	simplex	じ				
+す	simplex	す				
+すがらに	simplex	すがらに				
+裾	simplex	すそ				
+ず	simplex	ず				
+そ	simplex	そ				
+ぞ	simplex	ぞ				
+ぞも	simplex	ぞも				
+束ぬ	simplex	たばぬ				
+たり	simplex	たり				
+だに	simplex	だに				
+つ	simplex	つ				
+つく	simplex	つく				
+つつ	simplex	つつ				
+て	simplex	て				
+てふ	compound	てふ	と	言ふ			
+で	simplex	で				
+と	simplex	と				
+とて	compound	とて	と	て			
+とにもかくにも	simplex	とにもかくにも				
+ど	simplex	ど				
+な	simplex	な				
+ながら	simplex	ながら				
+撫子	simplex	なでしこ				
+なへに	simplex	なへに				
+なむ	simplex	なむ				
+な_む	compound	なむ	ぬ	む			
+ならし	compound	ならし	なり	らし			
+なり	simplex	なり				
+に	simplex	に				
+ぬ	simplex	ぬ				
+の	simplex	の				
+のみ	simplex	のみ				
+は	simplex	は				
+はも	simplex	はも				
+ば	simplex	ば				
+ひも	simplex	ひも				
+ふるさと	simplex	ふるさと				
+へ	simplex	へ				
+べし	simplex	べし				
+べらなり	compound	べらなり	べし	ら	なり		
+ほろろ	simplex	ほろろ				
+ま	simplex	ま				
+まく	simplex	まく				
+まし	simplex	まし				
+ます	simplex	ます				
+まだ	simplex	まだ				
+まで	simplex	まで				
+まれ	compound	まれ	も	有り			
+み	simplex	み				
+蓑	simplex	みの				
+み吉野	simplex	みよしの				
+む	simplex	む				
+めり	simplex	めり				
+も	simplex	も				
+もが	simplex	もが				
+もがな	simplex	もがな				
+ものから	simplex	ものから				
+や	simplex	や				
+やよや	simplex	やよや				
+ゆたのたゆたに	simplex	ゆたのたゆたに				
+よ	simplex	よ				
+より	simplex	より				
+ら	simplex	ら				
+らし	simplex	らし				
+らむ	simplex	らむ				
+らる	simplex	らる				
+り	simplex	り				
+る	simplex	る				
+を	simplex	を				
+一	simplex	いち				
+一つ	simplex	ひとつ				
+一人	simplex	ひとり				
+一夜	compound	ひとよ	一	夜			
+一年	compound	ひととせ	一	年			
+一度	compound	ひとたび	一	度			
+一日	simplex	ひとひ				
+一時	compound	ひととき	一	時			
+一本	compound	ひともと	一	本			
+一染	compound	ひとしほ	一	潮			
+一盛り	simplex	ひとさかり				
+一目	simplex	ひとめ				
+一群	compound	ひとむら	一	群			
+万	simplex	まん				
+万世	compound	よろづよ	万	世			
+三室	simplex	みむろ				
+三日月	simplex	みかづき				
+三笠	simplex	みかさ				
+三輪	simplex	みわ				
+三輪山	compound	みわやま	三輪	山			
+上	simplex	うへ				
+上ぐ	simplex	あぐ				
+上る	simplex	のぼる				
+下	simplex	した				
+下る	simplex	くだる				
+下紐	compound	したひも	下	ひも			
+下草	compound	したくさ	下	草			
+下葉	compound	したば	下	葉			
+下露	simplex	したつゆ				
+且つ	simplex	かつ				
+世	simplex	よ				
+世の中	compound	よのなか	世	の	中		
+世世	simplex	よよ				
+世人	compound	よひと	世	人			
+並	simplex	なみ				
+並ぶ	simplex	ならぶ				
+並べて	simplex	なべて				
+並む	simplex	なむ				
+中	simplex	なか				
+中中なり	simplex	なかなかなり				
+中垣	compound	なかがき	中	垣			
+中山	compound	なかやま	中	山			
+中空	simplex	なかぞら				
+中道	compound	なかみち	中	道			
+主	simplex	ぬし				
+久し	simplex	ひさし				
+久なり	simplex	ひさなり				
+久方	simplex	ひさかた				
+久米	simplex	くめ				
+乙女	simplex	をとめ				
+九重	simplex	ここのかさね				
+乱る	simplex	みだる				
+乾く	simplex	かわく				
+亀	simplex	かめ				
+亀の尾	simplex	かめのを				
+予て	simplex	かねて				
+事	simplex	こと				
+事無しぶ	simplex	ことなしぶ				
+二	simplex	に				
+二つ	simplex	ふたつ				
+二本	compound	ふたもと	二	本			
+二見	simplex	ふたみ				
+五つ	simplex	いつつ				
+五月	simplex	さつき				
+五月山	compound	さつきやま	さつき	山			
+五月雨	simplex	さみだれ				
+井	simplex	い				
+井手	simplex	いで				
+亡し	simplex	なし				
+交じる	simplex	まじる				
+交ふ	simplex	かふ				
+人	simplex	ひと				
+人人	simplex	ひとびと				
+人目	compound	ひとめ	人	眼			
+人言	compound	ひとごと	人	言			
+人間	simplex	ひとま				
+人麿	simplex	ひとまろ				
+仄かなり	simplex	ほのかなり				
+仄仄と	simplex	ほのぼのと				
+今	simplex	いま				
+今宵	simplex	こよひ				
+今年	compound	ことし	此	年			
+今日	simplex	けふ				
+今更なり	simplex	いまさらなり				
+今朝	simplex	けさ				
+仕ふ	simplex	つかふ				
+付く	simplex	つく				
+代	simplex	よ				
+仮なり	simplex	かりなり				
+仮り	simplex	かり				
+仮初なり	simplex	かりそめなり				
+仮初め	simplex	かりそめ				
+仮庵	compound	かりいほ	仮り	庵			
+仰す	simplex	おほす				
+仲	simplex	なか				
+任す	simplex	まかす				
+伊勢	simplex	いせ				
+伊香保	simplex	いかほ				
+伏す	simplex	ふす				
+伏見	simplex	ふしみ				
+伐る	simplex	きる				
+休む	simplex	やすむ				
+休らふ	simplex	やすらふ				
+会ふ	simplex	あふ				
+伝つ	simplex	つつ				
+伝ふ	simplex	つたふ				
+似る	simplex	にる				
+住の江	simplex	すみのえ				
+住まふ	simplex	すまふ				
+住む	simplex	すむ				
+住吉	simplex	すみよし				
+佐保	simplex	さほ				
+佐保山	compound	さほやま	佐保	山			
+佐良山	simplex	さらやま				
+何	simplex	なに				
+何れ	simplex	いづれ				
+何処	simplex	いづく				
+何故	simplex	なぞ				
+何方	simplex	いづち				
+何時	simplex	いつ				
+何時しか	simplex	いつしか				
+余る	simplex	あまる				
+余所	simplex	よそ				
+作る	simplex	つくる				
+例	simplex	ためし				
+侘し	simplex	わびし				
+侘ぶ	simplex	わぶ				
+侘人	simplex	わびびと				
+侭	simplex	まま				
+便る	simplex	たよる				
+信夫	simplex	しのぶ				
+借る	simplex	かる				
+倭文	simplex	しづ				
+偲ぶ	simplex	しのぶ				
+偽る	simplex	いつはる				
+僅かなり	simplex	はつかなり				
+儚し	simplex	はかなし				
+元	simplex	もと				
+元結	simplex	もとゆひ				
+先	simplex	さき				
+先づ	simplex	まづ				
+光	simplex	ひかり				
+入る	simplex	いる				
+入れ紐	compound	いれひも	入る	ひも			
+入江	simplex	いりえ				
+八十	simplex	はちじゅう				
+八十島	compound	やそしま	八十	島			
+八千	simplex	はっせん				
+八千世	compound	やちよ	八千	世			
+八千度	simplex	やちたび				
+八千種	compound	やちぐさ	八千	草			
+八度	simplex	やたび				
+八重	simplex	やえ				
+八重葎	compound	やへむぐら	八重	葎			
+六つ	simplex	むつ				
+共	simplex	とも				
+其	simplex	そ				
+其れ	simplex	それ				
+其処	simplex	そこ				
+其故に	simplex	そゑに				
+兼ぬ	simplex	かぬ				
+内	simplex	うち				
+円居	simplex	まとゐ				
+再び	simplex	ふたたび				
+冬	simplex	ふゆ				
+冬河	compound	ふゆがは	冬	河			
+冬草	compound	ふゆくさ	冬	草			
+冴ゆ	simplex	さゆ				
+凌ぐ	simplex	しのぐ				
+凍む	simplex	しむ				
+凍る	simplex	こほる				
+凪ぐ	simplex	なぐ				
+出づ	simplex	いづ				
+分かる	simplex	わかる				
+分く	simplex	わく				
+切る	simplex	きる				
+刈る	simplex	かる				
+刈菰	compound	かりこも	刈る	菰			
+刈萱	simplex	かるかや				
+初	simplex	はつ				
+初なり	simplex	うひなり				
+初む	simplex	そむ				
+初声	simplex	はつこゑ				
+初瀬河	compound	はつせがは	初瀬	河			
+初花	compound	はつはな	初	花			
+初雁	compound	はつかり	初	雁			
+初霜	compound	はつしも	初	霜			
+初瀬	simplex	はつせ				
+初風	compound	はつかぜ	初	風			
+別る	simplex	わかる				
+別地	compound	わかれぢ	分かる	路			
+前	simplex	まへ				
+割る	simplex	わる				
+加はる	simplex	くははる				
+劣る	simplex	おとる				
+努	simplex	ゆめ				
+効	simplex	かひ				
+勝つ	simplex	かつ				
+匂はす	simplex	にほはす				
+匂ふ	simplex	にほふ				
+包む	simplex	つつむ				
+北	simplex	きた				
+千	simplex	せん				
+千世	compound	ちよ	千	代			
+千代	compound	ちよ	千	代			
+千千	simplex	ちぢ				
+千千なり	simplex	ちぢなり				
+千年	compound	ちとせ	千	歳			
+千歳	compound	ちとせ	千	歳			
+千種	compound	ちぐさ	千	草			
+千種なり	simplex	ちぐさなり				
+千鳥	simplex	ちどり				
+半ば	simplex	なかば				
+単衣	simplex	ひとへ				
+占	simplex	うら				
+卯	simplex	う				
+卯花	compound	うのはな	卯	の	花		
+原	simplex	はら				
+厭ふ	simplex	いとふ				
+去ぬ	simplex	いぬ				
+去る	simplex	さる				
+去年	simplex	こぞ				
+又	simplex	また				
+友	simplex	とも				
+取り敢へず	simplex	とりあへず				
+取る	simplex	とる				
+受く	simplex	うく				
+口	simplex	くち				
+古	simplex	いにしへ				
+古し	simplex	ふるし				
+古す	simplex	ふるす				
+古る	simplex	ふる				
+古屋	simplex	ふるや				
+古幹	compound	ふるから	古し	幹			
+古枝	compound	ふるえ	古し	枝			
+古言	simplex	ふるごと				
+古里	simplex	ふるさと				
+古里人	compound	ふるさとびと	ふるさと	人			
+叶ふ	simplex	かなふ				
+合ふ	simplex	あふ				
+合ふさきるさ	simplex	あふさきるさ				
+吉備	simplex	きび				
+吉野	simplex	よしの				
+吉野河	compound	よしのがは	吉野	川			
+同じ	simplex	おなじ				
+名	simplex	な				
+名取河	simplex	なとりがは				
+名告る	simplex	なのる				
+名残	simplex	なごり				
+向く	simplex	むく				
+君	simplex	きみ				
+吠ゆ	simplex	ほゆ				
+否	simplex	いな				
+吹く	simplex	ふく				
+吹上	simplex	ふきあげ				
+呉竹	simplex	くれたけ				
+告ぐ	simplex	つぐ				
+味気無し	simplex	あぢきなし				
+呼ばふ	simplex	よばふ				
+呼ぶ	simplex	よぶ				
+命	simplex	いのち				
+咎む	simplex	とがむ				
+咲く	simplex	さく				
+哀れ	simplex	あはれ				
+哉	simplex	かな				
+唐	simplex	から				
+唐土	simplex	もろこし				
+唐琴	simplex	からこと				
+唐紅	compound	からくれなゐ	唐	紅			
+唐衣	compound	からころも	唐	衣			
+唐錦	compound	からにしき	唐	錦			
+唯	simplex	ただ				
+唯に	simplex	ただに				
+問ふ	simplex	とふ				
+喚子鳥	simplex	よぶこどり				
+嗅ぐ	simplex	かぐ				
+嘆く	simplex	なげく				
+嚔る	simplex	ひる				
+囀る	simplex	さへづる				
+囂し	simplex	かしかまし				
+四極山	compound	しはつやま	四極	山			
+因る	simplex	よる				
+固まる	simplex	かたまる				
+国	simplex	くに				
+園	simplex	その				
+坂	simplex	さか				
+坐す	simplex	ます				
+垂る	simplex	たる				
+垂乳根	simplex	たらちね				
+垂幣の田長	simplex	しでのたをさ				
+垣	simplex	かき				
+垣根	compound	かきね	垣	根			
+垣穂	compound	かきほ	垣	穂			
+埋もる	simplex	うもる				
+埋れ木	compound	うもれぎ	埋もる	木			
+堀江	simplex	ほりえ				
+堤	simplex	つつみ				
+堰く	simplex	せく				
+報ゆ	simplex	むくゆ				
+塞く	simplex	せく				
+塩	simplex	しほ				
+塩の山	compound	しほのやま	塩	の	山		
+塩釜	simplex	しほがま				
+塵	simplex	ちり				
+境	simplex	さかひ				
+増さる	simplex	まさる				
+増す	simplex	ます				
+墨	simplex	すみ				
+声	simplex	こゑ				
+変はる	simplex	かはる				
+変ふ	simplex	かふ				
+夏	simplex	なつ				
+夏山	compound	なつやま	夏	山			
+夏草	compound	なつくさ	夏	草			
+夏虫	compound	なつむし	夏	虫			
+夏衣	compound	なつごろも	夏	衣			
+夕	simplex	ゆふ				
+夕べ	simplex	ゆふべ				
+夕影	compound	ゆふかげ	夕	陰			
+夕月夜	compound	ゆふづくよ	夕	月	夜		
+外	simplex	ほか				
+外山	simplex	とやま				
+外重	simplex	とのへ				
+夙	simplex	まだき				
+多し	simplex	おほし				
+夜	simplex	よ				
+夜な夜な	simplex	よなよな				
+夜半	simplex	よは				
+夢	simplex	ゆめ				
+夢路	compound	ゆめぢ	夢	路			
+大	simplex	おほ				
+大井河	compound	おほゐがは	大井	河			
+大原	simplex	おほはら				
+大和	simplex	やまと				
+大和撫子	compound	やまとなでしこ	大和	撫子			
+大宮	simplex	おほみや				
+大幣	compound	おほぬさ	大	幣			
+大方	simplex	おほかた				
+大沢	simplex	おほさは				
+大河	compound	おほかは	大	河			
+大空	compound	おほぞら	大	空			
+大井	simplex	おほゐ				
+大舟	compound	おほふね	大	舟			
+大荒木	simplex	おほあらき				
+天	simplex	あま				
+天の原	compound	あまのはら	天	の	原		
+天の河	compound	あまのかは	天	の	河		
+天彦	simplex	あまびこ				
+天雲	compound	あまぐも	天	雲			
+奈良	simplex	なら				
+奥山	simplex	おくやま				
+女郎花	simplex	をみなへし				
+如	simplex	こと				
+如し	simplex	ごとし				
+如何が	simplex	いかが				
+如何で	simplex	いかで				
+如何なり	simplex	いかなり				
+如何に	simplex	いかに				
+如何許り	compound	いかばかり	如何	許り			
+妬し	simplex	ねたし				
+妹	simplex	いも				
+妹背	simplex	いもせ				
+妻	simplex	つま				
+始む	simplex	はじむ				
+姨捨山	compound	をばすてやま	姨捨	山			
+姫	simplex	ひめ				
+姫小松	compound	ひめこまつ	姫	小	松		
+姫松	compound	ひめまつ	姫	松			
+姿	simplex	すがた				
+嬉し	simplex	うれし				
+子	simplex	こ				
+宇治	simplex	うぢ				
+宇治山	compound	うぢやま	宇治	山			
+宇治橋	compound	うぢばし	宇治	橋			
+守る	simplex	まもる				
+守山	compound	もるやま	守る	山			
+安し	simplex	やすし				
+安積	simplex	あさか				
+安達	simplex	あだち				
+定かなり	simplex	さだかなり				
+定まる	simplex	さだまる				
+定む	simplex	さだむ				
+宜	simplex	むべ				
+実	simplex	み				
+宮	simplex	みや				
+宮城野	simplex	みやぎの				
+宮木	simplex	みやき				
+宵	simplex	よひ				
+宵宵	simplex	よひよひ				
+家	simplex	いえ				
+家苞	simplex	いへづと				
+家路	compound	いへぢ	家	路			
+宿	simplex	やど				
+宿る	simplex	やどる				
+寂し	simplex	さびし				
+寂ぶ	simplex	さぶ				
+寄す	simplex	よす				
+寄る	simplex	よる				
+寄る辺	compound	よるべ	寄る	辺			
+富士	simplex	ふじ				
+寒し	simplex	さむし				
+寝	simplex	い				
+寝ぬ	simplex	いぬ				
+寝屋	simplex	ねや				
+専ら	simplex	もはら				
+射す	simplex	さす				
+射る	simplex	いる				
+将	simplex	はた				
+尋ぬ	simplex	たづぬ				
+尋む	simplex	とむ				
+小	simplex	こ				
+小亀	compound	こがめ	小	亀			
+小余綾	simplex	こよろぎ				
+小倉	simplex	おぐら				
+小倉山	compound	をぐらやま	小倉	山			
+小塩	simplex	をしほ				
+小夜	compound	さや	小	夜			
+小島	compound	こじま	小	島			
+小松	compound	こまつ	小	松			
+小桧隈	simplex	ささのくま				
+小石	simplex	さざれいし				
+小萩	compound	こはぎ	小	萩			
+小野	simplex	をの				
+小黒崎	simplex	をぐろさき				
+少なし	simplex	すくなし				
+尽く	simplex	つく				
+尽す	simplex	つくす				
+尾	simplex	を				
+尾上	simplex	をのへ				
+尾花	simplex	をばな				
+居り	simplex	をり				
+居る	simplex	ゐる				
+屋形	simplex	やかた				
+屑	simplex	くづ				
+屡	simplex	しばしば				
+山	simplex	やま				
+山の井	compound	やまのゐ	山	の	井		
+山下	compound	やました	山	下			
+山下水	compound	やましたみづ	山	下	水		
+山下風	compound	やましたかぜ	山	下	風		
+山中	compound	やまなか	山	中			
+山人	compound	やまびと	山	人			
+山分け衣	compound	やまわけごろも	山	分く	衣		
+山吹	simplex	やまぶき				
+山城	simplex	やましろ				
+山姫	compound	やまひめ	山	姫			
+山嵐	compound	やまあらし	山	嵐			
+山彦	simplex	やまびこ				
+山時鳥	compound	やまほととぎす	山	郭公			
+山本	compound	やまもと	山	本			
+山桜	compound	やまざくら	山	桜			
+山橘	compound	やまたちばな	山	橘			
+山河	simplex	やまかは				
+山田	compound	やまだ	山	田			
+山科	simplex	やましな				
+山賤	compound	やまがつ	山	賤			
+山路	compound	やまぢ	山	路			
+山辺	compound	やまべ	山	辺			
+山郭公	compound	やまほととぎす	山	郭公			
+山里	compound	やまざと	山	里			
+山風	compound	やまかぜ	山	風			
+山颪	compound	やまおろし	山	おろし			
+山鬘	compound	やまかづら	山	鬘			
+岡	simplex	をか				
+岡辺	compound	をかべ	岡	辺			
+岩	simplex	いは				
+岩垣	compound	いはがき	岩	垣			
+岩根	compound	いはね	岩	根			
+岩波	compound	いはなみ	岩	波			
+岩清水	compound	いはしみづ	岩	清水			
+岩躑躅	simplex	いはつつじ				
+岸	simplex	きし				
+峡	simplex	かひ				
+峰	simplex	みね				
+島	simplex	しま				
+島辺	simplex	しまべ				
+崎	simplex	さき				
+嵐	simplex	あらし				
+嶺	simplex	ね				
+巌	simplex	いはほ				
+川	simplex	かは				
+川原	compound	かはら	川	原			
+川辺	simplex	かはべ				
+川風	compound	かはかぜ	川	風			
+巡る	simplex	めぐる				
+巫覡	simplex	きね				
+差す	simplex	さす				
+差出	compound	さしで	差す	出づ			
+差出の磯	compound	さしでのいそ	差出	の	磯		
+己	simplex	おの				
+姨	simplex	をば				
+姨捨	compound	をばすて	姨	捨つ			
+男	simplex	をとこ				
+巻向	simplex	まきもく				
+巻巻	simplex	まきまき				
+布	simplex	ぬの				
+布留	simplex	ふる				
+布留河	compound	ふるかは	布留	川			
+帆	simplex	ほ				
+帯	simplex	おび				
+帰る	simplex	かへる				
+帰山	compound	かへるやま	帰る	山			
+常	simplex	つね				
+常なり	simplex	つねなり				
+常夏	compound	とこなつ	常	夏			
+常盤山	compound	ときはやま	常磐	山			
+常磐	simplex	ときは				
+幣	simplex	ぬさ				
+干す	simplex	ほす				
+干る	simplex	ひる				
+平す	simplex	ならす				
+年	simplex	とし				
+年月	compound	としつき	年	月			
+幹	simplex	みき				
+幼女	simplex	めさし				
+幾	simplex	いく				
+幾ら	simplex	いくら				
+幾世	compound	いくよ	幾	代			
+幾十許	simplex	いくそばく				
+幾夜	compound	いくよ	幾	夜			
+幾日	compound	いくか	幾	日			
+幾許	simplex	いくばく				
+床	simplex	とこ				
+床中	simplex	とこなか				
+底	simplex	そこ				
+底ひ	simplex	そこひ				
+度	simplex	たび				
+庭	simplex	には				
+庵	simplex	いほり				
+延ふ	simplex	はふ				
+弓	simplex	ゆみ				
+引く	simplex	ひく				
+弛し	simplex	たゆし				
+弥	simplex	いや				
+なよよかなり	simplex	なよよかなり				
+弱し	simplex	よわし				
+弱竹	compound	なよたけ	なよよかなり	竹			
+張る	simplex	はる				
+強ひて	simplex	しひて				
+弾く	simplex	ひく				
+当たる	simplex	あたる				
+当て	simplex	あて				
+形	simplex	かたち				
+形見	simplex	かたみ				
+彦星	simplex	ひこぼし				
+影	simplex	かげ				
+彼	simplex	か				
+彼方	simplex	あなた				
+待ち遠	compound	まちどほ	待つ	遠し			
+待つ	simplex	まつ				
+後	simplex	のち				
+後らす	simplex	おくらす				
+後る	simplex	おくる				
+後ろめたし	simplex	うしろめたし				
+後朝	simplex	きぬぎぬ				
+徒	simplex	あだ				
+徒し	simplex	あだし				
+徒し心	compound	あだしごころ	徒し	心			
+徒なり	simplex	あだなり				
+徒人	compound	あだびと	徒	人			
+徒浪	compound	あだなみ	徒なり	波			
+徒然	simplex	つれづれ				
+徒物	simplex	あだもの				
+得	simplex	う				
+斎	simplex	い				
+御	simplex	ご				
+御世	simplex	みよ				
+御侍	simplex	みさぶらひ				
+御前	simplex	みまへ				
+御吉野	simplex	みよしの				
+御垣	compound	みかき	御	垣			
+御垣守	simplex	みかきもり				
+御影	simplex	みかげ				
+御手洗	simplex	みたらし				
+御手洗河	compound	みたらしがは	御手洗	河			
+御津	simplex	みつ				
+御笠	simplex	みかさ				
+御雪	compound	みゆき	御	雪			
+微睡む	simplex	まどろむ				
+心	simplex	うら				
+心づから	simplex	こころづから				
+心地	simplex	ここち				
+心当て	compound	こころあて	心	当て			
+忍	simplex	しのぶ				
+忍び忍びなり	simplex	しのびしのびなり				
+忍ぶ	simplex	しのぶ				
+忍草	compound	しのぶぐさ	忍ぶ	草			
+忘る	simplex	わする				
+忘れ形見	compound	わすれがたみ	忘る	形見			
+忘れ草	compound	わすれぐさ	忘る	草			
+忘草	compound	わすれぐさ	忘る	草			
+忠実なり	simplex	まめなり				
+思ひ寝	compound	おもひね	思ふ	寝			
+思ふ	simplex	おもふ				
+思ふどち	simplex	おもふどち				
+思ほゆ	simplex	おもほゆ				
+急ぐ	simplex	またぐ				
+怨む	simplex	うらむ				
+怪し	simplex	あやし				
+恋し	simplex	こひし				
+恋ふ	simplex	こふ				
+恋忘草	compound	こひわすれぐさ	恋ふ	忘る	草		
+恥し	simplex	やさし				
+恥づ	simplex	はづ				
+恨む	simplex	うらむ				
+恨めし	simplex	うらめし				
+悔ゆ	simplex	くゆ				
+悪し	simplex	あし				
+悲し	simplex	かなし				
+情け	simplex	なさけ				
+惑はす	simplex	まどはす				
+惑ふ	simplex	まどふ				
+惜し	simplex	をし				
+惜しむ	simplex	をしむ				
+愈	simplex	いよいよ				
+愚かなり	simplex	おろかなり				
+愛でたし	simplex	めでたし				
+慕ふ	simplex	したふ				
+慣らふ	simplex	ならふ				
+慰む	simplex	なぐさむ				
+憂き名	compound	うきな	憂し	名			
+憂し	simplex	うし				
+憂はし	simplex	うれはし				
+憎し	simplex	にくし				
+憧る	simplex	あくがる				
+懐かし	simplex	なつかし				
+懲る	simplex	こる				
+懸く	simplex	かく				
+懸道	compound	かけみち	掛く	道			
+成す	simplex	なす				
+成る	simplex	なる				
+我	simplex	あれ				
+我ら	simplex	われら				
+我妹子	simplex	わぎもこ				
+戦ぐ	simplex	さやぐ				
+戯る	simplex	たはぶる				
+戸	simplex	と				
+所	simplex	しょ				
+手	simplex	た				
+手向く	compound	たむく	手	向く			
+手向山	compound	たむけやま	手向く	山			
+手枕	compound	たまくら	手	枕			
+打ち付けなり	simplex	うちつけなり				
+打つ	simplex	うつ				
+払ふ	simplex	はらふ				
+扨も	simplex	さても				
+扱く	simplex	こく				
+投ぐ	simplex	なぐ				
+投げ木	compound	なげき	投ぐ	木			
+折る	simplex	をる				
+抜く	simplex	ぬく				
+押す	simplex	おす				
+担ふ	simplex	になふ				
+招く	simplex	まねく				
+拾ふ	simplex	ひろふ				
+持つ	simplex	もつ				
+指す	simplex	さす				
+振る	simplex	ふる				
+振舞ふ	compound	ふるまふ	振る	舞ふ			
+挿ぐ	simplex	すぐ				
+挿す	simplex	さす				
+挿頭す	simplex	かざす				
+捨つ	simplex	すつ				
+捩摺	simplex	もぢずり				
+据う	simplex	すう				
+捲く	simplex	まく				
+掘る	simplex	ほる				
+掛かる	simplex	かかる				
+掛く	simplex	かく				
+採る	simplex	とる				
+探る	simplex	さぐる				
+掬ぶ	simplex	むすぶ				
+掻く	simplex	かく				
+換ふ	simplex	かふ				
+津	simplex	つ				
+摘む	simplex	つむ				
+摺る	simplex	する				
+撚る	simplex	よる				
+改まる	simplex	あらたまる				
+放く	simplex	さく				
+放つ	simplex	はなつ				
+放らす	simplex	はふらす				
+故	simplex	ゆゑ				
+故郷	simplex	ふるさと				
+教ふ	simplex	をしふ				
+敢ふ	simplex	あふ				
+散らす	simplex	ちらす				
+散る	simplex	ちる				
+数	simplex	かず				
+数々なり	simplex	かずかずなり				
+数ふ	simplex	かぞふ				
+数多	simplex	あまた				
+数多度	compound	あまたたび	数多	度			
+敷く	simplex	しく				
+敷妙	simplex	しきたへ				
+敷島	simplex	しきしま				
+文無し	simplex	あやなし				
+文目	simplex	あやめ				
+斎垣	compound	いがき	斎	垣			
+斑	simplex	はだれ				
+斧	simplex	をの				
+斯かり	simplex	かかり				
+斯く	simplex	かく				
+斯くて	simplex	かくて				
+新	simplex	あら				
+新し	simplex	あたらし				
+新小田	compound	あらをだ	新	小	田		
+新玉	simplex	あらたま				
+方	simplex	かた				
+方便	simplex	たづき				
+旁	simplex	かたがた				
+旅	simplex	たび				
+旅寝	simplex	たびね				
+旅心地	compound	たびここち	旅	心地			
+日	simplex	にち				
+日置野	simplex	ひきの				
+早	simplex	はや				
+早し	simplex	はやし				
+早苗	simplex	さなへ				
+明かす	simplex	あかす				
+明く	simplex	あく				
+明けし	simplex	さやけし				
+明日	simplex	あす				
+明石	simplex	あかし				
+易し	simplex	やすし				
+昔	simplex	むかし				
+昔方	simplex	むかしべ				
+星	simplex	ほし				
+春	simplex	はる				
+春日	simplex	かすが				
+春日野	simplex	かすがの				
+春辺	simplex	はるべ				
+春雨	compound	はるさめ	春	雨			
+春霞	compound	はるがすみ	春	霞			
+春風	compound	はるかぜ	春	風			
+昨日	simplex	きのふ				
+昼	simplex	ひる				
+時	simplex	とき				
+時雨る	simplex	しぐる				
+時鳥	simplex	ほととぎす				
+晨明	simplex	ありあけ				
+晩稲	simplex	おくて				
+晴る	simplex	はる				
+暁	simplex	あかつき				
+暗し	simplex	くらし				
+暗す	simplex	くらす				
+暗部	simplex	くらぶ				
+暗部山	compound	くらぶやま	暗部	山			
+暫し	simplex	しばし				
+暮す	simplex	くらす				
+暮る	simplex	くる				
+曇り	simplex	くもり				
+曇り日	compound	くもりび	曇り	日			
+曇る	simplex	くもる				
+曝す	simplex	さらす				
+曳く	simplex	ひく				
+更々に	simplex	さらさらに				
+更く	simplex	ふく				
+更なり	simplex	さらなり				
+更科	simplex	さらしな				
+書く	simplex	かく				
+替ふ	simplex	かふ				
+最上河	compound	もがみがは	最上	河			
+月	simplex	つき				
+月夜	compound	つきよ	月	夜			
+月影	simplex	つきかげ				
+月日	compound	つきひ	月	日			
+月草	compound	つきくさ	月	草			
+有り	simplex	あり				
+有処	compound	ありか	有り	所			
+有数	compound	ありかず	有り	数			
+有明	simplex	ありあけ				
+有磯	simplex	ありそ				
+有磯海	compound	ありそうみ	有磯	海			
+朗ら朗らと	simplex	ほがらほがらと				
+朝	simplex	あさ				
+朝な	simplex	あさな				
+朝な夕なに	simplex	あさなゆふなに				
+朝な日に	compound	あさなけに	朝な	日	に		
+朝な朝な	compound	あさなあさな	朝な	朝な			
+朝の原	compound	あしたのはら	朝	の	原		
+朝ぼらけ	simplex	あさぼらけ				
+朝明	simplex	あさけ				
+朝霧	compound	あさぎり	朝	霧			
+朝露	compound	あさつゆ	朝	露			
+期	simplex	こ				
+木	simplex	き				
+木木	simplex	きぎ				
+木綿	simplex	もめん				
+木綿付鳥	simplex	ゆふつけどり				
+木綿襷	compound	ゆふだすき	木綿	襷			
+未だ	simplex	いまだ				
+未だし	simplex	まだし				
+末	simplex	うれ				
+末の松山	compound	すゑのまつやま	末	の	松山		
+末摘花	simplex	すゑつむはな				
+末枝	compound	ほつえ	穂	つ	枝		
+本	simplex	ほん				
+本柏	simplex	もとかしは				
+本荒	compound	もとあら	本	荒し			
+朽つ	simplex	くつ				
+朽木	compound	くちき	朽つ	木			
+杉	simplex	すぎ				
+杖	simplex	つえ				
+束緒	compound	たばねを	束ぬ	緒			
+杣人	simplex	そまびと				
+来	simplex	く				
+東路	compound	あづまぢ	東	路			
+東雲	simplex	しののめ				
+東	simplex	あづま				
+松	simplex	まつ				
+松山	compound	まつやま	松	山			
+松虫	simplex	まつむし				
+板	simplex	いた				
+板井	simplex	いたゐ				
+板戸	compound	いたど	板	戸			
+板間	simplex	いたま				
+枕	simplex	まくら				
+果	simplex	はたて				
+果つ	simplex	はつ				
+枝	simplex	え				
+枯る	simplex	かる				
+柄	simplex	え				
+染む	simplex	しむ				
+柞	simplex	ははそ				
+柳	simplex	やなぎ				
+柵む	simplex	しがらむ				
+栄す	simplex	はやす				
+栄ゆ	simplex	さかゆ				
+栄る	simplex	さかる				
+栄行く	compound	さかゆく	栄ゆ	行く			
+根	simplex	ね				
+根蓴菜	simplex	ねぬなは				
+桂	simplex	かつら				
+案山子	simplex	そほづ				
+桜	simplex	さくら				
+桜色	compound	さくらいろ	桜	色			
+桜花	compound	さくらばな	桜	花			
+梅	simplex	うめ				
+梓	simplex	あずさ				
+梓弓	compound	あづさゆみ	梓	弓			
+梔子	simplex	くちなし				
+梢	simplex	こずゑ				
+梨	simplex	なし				
+棚	simplex	たな				
+棚引く	simplex	たなびく				
+棚橋	compound	たなはし	棚	橋			
+棚機女	simplex	たなばたつめ				
+棚無し小舟	compound	たななしをぶね	棚	無し	小	舟	
+森	simplex	もり				
+植う	simplex	うう				
+楢	simplex	なら				
+楫	simplex	かじ				
+業	simplex	わざ				
+楽し	simplex	たのし				
+榊葉	compound	さかきば	榊	葉			
+様	simplex	さま				
+槙	simplex	まき				
+標	simplex	しるべ				
+標す	simplex	しるす				
+横	simplex	よこ				
+樵る	simplex	こる				
+橋	simplex	はし				
+橋姫	compound	はしひめ	橋	姫			
+橋守	compound	はしもり	橋	守る			
+橘	simplex	たちばな				
+檜隈河	simplex	ひのくまがは				
+櫂	simplex	かい				
+欲し	simplex	ほし				
+欺く	simplex	あざむく				
+止まる	simplex	とまる				
+止む	simplex	とどむ				
+正し	simplex	まさし				
+此	simplex	こ				
+此れ	simplex	これ				
+此処	simplex	ここ				
+此方	simplex	こなた				
+武蔵野	simplex	むさしの				
+歳	simplex	とし				
+死ぬ	simplex	しぬ				
+死出	simplex	しで				
+殊に	simplex	ことに				
+残す	simplex	のこす				
+残る	simplex	のこる				
+殻	simplex	から				
+毎	simplex	ごと				
+比ふ	simplex	たぐふ				
+水	simplex	み				
+水上	simplex	みなかみ				
+水底	compound	みづぞこ	水	底			
+水泡	simplex	みなわ				
+水無瀬河	simplex	みなせがは				
+水神	simplex	みなかみ				
+水脈	simplex	みを				
+水茎	simplex	みづくき				
+水草	compound	みくさ	水	草			
+水門	simplex	みなと				
+氷	simplex	こほり				
+永らふ	simplex	ながらふ				
+永久に	simplex	とはに				
+汝	simplex	な				
+池	simplex	いけ				
+汲む	simplex	くむ				
+沈く	simplex	しづく				
+沈む	simplex	しづむ				
+沖	simplex	おき				
+沖辺	simplex	おきへ				
+沢	simplex	さは				
+沢水	compound	さはみづ	沢	水			
+河	simplex	かは				
+河原	compound	かはら	川	原			
+河霧	compound	かはぎり	河	霧			
+河風	compound	かはかぜ	河	風			
+沼	simplex	ぬま				
+沼水	compound	ぬまみづ	沼	水			
+況して	simplex	まして				
+泉河	compound	いづみがは	泉	河			
+泊る	simplex	とまる				
+泡	simplex	あわ				
+波	simplex	なみ				
+泣く	simplex	なく				
+津の国	compound	つのくに	津	の	国		
+流す	simplex	ながす				
+流る	simplex	ながる				
+流石に	simplex	さすがに				
+浅し	simplex	あさし				
+浅まし	simplex	あさまし				
+浅緑	compound	あさみどり	浅し	緑			
+浅茅	simplex	あさぢ				
+浅茅生	simplex	あさぢふ				
+浅間	simplex	あさま				
+浜	simplex	はま				
+浜千鳥	compound	はまちどり	浜	千鳥			
+浜松	compound	はままつ	浜	松			
+浦	simplex	うら				
+浪	simplex	なみ				
+浪路	simplex	なみぢ				
+浮かぶ	simplex	うかぶ				
+浮く	simplex	うく				
+浮ぶ	simplex	うかぶ				
+浮子	simplex	うけ				
+浮海布	simplex	うきめ				
+浮草	compound	うきくさ	浮く	草			
+海	simplex	うみ				
+海人	simplex	あま				
+海人衣	compound	あまごろも	海人	衣			
+海原	simplex	わたのはら				
+海松藻	simplex	みるめ				
+海神	compound	わたつみ	海	つ	神		
+海辺	simplex	うみべた				
+消	simplex	く				
+消つ	simplex	けつ				
+消ゆ	simplex	きゆ				
+涙	simplex	なみだ				
+涙河	compound	なみだがは	涙	河			
+涼し	simplex	すずし				
+淀	simplex	よど				
+淀む	simplex	よどむ				
+淀河	simplex	よどがは				
+淡	simplex	あは				
+淡路	simplex	あはぢ				
+淡路島山	compound	あはぢしまやま	淡路	島	山		
+淡雪	compound	あはゆき	淡	雪			
+深し	simplex	ふかし				
+深む	simplex	ふかむ				
+深山	simplex	みやま				
+深草	simplex	ふかくさ				
+深草野	simplex	ふかくさの				
+淵	simplex	ふち				
+淵瀬	compound	ふちせ	淵	瀬			
+添はる	simplex	そはる				
+添ふ	simplex	そふ				
+清かなり	simplex	さやかなり				
+清し	simplex	きよし				
+清なり	simplex	さやなり				
+清水	simplex	しみづ				
+清滝	compound	きよたき	清し	滝			
+渚	simplex	なぎさ				
+渡す	simplex	わたす				
+渡り河	simplex	わたりがは				
+渡る	simplex	わたる				
+渡守	compound	わたしもり	渡す	守る			
+温し	simplex	ぬるし				
+湊	simplex	みなと				
+満つ	simplex	みつ				
+溜む	simplex	たむ				
+溜る	simplex	たまる				
+溺ほる	simplex	おぼほる				
+滝	simplex	たき				
+滴	simplex	しづく				
+漁	simplex	いさり				
+漏らす	simplex	もらす				
+漏る	simplex	もる				
+漕ぐ	simplex	こぐ				
+漬つ	simplex	ひつ				
+潜く	simplex	かづく				
+潜る	simplex	くぐる				
+潮	simplex	しお				
+潮合	compound	しほあひ	潮	合ふ			
+潮貝	simplex	しほがひ				
+澄む	simplex	すむ				
+澪	simplex	みを				
+串	simplex	くし				
+澪標	compound	みをつくし	澪	つ	串		
+激つ	simplex	たぎつ				
+濁る	simplex	にごる				
+濃し	simplex	こし				
+濃紫	compound	こむらさき	濃し	紫			
+濡つ	simplex	そぼつ				
+濡らす	simplex	ぬらす				
+濡る	simplex	ぬる				
+濡衣	compound	ぬれぎぬ	濡る	衣			
+瀬	simplex	せ				
+瀬瀬	simplex	せぜ				
+火	simplex	ひ				
+炎	simplex	ほのほ				
+為	simplex	ため				
+為す	simplex	なす				
+烏羽玉	simplex	うばたま				
+無き名	compound	なきな	無し	名			
+無し	simplex	なし				
+然	simplex	さ				
+然らば	simplex	さらば				
+然り	simplex	さり				
+焼く	simplex	やく				
+煙	simplex	けぶり				
+照らす	simplex	てらす				
+照る	simplex	てる				
+熾火	compound	おきび	燠	火			
+燃ゆ	simplex	もゆ				
+燠	simplex	おき				
+燻ぶ	simplex	ふすぶ				
+片	simplex	かた				
+片岡	simplex	かたをか				
+片恋	compound	かたこひ	片	恋ふ			
+片方	simplex	かたへ				
+片枝	simplex	かたえ				
+片糸	compound	かたいと	片	糸			
+物	simplex	もの				
+最上	simplex	もがみ				
+物故	simplex	ものゆゑ				
+物故に	simplex	ものゆゑに				
+犬上	simplex	いぬがみ				
+狩り	simplex	かり				
+狩衣	compound	かりごろも	狩り	衣			
+独り	simplex	ひとり				
+狭し	simplex	せばし				
+狭筵	simplex	さむしろ				
+猶	simplex	なほ				
+猿	simplex	ましら				
+獣	simplex	けだもの				
+率爾に	simplex	いささめに				
+玉	simplex	たま				
+玉津	simplex	たまつ				
+玉匣	simplex	たまくしげ				
+玉垂れ	compound	たまだれ	玉	垂る			
+玉桙	simplex	たまぼこ				
+玉津島	compound	たまつしま	玉津	島			
+玉章	simplex	たまづさ				
+玉葛	compound	たまかづら	玉	葛			
+玉藻	compound	たまも	珠	藻			
+玉襷	compound	たまだすき	珠	襷			
+珍し	simplex	めづらし				
+珠	simplex	たま				
+現	simplex	うつつ				
+現し心	compound	うつしごころ	現	心			
+現はる	simplex	あらはる				
+理無し	simplex	わりなし				
+琴	simplex	こと				
+瓶原	simplex	みかのはら				
+生く	simplex	いく				
+生す	simplex	むす				
+生ふ	simplex	おふ				
+田	simplex	た				
+田子	simplex	たご				
+田蓑	compound	たみの	田	蓑			
+田鶴	simplex	たづ				
+由	simplex	よし				
+甲斐	simplex	かひ				
+申す	simplex	まうす				
+男山	compound	をとこやま	男	山			
+畏む	simplex	かしこむ				
+留まる	simplex	とどまる				
+留む	simplex	とどむ				
+異なり	simplex	けなり				
+異に	simplex	けに				
+異異	simplex	ことごと				
+疎し	simplex	うとし				
+疎む	simplex	うとむ				
+疾し	simplex	とし				
+痛し	simplex	いたし				
+白	simplex	しろ				
+四極	simplex	しはつ				
+白し	simplex	しろし				
+白妙	simplex	しろたへ				
+白山	compound	しらやま	白	山			
+白檀弓	compound	しらまゆみ	白	真	弓		
+白河	compound	しらかは	白	河			
+白浪	compound	しらなみ	白	波			
+白玉	compound	しらたま	白	珠			
+白糸	compound	しらいと	白	糸			
+白菊	compound	しらぎく	白	菊			
+白雪	compound	しらゆき	白	雪			
+白雲	compound	しらくも	白	雲			
+白露	compound	しらつゆ	白	露			
+百	simplex	ひゃく				
+百千鳥	simplex	ももちどり				
+百敷	simplex	ももしき				
+百羽掻き	compound	ももはがき	百	羽	掻く		
+百草	simplex	ももくさ				
+皆	simplex	みな				
+皆がら	simplex	みながら				
+皇	simplex	すべらぎ				
+皺	simplex	しわ				
+盗む	simplex	ぬすむ				
+盛りなり	simplex	さかりなり				
+盛る	simplex	さかる				
+目	simplex	め				
+直路	simplex	ただぢ				
+相	simplex	あひ				
+相坂	simplex	あふさか				
+相坂山	compound	あふさかやま	逢坂	山			
+真	simplex	ま				
+真似	simplex	まぬ				
+真弓	compound	まゆみ	真	弓			
+真木	simplex	まさき				
+真澄鏡	simplex	ますかがみ				
+真砂	simplex	まさご				
+真菰	compound	まこも	真	菰			
+真金	simplex	まがね				
+眺む	simplex	ながむ				
+眼	simplex	め				
+着す	simplex	きす				
+着る	simplex	きる				
+睦まじ	simplex	むつまじ				
+睦まし	simplex	むつまし				
+睦言	compound	むつごと	睦まし	言			
+知らす	simplex	しらす				
+知る	simplex	しる				
+短し	simplex	みじかし				
+石	simplex	いし				
+石間	compound	いしま	石	間			
+砕く	simplex	くだく				
+磯	simplex	いそ				
+潟	simplex	かた				
+磯菜	compound	いそな	磯	菜			
+磯辺	compound	いそべ	磯	辺			
+社	simplex	やしろ				
+祈言	simplex	ねぎごと				
+祝ふ	simplex	いはふ				
+神	simplex	かみ				
+神世	simplex	かみよ				
+神垣	compound	かみがき	神	垣			
+神奈備	simplex	かむなび				
+神奈備山	compound	かむなびやま	神奈備	山			
+神無月	simplex	かみなづき				
+祟る	simplex	たたる				
+禊	simplex	みそぎ				
+私	simplex	わたくし				
+秋	simplex	あき				
+秋田	compound	あきた	秋	田			
+秋萩	compound	あきはぎ	秋	萩			
+秋霧	compound	あきぎり	秋	霧			
+秋風	compound	あきかぜ	秋	風			
+移す	simplex	うつす				
+移り香	compound	うつりが	移る	香			
+移る	simplex	うつる				
+移ろふ	simplex	うつろふ				
+稀なり	simplex	まれなり				
+程	simplex	ほど				
+種	simplex	たね				
+稲	simplex	いね				
+稲妻	simplex	いなづま				
+稲孫	simplex	ひづち				
+稲舟	compound	いなふね	稲	舟			
+稲葉	compound	いなば	稲	葉			
+稲負鳥	simplex	いなおほせどり				
+穂	simplex	ほ				
+積む	simplex	つむ				
+積もる	simplex	つもる				
+穴師	simplex	あなし				
+空	simplex	そら				
+空し	simplex	むなし				
+空五倍子	simplex	うつぶし				
+空五倍子染め	compound	うつぶしぞめ	空五倍子	染む			
+空蝉	simplex	うつせみ				
+突く	simplex	つく				
+立つ	simplex	たつ				
+立田	simplex	たつた				
+立田姫	compound	たつたひめ	立田	姫			
+立田山	compound	たつたやま	立田	山			
+立田河	compound	たつたかは	立田	川			
+竜田河	compound	たつたがは	立田	川			
+端	simplex	は				
+竹	simplex	たけ				
+笠	simplex	かさ				
+笠取	simplex	かさとり				
+笠取山	compound	かさとりやま	笠取	山			
+笠結ひ	compound	かさゆひ	笠	結ふ			
+笹	simplex	ささ				
+筋	simplex	すじ				
+筐	simplex	がたみ				
+筑波嶺	compound	つくばね	筑波	嶺			
+筑波	simplex	つくば				
+答ふ	simplex	こたふ				
+筬	simplex	をさ				
+節	simplex	ふし				
+篝火	compound	かがりび	篝	火			
+篠	simplex	しの				
+篠原	compound	しのはら	篠	原			
+篠薄	compound	しのすすき	篠	薄			
+籠む	simplex	こむ				
+籠る	simplex	こもる				
+籬	simplex	まがき				
+粗	simplex	あら				
+糸	simplex	いと				
+糸筋	compound	いとすぢ	糸	筋			
+紅	simplex	くれなゐ				
+紅葉	simplex	もみぢ				
+紅葉づ	simplex	もみづ				
+紅葉葉	compound	もみぢば	紅葉	葉			
+紐	simplex	ひも				
+紛ふ	simplex	まがふ				
+紛る	simplex	まぎる				
+紫	simplex	むらさき				
+細し	simplex	ほそし				
+細枝	simplex	しもと				
+細谷河	simplex	ほそたにがは				
+終る	simplex	をはる				
+終夜	simplex	よもすがら				
+絃	simplex	を				
+絆	simplex	ほだし				
+経	simplex	たて				
+経緯	simplex	たてぬき				
+結ふ	simplex	ゆふ				
+結ぶ	simplex	むすぶ				
+結ぼほる	simplex	むすぼほる				
+結果	simplex	かくなわ				
+絞る	simplex	しぼる				
+絶ゆ	simplex	たゆ				
+継ぐ	simplex	つぐ				
+綰く	simplex	たく				
+綱手	simplex	つなで				
+綴る	simplex	つづる				
+綻ぶ	simplex	ほころぶ				
+緑	simplex	みどり				
+緒	simplex	お				
+緯	simplex	ぬき				
+縄	simplex	なは				
+縦し	simplex	よし				
+縦しや	simplex	よしや				
+縫ふ	simplex	ぬふ				
+繁し	simplex	しげし				
+繁る	simplex	しげる				
+織る	simplex	おる				
+織女	simplex	たなばた				
+繰る	simplex	くる				
+纏はる	simplex	まつはる				
+置き所	compound	おきどころ	置く	所			
+置く	simplex	おく				
+美作	simplex	みまさか				
+美濃	simplex	みの				
+美濃国	compound	みののくに	美濃	の	国		
+美豆	simplex	みつ				
+群	simplex	むら				
+群る	simplex	むる				
+群群	simplex	むらむら				
+群鳥	compound	むらどり	群	鳥			
+羽	simplex	は				
+羽振く	simplex	はぶく				
+羽風	compound	はかぜ	羽	風			
+習はし物	simplex	ならはしもの				
+翔る	simplex	かける				
+老いらく	simplex	おいらく				
+老ゆ	simplex	おゆ				
+耳梨	simplex	みみなし				
+聞かす	simplex	きかす				
+聞く	simplex	きく				
+聞こゆ	simplex	きこゆ				
+聞ゆ	simplex	きこゆ				
+背く	simplex	そむく				
+背子	simplex	せこ				
+胸	simplex	むね				
+脛	simplex	はぎ				
+脱ぐ	simplex	ぬぐ				
+至る	simplex	いたる				
+興津	simplex	おきつ				
+舞ふ	simplex	まふ				
+舟	simplex	ふね				
+良し	simplex	よし				
+色	simplex	いろ				
+色々	simplex	いろいろ				
+色どる	simplex	いろどる				
+色色	simplex	いろいろ				
+色香	compound	いろか	色	香			
+艶く	simplex	なまめく				
+芥	simplex	あくた				
+花	simplex	はな				
+花かつみ	simplex	はなかつみ				
+花桜	compound	はなざくら	花	桜			
+花橘	compound	はなたちばな	花	橘			
+花笠	compound	はながさ	花	笠			
+花筐	compound	はながたみ	花	筐			
+花色衣	compound	はないろごろも	花	色	衣		
+花薄	compound	はなすすき	花	薄			
+花見	simplex	はなみ				
+芽	simplex	め				
+苔	simplex	こけ				
+苗	simplex	なへ				
+苞	simplex	つと				
+若し	simplex	わかし				
+若ゆ	simplex	わかゆ				
+若草	compound	わかくさ	若し	草			
+若菜	compound	わかな	若し	菜			
+若菰	compound	わかごも	若し	菰			
+苦し	simplex	くるし				
+苧環	simplex	をだまき				
+茂る	simplex	しげる				
+草	simplex	くさ				
+草木	compound	くさき	草	木			
+草枕	simplex	くさまくら				
+草葉	compound	くさば	草	葉			
+荒し	simplex	あらし				
+荒む	simplex	すさむ				
+荒る	simplex	ある				
+菅	simplex	すが				
+菅原	compound	すがはら	菅	原			
+菊	simplex	きく				
+菖蒲	simplex	あやめ				
+菖蒲草	compound	あやめぐさ	菖蒲	草			
+菜	simplex	な				
+菰	simplex	こも				
+萎る	simplex	しをる				
+萩	simplex	はぎ				
+萩原	compound	はぎはら	萩	原			
+落つ	simplex	おつ				
+葉	simplex	は				
+葎	simplex	むぐら				
+著し	simplex	しるし				
+葛	simplex	かづら				
+葛城	simplex	かつらぎ				
+葛城山	compound	かつらぎやま	葛城	山			
+葦	simplex	あし				
+葦辺	compound	あしべ	葦	辺			
+葦鶴	compound	あしたづ	葦	鶴			
+蒔く	simplex	まく				
+蒲生	simplex	うね				
+蓮	simplex	はちす				
+蓮葉	compound	はちすば	蓮	葉			
+薄	simplex	すすき				
+薄し	simplex	うすし				
+薬	simplex	くすり				
+薮	simplex	やぶ				
+藁	simplex	わら				
+藁火	compound	わらび	藁	火			
+藤	simplex	ふぢ				
+藤河	simplex	ふぢがは				
+藤波	compound	ふぢなみ	藤	波			
+藤浪	compound	ふぢなみ	藤	波			
+藤衣	compound	ふぢごろも	藤	衣			
+藤袴	compound	ふぢばかま	藤	袴			
+藻	simplex	も				
+藻塩	simplex	もしほ				
+藻屑	compound	もくづ	藻	屑			
+蘆	simplex	あし				
+蘆垣	compound	あしがき	蘆	垣			
+蘆鴨	compound	あしがも	葦	鴨			
+蘆鶴	compound	あしたづ	葦	鶴			
+虫	simplex	むし				
+蚊遣火	simplex	かやりび				
+蛍	simplex	ほたる				
+蛙	simplex	かはづ				
+蜂	simplex	すがる				
+蜘蛛	simplex	ささがに				
+蜩	simplex	ひぐらし				
+蝉	simplex	せみ				
+蟋蟀	simplex	きりぎりす				
+血	simplex	ち				
+行き交ひ路	compound	ゆきかひぢ	行く	交ふ	路		
+行き来	compound	ゆきき	行く	来			
+行く	simplex	ゆく				
+行方	compound	ゆくへ	行く	方			
+術	simplex	すべ				
+衛る	simplex	まもる				
+衣	simplex	い				
+衣手	simplex	ころもで				
+衰ふ	simplex	おとろふ				
+袂	simplex	たもと				
+袖	simplex	そで				
+袴	simplex	はかま				
+裁つ	simplex	たつ				
+裁る	simplex	きる				
+裂く	simplex	さく				
+裏	simplex	うら				
+褄	simplex	つま				
+襷	simplex	たすき				
+西	simplex	にし				
+覆ふ	simplex	おほふ				
+見す	simplex	みす				
+見ゆ	simplex	みゆ				
+見る	simplex	みる				
+覚ます	simplex	さます				
+覚む	simplex	さむ				
+覚束無し	simplex	おぼつかなし				
+親	simplex	おや				
+解く	simplex	とく				
+解る	simplex	はつる				
+触る	simplex	ふる				
+言	simplex	こと				
+言う	simplex	いう				
+言の葉	simplex	ことのは				
+言ふ	simplex	いふ				
+記す	simplex	しるす				
+訪ふ	simplex	とふ				
+訪る	simplex	おとづる				
+許り	simplex	ばかり				
+詰む	simplex	つむ				
+誂ふ	simplex	あつらふ				
+誇らし	simplex	ほこらし				
+誘ふ	simplex	いざなふ				
+語らふ	simplex	かたらふ				
+語る	simplex	かたる				
+誤つ	simplex	あやまつ				
+読む	simplex	よむ				
+誰	simplex	た				
+調ぶ	simplex	しらぶ				
+諸共に	simplex	もろともに				
+譬ふ	simplex	たとふ				
+谷	simplex	たに				
+谷風	compound	たにかぜ	谷	風			
+豊かなり	simplex	ゆたかなり				
+負く	simplex	まく				
+負ふ	simplex	おふ				
+負ほす	simplex	おほす				
+貫く	simplex	つらぬく				
+責む	simplex	せむ				
+責めく	simplex	せめく				
+責めて	simplex	せめて				
+貸す	simplex	かす				
+賀茂	simplex	かも				
+賎し	simplex	いやし				
+賞づ	simplex	めづ				
+賢しら	simplex	さかしら				
+賤	simplex	しず				
+走り火	simplex	はしりび				
+走る	simplex	はしる				
+起く	simplex	おく				
+越	simplex	こし				
+越す	simplex	こす				
+越の国	compound	こしのくに	越	の	国		
+越ゆ	simplex	こゆ				
+越路	compound	こしぢ	越	路			
+足	simplex	あし				
+足る	simplex	たる				
+跡	simplex	あと				
+跡計	simplex	あとはか				
+路	simplex	ぢ				
+踏む	simplex	ふむ				
+躊躇	simplex	いさよひ				
+身	simplex	み				
+転	simplex	うたて				
+転た	simplex	うたた				
+轟かす	simplex	とどろかす				
+轟に	simplex	とどろに				
+辛し	simplex	からし				
+辰巳	simplex	たつみ				
+辺	simplex	あたり				
+込む	simplex	こむ				
+辿る	simplex	たどる				
+近し	simplex	ちかし				
+近江	simplex	あふみ				
+返す	simplex	かへす				
+返す返す	simplex	かへすがへす				
+返る	simplex	かへる				
+返る返る	simplex	かへるがへる				
+述ばふ	simplex	のばふ				
+迷ふ	simplex	まどふ				
+逃ぐ	simplex	にぐ				
+逃る	simplex	のがる				
+逆様なり	simplex	さかさまなり				
+這ふ	simplex	はふ				
+通す	simplex	とほす				
+通ひ路	compound	かよひぢ	通ふ	路			
+通ふ	simplex	かよふ				
+逢ふ	simplex	あふ				
+逢坂	simplex	あふさか				
+連ぬ	simplex	つらぬ				
+連る	simplex	つる				
+連れ無し	simplex	つれなし				
+遂に	simplex	つひに				
+遅し	simplex	おそし				
+過ぐ	simplex	すぐ				
+過ぐす	simplex	すぐす				
+道	simplex	みち				
+道行振り	simplex	みちゆきぶり				
+遠ざかる	compound	とほざかる	遠し	離かる			
+遠し	simplex	とほし				
+遠方	simplex	をち				
+遠方人	compound	をちかたびと	遠方	人			
+遠近	compound	をちこち	遠方	此方			
+遣る	simplex	やる				
+遥かなり	simplex	はるかなり				
+遥けし	simplex	はるけし				
+遥遥	simplex	はるばる				
+避く	simplex	よく				
+避る	simplex	さる				
+邂逅に	simplex	わくらばに				
+郭公	simplex	ほととぎす				
+都	simplex	みやこ				
+都人	compound	みやこびと	都	人			
+都鳥	compound	みやこどり	都	鳥			
+鄙	simplex	ひな				
+里	simplex	さと				
+重し	simplex	おもし				
+重なる	simplex	かさなる				
+重荷	simplex	おもに				
+野	simplex	の				
+野中	simplex	のなか				
+野守	compound	のもり	野	守る			
+野山	simplex	のやま				
+野良	simplex	のら				
+野辺	simplex	のべ				
+野風	compound	のかぜ	野	風			
+釣る	simplex	つる				
+釣縄	compound	つりなは	釣る	縄			
+釣舟	compound	つりぶね	釣る	舟			
+鋤く	simplex	すく				
+錦	simplex	にしき				
+鏡	simplex	かがみ				
+鏡山	compound	かがみやま	鏡	山			
+長々し	simplex	をさをさし				
+長く	simplex	たく				
+長し	simplex	ながし				
+長居	simplex	ながゐ				
+長月	simplex	ながつき				
+長柄	simplex	ながら				
+長浜	simplex	ながはま				
+長閑けし	simplex	のどけし				
+長雨	compound	ながめ	長し	雨			
+門	simplex	かど				
+門出	simplex	かどで				
+閉す	simplex	さす				
+閉づ	simplex	とづ				
+間	simplex	ま				
+間遠なり	simplex	まどほなり				
+関	simplex	せき				
+関守	simplex	せきもり				
+閻浮	simplex	えぶ				
+闇	simplex	やみ				
+阿武隈	simplex	あふくま				
+降つ	simplex	くだつ				
+降る	simplex	ふる				
+限る	simplex	かぎる				
+陰	simplex	かげ				
+陸奥	simplex	みちのく				
+陽炎	simplex	かげろふ				
+隈	simplex	くま				
+随に	simplex	まにまに				
+隔つ	simplex	へだつ				
+隙	simplex	ひま				
+隠す	simplex	かくす				
+隠る	simplex	かくる				
+隠れ家	compound	かくれが	隠る	家			
+隠れ沼	compound	かくれぬ	隠る	沼			
+隣	simplex	となり				
+雁	simplex	かり				
+集む	simplex	あつむ				
+雉子	simplex	きじ				
+雑ず	simplex	まず				
+離かる	simplex	さかる				
+離る	simplex	かる				
+難し	simplex	かたし				
+難波	simplex	なには				
+難波潟	compound	なにはがた	難波	潟			
+雨	simplex	あめ				
+雪	simplex	ゆき				
+雪消	compound	ゆきげ	雪	消ゆ			
+雪間	compound	ゆきま	雪	間			
+雫	simplex	しづく				
+雲	simplex	くも				
+雲井	simplex	くもゐ				
+雲居	simplex	くもゐ				
+霜	simplex	しも				
+霜夜	compound	しもよ	霜	夜			
+霞	simplex	かすみ				
+霞む	simplex	かすむ				
+霧	simplex	きり				
+霧る	simplex	きる				
+霰	simplex	あられ				
+露	simplex	つゆ				
+露けし	simplex	つゆけし				
+露霜	compound	つゆじも	露	霜			
+青	simplex	あお				
+青柳	compound	あをやぎ	青	柳			
+青葛	compound	あをつづら	青	葛			
+静かなり	simplex	しづかなり				
+静心	compound	しづごころ	静かなり	心			
+靡く	simplex	なびく				
+面	simplex	おも				
+面影	simplex	おもかげ				
+音	simplex	おと				
+音づる	simplex	おとづる				
+音羽	simplex	おとは				
+音羽山	compound	おとはやま	音羽	山			
+音羽河	compound	おとはがは	音羽	河			
+響く	simplex	ひびく				
+響む	simplex	とよむ				
+頃	simplex	ころ				
+須磨	simplex	すま				
+頬	simplex	つら				
+頬杖	compound	つらづゑ	頬	杖			
+頭	simplex	かしら				
+頻く	simplex	しく				
+頼む	simplex	たのむ				
+頼る	simplex	たよる				
+顔	simplex	かほ				
+類ふ	simplex	たぐふ				
+顧みる	simplex	かへりみる				
+風	simplex	かぜ				
+鹿背	simplex	かせ				
+飛ぶ	simplex	とぶ				
+飛火	simplex	とぶひ				
+飛鳥	simplex	あすか				
+飛鳥河	compound	あすかがは	飛鳥	河			
+飼ふ	simplex	かふ				
+飽く	simplex	あく				
+香	simplex	か				
+馳す	simplex	はす				
+馴る	simplex	なる				
+駒	simplex	こま				
+駿河	simplex	するが				
+騒ぐ	simplex	さわぐ				
+驚く	simplex	おどろく				
+高し	simplex	たかし				
+高師	simplex	たかし				
+高砂	simplex	たかさご				
+髪	simplex	かみ				
+鬘	simplex	かづら				
+魂	simplex	たま				
+鳥	simplex	とり				
+鳥籠	simplex	とこ				
+鳰鳥	simplex	にほどり				
+鳴く	simplex	なく				
+鳴す	simplex	なす				
+鳴る	simplex	なる				
+鴛鴦	simplex	をしどり				
+鴫	simplex	しぎ				
+鴬	simplex	うぐひす				
+鶉	simplex	うづら				
+鶯	simplex	うぐひす				
+鶴	simplex	たづ				
+鹿	simplex	しか				
+鹿背山	compound	かせやま	鹿背	山			
+麓	simplex	ふもと				
+麻	simplex	あさ				
+麻生	simplex	をふ				
+黒	simplex	くろ				
+黒し	simplex	くろし				
+黒髪	compound	くろかみ	黒	髪			
+鼻	simplex	はな				
+齢	simplex	よはひ				
