@@ -760,23 +760,6 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.8.0063"/>
         </entry>
-        <entry xml:id="てへ" type="compound">
-          <form type="lemma">
-            <orth xml:lang="ja">てへ</orth>
-            <pron notation="kana"><w lemmaRef="ri:て.と">て</w><w lemmaRef="ri:へ.言う">へ</w></pron>
-          </form>
-          <form type="compound">
-            <ref target="#と">と</ref>
-            <ref target="#言う">言う</ref>
-          </form>
-          <gramGrp>
-            <pos value="P.c.Phr">P.c.Phr</pos>
-            <gram type="UPosTag">ADP</gram>
-            <gram type="IPAPosTag">助詞-格助詞-連語</gram>
-            <gram type="UniDicPosTag">助詞-格助詞</gram>
-          </gramGrp>
-          <sense ana="wlsph:WLSPH.8.0063"/>
-        </entry>
         <entry xml:id="で" type="simplex">
           <form type="lemma">
             <orth xml:lang="ja">で</orth>

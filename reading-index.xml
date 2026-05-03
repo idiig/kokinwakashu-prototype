@@ -9664,8 +9664,8 @@
           <form type="pron">
             <pron notation="kana">てへ</pron>
           </form>
-          <hom n="1" xml:id="てへ.てへ">
-            <ref target="li:てへ"/>
+          <hom n="1" xml:id="てへ.てふ">
+            <ref target="li:てふ"/>
           </hom>
         </entry>
         <entry xml:id="てらす">
