@@ -2236,7 +2236,7 @@
           <form type="pron">
             <pron notation="kana">うつる</pron>
           </form>
-          <hom n="1" xml:id="うつる.うつる">
+          <hom n="1" xml:id="うつる.移る">
             <ref target="li:うつる"/>
           </hom>
           </entry>
