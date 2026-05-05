@@ -53,6 +53,24 @@ kokinwakashu-prototype/
 - **TSV全レンマ化**: `lemma-index-decomp.tsv` は複合語だけでなく全レンマを含む（simplex行はdecompカラムが空）
 - **削除連鎖**: 漢字hom追加→複合語ref更新→旧仮名hom削除→旧仮名レンマ削除の順で実施
 
+## Key Decisions (2026-05-06 追加)
+
+- **Dict A / Dict B headword alignment**: if `reading-index.xml` and
+  `kokinwakashu.xml` already consistently use a normalized headword label,
+  rename the Dict B entry to match it (examples: `見る` → `見`, `言う` → `言ふ`)
+- **Calendar-word normalization**: when a kana month-name lemma duplicates an
+  existing kanji month lemma, keep the kanji lemma and point compounds to it
+  (example: `さつき` → `五月`)
+- **Okurigana split rule**: when corpus usage clearly distinguishes an
+  okurigana form from the bare-kanji base, split them into separate lemmas
+  instead of overloading one entry (example: `辺` vs `辺り`)
+- **Reduplicative compound rule**: repeated-graph words should be marked as
+  `type="compound"` when their internal structure is transparent
+  (example: `色色` = `色 + 色`)
+- **`check_lemma.py` caveat**: token counts can overmatch when one lemma ID is
+  a prefix of another (for example `辺` vs `辺り`); verify exact `lemmaRef`
+  values manually when counts look suspicious
+
 ---
 
 ## Key Decisions
@@ -84,10 +102,16 @@ kokinwakashu-prototype/
   - Expanded `lemma-index-decomp.tsv` to include all lemmas (simplex + compound)
   - Validation flags added to index; morphological decompositions updated
 - [x] Issues flagged in `issues-compound.txt` are resolved; file can be deleted
-- [ ] **issues.txt review in progress** — completed through 水 (line ~990);
-  next entry: 水脈 (みを, line 1003). Remaining: 水脈, 泡, 浮海布, 澪標,
-  狩り, 狩衣, 百, 相坂, 眼, 睦まじ, 社, 筋, 絃, 結果, 緒, 色々, 衛る,
-  見る, 言う, 躊躇, 辺, うらびる, え, おろし, がに, さす, さつき
+- [ ] **issues.txt review in progress** — later-pass entries updated through
+  `さつき` (2026-05-06)
+- [ ] **Resolved in this session**: `狩り`, `狩衣`, `百`, `相坂`, `眼`,
+  `睦まじ`, `社`, `筋`, `絃`, `緒`, `色々`, `見る`, `言う`, `辺`, `え`,
+  `おろし`, `さつき`
+- [ ] **Held / not changed after review**: `澪標`, `結果`, `衛る`, `躊躇`,
+  `うらびる`, `がに`, `さす`
+- [ ] **Earlier unresolved entries remain** near the top of `issues.txt`:
+  current first items include `はも`, `ふるさと`, `まく`, `まし`, `ます`,
+  `一`, `万`, `下紐`, `二`, `五つ`, `五月雨`, ...
 - [ ] The parent repo (`kokin-tei-merge`, branch `separate-tei-dicts`) has not
   been merged to `main` yet — pending review
 - [ ] `kokin-annotated.xml` in the parent repo still embeds Dict A/B/Classification

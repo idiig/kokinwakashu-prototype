@@ -1,0 +1,58 @@
+lines from buffer: lemma-index-decomp.tsv
+     74:?はも	simplex	はも				
+     77:?ふるさと	simplex	ふるさと				
+     83:?まく	simplex	まく				
+     84:?まし	simplex	まし				
+     85:?ます	simplex	ます				
+    110:?一	simplex	いち				
+    123:?万	simplex	まん				
+    135:?下紐	compound	したひも	下	ひも			
+    168:?二	simplex	に				
+    172:!?五つ	simplex	いつ|つ				
+    175:!五月雨	simplex	さ|み|だれ				
+    179:?交じる	simplex	まじる				
+    240:?信夫	simplex	しのぶ				
+    255:?!八十	simplex	や|そ				
+    257:?!八千	simplex	や|ち				
+    300:?別地	compound	わかれぢ	分かる	路			
+    312:?千	simplex	せん				
+    484:?守る	simplex	まもる				
+    511:?寝	simplex	い				
+    523:?!小倉	simplex	を|ぐら				
+    544:?屡	simplex	しばしば				
+    599:?己	simplex	おの				
+    606:?布留	simplex	ふる				
+    612:?常	simplex	つね				
+    614:?常夏	compound	とこなつ	常	夏			
+    662:?後る	simplex	おくる				
+    675:?御	simplex	ご				
+    692:?心当て	compound	こころあて	心	当て			
+    693:?忍	simplex	しのぶ				
+    738:?懸道	compound	かけみち	掛く	道			
+    747:?所	simplex	しょ				
+    748:?手	simplex	た				
+    771:!?挿頭す	simplex	か|ざす				
+    793:?故郷	simplex	ふるさと				
+    818:?方	simplex	かた				
+    850:?晨明	simplex	ありあけ				
+    861:?曇り	simplex	くもり				
+    871:?替ふ	simplex	かふ				
+    896:?木	simplex	き				
+    898:?木綿	simplex	もめん				
+    903:?末	simplex	うれ				
+    907:?本	simplex	ほん				
+    913:?杖	simplex	つえ				
+    935:?柳	simplex	やなぎ				
+    939:?栄る	simplex	さかる				
+    948:?梅	simplex	うめ				
+    997:?水	simplex	み				
+   1003:?水脈	simplex	みを				
+   1028:?泡	simplex	あわ				
+   1051:?浮海布	simplex	うきめ				
+   1113:?澪標	compound	みをつくし	澪	つ	串		
+   1347:?結果	simplex	かくなわ				
+   1493:?衛る	simplex	まもる				
+   1568:?躊躇	simplex	いさよひ				
+     11:?うらびる	simplex	うらびる				
+     23:?がに	simplex	がに				
+     33:?さす	simplex	さす				

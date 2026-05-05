@@ -22,6 +22,7 @@ lemma-index.xml      — Dict B: lemma definitions with POS and WLSP sense (~27k
 wlsp-index.xml       — WLSP semantic classification taxonomy
 wlsph-index.xml      — WLSPH (historical kana variant) taxonomy
 person-list.xml      — listPerson: poets and historical figures
+HANDOFF.md          — agent-to-agent handoff notes and recent change log
 ```
 
 Each file is a complete standalone TEI P5 document.
@@ -102,6 +103,10 @@ uv run python check_lemma.py <lemma-id>
    in that order
 4. Re-run `check_lemma.py` to verify all refs are consistent
 
+**Caveat:** `check_lemma.py` can over-report poem tokens when one lemma ID is a
+prefix of another (for example `辺` vs `辺り`). If counts look suspicious,
+verify exact `lemmaRef` values with `rg`.
+
 ### Other helpers
 
 - `apply_pron.py` — apply unambiguous `<pron>` decompositions to
@@ -142,6 +147,18 @@ Flags: `?` = needs review, `!` = needs decomposition, `!?` = both.
   per entry
 - Update hom IDs in `reading-index.xml` to match new kana-based lemma IDs
 - Update all `ri:` and `li:` refs in `kokinwakashu.xml`
+
+**Normalization rules discovered during review:**
+- If Dict A and the poem body already consistently use a normalized headword,
+  rename the Dict B entry to match it rather than keeping an isolated
+  okurigana variant (example: `見る` → `見`)
+- If a kana month-name lemma duplicates a semantically identical kanji lemma,
+  keep the kanji lemma and repoint compounds to it (example: `さつき` → `五月`)
+- If corpus usage distinguishes an okurigana form from the bare-kanji base,
+  split them into separate lemmas instead of overloading one entry
+  (example: `辺` vs `辺り`)
+- Reduplicated words should be represented as compounds when their internal
+  structure is clear (example: `色色` = `色 + 色`)
 
 ## Kana Spelling Policy
 
@@ -191,6 +208,10 @@ work for within-document IDs. Use the prefix form above.
 
 ## Agent Self-Maintenance (Routine)
 
+`AGENTS.md` should contain stable project instructions only. Session-specific
+notes, recently changed lemmas, temporary cautions, and changelog-style
+handoff content belong in `HANDOFF.md`, not here.
+
 At the end of every session, perform the following updates before closing:
 
 ### 1. Update `PLAN.md`
@@ -199,11 +220,17 @@ At the end of every session, perform the following updates before closing:
 - Record any key decisions made during the session under **Key Decisions**
 
 ### 2. Update `AGENTS.md`
-- Add new conventions, constraints, or ID patterns discovered during the session
+- Add only stable conventions, constraints, or ID patterns that should remain
+  true for future sessions
 - Update file descriptions if new files were added or existing ones changed
 - Update the Cross-File Reference table if new prefixes were defined
 
-### 3. Update project memory (Claude Code only)
+### 3. Update `HANDOFF.md`
+- Record what changed in the current session
+- List held / deferred entries and why they were not changed
+- Note any validation caveats or tool quirks relevant to the next agent
+
+### 4. Update project memory (Claude Code only)
 - Write or update `~/.claude/projects/.../memory/submodule_prototype.md`
 - Record: what changed, why, and what is next
 - Update `MEMORY.md` index if a new memory file was created

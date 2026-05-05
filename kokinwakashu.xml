@@ -5413,7 +5413,7 @@
             <seg>
               <w lemmaRef="ri:はな.花">花</w>
               <w lemmaRef="ri:の.の">の</w>
-              <w lemmaRef="ri:あたり.辺">あたり</w>
+              <w lemmaRef="ri:あたり.辺り">あたり</w>
               <w lemmaRef="ri:を.を">を</w>
             </seg>
             <seg>
@@ -10016,7 +10016,7 @@
             <seg>
               <w lemmaRef="ri:な.名">名</w>
               <w lemmaRef="ri:を.を">を</w>
-              <w lemmaRef="ri:むつまじ.睦まじ">むつまし</w>
+              <w lemmaRef="ri:むつまし.睦まし">むつまし</w>
               <w lemmaRef="ri:み.み">み</w>
             </seg>
             <seg>
@@ -11132,7 +11132,7 @@
               <w lemmaRef="ri:つゆ.露">露</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:いろいろ.色々">色〳〵</w>
+              <w lemmaRef="ri:いろいろ.色色">色〳〵</w>
               <w lemmaRef="ri:ことに.異なり">ことに</w>
             </seg>
             <seg>
@@ -15382,7 +15382,7 @@
             <lb/>
             <l n="374" xml:id="n374" resp="#難波万雄">
               <seg>
-                <w lemmaRef="ri:あふさか.相坂">相坂</w>
+                <w lemmaRef="ri:あふさか.逢坂">相坂</w>
                 <w lemmaRef="ri:の.の">の</w>
               </seg>
               <seg>
@@ -19120,7 +19120,7 @@
               <w lemmaRef="ri:つつ.つつ">つゝ</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:あふさか.相坂">相坂</w>
+              <w lemmaRef="ri:あふさか.逢坂">相坂</w>
               <w lemmaRef="ri:の.の">の</w>
             </seg>
             <seg>
@@ -21187,7 +21187,7 @@
         <div type="和歌">
           <l n="536" xml:id="n536" resp="#よみ人知らず">
             <seg>
-              <w lemmaRef="ri:あふさか.相坂">あふさか</w>
+              <w lemmaRef="ri:あふさか.逢坂">あふさか</w>
               <w lemmaRef="ri:の.の">の</w>
             </seg>
             <seg>
@@ -21628,7 +21628,7 @@
         <div type="和歌">
           <l n="550" xml:id="n550" resp="#よみ人知らず">
             <seg>
-              <w lemmaRef="ri:あわゆき.淡雪">あは雪</w>
+              <w lemmaRef="ri:あはゆき.淡雪">あは雪</w>
               <w lemmaRef="ri:の.の">の</w>
             </seg>
             <seg>
@@ -22419,7 +22419,7 @@
             <seg>
               <w lemmaRef="ri:むね.胸">むね</w>
               <w lemmaRef="ri:の.の">の</w>
-              <w lemmaRef="ri:あたり.辺">あたり</w>
+              <w lemmaRef="ri:あたり.辺り">あたり</w>
               <w lemmaRef="ri:は.は">は</w>
             </seg>
             <seg>
@@ -24659,7 +24659,7 @@
               <w lemmaRef="ri:ぞ.ぞ">そ</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:あふさか.相坂">相坂</w>
+              <w lemmaRef="ri:あふさか.逢坂">相坂</w>
               <w lemmaRef="ri:の.の">の</w>
             </seg>
             <seg>
@@ -28447,7 +28447,7 @@
           <lb/>
           <l n="740" xml:id="n740" resp="#閑院">
             <seg>
-              <w lemmaRef="ri:あふさか.相坂">相坂</w>
+              <w lemmaRef="ri:あふさか.逢坂">相坂</w>
               <w lemmaRef="ri:の.の">の</w>
             </seg>
             <seg>
@@ -33766,7 +33766,7 @@
             <seg>
               <w lemmaRef="ri:くも.雲">雲</w>
               <w lemmaRef="ri:の.の">の</w>
-              <w lemmaRef="ri:みを.水脈">みお</w>
+              <w lemmaRef="ri:みを.澪">みお</w>
               <w lemmaRef="ri:に.に">に</w>
               <w lemmaRef="ri:て.て">て</w>
             </seg>
@@ -35177,7 +35177,7 @@
             <seg>
               <w lemmaRef="ri:なみ.浪">浪</w>
               <w lemmaRef="ri:の.の">の</w>
-              <w lemmaRef="ri:を.絃">を</w>
+              <w lemmaRef="ri:を.緒">を</w>
               <w lemmaRef="ri:すげ.挿ぐ">すけ</w>
               <w lemmaRef="ri:て.て">て</w>
             </seg>
@@ -37663,7 +37663,7 @@
         <div type="和歌">
           <l n="988" xml:id="n988" resp="#よみ人知らず">
             <seg>
-              <w lemmaRef="ri:あふさか.相坂">相坂</w>
+              <w lemmaRef="ri:あふさか.逢坂">相坂</w>
               <w lemmaRef="ri:の.の">の</w>
             </seg>
             <seg>
@@ -39731,7 +39731,7 @@
               <seg>
                 <w lemmaRef="ri:ふるかは.布留河">ふるかは</w>
                 <w lemmaRef="ri:の.の">の</w>
-                <w lemmaRef="ri:べ.辺">へ</w>
+                <w lemmaRef="ri:へ.辺">へ</w>
                 <w lemmaRef="ri:に.に">に</w>
               </seg>
               <seg>
@@ -43154,7 +43154,7 @@
               <seg>
                 <w lemmaRef="ri:くも.雲">雲</w>
                 <w lemmaRef="ri:の.の">の</w>
-                <w lemmaRef="ri:あは.淡">あは</w>
+                <w lemmaRef="ri:あは.淡し">あは</w>
                 <w lemmaRef="ri:たつ.立つ">たつ</w>
               </seg>
               <seg>
