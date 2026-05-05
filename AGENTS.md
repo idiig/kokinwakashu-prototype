@@ -74,8 +74,35 @@ uv run python <script>.py
 
 ## Helper Scripts
 
-The repository may contain temporary-or-reusable helper scripts for compound
-cleanup work:
+### `check_lemma.py` — cross-file reference audit
+
+The primary diagnostic tool. Before editing any lemma, run this first.
+
+```bash
+uv run python check_lemma.py <lemma-id>
+```
+
+**Output sections:**
+
+1. `[lemma-index] ENTRY FOUND` — shows `type`, `form` (orth), `pron`, `pos`
+2. `[reading-index] N hom(s) point to li:<id>` — lists Dict A homs that
+   reference this lemma; each line shows `reading entry=<kana>` and
+   `hom=<reading.lemma>`
+3. `[lemma-index] Used as component in N compound(s)` — compounds in
+   `lemma-index.xml` whose `<form type="compound">` or `<pron><w>` references
+   this entry
+4. `[kokinwakashu] N token(s) reference this lemma` — poem tokens with a
+   matching `lemmaRef`; shows surface and full `lemmaRef` value
+
+**Typical edit sequence:**
+
+1. Run `check_lemma.py <id>`
+2. Identify what needs fixing (pron, hom ID, compound ref, poem token)
+3. Edit `lemma-index.xml`, then `reading-index.xml`, then `kokinwakashu.xml`
+   in that order
+4. Re-run `check_lemma.py` to verify all refs are consistent
+
+### Other helpers
 
 - `apply_pron.py` — apply unambiguous `<pron>` decompositions to
   `lemma-index.xml`
@@ -84,6 +111,54 @@ cleanup work:
 - `count_pron.py` — count compound entries with plain vs decomposed `<pron>`
 
 Treat these scripts as developer aids. Validate XML after applying their output.
+
+## Lemma Review Workflow
+
+Flagged entries are listed in `issues.txt` (one per line, TSV-formatted).
+Flags: `?` = needs review, `!` = needs decomposition, `!?` = both.
+
+**Review loop for each entry:**
+
+1. Run `uv run python check_lemma.py <lemma-id>`
+2. Identify the problem class (see below)
+3. Confirm action with the user before editing
+4. Edit the three files in order: `lemma-index.xml` → `reading-index.xml` →
+   `kokinwakashu.xml`
+5. Re-run `check_lemma.py` to verify; then move to the next entry
+
+**Common problem classes:**
+
+| Problem | Symptom | Fix |
+|---------|---------|-----|
+| Modern kana in `<pron>` | e.g. `みず`, `つえ`, `すえ` | Replace with 歴史的仮名遣い |
+| Wrong/missing `<pron>` | Reading not attested in corpus | Remove or correct |
+| Hom ID uses kanji when entry renamed to kana | e.g. `うれ.末` after split | Rename hom to `うれ.うれ` |
+| Compound ref to old ID | `<ref target="#旧ID">` | Update to new ID |
+| kokinwakashu.xml stale lemmaRef | `ri:旧reading.旧lemma` | Update with sed or direct edit |
+
+**Lemma split rule** (when one entry has multiple distinct readings):
+- Create two separate `<entry>` elements with kana `xml:id` values
+- Flatten structure: no `<hom>`/`<sense>` sub-elements when only one reading
+  per entry
+- Update hom IDs in `reading-index.xml` to match new kana-based lemma IDs
+- Update all `ri:` and `li:` refs in `kokinwakashu.xml`
+
+## Kana Spelling Policy
+
+All `<pron>` values must use **歴史的仮名遣い** (classical kana orthography).
+Modern kana spellings are not allowed:
+
+| Modern | Historical | Notes |
+|--------|-----------|-------|
+| みず | みづ | 水 |
+| つえ | つゑ | 杖 |
+| すえ | すゑ | 末 |
+| ふるさと | ふるさと | (same) |
+| に (number 2) | ふた | 二 |
+| まん | よろづ | 万 |
+
+When a `<pron>` is found in modern kana, replace it. Do not add the modern
+form as an alternate reading.
 
 ## Commit Message Format
 

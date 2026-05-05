@@ -83,7 +83,11 @@ kokinwakashu-prototype/
   - Fixed `てへ` → redirected as reading of `てふ`; deleted `てへ` lemma
   - Expanded `lemma-index-decomp.tsv` to include all lemmas (simplex + compound)
   - Validation flags added to index; morphological decompositions updated
-- [ ] Issues flagged in `issues-compound.txt` are resolved; file can be deleted
+- [x] Issues flagged in `issues-compound.txt` are resolved; file can be deleted
+- [ ] **issues.txt review in progress** — completed through 水 (line ~990);
+  next entry: 水脈 (みを, line 1003). Remaining: 水脈, 泡, 浮海布, 澪標,
+  狩り, 狩衣, 百, 相坂, 眼, 睦まじ, 社, 筋, 絃, 結果, 緒, 色々, 衛る,
+  見る, 言う, 躊躇, 辺, うらびる, え, おろし, がに, さす, さつき
 - [ ] The parent repo (`kokin-tei-merge`, branch `separate-tei-dicts`) has not
   been merged to `main` yet — pending review
 - [ ] `kokin-annotated.xml` in the parent repo still embeds Dict A/B/Classification
