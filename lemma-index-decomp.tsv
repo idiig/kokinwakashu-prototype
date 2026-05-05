@@ -71,7 +71,7 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 の	simplex	の				
 のみ	simplex	のみ				
 は	simplex	は				
-?はも	simplex	はも				
+!はも	simplex	は|も				
 ば	simplex	ば				
 ひも	simplex	ひも				
 ?ふるさと	simplex	ふるさと				
@@ -172,7 +172,7 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 !?五つ	simplex	いつ|つ				
 !五月	simplex	さ|つき				
 五月山	compound	さつきやま	さつき	山			
-?!五月雨	simplex	さ|み|だれ				
+!五月雨	simplex	さ|み|だれ				
 井	simplex	い				
 井手	simplex	いで				
 亡し	simplex	なし				

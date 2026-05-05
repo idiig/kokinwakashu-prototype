@@ -45,6 +45,16 @@ kokinwakashu-prototype/
 
 ---
 
+## Key Decisions (2026-05-05 追加)
+
+- **漢字レンマ優先ルール**: 漢字レンマが存在する場合、複合語の `<ref>` と `<pron>` の `<w lemmaRef>` は仮名IDではなく漢字IDを使用する（例: `#なつ`→`#夏`、`ri:なつ.なつ`→`ri:なつ.夏`）
+- **てへ処理**: `てへ` は `てふ` の読みとして `reading-index` に残存させ、独立レンマは削除
+- **かも区別**: `かも` (助詞P.fin) と `鴨` (名詞N.g/鳥) は別レンマ; 複合語 `蘆鴨` は `鴨` を使用
+- **TSV全レンマ化**: `lemma-index-decomp.tsv` は複合語だけでなく全レンマを含む（simplex行はdecompカラムが空）
+- **削除連鎖**: 漢字hom追加→複合語ref更新→旧仮名hom削除→旧仮名レンマ削除の順で実施
+
+---
+
 ## Key Decisions
 
 - **No Go tooling** in this repo — Python + uv only
@@ -66,12 +76,14 @@ kokinwakashu-prototype/
 
 ## Open Questions / Next Steps
 
-- [ ] Compound pronunciation decomposition is still in progress: 29 compound
-  entries in `lemma-index.xml` still have plain `<pron>` text and need
-  one-by-one review
-- [ ] The 20 missing Dict A hom IDs referenced by existing `ri:...` markup
-  were restored in `reading-index.xml`; run full decomposition checks again in
-  the Nix environment before the next cleanup pass
+- [x] Compound pronunciation decomposition cleanup pass (2026-05-05):
+  - Fixed compound refs using kana lemma IDs where kanji lemmas exist
+  - Added 5 new simplex lemma entries (撫子/榊/蓑/篝/鴨) with correct N.g/bird WLSP codes
+  - Deleted 15 unreferenced kana lemma entries and their reading-index homs
+  - Fixed `てへ` → redirected as reading of `てふ`; deleted `てへ` lemma
+  - Expanded `lemma-index-decomp.tsv` to include all lemmas (simplex + compound)
+  - Validation flags added to index; morphological decompositions updated
+- [ ] Issues flagged in `issues-compound.txt` are resolved; file can be deleted
 - [ ] The parent repo (`kokin-tei-merge`, branch `separate-tei-dicts`) has not
   been merged to `main` yet — pending review
 - [ ] `kokin-annotated.xml` in the parent repo still embeds Dict A/B/Classification
@@ -79,3 +91,5 @@ kokinwakashu-prototype/
   `lemmaRef="ri:..."` using the prefixDef scheme
 - [ ] Duplicate `xml:id` values in `wlsph-index.xml` (`WLSPH.4.3100`,
   `WLSPH.9.0060`) are a pre-existing data issue — not introduced by extraction
+- [ ] Helper scripts `add_proper_lemmas.py`, `add_proper_readings.py` (untracked)
+  can be deleted once confirmed no longer needed

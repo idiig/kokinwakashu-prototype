@@ -5589,7 +5589,7 @@
           <lb/>
           <l n="90" xml:id="n90" resp="#平城天皇">
             <seg>
-              <w lemmaRef="ri:ふるさと.故郷">ふるさと</w>
+              <w lemmaRef="ri:ふるさと.古里">ふるさと</w>
               <w lemmaRef="ri:と.と">ゝ</w>
             </seg>
             <seg>
@@ -5796,7 +5796,7 @@
               <w lemmaRef="ri:に.に">に</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:まじり.交じる">ましり</w>
+              <w lemmaRef="ri:まじり.交る">ましり</w>
               <w lemmaRef="ri:なむ.なむ">南</w>
             </seg>
             <seg>
@@ -6605,7 +6605,7 @@
               <w lemmaRef="ri:に.に">に</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:ね.寝">ね</w>
+              <w lemmaRef="ri:ね.寝.v">ね</w>
               <w lemmaRef="ri:たる.たり">たる</w>
               <w lemmaRef="ri:よ.夜">夜</w>
               <w lemmaRef="ri:は.は">は</w>
@@ -8375,7 +8375,7 @@
               <w lemmaRef="ri:と.と">と</w>
               <w lemmaRef="ri:わ.我">わ</w>
               <w lemmaRef="ri:が.が">か</w>
-              <w lemmaRef="ri:ぬる.寝">ぬる</w>
+              <w lemmaRef="ri:ぬる.寝.v">ぬる</w>
             </seg>
             <seg>
               <w lemmaRef="ri:とこなつ.常夏">とこ夏</w>
@@ -9012,7 +9012,7 @@
             <seg>
               <w lemmaRef="ri:わ.我">わ</w>
               <w lemmaRef="ri:が.が">か</w>
-              <w lemmaRef="ri:ね.寝">ね</w>
+              <w lemmaRef="ri:ね.寝.v">ね</w>
               <w lemmaRef="ri:ぬ.ず">ぬ</w>
               <w lemmaRef="ri:こと.如">こと</w>
               <w lemmaRef="ri:や.や">や</w>
@@ -10371,7 +10371,7 @@
               <w lemmaRef="ri:に.に">に</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:ね.寝">ね</w>
+              <w lemmaRef="ri:ね.寝.v">ね</w>
               <w lemmaRef="ri:な.ぬ">な</w>
               <w lemmaRef="ri:まし.まし">まし</w>
               <w lemmaRef="ri:もの.物">もの</w>
@@ -13914,7 +13914,7 @@
             <seg>
               <w lemmaRef="ri:ゆき.雪">雪</w>
               <w lemmaRef="ri:に.に">に</w>
-              <w lemmaRef="ri:まじり.交じる">ましり</w>
+              <w lemmaRef="ri:まじり.交る">ましり</w>
               <w lemmaRef="ri:て.て">て</w>
             </seg>
             <seg>
@@ -15124,7 +15124,7 @@
               <w lemmaRef="ri:に.に">に</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:わかる.分かる">わかる</w>
+              <w lemmaRef="ri:わかる.別る">わかる</w>
               <w lemmaRef="ri:と.と">と</w>
               <w lemmaRef="ri:も.も">も</w>
             </seg>
@@ -15158,7 +15158,7 @@
             <seg>
               <w lemmaRef="ri:おや.親">おや</w>
               <w lemmaRef="ri:の.の">の</w>
-              <w lemmaRef="ri:まもり.守る">まもり</w>
+              <w lemmaRef="ri:まもり.衛る">まもり</w>
               <w lemmaRef="ri:と.と">と</w>
             </seg>
             <seg>
@@ -17019,7 +17019,7 @@
             </seg>
             <seg>
               <w lemmaRef="ri:あまたたび.数多度">あまたゝひ</w>
-              <w lemmaRef="ri:ね.寝">ね</w>
+              <w lemmaRef="ri:ね.寝.v">ね</w>
               <w lemmaRef="ri:ぬ.ぬ">ぬ</w>
             </seg>
           </l>
@@ -18143,7 +18143,7 @@
               <w lemmaRef="ri:や.や">や</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:まじり.交じる">ましり</w>
+              <w lemmaRef="ri:まじり.交る">ましり</w>
               <w lemmaRef="ri:に.ぬ">に</w>
               <w lemmaRef="ri:し.き">し</w>
             </seg>
@@ -19596,7 +19596,7 @@
               <w lemmaRef="ri:なげき.嘆く">なけき</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:ぬ.寝">ぬ</w>
+              <w lemmaRef="ri:ぬ.寝.v">ぬ</w>
               <w lemmaRef="ri:と.と">と</w>
               <w lemmaRef="ri:は.は">は</w>
               <w lemmaRef="ri:しのば.忍ぶ">しのは</w>
@@ -19940,7 +19940,7 @@
             <seg>
               <w lemmaRef="ri:をばな.尾花">おはな</w>
               <w lemmaRef="ri:に.に">に</w>
-              <w lemmaRef="ri:まじり.交じる">ましり</w>
+              <w lemmaRef="ri:まじり.交る">ましり</w>
             </seg>
             <seg>
               <w lemmaRef="ri:さく.咲く">さく</w>
@@ -20560,7 +20560,7 @@
             </seg>
             <seg>
               <w lemmaRef="ri:いかに.如何に">いかに</w>
-              <w lemmaRef="ri:ね.寝">ね</w>
+              <w lemmaRef="ri:ね.寝.v">ね</w>
               <w lemmaRef="ri:し.き">し</w>
               <w lemmaRef="ri:よ.夜">よ</w>
               <w lemmaRef="ri:か.か">か</w>
@@ -20852,7 +20852,7 @@
               <w lemmaRef="ri:は.は">は</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:ね.寝">ね</w>
+              <w lemmaRef="ri:ね.寝.v">ね</w>
               <w lemmaRef="ri:む.む">む</w>
               <w lemmaRef="ri:かた.方">方</w>
               <w lemmaRef="ri:も.も">も</w>
@@ -20902,7 +20902,7 @@
             </seg>
             <seg>
               <w lemmaRef="ri:うき.浮く">うき</w>
-              <w lemmaRef="ri:ね.寝">ね</w>
+              <w lemmaRef="ri:ね.寝.v">ね</w>
               <w lemmaRef="ri:に.に">に</w>
               <w lemmaRef="ri:は.は">は</w>
             </seg>
@@ -21309,7 +21309,7 @@
           <l n="540" xml:id="n540" resp="#よみ人知らず">
             <seg>
               <w lemmaRef="ri:こころ.心">心</w>
-              <w lemmaRef="ri:かへ.替ふ">かへ</w>
+              <w lemmaRef="ri:かへ.換ふ">かへ</w>
             </seg>
             <seg>
               <w lemmaRef="ri:する.す">する</w>
@@ -21709,7 +21709,7 @@
               <w lemmaRef="ri:つつ.つつ">つゝ</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:ぬれ.寝">ぬれ</w>
+              <w lemmaRef="ri:ぬれ.寝.v">ぬれ</w>
               <w lemmaRef="ri:ば.ば">は</w>
               <w lemmaRef="ri:や.や">や</w>
               <w lemmaRef="ri:ひと.人">人</w>
@@ -21931,7 +21931,7 @@
             </seg>
             <seg>
               <w lemmaRef="ri:うち.打つ">うち</w>
-              <w lemmaRef="ri:ぬる.寝">ぬる</w>
+              <w lemmaRef="ri:ぬる.寝.v">ぬる</w>
               <w lemmaRef="ri:なか.中">なか</w>
               <w lemmaRef="ri:に.に">に</w>
             </seg>
@@ -22104,7 +22104,7 @@
             </seg>
             <seg>
               <w lemmaRef="ri:ひとり.独り">ひとり</w>
-              <w lemmaRef="ri:ぬる.寝">ぬる</w>
+              <w lemmaRef="ri:ぬる.寝.v">ぬる</w>
             </seg>
             <seg>
               <w lemmaRef="ri:わ.我">わ</w>
@@ -22339,7 +22339,7 @@
               <w lemmaRef="ri:も.も">も</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:ね.寝">ね</w>
+              <w lemmaRef="ri:ね.寝.v">ね</w>
               <w lemmaRef="ri:て.て">て</w>
               <w lemmaRef="ri:も.も">も</w>
               <w lemmaRef="ri:さめ.覚む">さめ</w>
@@ -22784,7 +22784,7 @@
             </seg>
             <seg>
               <w lemmaRef="ri:ひとり.独り">ひとり</w>
-              <w lemmaRef="ri:ぬる.寝">ぬる</w>
+              <w lemmaRef="ri:ぬる.寝.v">ぬる</w>
               <w lemmaRef="ri:よ.夜">よ</w>
               <w lemmaRef="ri:は.は">は</w>
             </seg>
@@ -23173,7 +23173,7 @@
               <w lemmaRef="ri:て.て">て</w>
               <w lemmaRef="ri:わ.我">わ</w>
               <w lemmaRef="ri:が.が">か</w>
-              <w lemmaRef="ri:ぬる.寝">ぬる</w>
+              <w lemmaRef="ri:ぬる.寝.v">ぬる</w>
             </seg>
             <seg>
               <w lemmaRef="ri:かりごろも.狩衣">かり衣</w>
@@ -23592,9 +23592,9 @@
               <w lemmaRef="ri:は.は">は</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:い.寝">い</w>
+              <w lemmaRef="ri:い.寝.n">い</w>
               <w lemmaRef="ri:こそ.こそ">こそ</w>
-              <w lemmaRef="ri:ね.寝">ね</w>
+              <w lemmaRef="ri:ね.寝.v">ね</w>
               <w lemmaRef="ri:られ.らる">られ</w>
               <w lemmaRef="ri:ね.ず">ね</w>
             </seg>
@@ -23683,7 +23683,7 @@
             <seg>
               <w lemmaRef="ri:おもひね.思ひ寝">思ね</w>
               <w lemmaRef="ri:に.に">に</w>
-              <w lemmaRef="ri:ね.寝">ね</w>
+              <w lemmaRef="ri:ね.寝.v">ね</w>
               <w lemmaRef="ri:し.き">し</w>
             </seg>
             <seg>
@@ -23757,7 +23757,7 @@
               <w lemmaRef="ri:ひけ.引く">ひけ</w>
               <w lemmaRef="ri:ば.ば">は</w>
               <w lemmaRef="ri:もと.本">もと</w>
-              <w lemmaRef="ri:すゑ.末">すゑ</w>
+              <w lemmaRef="ri:すゑ.すゑ">すゑ</w>
             </seg>
             <seg>
               <w lemmaRef="ri:わ.我">わ</w>
@@ -23984,7 +23984,7 @@
               <w lemmaRef="ri:ず.ず">す</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:ね.寝">ね</w>
+              <w lemmaRef="ri:ね.寝.v">ね</w>
               <w lemmaRef="ri:も.も">も</w>
               <w lemmaRef="ri:せ.す">せ</w>
               <w lemmaRef="ri:で.で">て</w>
@@ -24318,7 +24318,7 @@
           <lb/>
           <l n="625" xml:id="n625" resp="#壬生忠岑">
             <seg>
-              <w lemmaRef="ri:ありあけ.晨明">有あけ</w>
+              <w lemmaRef="ri:ありあけ.有明">有あけ</w>
               <w lemmaRef="ri:の.の">の</w>
             </seg>
             <seg>
@@ -24598,7 +24598,7 @@
             <seg>
               <w lemmaRef="ri:うち.打つ">うち</w>
               <w lemmaRef="ri:も.も">も</w>
-              <w lemmaRef="ri:ね.寝">ね</w>
+              <w lemmaRef="ri:ね.寝.v">ね</w>
               <w lemmaRef="ri:な.ぬ">な</w>
               <w lemmaRef="ri:なむ.なむ">なむ</w>
             </seg>
@@ -25016,7 +25016,7 @@
           <lb/>
           <l n="644" xml:id="n644" resp="#在原業平">
             <seg>
-              <w lemmaRef="ri:ね.寝">ね</w>
+              <w lemmaRef="ri:ね.寝.v">ね</w>
               <w lemmaRef="ri:ぬる.ぬ">ぬる</w>
               <w lemmaRef="ri:よ.夜">よ</w>
               <w lemmaRef="ri:の.の">の</w>
@@ -25080,7 +25080,7 @@
               <w lemmaRef="ri:か.か">か</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:ね.寝">ね</w>
+              <w lemmaRef="ri:ね.寝.v">ね</w>
               <w lemmaRef="ri:て.て">て</w>
               <w lemmaRef="ri:か.か">か</w>
               <w lemmaRef="ri:さめ.覚む">さめ</w>
@@ -26184,7 +26184,7 @@
               <w lemmaRef="ri:で.で">て</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:ね.寝">ね</w>
+              <w lemmaRef="ri:ね.寝.v">ね</w>
               <w lemmaRef="ri:し.き">し</w>
               <w lemmaRef="ri:もの.物">物</w>
               <w lemmaRef="ri:を.を">を</w>
@@ -26702,7 +26702,7 @@
             <seg>
               <w lemmaRef="ri:ささ.閉す">さゝ</w>
               <w lemmaRef="ri:ず.ず">す</w>
-              <w lemmaRef="ri:ね.寝">ね</w>
+              <w lemmaRef="ri:ね.寝.v">ね</w>
               <w lemmaRef="ri:に.ぬ">に</w>
               <w lemmaRef="ri:けり.けり">けり</w>
             </seg>
@@ -27097,7 +27097,7 @@
               <w lemmaRef="ri:つづら.葛">つゝら</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:すゑ.末">すゑ</w>
+              <w lemmaRef="ri:すゑ.すゑ">すゑ</w>
               <w lemmaRef="ri:つひに.遂に">つゐに</w>
             </seg>
             <seg>
@@ -27405,7 +27405,7 @@
               <w lemmaRef="ri:も.も">も</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:ね.寝">ね</w>
+              <w lemmaRef="ri:ね.寝.v">ね</w>
               <w lemmaRef="ri:たる.たり">たる</w>
               <w lemmaRef="ri:こゑ.声">こゑ</w>
               <w lemmaRef="ri:する.す">する</w>
@@ -28408,7 +28408,7 @@
               <w lemmaRef="ri:ば.ば">ゝ</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:ね.寝">ね</w>
+              <w lemmaRef="ri:ね.寝.v">ね</w>
               <w lemmaRef="ri:て.て">て</w>
               <w lemmaRef="ri:も.も">も</w>
               <w lemmaRef="ri:ゆか.行く">ゆか</w>
@@ -29111,7 +29111,7 @@
               <w lemmaRef="ri:は.は">は</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:ね.寝">ね</w>
+              <w lemmaRef="ri:ね.寝.v">ね</w>
               <w lemmaRef="ri:さめ.覚む">さめ</w>
               <w lemmaRef="ri:する.す">する</w>
             </seg>
@@ -29433,9 +29433,9 @@
             <seg>
               <w lemmaRef="ri:われ.我">我</w>
               <w lemmaRef="ri:や.や">や</w>
-              <w lemmaRef="ri:い.寝">い</w>
+              <w lemmaRef="ri:い.寝.n">い</w>
               <w lemmaRef="ri:を.を">を</w>
-              <w lemmaRef="ri:ね.寝">ね</w>
+              <w lemmaRef="ri:ね.寝.v">ね</w>
               <w lemmaRef="ri:ぬ.ぬ">ぬ</w>
             </seg>
             <seg>
@@ -29508,7 +29508,7 @@
             <seg>
               <w lemmaRef="ri:ひと.人">人</w>
               <w lemmaRef="ri:を.を">を</w>
-              <w lemmaRef="ri:しのぶ.忍">忍</w>
+              <w lemmaRef="ri:しのぶ.忍ぶ">忍</w>
               <w lemmaRef="ri:の.の">の</w>
             </seg>
             <seg>
@@ -29724,7 +29724,7 @@
               <w lemmaRef="ri:わび.侘ぶ">わひ</w>
               <w lemmaRef="ri:つつ.つつ">つゝ</w>
               <w lemmaRef="ri:も.も">も</w>
-              <w lemmaRef="ri:ね.寝">ね</w>
+              <w lemmaRef="ri:ね.寝.v">ね</w>
               <w lemmaRef="ri:む.む">む</w>
             </seg>
           </l>
@@ -31862,13 +31862,13 @@
           <lb/>
           <l n="833" xml:id="n833" resp="#紀友則">
             <seg>
-              <w lemmaRef="ri:ね.寝">ね</w>
+              <w lemmaRef="ri:ね.寝.v">ね</w>
               <w lemmaRef="ri:て.て">て</w>
               <w lemmaRef="ri:も.も">も</w>
               <w lemmaRef="ri:みゆ.見ゆ">見ゆ</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:ね.寝">ね</w>
+              <w lemmaRef="ri:ね.寝.v">ね</w>
               <w lemmaRef="ri:で.で">て</w>
               <w lemmaRef="ri:も.も">も</w>
               <w lemmaRef="ri:みえ.見ゆ">見え</w>
@@ -31939,7 +31939,7 @@
           <lb/>
           <l n="835" xml:id="n835" resp="#壬生忠岑">
             <seg>
-              <w lemmaRef="ri:ぬる.寝">ぬる</w>
+              <w lemmaRef="ri:ぬる.寝.v">ぬる</w>
               <w lemmaRef="ri:が.が">か</w>
               <w lemmaRef="ri:うち.内">うち</w>
               <w lemmaRef="ri:に.に">に</w>
@@ -32871,7 +32871,7 @@
               <w lemmaRef="ri:なき.無し">なき</w>
               <w lemmaRef="ri:とこ.床">とこ</w>
               <w lemmaRef="ri:に.に">に</w>
-              <w lemmaRef="ri:ね.寝">ね</w>
+              <w lemmaRef="ri:ね.寝.v">ね</w>
               <w lemmaRef="ri:む.む">む</w>
             </seg>
             <seg>
@@ -33239,7 +33239,7 @@
               <w lemmaRef="ri:ぞ.ぞ">そ</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:わかれ.分かる">わかれ</w>
+              <w lemmaRef="ri:わかれ.別る">わかれ</w>
               <w lemmaRef="ri:ざり.ず">さり</w>
               <w lemmaRef="ri:ける.けり">ける</w>
             </seg>
@@ -34095,7 +34095,7 @@
               <w lemmaRef="ri:の.の">の</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:うれ.末">うれ</w>
+              <w lemmaRef="ri:うれ.うれ">うれ</w>
               <w lemmaRef="ri:を.を">を</w>
               <w lemmaRef="ri:おも.重し">ゝも</w>
             </seg>
@@ -34108,7 +34108,7 @@
             <seg>
               <w lemmaRef="ri:わ.我">わ</w>
               <w lemmaRef="ri:が.が">か</w>
-              <w lemmaRef="ri:さかり.栄る">さかり</w>
+              <w lemmaRef="ri:さかり.放る">さかり</w>
               <w lemmaRef="ri:はも.はも">はも</w>
             </seg>
           </l>
@@ -34831,7 +34831,7 @@
               <w lemmaRef="ri:の.の">の</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:しばしば.屡">しは〳〵</w>
+              <w lemmaRef="ri:しばしば.屡屡">しは〳〵</w>
               <w lemmaRef="ri:も.も">も</w>
             </seg>
             <seg>
@@ -37686,7 +37686,7 @@
               <w lemmaRef="ri:わび.侘ぶ">わひ</w>
               <w lemmaRef="ri:つつ.つつ">つゝ</w>
               <w lemmaRef="ri:ぞ.ぞ">そ</w>
-              <w lemmaRef="ri:ぬる.寝">ぬる</w>
+              <w lemmaRef="ri:ぬる.寝.v">ぬる</w>
             </seg>
           </l>
         </div>
@@ -38541,7 +38541,7 @@
               <seg>
                 <w lemmaRef="ri:たれ.誰">たれ</w>
                 <w lemmaRef="ri:も.も">も</w>
-                <w lemmaRef="ri:ね.寝">ね</w>
+                <w lemmaRef="ri:ね.寝.v">ね</w>
                 <w lemmaRef="ri:さめ.覚む">さめ</w>
                 <w lemmaRef="ri:て.て">て</w>
               </seg>
@@ -38890,7 +38890,7 @@
                 <w lemmaRef="ri:あげ.上ぐ">あけ</w>
               </seg>
               <seg>
-                <w lemmaRef="ri:すゑ.末">すゑ</w>
+                <w lemmaRef="ri:すゑ.すゑ">すゑ</w>
                 <w lemmaRef="ri:の.の">の</w>
                 <w lemmaRef="ri:よ.世">よ</w>
                 <w lemmaRef="ri:まで.まで">まて</w>
@@ -40224,9 +40224,9 @@
                 <w lemmaRef="ri:は.は">は</w>
               </seg>
               <seg>
-                <w lemmaRef="ri:い.寝">い</w>
+                <w lemmaRef="ri:い.寝.n">い</w>
                 <w lemmaRef="ri:ぞ.ぞ">そ</w>
-                <w lemmaRef="ri:ね.寝">ね</w>
+                <w lemmaRef="ri:ね.寝.v">ね</w>
                 <w lemmaRef="ri:かね.兼ぬ">かね</w>
                 <w lemmaRef="ri:つる.つ">つる</w>
               </seg>
@@ -40374,7 +40374,7 @@
                 <w lemmaRef="ri:そほづ.案山子">そほつ</w>
               </seg>
               <seg>
-                <w lemmaRef="ri:おのれ.己">をのれ</w>
+                <w lemmaRef="ri:をのれ.己れ">をのれ</w>
                 <w lemmaRef="ri:さへ.さへ">さへ</w>
               </seg>
               <seg>
@@ -40720,7 +40720,7 @@
                 <w lemmaRef="ri:の.の">の</w>
               </seg>
               <seg>
-                <w lemmaRef="ri:ね.寝">ね</w>
+                <w lemmaRef="ri:ね.寝.v">ね</w>
                 <w lemmaRef="ri:ぬ.ず">ぬ</w>
                 <w lemmaRef="ri:な.名">な</w>
                 <w lemmaRef="ri:は.は">は</w>
@@ -41100,7 +41100,7 @@
                 <w lemmaRef="ri:わ.我">わ</w>
                 <w lemmaRef="ri:が.が">か</w>
                 <w lemmaRef="ri:ひとり.独り">ひとり</w>
-                <w lemmaRef="ri:ぬ.寝">ぬる</w>
+                <w lemmaRef="ri:ぬ.寝.v">ぬる</w>
               </seg>
             </l>
           </div>
@@ -42016,7 +42016,7 @@
                 <w lemmaRef="ri:と.と">と</w>
               </seg>
               <seg>
-                <w lemmaRef="ri:ね.寝">ね</w>
+                <w lemmaRef="ri:ね.寝.v">ね</w>
                 <w lemmaRef="ri:て.て">て</w>
                 <w lemmaRef="ri:の.の">の</w>
                 <w lemmaRef="ri:あさけ.朝明">あさけ</w>
@@ -42206,7 +42206,7 @@
                 <w lemmaRef="ri:ば.ば">は</w>
               </seg>
               <seg>
-                <w lemmaRef="ri:すゑ.末">すゑ</w>
+                <w lemmaRef="ri:すゑ.すゑ">すゑ</w>
                 <w lemmaRef="ri:さへ.さへ">さへ</w>
                 <w lemmaRef="ri:より.寄る">より</w>
                 <w lemmaRef="ri:こ.来">こ</w>
@@ -42910,7 +42910,7 @@
                 <w lemmaRef="ri:も.も">も</w>
               </seg>
               <seg>
-                <w lemmaRef="ri:ね.寝">ね</w>
+                <w lemmaRef="ri:ね.寝.v">ね</w>
                 <w lemmaRef="ri:て.て">て</w>
                 <w lemmaRef="ri:かたらは.語らふ">かたらは</w>
                 <w lemmaRef="ri:む.む">む</w>

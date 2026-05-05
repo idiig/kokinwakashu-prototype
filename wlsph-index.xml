@@ -2418,6 +2418,10 @@
             <label>2.1600</label>
             <desc>用-抽象的関係-時間・時刻-時間・時刻</desc>
           </item>
+          <item xml:id="WLSPH.2.1660">
+            <label>2.1660</label>
+            <desc>用-抽象的関係-時間・時刻-新旧・遅速</desc>
+          </item>
           <item xml:id="WLSPH.2.1700">
             <label>2.1700</label>
             <desc>用-抽象的関係-位置・方向-位置・方向</desc>
