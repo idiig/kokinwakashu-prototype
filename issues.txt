@@ -14,7 +14,6 @@ lines from buffer: lemma-index-decomp.tsv
     240:?信夫	simplex	しのぶ				
     255:?!八十	simplex	や|そ				
     257:?!八千	simplex	や|ち				
-    300:?別地	compound	わかれぢ	分かる	路			
     312:?千	simplex	せん				
     484:?守る	simplex	まもる				
     511:?寝	simplex	い				
