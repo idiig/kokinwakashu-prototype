@@ -4002,6 +4002,10 @@
             <label>CH.11.0000</label>
             <desc>地名-埼玉県</desc>
           </item>
+          <item xml:id="WLSPH.CH.H.0000">
+            <label>CH.H.0000</label>
+            <desc>地名-外国</desc>
+          </item>
         </list>
       </div>
       </back></text></TEI>

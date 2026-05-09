@@ -101,7 +101,12 @@ kokinwakashu-prototype/
   - Fixed `てへ` → redirected as reading of `てふ`; deleted `てへ` lemma
   - Expanded `lemma-index-decomp.tsv` to include all lemmas (simplex + compound)
   - Validation flags added to index; morphological decompositions updated
-- [x] Issues flagged in `issues-compound.txt` are resolved; file can be deleted
+- [ ] **issues-compound.txt** — compound conversion pass in progress (2026-05-08):
+  - Completed through `心づから` (line 140 of issues-compound.txt)
+  - Batch 1 (previous sessions): 御前、御吉野、御垣守、御影、御手洗
+  - Batch 2 (this session): 御津、御笠、憂目（新規）、憂身（新規）、心づから
+  - **Policy**: poem tokens keep single lemmaRef per `<w>`; compound structure lives only in lemma-index
+  - Next entry: 心地 (line 141)
 - [ ] **issues.txt review in progress** — later-pass entries updated through
   `さつき` (2026-05-06)
 - [ ] **Resolved in this session**: `狩り`, `狩衣`, `百`, `相坂`, `眼`,
@@ -112,6 +117,17 @@ kokinwakashu-prototype/
 - [ ] **Earlier unresolved entries remain** near the top of `issues.txt`:
   current first items include `はも`, `ふるさと`, `まく`, `まし`, `ます`,
   `一`, `万`, `下紐`, `二`, `五つ`, `五月雨`, ...
+- [ ] **Compound transparency annotation** — distinguish `type="compound"` entries
+  into semantically transparent (compositional meaning derivable from components,
+  e.g. 山川 = 山＋川) vs. semantically opaque (lexicalized/idiomatic, e.g. 憂目).
+  Proposed mechanism: add a `@subtype` or `<note type="transparency">` attribute;
+  exact encoding to be decided. Useful for downstream NLP and lexicographic display.
+
+- [ ] **Lemma orth normalization against 日本国語大辞典 (Nikkoku)** — audit
+  `<orth>` headwords in lemma-index.xml against Nikkoku standard forms and update
+  where the current orth diverges (e.g. okurigana conventions, kanji choice).
+  Priority: entries that appear in kokinwakashu.xml poem tokens.
+
 - [ ] The parent repo (`kokin-tei-merge`, branch `separate-tei-dicts`) has not
   been merged to `main` yet — pending review
 - [ ] `kokin-annotated.xml` in the parent repo still embeds Dict A/B/Classification
