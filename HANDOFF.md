@@ -38,7 +38,15 @@ This file is for agent-to-agent communication only.
 
 ### Next
 
-- Continue `issues-compound.txt` from 心地 (line 140) onward
+- Continue `issues-compound.txt` from 忍び忍びなり (original line 693) onward
+
+## 2026-05-09
+
+### Changed
+
+- `心地` converted from `simplex` to `compound`; `<pron>` now decomposes as
+  `こころ.心` + `もち.持つ` with surface `ここ` + `ち`.
+- Added `もち.持つ` hom to `reading-index.xml`.
 
 ## 2026-05-06
 

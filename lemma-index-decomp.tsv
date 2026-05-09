@@ -688,7 +688,7 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 微睡む	simplex	まどろむ				
 心	simplex	うら				
 !心づから	simplex	こころ|づから				
-!心地	simplex	ここ|ち				
+心地	compound	ここち	心	持つ
 ?心当て	compound	こころあて	心	当て			
 ?忍	simplex	しのぶ				
 !忍び忍びなり	simplex	しのび,しのび|なり				

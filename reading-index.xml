@@ -14969,6 +14969,14 @@
             <ref target="li:持つ"/>
           </hom>
         </entry>
+        <entry xml:id="もち">
+          <form type="pron">
+            <pron notation="kana">もち</pron>
+          </form>
+          <hom n="1" xml:id="もち.持つ">
+            <ref target="li:持つ"/>
+          </hom>
+        </entry>
         <entry xml:id="もぢずり">
           <form type="pron">
             <pron notation="kana">もぢずり</pron>
