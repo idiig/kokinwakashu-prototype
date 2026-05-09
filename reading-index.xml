@@ -1272,6 +1272,14 @@
             <ref target="li:痛し"/>
           </hom>
         </entry>
+        <entry xml:id="いたし">
+          <form type="pron">
+            <pron notation="kana">いたし</pron>
+          </form>
+          <hom n="1" xml:id="いたし.痛し">
+            <ref target="li:痛し"/>
+          </hom>
+        </entry>
         <entry xml:id="いたづら">
           <form type="pron">
             <pron notation="kana">いたづら</pron>
@@ -10219,6 +10227,14 @@
             <ref target="li:ど"/>
           </hom>
           </entry>
+        <entry xml:id="どち">
+          <form type="pron">
+            <pron notation="kana">どち</pron>
+          </form>
+          <hom n="1" xml:id="どち.どち">
+            <ref target="li:どち"/>
+          </hom>
+        </entry>
         <entry xml:id="な">
           <form type="pron">
             <pron notation="kana">な</pron>

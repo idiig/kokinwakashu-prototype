@@ -58,6 +58,7 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 とて	compound	とて	と	て			
 !とにもかくにも	simplex	と|に|も|かく|に|も				
 ど	simplex	ど				
+どち	simplex	どち
 な	simplex	な				
 ながら	simplex	ながら				
 撫子	simplex	なでしこ				
@@ -691,7 +692,7 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 心地	compound	ここち	心	持つ
 ?心当て	compound	こころあて	心	当て			
 ?忍	simplex	しのぶ				
-!忍び忍びなり	simplex	しのび,しのび|なり				
+忍び忍びなり	compound	しのびしのび	忍ぶ	忍ぶ
 忍ぶ	simplex	しのぶ				
 忍草	compound	しのぶぐさ	忍ぶ	草			
 忘る	simplex	わする				
@@ -701,7 +702,7 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 忠実なり	simplex	まめなり				
 思ひ寝	compound	おもひね	思ふ	寝			
 思ふ	simplex	おもふ				
-!思ふどち	simplex	おもふ|どち				
+思ふどち	compound	おもふどち	思ふ	どち
 思ほゆ	simplex	おもほゆ				
 急ぐ	simplex	またぐ				
 怨む	simplex	うらむ				
@@ -723,7 +724,7 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 惜しむ	simplex	をしむ				
 愈	simplex	いよいよ				
 愚かなり	simplex	おろかなり				
-!愛でたし	simplex	めで|たし				
+愛でたし	compound	めでたし	賞づ	痛し
 慕ふ	simplex	したふ				
 慣らふ	simplex	ならふ				
 慰む	simplex	なぐさむ				
@@ -739,7 +740,7 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 成す	simplex	なす				
 成る	simplex	なる				
 我	simplex	あれ				
-!我ら	simplex	われ|ら				
+我ら	compound	われら	我	ら
 !我妹子	simplex	わぎも|こ わ|が|いも|こ				
 戦ぐ	simplex	さやぐ				
 戯る	simplex	たはぶる				

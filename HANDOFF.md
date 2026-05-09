@@ -38,7 +38,7 @@ This file is for agent-to-agent communication only.
 
 ### Next
 
-- Continue `issues-compound.txt` from 忍び忍びなり (original line 693) onward
+- Continue `issues-compound.txt` from 我妹子 (original line 742) onward
 
 ## 2026-05-09
 
@@ -47,6 +47,16 @@ This file is for agent-to-agent communication only.
 - `心地` converted from `simplex` to `compound`; `<pron>` now decomposes as
   `こころ.心` + `もち.持つ` with surface `ここ` + `ち`.
 - Added `もち.持つ` hom to `reading-index.xml`.
+- `忍び忍びなり` converted from `simplex` to `compound`; `<pron>` now
+  decomposes the stem as `しのび.忍ぶ` + `しのび.忍ぶ` with no `なり`
+  component.
+- Added `どち` as a new simplex lemma for "fellows/companions" with
+  WLSPH/WLSP `1.2200`; `思ふどち` converted from `simplex` to `compound`
+  as `おもふ.思ふ` + `どち.どち`.
+- Added `いたし.痛し` to `reading-index.xml`; `愛でたし` converted from
+  `simplex` to `compound` as `めで.賞づ` + `いたし.痛し`.
+- `我ら` converted from `simplex` to `compound` as `われ.我` + `ら.ら`;
+  poem token remains `ri:われら.我ら`.
 
 ## 2026-05-06
 

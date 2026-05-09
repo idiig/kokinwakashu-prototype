@@ -898,6 +898,21 @@
             <def xml:lang="ja">他--接続-反対</def>
           </sense>
         </entry>
+        <entry xml:id="どち" type="simplex">
+          <form type="lemma">
+            <orth xml:lang="ja">どち</orth>
+            <pron notation="kana">どち</pron>
+          </form>
+          <gramGrp>
+            <pos value="N.g">N.g</pos>
+            <gram type="UPosTag">NOUN</gram>
+            <gram type="IPAPosTag">名詞-一般</gram>
+            <gram type="UniDicPosTag">名詞-普通名詞-一般</gram>
+          </gramGrp>
+          <sense ana="wlsph:WLSPH.1.2200 wlsp:WLSP.1.2200">
+            <def xml:lang="ja">体-主体-仲間-相手・仲間</def>
+          </sense>
+        </entry>
         <entry xml:id="な" type="simplex">
           <form type="lemma">
             <orth xml:lang="ja">な</orth>
@@ -11390,10 +11405,14 @@
             <def xml:lang="ja">体-活動-心-判断・推測・評価</def>
           </sense>
         </entry>
-        <entry xml:id="忍び忍びなり" type="simplex">
+        <entry xml:id="忍び忍びなり" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">忍び忍び</orth>
-            <pron notation="kana">しのびしのび</pron>
+            <pron notation="kana"><w lemmaRef="ri:しのび.忍ぶ">しのび</w><w lemmaRef="ri:しのび.忍ぶ">しのび</w></pron>
+          </form>
+          <form type="compound">
+            <ref target="#忍ぶ">忍び</ref>
+            <ref target="#忍ぶ">忍び</ref>
           </form>
           <gramGrp>
             <pos value="N.Suff.Ana">N.Suff.Ana</pos>
@@ -11549,10 +11568,14 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.2.3060 wlsp:WLSP.2.3060"/>
         </entry>
-        <entry xml:id="思ふどち" type="simplex">
+        <entry xml:id="思ふどち" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">思ふどち</orth>
-            <pron notation="kana">おもふどち</pron>
+            <pron notation="kana"><w lemmaRef="ri:おもふ.思ふ">おもふ</w><w lemmaRef="ri:どち.どち">どち</w></pron>
+          </form>
+          <form type="compound">
+            <ref target="#思ふ">思ふ</ref>
+            <ref target="#どち">どち</ref>
           </form>
           <gramGrp>
             <pos value="N.g">N.g</pos>
@@ -11860,10 +11883,14 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.3.3040"/>
         </entry>
-        <entry xml:id="愛でたし" type="simplex">
+        <entry xml:id="愛でたし" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">愛でたし</orth>
-            <pron notation="kana">めでたし</pron>
+            <pron notation="kana"><w lemmaRef="ri:めで.賞づ">めで</w><w lemmaRef="ri:いたし.痛し">たし</w></pron>
+          </form>
+          <form type="compound">
+            <ref target="#賞づ">愛で</ref>
+            <ref target="#痛し">たし</ref>
           </form>
           <gramGrp>
             <pos value="Ai.free">Ai.free</pos>
@@ -12122,10 +12149,14 @@
             <def xml:lang="ja">体-主体-人間-人間</def>
           </sense>
         </entry>
-        <entry xml:id="我ら" type="simplex">
+        <entry xml:id="我ら" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">我ら</orth>
-            <pron notation="kana">われら</pron>
+            <pron notation="kana"><w lemmaRef="ri:われ.我">われ</w><w lemmaRef="ri:ら.ら">ら</w></pron>
+          </form>
+          <form type="compound">
+            <ref target="#我">我</ref>
+            <ref target="#ら">ら</ref>
           </form>
           <gramGrp>
             <pos value="N.Pron.g">N.Pron.g</pos>
