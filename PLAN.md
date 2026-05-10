@@ -102,11 +102,11 @@ kokinwakashu-prototype/
   - Expanded `lemma-index-decomp.tsv` to include all lemmas (simplex + compound)
   - Validation flags added to index; morphological decompositions updated
 - [ ] **issues-compound.txt** — compound conversion pass in progress (2026-05-08):
-  - Completed through `我ら` (original line 741 of issues-compound.txt)
+  - Completed through `梔子` (original line 950 of issues-compound.txt)
   - Batch 1 (previous sessions): 御前、御吉野、御垣守、御影、御手洗
   - Batch 2 (this session): 御津、御笠、憂目（新規）、憂身（新規）、心づから
   - **Policy**: poem tokens keep single lemmaRef per `<w>`; compound structure lives only in lemma-index
-  - Next entry: 我妹子 (original line 742)
+  - Next entry: 棚引く (original line 954)
 - [ ] **issues.txt review in progress** — later-pass entries updated through
   `さつき` (2026-05-06)
 - [ ] **Resolved in this session**: `狩り`, `狩衣`, `百`, `相坂`, `眼`,

@@ -38,7 +38,7 @@ This file is for agent-to-agent communication only.
 
 ### Next
 
-- Continue `issues-compound.txt` from 我妹子 (original line 742) onward
+- Continue `issues-compound.txt` from 棚引く (original line 954) onward
 
 ## 2026-05-09
 
@@ -57,6 +57,74 @@ This file is for agent-to-agent communication only.
   `simplex` to `compound` as `めで.賞づ` + `いたし.痛し`.
 - `我ら` converted from `simplex` to `compound` as `われ.我` + `ら.ら`;
   poem token remains `ri:われら.我ら`.
+- Added `妹子` as a new compound (`いも.妹` + `こ.子`) and added
+  `いもこ.妹子` to `reading-index.xml`.
+- `我妹子` converted from `simplex` to `compound` as surface
+  `わ` + `ぎ` + `もこ`, referencing `わ.我` + `が.が` + `いもこ.妹子`;
+  poem token remains `ri:わぎもこ.我妹子`.
+- `挿頭す` converted from `simplex` to `compound` as surface `か` + `ざす`,
+  referencing `かみ.髪` + `さす.挿す`; poem tokens remain
+  `ri:かざさ.挿頭す` / `ri:かざし.挿頭す`.
+- Added `捩る` as a new simplex lemma and `もぢ.捩る` to `reading-index.xml`.
+- `捩摺` converted from `simplex` to `compound` as surface `もぢ` + `ずり`,
+  referencing `もぢ.捩る` + existing `すり.摺る`; poem token remains
+  `ri:もぢずり.捩摺`.
+- `散らす` converted from `simplex` to `compound` as `ちら.散る` + `す.使`;
+  poem tokens remain `ri:ちらし.散らす` / `ri:ちらす.散らす`.
+- `数々なり` converted from `simplex` to `compound` as `かず.数` +
+  `かず.数`; no `なり` component was added.
+- Added `栲` as a new simplex lemma with WLSPH/WLSP `1.4201` and
+  `たへ.栲` in `reading-index.xml`.
+- `敷妙` converted from `simplex` to `compound` as `しき.敷く` + `たへ.栲`;
+  poem tokens remain `ri:しきたへ.敷妙`.
+- Added `文` as a new simplex lemma with WLSPH/WLSP `1.1840` and
+  `あや.文` in `reading-index.xml`.
+- `文無し` converted from `simplex` to `compound` as `あや.文` + `なし.無し`;
+  poem tokens remain `ri:あやな.文無し`, `ri:あやなく.文無し`, and
+  `ri:あやなし.文無し`.
+- `文目` converted from `simplex` to `compound` as `あや.文` + `め.目`;
+  poem token remains `ri:あやめ.文目`.
+- `斯かり` converted from `simplex` to `compound` as surface `かか` + `り`,
+  referencing `かく.斯く` + existing `あり.有り`; poem token remains
+  `ri:かかり.斯かり`.
+- `斯くて` converted from `simplex` to `compound` as `かく.斯く` + `て.て`;
+  poem token remains `ri:かくて.斯くて`.
+- `旁` converted from `simplex` to `compound` as `かた.方` + `かた.方`;
+  poem token remains `ri:かたがた.旁`.
+- `旅寝` converted from `simplex` to `compound` as `たび.旅` + `ね.寝.v`;
+  poem tokens remain `ri:たびね.旅寝`.
+- `早苗` converted from `simplex` to `compound` as `さ.早` + `なへ.苗`;
+  poem token remains `ri:さなへ.早苗`.
+- `明かす` normalized to `明す` and converted from `simplex` to `compound`
+  as `あか.明く` + `す.使`; added `あか.明く` to `reading-index.xml` and
+  updated the poem token to `ri:あかし.明す`.
+- `昔方` converted from `simplex` to `compound` as `むかし.昔` + `へ.辺`;
+  poem tokens remain `ri:むかしべ.昔方`.
+- `春日野` converted from `simplex` to `compound` as `かすが.春日` + `の.野`;
+  poem tokens remain `ri:かすがの.春日野`.
+- `春辺` converted from `simplex` to `compound` as `はる.春` + `へ.辺`;
+  poem token remains `ri:はるべ.春辺`.
+- `晩稲` was reviewed and left as `simplex`; removed the decomposition flag
+  and the compound-review queue entry.
+- `暗部` was reviewed and left as `simplex`; removed the decomposition flag
+  and the compound-review queue entry.
+- `更々に` was converted to a compound: `更なり` + `更なり`; the poem body
+  already has following `に` as a separate token, so no body token change was made.
+- `月影` was converted to a compound: `月` + `影`; poem tokens remain
+  `ri:つきかげ.月影`.
+- `有磯` was normalized to lemma `荒磯` and converted to a compound with
+  surface `あり` + `そ`, referencing `荒し` + `磯`; `有磯海` was also normalized
+  to lemma `荒磯海`, decomposing as `荒磯` + `海`.
+- Added `朗なり` (`ほがら`) and converted `朗ら朗らと` to a compound:
+  `朗なり` + `朗なり`; the following `と` remains a separate poem token.
+- Added `夕な` (`ゆふな`) as `夕` + `な` and normalized `朝な夕なに` to lemma
+  `朝な夕な`, decomposed as `朝な` + `夕な`; the poem body keeps following
+  `に` as a separate `ri:に.に` token.
+- Converted `朝な` to a compound: `朝` + `な`.
+- Added `開く` (`ひらく`) and `ひらけ.開く`; converted `朝ぼらけ` to
+  `朝` + `開く`, with surface `ぼらけ` referencing `ri:ひらけ.開く`.
+- Converted `朝明` to a compound: `朝` + `明く`, with surface `け`
+  referencing `ri:あけ.明く`.
 
 ## 2026-05-06
 

@@ -425,6 +425,7 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 夏虫	compound	なつむし	夏	虫			
 夏衣	compound	なつごろも	夏	衣			
 夕	simplex	ゆふ				
+夕な	compound	ゆふな	夕	な
 !夕べ	simplex	ゆふ|べ				
 夕影	compound	ゆふかげ	夕	陰			
 夕月夜	compound	ゆふづくよ	夕	月	夜		
@@ -470,6 +471,7 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 妬し	simplex	ねたし				
 妹	simplex	いも				
 !妹背	simplex	いも|せ				
+妹子	compound	いもこ	妹	子
 妻	simplex	つま				
 始む	simplex	はじむ				
 姨捨山	compound	をばすてやま	姨捨	山			
@@ -741,7 +743,7 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 成る	simplex	なる				
 我	simplex	あれ				
 我ら	compound	われら	我	ら
-!我妹子	simplex	わぎも|こ わ|が|いも|こ				
+我妹子	compound	わぎもこ	我	が	妹子
 戦ぐ	simplex	さやぐ				
 戯る	simplex	たはぶる				
 戸	simplex	と				
@@ -769,9 +771,10 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 振舞ふ	compound	ふるまふ	振る	舞ふ			
 挿ぐ	simplex	すぐ				
 挿す	simplex	さす				
-!?挿頭す	simplex	か|ざす				
+挿頭す	compound	かざす	髪	挿す
 捨つ	simplex	すつ				
-!捩摺	simplex	もぢ|ずり				
+捩る	simplex	もぢる
+捩摺	compound	もぢずり	捩る	摺る
 据う	simplex	すう				
 捲く	simplex	まく				
 掘る	simplex	ほる				
@@ -794,52 +797,54 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 ?故郷	simplex	ふるさと				
 教ふ	simplex	をしふ				
 敢ふ	simplex	あふ				
-!散らす	simplex	ちら|す				
+散らす	compound	ちらす	散る	使
 散る	simplex	ちる				
 数	simplex	かず				
-!数々なり	simplex	かず,かず|なり				
+数々なり	compound	かずかず	数	数
 数ふ	simplex	かぞふ				
 数多	simplex	あまた				
 数多度	compound	あまたたび	数多	度			
 敷く	simplex	しく				
-!敷妙	simplex	しき|たへ				
+敷妙	compound	しきたへ	敷く	栲
+栲	simplex	たへ
 敷島	simplex	しきしま				
-!文無し	simplex	あや|なし				
-!文目	simplex	あや|め				
+文	simplex	あや
+文無し	compound	あやなし	文	無し
+文目	compound	あやめ	文	目
 斎垣	compound	いがき	斎	垣			
 斑	simplex	はだれ				
 斧	simplex	をの				
-!斯かり	simplex	かか|り かく|あり				
+斯かり	compound	かかり	斯く	有り
 斯く	simplex	かく				
-!斯くて	simplex	かく|て				
+斯くて	compound	かくて	斯く	て
 新	simplex	あら				
 新し	simplex	あたらし				
 新小田	compound	あらをだ	新	小	田		
 新玉	simplex	あらたま				
 ?方	simplex	かた				
 方便	simplex	たづき				
-!旁	simplex	かた|がた				
+旁	compound	かたがた	方	方
 旅	simplex	たび				
-!旅寝	simplex	たび|ね				
+旅寝	compound	たびね	旅	寝.v
 旅心地	compound	たびここち	旅	心地			
 日	simplex	にち				
 日置野	simplex	ひきの				
 早	simplex	はや				
 早し	simplex	はやし				
-!早苗	simplex	さ|なへ				
-!明かす	simplex	あか|す				
+早苗	compound	さなへ	早	苗
+明す	compound	あかす	明く	使
 明く	simplex	あく				
 明けし	simplex	さやけし				
 明日	simplex	あす				
 明石	simplex	あかし				
 易し	simplex	やすし				
 昔	simplex	むかし				
-!昔方	simplex	むかし|べ				
+昔方	compound	むかしべ	昔	辺
 星	simplex	ほし				
 春	simplex	はる				
 春日	simplex	かすが				
-!春日野	simplex	かすが|の				
-!春辺	simplex	はる|べ				
+春日野	compound	かすがの	春日	野
+春辺	compound	はるべ	春	辺
 春雨	compound	はるさめ	春	雨			
 春霞	compound	はるがすみ	春	霞			
 春風	compound	はるかぜ	春	風			
@@ -849,12 +854,12 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 時雨る	simplex	しぐる				
 時鳥	simplex	ほととぎす				
 ?晨明	simplex	ありあけ				
-!晩稲	simplex	おく|て				
+晩稲	simplex	おくて
 晴る	simplex	はる				
 暁	simplex	あかつき				
 暗し	simplex	くらし				
 暗す	simplex	くらす				
-!暗部	simplex	くら|ぶ				
+暗部	simplex	くらぶ
 暗部山	compound	くらぶやま	暗部	山			
 暫し	simplex	しばし				
 暮す	simplex	くらす				
@@ -864,7 +869,7 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 曇る	simplex	くもる				
 曝す	simplex	さらす				
 曳く	simplex	ひく				
-!更々に	simplex	さら,さら|に				
+更々に	compound	さらさら	更なり	更なり
 更く	simplex	ふく				
 更なり	simplex	さらなり				
 更科	simplex	さらしな				
@@ -873,58 +878,61 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 最上河	compound	もがみがは	最上	河			
 月	simplex	つき				
 月夜	compound	つきよ	月	夜			
-!月影	simplex	つき|かげ				
+月影	compound	つきかげ	月	影
 月日	compound	つきひ	月	日			
 月草	compound	つきくさ	月	草			
 有り	simplex	あり				
 有処	compound	ありか	有り	所			
 有数	compound	ありかず	有り	数			
 有明	simplex	ありあけ				
-!有磯	simplex	あり|そ				
-有磯海	compound	ありそうみ	有磯	海			
-!朗ら朗らと	simplex	ほがら,ほがら|と				
+荒磯	compound	ありそ	荒し	磯
+荒磯海	compound	ありそうみ	荒磯	海
+朗なり	simplex	ほがら
+朗ら朗らと	compound	ほがらほがら	朗なり	朗なり
 朝	simplex	あさ				
-朝な	simplex	あさな				
-!朝な夕なに	simplex	あさ,な|ゆふ,な|に				
+朝な	compound	あさな	朝	な
+朝な夕な	compound	あさなゆふな	朝な	夕な
 朝な日に	compound	あさなけに	朝な	日	に		
 朝な朝な	compound	あさなあさな	朝な	朝な			
 朝の原	compound	あしたのはら	朝	の	原		
-!朝ぼらけ	simplex	あさ|ぼらけ				
-!朝明	simplex	あさ|け あさ|あけ				
+朝ぼらけ	compound	あさぼらけ	朝	開く
+朝明	compound	あさけ	朝	明く
 朝霧	compound	あさぎり	朝	霧			
 朝露	compound	あさつゆ	朝	露			
 期	simplex	こ				
 ?木	simplex	き				
 木木	simplex	きぎ				
 ?木綿	simplex	もめん				
-!木綿付鳥	simplex	ゆふ,つけ|どり				
+木綿付鳥	compound	ゆふつけどり	木綿	付く	鳥
 木綿襷	compound	ゆふだすき	木綿	襷			
 未だ	simplex	いまだ				
 未だし	simplex	まだし				
 ?末	simplex	うれ				
 末の松山	compound	すゑのまつやま	末	の	松山		
-!末摘花	simplex	すゑ|つむ|はな				
+末摘花	compound	すゑつむはな	すゑ	摘む	花
 末枝	compound	ほつえ	穂	つ	枝		
 ?本	simplex	ほん				
-!本柏	simplex	もと|かしは				
+柏	simplex	かしは
+本柏	compound	もとかしは	本	柏
 本荒	compound	もとあら	本	荒し			
 朽つ	simplex	くつ				
 朽木	compound	くちき	朽つ	木			
 杉	simplex	すぎ				
 ?杖	simplex	つえ				
 束緒	compound	たばねを	束ぬ	緒			
-!杣人	simplex	そま|びと				
+杣	simplex	そま
+杣人	compound	そまびと	杣	人
 来	simplex	く				
 東路	compound	あづまぢ	東	路			
 東雲	simplex	しののめ				
 東	simplex	あづま				
 松	simplex	まつ				
 松山	compound	まつやま	松	山			
-!松虫	simplex	まつ|むし				
+松虫	compound	まつむし	松	虫
 板	simplex	いた				
-!板井	simplex	いた|ゐ				
+板井	compound	いたゐ	板	井
 板戸	compound	いたど	板	戸			
-!板間	simplex	いた|ま				
+板間	compound	いたま	板	間
 枕	simplex	まくら				
 果	simplex	はたて				
 果つ	simplex	はつ				
@@ -940,7 +948,8 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 ?栄る	simplex	さかる				
 栄行く	compound	さかゆく	栄ゆ	行く			
 根	simplex	ね				
-!根蓴菜	simplex	ね|ぬなは				
+蓴菜	simplex	ぬなは
+根蓴菜	compound	ねぬなは	根	蓴菜
 桂	simplex	かつら				
 案山子	simplex	そほづ				
 桜	simplex	さくら				
@@ -949,7 +958,7 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 ?梅	simplex	うめ				
 梓	simplex	あずさ				
 梓弓	compound	あづさゆみ	梓	弓			
-!梔子	simplex	くち|なし				
+梔子	compound	くちなし	口	無し
 梢	simplex	こずゑ				
 梨	simplex	なし				
 棚	simplex	たな				
@@ -1649,6 +1658,7 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 長雨	compound	ながめ	長し	雨			
 門	simplex	かど				
 !門出	simplex	かど|で				
+開く	simplex	ひらく
 閉す	simplex	さす				
 閉づ	simplex	とづ				
 間	simplex	ま				

@@ -24045,7 +24045,7 @@
               <w lemmaRef="ri:を.を">を</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:あかし.明かす">あかし</w>
+              <w lemmaRef="ri:あかし.明す">あかし</w>
               <w lemmaRef="ri:て.て">て</w>
               <w lemmaRef="ri:は.は">は</w>
             </seg>
@@ -26500,7 +26500,7 @@
               <w lemmaRef="ri:の.の">の</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:あさなゆふな.朝な夕なに">あさなゆふな</w>
+              <w lemmaRef="ri:あさなゆふな.朝な夕な">あさなゆふな</w>
             <w lemmaRef="ri:に.に">に</w>
             </seg>
             <seg>
@@ -31391,7 +31391,7 @@
         <div type="和歌">
           <l n="818" xml:id="n818" resp="#よみ人知らず">
             <seg>
-              <w lemmaRef="ri:ありそうみ.有磯海">有そうみ</w>
+              <w lemmaRef="ri:ありそうみ.荒磯海">有そうみ</w>
               <w lemmaRef="ri:の.の">の</w>
             </seg>
             <seg>
