@@ -5963,7 +5963,8 @@
             <seg>
               <w lemmaRef="ri:こ.来">こ</w>
               <w lemmaRef="ri:ぬ.ず">ぬ</w>
-              <w lemmaRef="ri:ものゆゑに.物故に">物ゆへに</w>
+              <w lemmaRef="ri:ものゆゑ.物故">物ゆへ</w>
+              <w lemmaRef="ri:に.に">に</w>
             </seg>
             <seg>
               <w lemmaRef="ri:うぐひす.鴬">鶯</w>
@@ -9447,7 +9448,7 @@
             <seg>
               <w lemmaRef="ri:あま.天">あま</w>
               <w lemmaRef="ri:の.の">の</w>
-              <w lemmaRef="ri:と.門">と</w>
+              <w lemmaRef="ri:と.戸">と</w>
               <w lemmaRef="ri:わたる.渡る">渡</w>
             </seg>
             <seg>
@@ -21103,7 +21104,7 @@
         <div type="和歌">
           <l n="532" xml:id="n532" resp="#よみ人知らず">
             <seg>
-              <w lemmaRef="ri:おきへ.沖辺">おきへ</w>
+              <w lemmaRef="ri:おきべ.沖辺">おきへ</w>
               <w lemmaRef="ri:に.に">に</w>
               <w lemmaRef="ri:も.も">も</w>
             </seg>
@@ -24189,7 +24190,8 @@
               <w lemmaRef="ri:ぬる.ぬ">ぬる</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:ものゆゑに.物故に">物ゆへに</w>
+              <w lemmaRef="ri:ものゆゑ.物故">物ゆへ</w>
+              <w lemmaRef="ri:に.に">に</w>
             </seg>
             <seg>
               <w lemmaRef="ri:み.見">見</w>
@@ -25226,7 +25228,7 @@
             <seg>
               <w lemmaRef="ri:あま.天">あま</w>
               <w lemmaRef="ri:の.の">の</w>
-              <w lemmaRef="ri:と.門">と</w>
+              <w lemmaRef="ri:と.戸">と</w>
               <w lemmaRef="ri:わたる.渡る">渡</w>
             </seg>
             <seg>
@@ -25991,7 +25993,7 @@
               <w lemmaRef="ri:が.が">か</w>
               <w lemmaRef="ri:な.名">な</w>
               <w lemmaRef="ri:も.も">も</w>
-              <w lemmaRef="ri:みなと.水門">みなと</w>
+              <w lemmaRef="ri:みなと.湊">みなと</w>
             </seg>
             <seg>
               <w lemmaRef="ri:こぎ.漕ぐ">こき</w>
@@ -26001,7 +26003,7 @@
             <seg>
               <w lemmaRef="ri:よ.世">世</w>
               <w lemmaRef="ri:を.を">を</w>
-              <w lemmaRef="ri:うみべた.海辺">うみへた</w>
+              <w lemmaRef="ri:うみへた.海辺">うみへた</w>
               <w lemmaRef="ri:に.に">に</w>
             </seg>
             <seg>
@@ -33159,7 +33161,7 @@
               <w lemmaRef="ri:あまのかは.天の河">天河</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:と.門">と</w>
+              <w lemmaRef="ri:と.戸">と</w>
               <w lemmaRef="ri:わたる.渡る">わたる</w>
               <w lemmaRef="ri:ふね.舟">舟</w>
               <w lemmaRef="ri:の.の">の</w>
@@ -35502,7 +35504,7 @@
               <w lemmaRef="ri:を.を">を</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:たなばた.織女">たなはた</w>
+              <w lemmaRef="ri:たなばた.棚機">たなはた</w>
               <w lemmaRef="ri:に.に">に</w>
             </seg>
             <seg>

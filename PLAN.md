@@ -89,6 +89,8 @@ kokinwakashu-prototype/
 - **reading-index restoration rule**: if `lemma-index.xml` already contains
   valid `ri:...` references, restore missing Dict A hom IDs in
   `reading-index.xml` before reworking the lemma entry again
+- **Dict A link encoding**: Dict A homs point to Dict B entries with
+  `corresp="li:..."` on `<hom>`; do not put `<ref>` directly inside `<hom>`
 
 ---
 
@@ -102,11 +104,16 @@ kokinwakashu-prototype/
   - Expanded `lemma-index-decomp.tsv` to include all lemmas (simplex + compound)
   - Validation flags added to index; morphological decompositions updated
 - [ ] **issues-compound.txt** — compound conversion pass in progress (2026-05-08):
-  - Completed through `梔子` (original line 950 of issues-compound.txt)
+  - Completed through `片方` (original line 1144 of issues-compound.txt)
   - Batch 1 (previous sessions): 御前、御吉野、御垣守、御影、御手洗
   - Batch 2 (this session): 御津、御笠、憂目（新規）、憂身（新規）、心づから
+  - 2026-05-10: `物故` converted to compound; `物故に` merged into `物故`
+    and poem-body `物ゆへに` tokens split into `物ゆへ` + `に`
+  - 2026-05-10: `reading-index.xml` Dict A → Dict B links normalized to
+    TEI-valid `hom/@corresp`; local RNG validation now passes for all three
+    edited XML files
   - **Policy**: poem tokens keep single lemmaRef per `<w>`; compound structure lives only in lemma-index
-  - Next entry: 棚引く (original line 954)
+  - Next entry: 最上 (original line 1148)
 - [ ] **issues.txt review in progress** — later-pass entries updated through
   `さつき` (2026-05-06)
 - [ ] **Resolved in this session**: `狩り`, `狩衣`, `百`, `相坂`, `眼`,

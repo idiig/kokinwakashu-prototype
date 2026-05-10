@@ -33,7 +33,7 @@ Cross-file references use fragment IDs. Key patterns:
 
 - **Dict B entry IDs**: `xml:id="lemmakey"` (e.g. `w.あし`, `w.ある`)
 - **Dict A homonym IDs**: `xml:id="reading.lemma"` (e.g. `あさ.朝`, `あさ.浅し`)
-- **Dict A → Dict B**: `<ref target="#lemmakey">` inside each `<hom>`
+- **Dict A → Dict B**: `corresp="li:lemmakey"` on each `<hom>`
 - **WLSP codes**: `WLSP.X.YYYY` / `WLSPH.X.YYYY` (e.g. `WLSP.1.1000`)
 
 Never rename an `xml:id` without a global search across all files.
@@ -46,7 +46,8 @@ Never rename an `xml:id` without a global search across all files.
 
 ## Session Initialization
 
-Enter the dev environment before running any scripts:
+Enter the dev environment before running any scripts, validation commands, or
+project tooling:
 
 ```bash
 nix develop
@@ -59,6 +60,10 @@ environment from `uv.lock`. Run scripts with:
 uv run python <script>.py
 ```
 
+Do not assume the plain shell has project tools available. Commands such as
+`uv`, `python3`, and `xmllint` should be run from inside `nix develop`, or via
+`nix develop --command ...` when running a single command non-interactively.
+
 ## Important Constraints
 
 - Do not modify original Japanese text content in XML
@@ -68,8 +73,10 @@ uv run python <script>.py
   pre-existing compound refs as the source of truth when they conflict
 - Validate after any structural modification:
   ```bash
-  xmllint --noout --schema http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng <file>.xml
+  xmllint --noout --relaxng schemas/tei_all.rng <file>.xml
   ```
+  The TEI RNG schema is vendored at `schemas/tei_all.rng`; use this local copy
+  instead of the remote URL so validation does not depend on network access.
 - When serializing XML with Python/lxml: use `pretty_print=False` on mixed-content
   nodes (text + elements interleaved) — pretty-printing inserts spurious whitespace
 

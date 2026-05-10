@@ -962,9 +962,10 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 梢	simplex	こずゑ				
 梨	simplex	なし				
 棚	simplex	たな				
-!棚引く	simplex	たな|びく				
+棚引く	compound	たなびく	棚	引く
 棚橋	compound	たなはし	棚	橋			
-!棚機女	simplex	たな,ばた|つ|め				
+棚機	simplex	たなばた
+棚機女	compound	たなばたつめ	棚機	つ	女
 棚無し小舟	compound	たななしをぶね	棚	無し	小	舟	
 森	simplex	もり				
 植う	simplex	うう				
@@ -983,7 +984,8 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 橋姫	compound	はしひめ	橋	姫			
 橋守	compound	はしもり	橋	守る			
 橘	simplex	たちばな				
-!檜隈河	simplex	ひ,の,くま|がは				
+檜隈	simplex	ひのくま
+檜隈河	compound	ひのくまがは	檜隈	川
 櫂	simplex	かい				
 欲し	simplex	ほし				
 欺く	simplex	あざむく				
@@ -991,10 +993,11 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 止む	simplex	とどむ				
 正し	simplex	まさし				
 此	simplex	こ				
-!此れ	simplex	こ,れ				
-!此処	simplex	こ,こ				
-!此方	simplex	こ,なた				
-!武蔵野	simplex	むさし|の				
+此れ	compound	これ	此	れ
+此処	compound	ここ	此	処
+此方	compound	こなた	此	の	方
+武蔵	simplex	むさし
+武蔵野	compound	むさしの	武蔵	野
 歳	simplex	とし				
 死ぬ	simplex	しぬ				
 死出	simplex	しで				
@@ -1008,12 +1011,11 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 水上	simplex	みなかみ				
 水底	compound	みづぞこ	水	底			
 水泡	simplex	みなわ				
-!水無瀬河	simplex	み,な,せ|がは　水|の|瀬|河				
-!水神	simplex	みな|かみ				
+水無瀬河	compound	みなせがは	水	の	瀬	川
+水神	compound	みなかみ	水	の	神
 ?水脈	simplex	みを				
-!水茎	simplex	みづ|くき				
+水茎	compound	みづくき	水	茎
 水草	compound	みくさ	水	草			
-!水門	simplex	みな|と				
 氷	simplex	こほり				
 永らふ	simplex	ながらふ				
 永久に	simplex	とはに				
@@ -1023,7 +1025,7 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 沈く	simplex	しづく				
 沈む	simplex	しづむ				
 沖	simplex	おき				
-!沖辺	simplex	おき|へ				
+沖辺	compound	おきべ	沖	辺
 沢	simplex	さは				
 沢水	compound	さはみづ	沢	水			
 河	simplex	かは				
@@ -1045,15 +1047,17 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 浅し	simplex	あさし				
 浅まし	simplex	あさまし				
 浅緑	compound	あさみどり	浅し	緑			
-!浅茅	simplex	あさ|ぢ				
-!浅茅生	simplex	あさ,ぢ|ふ				
-!浅間	simplex	あさ|ま				
+茅	simplex	ち
+浅茅	compound	あさぢ	浅し	茅
+生	simplex	ふ
+浅茅生	compound	あさぢふ	浅茅	生
+浅間	simplex	あさま
 浜	simplex	はま				
 浜千鳥	compound	はまちどり	浜	千鳥			
 浜松	compound	はままつ	浜	松			
 浦	simplex	うら				
 浪	simplex	なみ				
-!浪路	simplex	なみ|ぢ				
+浪路	compound	なみぢ	浪	路
 浮かぶ	simplex	うかぶ				
 浮く	simplex	うく				
 浮ぶ	simplex	うかぶ				
@@ -1061,12 +1065,13 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 ?浮海布	simplex	うきめ				
 浮草	compound	うきくさ	浮く	草			
 海	simplex	うみ				
+渡	simplex	わた
 海人	simplex	あま				
 海人衣	compound	あまごろも	海人	衣			
-!海原	simplex	わた|の|はら				
-!海松藻	simplex	みる|め				
-海神	compound	わたつみ	海	つ	神		
-!海辺	simplex	うみ|べた				
+海原	compound	わたのはら	渡	の	原
+海松藻	compound	みるめ	海松	海藻
+海神	compound	わたつみ	渡	つ	神
+海辺	compound	うみへた	海	辺
 消	simplex	く				
 消つ	simplex	けつ				
 消ゆ	simplex	きゆ				
@@ -1082,9 +1087,9 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 淡雪	compound	あはゆき	淡	雪			
 深し	simplex	ふかし				
 深む	simplex	ふかむ				
-!深山	simplex	み|やま				
-!深草	simplex	ふか|くさ				
-!深草野	simplex	ふか,くさ|の				
+深山	compound	みやま	御	山
+深草	compound	ふかくさ	深し	草
+深草野	compound	ふかくさの	深草	野
 淵	simplex	ふち				
 淵瀬	compound	ふちせ	淵	瀬			
 添はる	simplex	そはる				
@@ -1092,15 +1097,15 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 清かなり	simplex	さやかなり				
 清し	simplex	きよし				
 清なり	simplex	さやなり				
-!清水	simplex	し|みづ	澄む|水			
+清水	compound	しみづ	澄む	水
 清滝	compound	きよたき	清し	滝			
-!渚	simplex	な,ぎさ				
+渚	simplex	なぎさ
 渡す	simplex	わたす				
 渡り河	simplex	わたりがは				
 渡る	simplex	わたる				
 渡守	compound	わたしもり	渡す	守る			
 温し	simplex	ぬるし				
-!湊	simplex	みな|と				
+湊	compound	みなと	水	の	戸
 満つ	simplex	みつ				
 溜む	simplex	たむ				
 溜る	simplex	たまる				
@@ -1108,7 +1113,7 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 滝	simplex	たき				
 滴	simplex	しづく				
 漁	simplex	いさり				
-!漏らす	simplex	もら|す				
+漏らす	compound	もらす	漏る	使
 漏る	simplex	もる				
 漕ぐ	simplex	こぐ				
 漬つ	simplex	ひつ				
@@ -1135,30 +1140,30 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 炎	simplex	ほのほ				
 為	simplex	ため				
 為す	simplex	なす				
-!烏羽玉	simplex	うば|たま				
+烏羽玉	compound	うばたま むばたま	野	羽	玉
 無き名	compound	なきな	無し	名			
 無し	simplex	なし				
 然	simplex	さ				
-!然らば	simplex	さら|ば				
+然る	simplex	さる
+然らば	compound	さらば	然る	ば
 然り	simplex	さり				
 焼く	simplex	やく				
 煙	simplex	けぶり				
-!照らす	simplex	てら|す				
+照らす	compound	てらす	照る	使
 照る	simplex	てる				
 熾火	compound	おきび	燠	火			
 燃ゆ	simplex	もゆ				
 燠	simplex	おき				
 燻ぶ	simplex	ふすぶ				
 片	simplex	かた				
-!片岡	simplex	かた|をか				
+片岡	compound	かたをか	片	岡
 片恋	compound	かたこひ	片	恋ふ			
-!片方	simplex	かた|へ				
-!片枝	simplex	かた|え				
+片方	compound	かたへ	片	辺
+片枝	compound	かたえ	片	枝
 片糸	compound	かたいと	片	糸			
 物	simplex	もの				
 !最上	simplex	も|がみ				
-!物故	simplex	もの|ゆゑ				
-!物故に	simplex	もの,ゆゑ|に				
+物故	compound	ものゆゑ	物	故			
 !犬上	simplex	いぬ|かみ				
 ?狩り	simplex	かり				
 ?狩衣	compound	かりごろも	狩り	衣			
@@ -1372,7 +1377,6 @@ id	type	pron	decomp1	decomp2	decomp3	decomp4	decomp5
 繁し	simplex	しげし				
 繁る	simplex	しげる				
 織る	simplex	おる				
-!織女	simplex	たな|ばた				
 繰る	simplex	くる				
 纏はる	simplex	まつはる				
 置き所	compound	おきどころ	置く	所			

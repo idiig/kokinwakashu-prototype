@@ -38,10 +38,12 @@ def build_lemma_to_homs(reading_index_path):
         if not hom_id or "." not in hom_id:
             continue
         reading = hom_id.split(".", 1)[0]
-        ref = hom.find(T("ref"))
-        if ref is None:
-            continue
-        target = ref.get("target", "")
+        target = hom.get("corresp", "")
+        if not target:
+            ref = hom.find(f".//{T('ref')}")
+            if ref is None:
+                continue
+            target = ref.get("target", "")
         if target.startswith("li:"):
             lemma_id = target[3:]
             result.setdefault(lemma_id, []).append((reading, hom_id))

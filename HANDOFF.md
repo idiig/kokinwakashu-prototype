@@ -7,6 +7,49 @@ This file is for agent-to-agent communication only.
 - Put temporary validation or tooling caveats here.
 - Do not move stable project rules here; those belong in `AGENTS.md`.
 
+## 2026-05-10
+
+### Changed
+
+- `reading-index.xml` Dict A homs now use `corresp="li:..."` to point to
+  Dict B lemma entries. This replaces the interim TEI-valid
+  `<sense><ref target="li:..."/></sense>` structure and the older invalid
+  direct `<hom><ref/></hom>` structure.
+- `apply_pron.py` and `check_compounds.py` now read `hom/@corresp` first, with
+  a fallback to descendant `<ref target="...">` for compatibility.
+- `物故` converted from `simplex` to `compound` as `もの.物` + `ゆゑ.故`;
+  the entry is kept in expanded XML structure.
+- `物故に` was merged into `物故`: removed the Dict B entry and removed the
+  `ものゆゑに` Dict A reading entry.
+- Two poem-body tokens formerly annotated as single `<w lemmaRef="ri:ものゆゑに.物故に">物ゆへに</w>`
+  were split into `<w lemmaRef="ri:ものゆゑ.物故">物ゆへ</w>` +
+  `<w lemmaRef="ri:に.に">に</w>`.
+- Removed `物故に` from `issues-compound.txt`; updated
+  `lemma-index-decomp.tsv` so `物故` is recorded as a compound.
+
+### Validation
+
+- TEI manual check: `<hom>` permits global linking attributes such as
+  `@corresp`; `@lemmaRef` is not a valid `<hom>` attribute, and `<ref>` is not a
+  valid direct child of `<hom>`.
+- Local RNG validation with `schemas/tei_all.rng` now passes for
+  `reading-index.xml`, `lemma-index.xml`, and `kokinwakashu.xml`.
+- `uv run python count_pron.py`: `Total: 552, Plain: 0, Decomposed: 552`.
+- `uv run python check_compounds.py`: `OK 552`, `Ambiguous 0`, `Failed 0`.
+- `nix develop --command xmllint --noout` passed for `lemma-index.xml`,
+  `reading-index.xml`, and `kokinwakashu.xml`.
+- TEI schema validation with the remote `tei_all.rng` URL failed because
+  `xmllint` could not load the remote schema in this environment; both
+  `--schema` and `--relaxng` were attempted.
+- Downloaded the TEI RNG schema to `schemas/tei_all.rng` and updated
+  `AGENTS.md` to use the local schema path for future validation.
+- Earlier local RNG failures were due to the invalid direct `<hom><ref/>`
+  structure in `reading-index.xml`; after switching Dict A links to
+  `hom/@corresp`, validation passes.
+- `check_lemma.py` could not be run because it is not present in this working
+  tree; exact `rg` checks found no remaining `物故に`, `ものゆゑに`,
+  `li:物故に`, or `ri:ものゆゑに` references.
+
 ## 2026-05-08
 
 ### Changed
@@ -38,7 +81,7 @@ This file is for agent-to-agent communication only.
 
 ### Next
 
-- Continue `issues-compound.txt` from 棚引く (original line 954) onward
+- Continue `issues-compound.txt` from 最上 (original line 1148) onward
 
 ## 2026-05-09
 
