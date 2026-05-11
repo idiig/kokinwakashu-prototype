@@ -6310,7 +6310,7 @@
             <seg>
               <w lemmaRef="ri:たれ.誰">誰</w>
               <w lemmaRef="ri:に.に">に</w>
-              <w lemmaRef="ri:おほせ.負ほす">おほせ</w>
+              <w lemmaRef="ri:おほせ.負す">おほせ</w>
               <w lemmaRef="ri:て.て">て</w>
             </seg>
             <seg>
@@ -18426,7 +18426,7 @@
           <lb/>
           <l n="454" xml:id="n454" resp="#紀乳母">
             <seg>
-              <w lemmaRef="ri:いささめ.率爾に">いさゝめ</w>
+              <w lemmaRef="ri:いささめ.いささめに">いさゝめ</w>
             <w lemmaRef="ri:に.に">に</w>
             </seg>
             <seg>
@@ -22115,7 +22115,7 @@
             <seg>
               <w lemmaRef="ri:ほたる.蛍">螢</w>
               <w lemmaRef="ri:より.より">より</w>
-              <w lemmaRef="ri:け.異に">け</w>
+              <w lemmaRef="ri:け.けなり">け</w>
               <w lemmaRef="ri:に.に">に</w>
             </seg>
             <seg>
@@ -27043,7 +27043,7 @@
               <w lemmaRef="ri:しぬ.死ぬ">しぬ</w>
               <w lemmaRef="ri:と.と">と</w>
               <w lemmaRef="ri:ぞ.ぞ">そ</w>
-              <w lemmaRef="ri:ただ.唯に">たゝ</w>
+              <w lemmaRef="ri:ただ.唯なり">たゝ</w>
               <w lemmaRef="ri:に.に">に</w>
             </seg>
             <seg>
@@ -27738,7 +27738,7 @@
               <w lemmaRef="ri:あり.有り">有</w>
               <w lemmaRef="ri:し.き">し</w>
               <w lemmaRef="ri:より.より">より</w>
-              <w lemmaRef="ri:け.異なり">け</w>
+              <w lemmaRef="ri:け.けなり">け</w>
               <w lemmaRef="ri:に.に">に</w>
             </seg>
             <seg>

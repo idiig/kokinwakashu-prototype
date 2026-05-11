@@ -59,7 +59,6 @@ lines from buffer: lemma-index-decomp.tsv
     366:!味気無し	simplex	あぢ,き|なし				
     375:!唐土	simplex	もろ|こし				
     376:!唐琴	simplex	から|こと				
-    381:!唯に	simplex	ただ|に				
     383:!喚子鳥	simplex	よぶ|こ|どり				
     397:!垂乳根	simplex	たら|ち|ね				
     398:!垂幣の田長	simplex	しで|の|た,をさ				
@@ -127,7 +126,6 @@ lines from buffer: lemma-index-decomp.tsv
     685:!御笠	simplex	み|かさ				
     689:!心づから	simplex	こころ|づから				
     954:!棚引く	simplex	たな|びく				
-    956:!棚機女	simplex	たな,ばた|つ|め				
     975:!檜隈河	simplex	ひ,の,くま|がは				
     983:!此れ	simplex	こ,れ				
     984:!此処	simplex	こ,こ				
@@ -154,63 +152,6 @@ lines from buffer: lemma-index-decomp.tsv
    1100:!漏らす	simplex	もら|す				
    1127:!烏羽玉	simplex	うば|たま				
    1131:!然らば	simplex	さら|ば				
-   1135:!照らす	simplex	てら|す				
-   1142:!片岡	simplex	かた|をか				
-   1144:!片方	simplex	かた|へ				
-   1145:!片枝	simplex	かた|え				
-   1148:!最上	simplex	も|がみ				
-   1151:!犬上	simplex	いぬ|かみ				
-   1156:!狭筵	simplex	さ|むしろ				
-   1160:!率爾に	simplex	いささめ|に				
-   1162:!玉津	simplex	たま|つ				
-   1163:!玉匣	simplex	たま|くしげ				
-   1165:!玉桙	simplex	たま|ぼこ				
-   1167:!玉章	simplex	たま|づさ 玉|梓				
-   1176:!理無し	simplex	わり|なし				
-   1178:!瓶原	simplex	みか|の|はら				
-   1193:!異なり	simplex	け|なり				
-   1194:!異に	simplex	け|に				
-   1195:!異異	simplex	こと|ごと				
-   1201:!四極	simplex	し|はつ す|果つ				
-   1203:!白妙	simplex	しろ|たへ				
-   1215:!百千鳥	simplex	もも|ち,どり				
-   1216:!百敷	simplex	もも|しき				
-   1218:!百草	simplex	もも|くさ				
-   1220:!皆がら	simplex	みな|がら				
-   1227:!直路	simplex	ただ|ぢ				
-   1229:!?相坂	simplex	あふ|さか				
-   1234:!真木	simplex	まさ|き				
-   1235:!真澄鏡	simplex	ま,す|かがみ				
-   1236:!真砂	simplex	ま|さご				
-   1238:!真金	simplex	ま|がね				
-   1246:!知らす	simplex	しら|す				
-   1257:!祈言	simplex	ねぎ|ごと				
-   1260:!神世	simplex	かみ|よ				
-   1262:!神奈備	simplex	かむ|な|び 神|の|辺				
-   1264:!神無月	simplex	かみ|な|づき 神|の|月				
-   1285:!稲負鳥	simplex	いな|おほせ|どり				
-   1292:!空五倍子	simplex	うつ|ぶし				
-   1294:!空蝉	simplex	うつ|せみ				
-   1297:!立田	simplex	たつ|た				
-   1305:!笠取	simplex	かさ|とり				
-   1338:!終夜	simplex	よ|も|すが,ら				
-   1351:!綱手	simplex	つな|で				
-   1359:!縦しや	simplex	よし|や				
-   1364:!織女	simplex	たな|ばた				
-   1375:!群群	simplex	むら|むら				
-   1378:!羽振く	simplex	は|ぶく				
-   1380:!習はし物	simplex	ならはし|もの				
-   1384:!耳梨	simplex	みみ|なし 耳|成す				
-   1385:!聞かす	simplex	きか|す				
-   1390:!背子	simplex	せ|こ				
-   1401:!色どる	simplex	いろ|どる				
-   1402:!色色	simplex	いろ|いろ				
-   1407:!花かつみ	simplex	はな|かつみ				
-   1414:!花見	simplex	はな|み				
-   1429:!草枕	simplex	くさ|まくら				
-   1449:!葛城	simplex	かつら|ぎ				
-   1465:!藤河	simplex	ふぢ|がは				
-   1471:!藻塩	simplex	も|しほ				
    1478:!蚊遣火	simplex	か|やり|び				
    1494:!衣手	simplex	ころも|で				
    1510:!覚ます	simplex	さま|す				
@@ -223,7 +164,6 @@ lines from buffer: lemma-index-decomp.tsv
    1581:!返す返す	simplex	かへす|がへす				
    1583:!返る返る	simplex	かへる|がへる				
    1588:!逆様なり	simplex	さか,さま|なり				
-   1594:!逢坂	simplex	あふ|さか				
    1603:!道行振り	simplex	みち,ゆき|ぶり				
    1612:!遥遥	simplex	はる|ばる				
    1624:!重荷	simplex	おも|に				
@@ -253,7 +193,6 @@ lines from buffer: lemma-index-decomp.tsv
      26:!けむ	simplex	け|む				
      38:!しがな	simplex	しが|な				
      39:!して	simplex	し|て				
-     42:!すがらに	simplex	すが,ら|に				
      47:!ぞも	simplex	ぞ|も				
      59:!とにもかくにも	simplex	と|に|も|かく|に|も				
      64:!なへに	simplex	なへに				

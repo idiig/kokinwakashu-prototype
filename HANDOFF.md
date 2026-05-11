@@ -7,6 +7,58 @@ This file is for agent-to-agent communication only.
 - Put temporary validation or tooling caveats here.
 - Do not move stable project rules here; those belong in `AGENTS.md`.
 
+## 2026-05-11
+
+### Changed
+
+- `狭筵` converted from `simplex` to `compound` as `さ.小` + `むしろ.筵`.
+- Added new simplex lemma `筵` and Dict A hom `むしろ.筵`.
+- Removed `狭筵` from `issues-compound.txt` and updated
+  `lemma-index-decomp.tsv`.
+- `率爾に` was reviewed as acceptable simplex; normalized the Dict B ID to
+  `いささめに`, updated Dict A hom `いささめ.いささめに`, and updated the
+  poem token reference.
+- Removed stale `片岡`, `片方`, `片枝`, `最上`, and `犬上` entries from
+  `issues-compound.txt` per the user's note that entries through `犬上` are
+  already complete; removed `最上` / `犬上` decomposition flags in
+  `lemma-index-decomp.tsv`.
+- `玉津` reviewed as acceptable simplex; removed from `issues-compound.txt`
+  and cleared the decomposition flag in `lemma-index-decomp.tsv`.
+- `玉匣` converted from `simplex` to `compound` as `たま.玉` + `くしげ.匣`.
+- Added new simplex lemma `匣` and Dict A hom `くしげ.匣`.
+- `玉桙` converted from `simplex` to `compound` as `たま.玉` + `ほこ.桙`.
+- Added new simplex lemma `桙` and Dict A hom `ほこ.桙`.
+- Corrected `桙` semantic class to `WLSPH.1.4550` / `WLSP.1.4550`.
+- `玉章` converted from `simplex` to `compound` as `たま.玉` + `あづさ.梓`,
+  with compound surface `づさ` for the second component.
+- Corrected `梓` pronunciation in Dict B from modern kana `あずさ` to
+  historical kana `あづさ`.
+- `理無し` converted from `simplex` to `compound` as `わり.理` + `なし.無し`.
+- Added new simplex lemma `理` and Dict A hom `わり.理`.
+- `瓶原` converted from `simplex` to `compound` as `みか.甕` + `の.の` +
+  `はら.原`.
+- Added new simplex lemma `甕`; added `みか.甕` as a second hom under the
+  existing `みか` reading entry.
+- Split the `け` reading out of `異なり`: added new lemma `けなり`, renamed
+  Dict A hom `け.異なり` to `け.けなり`, and updated the one poem token.
+  `こと.異なり` remains pointed at `異なり`.
+- Merged `異に` into `けなり` + existing following `に`: removed the Dict B
+  entry and Dict A hom `け.異に`; updated the one poem token to `け.けなり`.
+- `異異` converted from `simplex` to reduplicative `compound` as
+  `こと.異なり` + `こと.異なり` with surface `こと` + `ごと`.
+
+### Validation
+
+- Local RNG validation with `schemas/tei_all.rng` passed for
+  `lemma-index.xml`, `reading-index.xml`, and `kokinwakashu.xml`.
+- `uv run python count_pron.py`: `Total: 559, Plain: 0, Decomposed: 559`.
+- `uv run python check_compounds.py`: `OK 559`, `Ambiguous 0`, `Failed 0`.
+
+### Next
+
+- User noted entries through `犬上` are already complete.
+- Continue `issues-compound.txt` from `白妙` (original line 1203) onward.
+
 ## 2026-05-10
 
 ### Changed
@@ -168,6 +220,35 @@ This file is for agent-to-agent communication only.
   `朝` + `開く`, with surface `ぼらけ` referencing `ri:ひらけ.開く`.
 - Converted `朝明` to a compound: `朝` + `明く`, with surface `け`
   referencing `ri:あけ.明く`.
+- `四極` reviewed as acceptable simplex and removed from `issues-compound.txt`.
+- `白妙` converted to `compound` as `白` + `栲`; poem tokens remain
+  `ri:しろたへ.白妙`.
+- `百千鳥` converted to `compound` as `百` + `千鳥`; poem token remains
+  `ri:ももちどり.百千鳥`.
+- `百敷` converted to `compound` as `百` + `敷く`; poem token remains
+  `ri:ももしき.百敷`.
+- `百草` converted to `compound` as `百` + `草`; poem token remains
+  `ri:ももくさ.百草`.
+- Added `がら` with the user's specified "すべて" sense and converted
+  `皆がら` to `compound` as `皆` + `がら`; poem token remains
+  `ri:みながら.皆がら`.
+- Renamed `唯に` to `唯なり`, changed it from adverb to na-adjectival stem
+  (`N.Suff.Ana`), and updated Dict A/body refs from `ただ.唯に` to
+  `ただ.唯なり`.
+- Converted `直路` to `compound` as `唯なり` + `路`; poem token remains
+  `ri:ただぢ.直路`.
+- Removed stale `相坂` / `逢坂` entries from the compound-review queue and
+  updated `lemma-index-decomp.tsv`; `相坂` has no standalone Dict B entry and
+  poem tokens point to `ri:あふさか.逢坂`.
+- Added `柾` with Dict A hom `まさ.柾`; converted `真木` to `compound` as
+  `柾` + `木`; poem token remains `ri:まさき.真木`.
+- Added `真澄なり` with Dict A hom `ますみ.真澄なり`; `真澄なり` is a
+  compound `真` + `澄む`, and `真澄鏡` is `真澄なり` + `鏡`; poem token
+  remains `ri:ますかがみ.真澄鏡`.
+- Latest validation: `lemma-index.xml`, `reading-index.xml`, and
+  `kokinwakashu.xml` validate against `schemas/tei_all.rng`; `check_compounds.py`
+  reports OK 567 / Ambiguous 0 / Failed 0; `count_pron.py` reports Total 567,
+  Plain 0, Decomposed 567.
 
 ## 2026-05-06
 

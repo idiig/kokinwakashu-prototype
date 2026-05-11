@@ -113,7 +113,38 @@ kokinwakashu-prototype/
     TEI-valid `hom/@corresp`; local RNG validation now passes for all three
     edited XML files
   - **Policy**: poem tokens keep single lemmaRef per `<w>`; compound structure lives only in lemma-index
-  - Next entry: 最上 (original line 1148)
+  - 2026-05-11: `狭筵` converted to compound as `小` + newly added `筵`;
+    user noted entries through `犬上` are already complete
+  - 2026-05-11: `率爾に` reviewed as acceptable simplex; ID normalized to
+    `いささめに`
+  - 2026-05-11: `玉津` reviewed as acceptable simplex; removed from
+    `issues-compound.txt`
+  - 2026-05-11: `玉匣` converted to compound as `玉` + newly added `匣`
+  - 2026-05-11: `玉桙` converted to compound as `玉` + newly added `桙`
+  - 2026-05-11: `玉章` converted to compound as `玉` + `梓`; `梓` pron
+    normalized to historical kana `あづさ`
+  - 2026-05-11: `理無し` converted to compound as newly added `理` + `無し`
+  - 2026-05-11: `瓶原` converted to compound as newly added `甕` + `の` + `原`
+  - 2026-05-11: split `け.異なり` into new lemma `けなり`; kept
+    `こと.異なり` under `異なり`
+  - 2026-05-11: merged `異に` into `けなり` + existing following `に`;
+    removed `異に`
+  - 2026-05-11: `異異` converted to reduplicative compound as `異なり` +
+    `異なり`
+  - 2026-05-11: `四極` reviewed as acceptable simplex; removed from
+    `issues-compound.txt`
+  - 2026-05-11: `白妙` converted to compound as `白` + `栲`
+  - 2026-05-11: `百千鳥` converted to compound as `百` + `千鳥`
+  - 2026-05-11: `百敷` converted to compound as `百` + `敷く`
+  - 2026-05-11: `百草` converted to compound as `百` + `草`
+  - 2026-05-11: `皆がら` converted to compound as `皆` + newly added `がら`
+  - 2026-05-11: `唯に` normalized to `唯なり` as a na-adjectival stem;
+    `直路` converted to compound as `唯なり` + `路`
+  - 2026-05-11: removed stale `相坂` / `逢坂` queue flags; `相坂` is already
+    merged into compound `逢坂`
+  - 2026-05-11: `真木` converted to compound as newly added `柾` + `木`
+  - 2026-05-11: `真澄鏡` converted to compound as newly added `真澄なり` + `鏡`
+  - Next entry: 真砂 (original line 1236)
 - [ ] **issues.txt review in progress** — later-pass entries updated through
   `さつき` (2026-05-06)
 - [ ] **Resolved in this session**: `狩り`, `狩衣`, `百`, `相坂`, `眼`,
