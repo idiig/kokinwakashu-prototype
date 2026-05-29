@@ -7,6 +7,87 @@ This file is for agent-to-agent communication only.
 - Put temporary validation or tooling caveats here.
 - Do not move stable project rules here; those belong in `AGENTS.md`.
 
+## 2026-05-12
+
+### Changed
+
+- Added new simplex lemma `蚊` and Dict A hom `か.蚊`.
+- Converted `蚊遣火` from `simplex` to `compound` as `か.蚊` +
+  `やり.遣る` + `ひ.火`; poem token remains `ri:かやりび.蚊遣火`.
+- Removed `蚊遣火` from `issues-compound.txt` and updated
+  `lemma-index-decomp.tsv`.
+- Converted `衣手` from `simplex` to `compound` as `ころも.衣` + `て.手`;
+  poem tokens remain `ri:ころもで.衣手`.
+- Converted `覚ます` from `simplex` to `compound` as `さむ.覚む` +
+  `す.使`; poem token remains `ri:さまし.覚ます`.
+- Converted `言の葉` from `simplex` to `compound` as `こと.言` + `の.の` +
+  `は.葉`; poem tokens remain `ri:ことのは.言の葉`.
+- Renamed `諸共に` to `諸共なり`, changed it from adverb to na-adjectival
+  stem, and converted it to `compound` as `もろ.諸` + `とも.共`; poem token
+  now points to `ri:もろとも.諸共なり` and the following `に` remains a
+  separate token.
+- Converted `責めて` from `simplex` to `compound` as `せめ.責む` + `て.て`;
+  poem token remains `ri:せめて.責めて`.
+
+### Validation
+
+- `lemma-index.xml`, `reading-index.xml`, and `kokinwakashu.xml` validate
+  against `schemas/tei_all.rng`.
+- `uv run python check_compounds.py`: `OK 617`, `Ambiguous 0`, `Failed 0`.
+- `uv run python count_pron.py`: `Total 617`, `Plain 0`, `Decomposed 617`.
+- `走り火` converted to compound as `走る` + `火`; added Dict A hom
+  `はしり.走る`.
+- `轟かす` converted to compound as newly added `轟く` + `使`; added Dict A
+  hom `とどろか.轟く`.
+- `辰巳` converted to compound as newly added `辰` + `巳`; added Dict A homs
+  `たつ.辰` and `み.巳`.
+- `返す返す` converted to reduplicative compound as `返す` + `返す`; second
+  pronunciation segment keeps surface rendaku `がへす` while referencing
+  `ri:かへす.返す`.
+- `返る返る` converted to reduplicative compound as `返る` + `返る`; added Dict
+  A hom `かへる.返る`; second pronunciation segment keeps surface rendaku
+  `がへる` while referencing `ri:かへる.返る`.
+- `逆様なり` converted to compound as newly added `逆` + existing `様`; added
+  Dict A hom `さか.逆`.
+- Added `道行` as a nested compound `道` + `行く`, with WLSPH
+  `WLSPH.1.1525` and `WLSPH.1.1520`; added Dict A hom `みちゆき.道行`.
+- Converted `道行振り` from `simplex` to `compound` as `道行` + `振る`; poem
+  token remains `ri:みちゆきぶり.道行振り`.
+- Converted `遥遥` from `simplex` to reduplicative compound as `遥かなり` +
+  `遥かなり`, with pronunciation segments `はるか` + `はるか`.
+- Added new simplex lemma `荷` and Dict A hom `に.荷`.
+- Converted `重荷` from `simplex` to `compound` as `重し` + `荷`; poem token
+  remains `ri:おもに.重荷`.
+- Converted `野中` from `simplex` to `compound` as `野` + `中`; poem token
+  remains `ri:のなか.野中`.
+- Converted `野山` from `simplex` to `compound` as `野` + `山`; poem tokens
+  remain `ri:のやま.野山`.
+- Converted `野良` from `simplex` to `compound` as `野` + `ら`; poem token
+  remains `ri:のら.野良`.
+- Converted `野辺` from `simplex` to `compound` as `野` + `辺`; poem tokens
+  remain `ri:のべ.野辺`.
+- Converted `長居` from `simplex` to `compound` as `長し` + `居る`; poem
+  token remains `ri:ながゐ.長居`.
+- Reviewed `長柄` as a place name and kept it as `simplex`; removed its
+  compound flag.
+- Converted `長浜` from `simplex` to `compound` as `長し` + `浜`; kept place
+  name POS and poem token `ri:ながはま.長浜`.
+- Converted `門出` from `simplex` to `compound` as `門` + `出づ`; the second
+  pronunciation segment has surface `で` and references `ri:いで.出づ`.
+- Converted `間遠なり` from `simplex` to `compound` as `間` + `遠し`; the
+  second pronunciation segment has surface `どほ` and references
+  `ri:とほ.遠し`.
+- Converted `関守` from `simplex` to `compound` as `関` + `守る`; the second
+  pronunciation segment references `ri:もり.守る`.
+- Reviewed `阿武隈` as a place name and kept it as `simplex`; corrected Dict A
+  and Dict B reading to `あぶくま` while leaving the poem surface unchanged.
+- Merged `雲井` into `雲居`; poem surfaces `雲井` now reference
+  `ri:くもゐ.雲居`, and `雲居` remains compound as `雲` + `居る`.
+
+### Next
+
+- Continue `issues-compound.txt` from `露けし` (original line 1699).
+
 ## 2026-05-11
 
 ### Changed

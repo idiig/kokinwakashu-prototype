@@ -15138,7 +15138,7 @@
               <w lemmaRef="ri:なき.無し">なき</w>
             </seg>
             <seg>
-              <w lemmaRef="ri:くもゐ.雲井">雲井</w>
+              <w lemmaRef="ri:くもゐ.雲居">雲井</w>
               <w lemmaRef="ri:の.の">の</w>
               <w lemmaRef="ri:よそ.余所">よそ</w>
               <w lemmaRef="ri:に.に">に</w>
@@ -15560,7 +15560,7 @@
           <lb/>
           <l n="378" xml:id="n378" resp="#清原深養父">
             <seg>
-              <w lemmaRef="ri:くもゐ.雲井">雲井</w>
+              <w lemmaRef="ri:くもゐ.雲居">雲井</w>
               <w lemmaRef="ri:に.に">に</w>
               <w lemmaRef="ri:も.も">も</w>
             </seg>
@@ -15819,7 +15819,7 @@
           <lb/>
           <l n="385" xml:id="n385" resp="#藤原兼茂">
             <seg>
-              <w lemmaRef="ri:もろとも.諸共に">もろとも</w>
+              <w lemmaRef="ri:もろとも.諸共なり">もろとも</w>
             <w lemmaRef="ri:に.に">に</w>
             </seg>
             <seg>
@@ -42624,7 +42624,7 @@
             <lb/>
             <l n="1087" xml:id="n1087">
               <seg>
-                <w lemmaRef="ri:あふくま.阿武隈">あふくま</w>
+                <w lemmaRef="ri:あぶくま.阿武隈">あふくま</w>
                 <w lemmaRef="ri:に.に">に</w>
               </seg>
               <seg>

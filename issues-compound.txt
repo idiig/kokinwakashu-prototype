@@ -142,27 +142,8 @@ lines from buffer: lemma-index-decomp.tsv
    1045:!浪路	simplex	なみ|ぢ				
    1055:!海原	simplex	わた|の|はら				
    1056:!海松藻	simplex	みる|め				
-   1058:!海辺	simplex	うみ|べた				
-   1074:!深山	simplex	み|やま				
-   1075:!深草	simplex	ふか|くさ				
-   1076:!深草野	simplex	ふか,くさ|の				
-   1084:!清水	simplex	し|みづ	澄む|水			
-   1086:!渚	simplex	な,ぎさ				
-   1092:!湊	simplex	みな|と				
-   1100:!漏らす	simplex	もら|す				
    1127:!烏羽玉	simplex	うば|たま				
    1131:!然らば	simplex	さら|ば				
-   1478:!蚊遣火	simplex	か|やり|び				
-   1494:!衣手	simplex	ころも|で				
-   1510:!覚ます	simplex	さま|す				
-   1519:!言の葉	simplex	こと|の|は				
-   1535:!諸共に	simplex	もろ,とも|に				
-   1546:!責めて	simplex	せめ|て				
-   1553:!走り火	simplex	はしり|び				
-   1571:!轟かす	simplex	とどろ,か|す				
-   1574:!辰巳	simplex	たつ|み				
-   1581:!返す返す	simplex	かへす|がへす				
-   1583:!返る返る	simplex	かへる|がへる				
    1588:!逆様なり	simplex	さか,さま|なり				
    1603:!道行振り	simplex	みち,ゆき|ぶり				
    1612:!遥遥	simplex	はる|ばる				
@@ -172,14 +153,6 @@ lines from buffer: lemma-index-decomp.tsv
    1629:!野良	simplex	の|ら				
    1630:!野辺	simplex	の|べ				
    1642:!長居	simplex	なが|ゐ				
-   1644:!長柄	simplex	なが|ら				
-   1645:!長浜	simplex	なが|はま				
-   1649:!門出	simplex	かど|で				
-   1653:!間遠なり	simplex	ま,どほ|なり				
-   1655:!関守	simplex	せき|もり				
-   1658:!阿武隈	simplex	あふ|くま				
-   1689:!雲井	simplex	くも|ゐ				
-   1690:!雲居	simplex	くも|ゐ				
    1699:!露けし	simplex	つゆ|けし				
    1708:!面影	simplex	おも|かげ				
    1711:!音羽	simplex	おと|は				

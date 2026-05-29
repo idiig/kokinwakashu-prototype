@@ -144,7 +144,38 @@ kokinwakashu-prototype/
     merged into compound `逢坂`
   - 2026-05-11: `真木` converted to compound as newly added `柾` + `木`
   - 2026-05-11: `真澄鏡` converted to compound as newly added `真澄なり` + `鏡`
-  - Next entry: 真砂 (original line 1236)
+  - 2026-05-12: `蚊遣火` converted to compound as newly added `蚊` + `遣る`
+    + `火`
+  - 2026-05-12: `衣手` converted to compound as `衣` + `手`
+  - 2026-05-12: `覚ます` converted to compound as `覚む` + `使`
+  - 2026-05-12: `言の葉` converted to compound as `言` + `の` + `葉`
+  - 2026-05-12: `諸共に` renamed to `諸共なり` and converted to compound
+    as `諸` + `共`
+  - 2026-05-12: `責めて` converted to compound as `責む` + `て`
+  - 2026-05-12: `走り火` converted to compound as `走る` + `火`
+  - 2026-05-12: `轟かす` converted to compound as newly added `轟く` + `使`
+  - 2026-05-12: `辰巳` converted to compound as newly added `辰` + `巳`
+  - 2026-05-12: `返す返す` converted to reduplicative compound as `返す` + `返す`
+  - 2026-05-12: `返る返る` converted to reduplicative compound as `返る` + `返る`
+  - 2026-05-12: `逆様なり` converted to compound as newly added `逆` + `様`
+  - 2026-05-12: `道行` added as nested compound `道` + `行く`; `道行振り`
+    converted to compound as `道行` + `振る`
+  - 2026-05-12: `遥遥` converted to reduplicative compound as `遥かなり` + `遥かなり`
+  - 2026-05-12: `重荷` converted to compound as `重し` + newly added `荷`
+  - 2026-05-12: `野中` converted to compound as `野` + `中`
+  - 2026-05-12: `野山` converted to compound as `野` + `山`
+  - 2026-05-12: `野良` converted to compound as `野` + `ら`
+  - 2026-05-12: `野辺` converted to compound as `野` + `辺`
+  - 2026-05-12: `長居` converted to compound as `長し` + `居る`
+  - 2026-05-12: `長柄` reviewed as a place name and kept as simplex
+  - 2026-05-12: `長浜` converted to compound as `長し` + `浜`
+  - 2026-05-12: `門出` converted to compound as `門` + `出づ`
+  - 2026-05-12: `間遠なり` converted to compound as `間` + `遠し`
+  - 2026-05-12: `関守` converted to compound as `関` + `守る`
+  - 2026-05-12: `阿武隈` reviewed as a place name and kept as simplex with
+    reading `あぶくま`
+  - 2026-05-12: `雲井` merged into `雲居`; `雲居` is compound as `雲` + `居る`
+  - Next entry: 露けし (original line 1699)
 - [ ] **issues.txt review in progress** — later-pass entries updated through
   `さつき` (2026-05-06)
 - [ ] **Resolved in this session**: `狩り`, `狩衣`, `百`, `相坂`, `眼`,
