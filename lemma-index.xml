@@ -3197,10 +3197,27 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.PR.01.KH00KH00"/>
         </entry>
-        <entry xml:id="仄かなり" type="simplex">
+        <entry xml:id="仄" type="simplex">
+          <form type="lemma">
+            <orth xml:lang="ja">仄</orth>
+            <pron notation="kana">ほの</pron>
+          </form>
+          <gramGrp>
+            <pos value="N.g">N.g</pos>
+            <gram type="UPosTag">NOUN</gram>
+            <gram type="IPAPosTag">名詞-一般</gram>
+            <gram type="UniDicPosTag">名詞-普通名詞-一般</gram>
+          </gramGrp>
+          <sense ana="wlsph:WLSPH.3.3062"/>
+        </entry>
+        <entry xml:id="仄かなり" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">仄か</orth>
-            <pron notation="kana">ほのか</pron>
+            <pron notation="kana"><w lemmaRef="ri:ほの.仄">ほの</w><w lemmaRef="ri:か.h1">か</w></pron>
+          </form>
+          <form type="compound">
+            <ref target="#仄"/>
+            <ref target="#か"/>
           </form>
           <gramGrp>
             <pos value="N.Suff.Ana">N.Suff.Ana</pos>
@@ -3213,11 +3230,11 @@
         <entry xml:id="仄仄と" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">仄仄と</orth>
-            <pron notation="kana"><w lemmaRef="ri:ほの.仄かなり">ほの</w><w lemmaRef="ri:ほの.仄かなり">ぼの</w><w lemmaRef="ri:と.と">と</w></pron>
+            <pron notation="kana"><w lemmaRef="ri:ほの.仄">ほの</w><w lemmaRef="ri:ほの.仄">ぼの</w><w lemmaRef="ri:と.と">と</w></pron>
           </form>
           <form type="compound">
-            <ref target="#仄かなり"/>
-            <ref target="#仄かなり"/>
+            <ref target="#仄"/>
+            <ref target="#仄"/>
             <ref target="#と"/>
           </form>
           <gramGrp>

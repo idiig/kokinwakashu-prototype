@@ -9740,7 +9740,7 @@
           <form type="pron">
             <pron notation="kana">ほの</pron>
           </form>
-          <hom n="1" xml:id="ほの.仄かなり" corresp="li:仄かなり"/>
+          <hom n="1" xml:id="ほの.仄" corresp="li:仄"/>
         </entry>
         <entry xml:id="ほのか">
           <form type="pron">

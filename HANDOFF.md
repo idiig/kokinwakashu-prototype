@@ -7,6 +7,20 @@ This file is for agent-to-agent communication only.
 - Put temporary validation or tooling caveats here.
 - Do not move stable project rules here; those belong in `AGENTS.md`.
 
+## 2026-06-29
+
+### Changed
+
+- Added new simplex lemma `仄` (N.g, WLSPH.3.3062); added Dict A hom `ほの.仄`.
+- Converted `仄かなり` from `simplex` to `compound` as `ほの.仄` + `か.h1`.
+- Updated `仄仄と` pron and compound refs from `#仄かなり` → `#仄`.
+
+### Next
+
+- Continue `issues-compound.txt` from `仮初なり`.
+
+---
+
 ## 2026-05-12
 
 ### Changed
