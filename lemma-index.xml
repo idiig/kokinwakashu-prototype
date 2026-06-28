@@ -3405,10 +3405,14 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.1.1040"/>
         </entry>
-        <entry xml:id="仮初なり" type="simplex">
+        <entry xml:id="仮初なり" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">仮初</orth>
-            <pron notation="kana">かりそめ</pron>
+            <pron notation="kana"><w lemmaRef="ri:かり.仮り">かり</w><w lemmaRef="ri:さま.様">さま</w></pron>
+          </form>
+          <form type="compound">
+            <ref target="#仮り"/>
+            <ref target="#様"/>
           </form>
           <gramGrp>
             <pos value="N.Suff.Ana">N.Suff.Ana</pos>

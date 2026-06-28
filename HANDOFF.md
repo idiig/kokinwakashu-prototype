@@ -17,7 +17,12 @@ This file is for agent-to-agent communication only.
 
 ### Next
 
-- Continue `issues-compound.txt` from `仮初なり`.
+- Converted `仮初なり` from `simplex` to `compound` as `かり.仮り` + `さま.様`
+  (etymological decomposition: かりさま → かりそめ; reading-index unchanged).
+
+### Next
+
+- Continue `issues-compound.txt` from `仮初め`（同エントリ扱い、スキップ予定）または次の未処理エントリ。
 
 ---
 
