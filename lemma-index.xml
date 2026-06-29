@@ -6110,10 +6110,27 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.2.3130"/>
         </entry>
-        <entry xml:id="味気無し" type="simplex">
+        <entry xml:id="味気" type="simplex">
+          <form type="lemma">
+            <orth xml:lang="ja">味気</orth>
+            <pron notation="kana">あぢき</pron>
+          </form>
+          <gramGrp>
+            <pos value="N.g">N.g</pos>
+            <gram type="UPosTag">NOUN</gram>
+            <gram type="IPAPosTag">名詞-一般</gram>
+            <gram type="UniDicPosTag">名詞-普通名詞-一般</gram>
+          </gramGrp>
+          <sense ana="wlsp:WLSP.1.3011"/>
+        </entry>
+        <entry xml:id="味気無し" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">味気無し</orth>
-            <pron notation="kana">あぢきなし</pron>
+            <pron notation="kana"><w lemmaRef="ri:あぢき.味気">あぢき</w><w lemmaRef="ri:なし.無し">なし</w></pron>
+          </form>
+          <form type="compound">
+            <ref target="#味気"/>
+            <ref target="#無し"/>
           </form>
           <gramGrp>
             <pos value="Ai.free">Ai.free</pos>

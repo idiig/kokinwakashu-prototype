@@ -347,6 +347,12 @@
           </form>
           <hom n="1" xml:id="あだもの.徒物" corresp="li:徒物"/>
         </entry>
+        <entry xml:id="あぢき">
+          <form type="pron">
+            <pron notation="kana">あぢき</pron>
+          </form>
+          <hom n="1" xml:id="あぢき.味気" corresp="li:味気"/>
+        </entry>
         <entry xml:id="あぢきなく">
           <form type="pron">
             <pron notation="kana">あぢきなく</pron>

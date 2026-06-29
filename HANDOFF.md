@@ -19,10 +19,13 @@ This file is for agent-to-agent communication only.
 
 - Converted `仮初なり` from `simplex` to `compound` as `かり.仮り` + `さま.様`
   (etymological decomposition: かりさま → かりそめ; reading-index unchanged).
+- Added new simplex lemma `味気` (N.g, WLSP.1.3011); added Dict A hom `あぢき.味気`.
+- Converted `味気無し` from `simplex` to `compound` as `あぢき.味気` + `なし.無し`.
+  Note: `味気` itself is a candidate for further compound decomposition (あぢ + き) in a future pass.
 
 ### Next
 
-- Continue `issues-compound.txt` from `仮初め`（同エントリ扱い、スキップ予定）または次の未処理エントリ。
+- Continue `issues-compound.txt`; next unprocessed entry: `垂乳根`（たら|ち|ね）。
 
 ---
 
