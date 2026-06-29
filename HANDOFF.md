@@ -25,7 +25,13 @@ This file is for agent-to-agent communication only.
 
 ### Next
 
-- Continue `issues-compound.txt`; next unprocessed entry: `垂乳根`（たら|ち|ね）。
+- Skipped `垂乳根`（乳 lemma missing; not treated as compound）.
+- Added new simplex lemma `圧す` (V.free, WLSP.2.3570); added Dict A homs `へし.圧す`, `をみな.女`.
+- Converted `女郎花` from `simplex` to `compound` as `をみな.女` + `へし.圧す`.
+
+### Next
+
+- Continue `issues-compound.txt`; next unprocessed entry: `如し`.
 
 ---
 

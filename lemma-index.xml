@@ -7659,10 +7659,27 @@
             <def xml:lang="ja">体-関係-空間-奥・底・陰</def>
           </sense>
         </entry>
-        <entry xml:id="女郎花" type="simplex">
+        <entry xml:id="圧す" type="simplex">
+          <form type="lemma">
+            <orth xml:lang="ja">圧す</orth>
+            <pron notation="kana">へす</pron>
+          </form>
+          <gramGrp>
+            <pos value="V.free">V.free</pos>
+            <gram type="UPosTag">VERB</gram>
+            <gram type="IPAPosTag">動詞-自立</gram>
+            <gram type="UniDicPosTag">動詞-一般</gram>
+          </gramGrp>
+          <sense ana="wlsp:WLSP.2.3570"/>
+        </entry>
+        <entry xml:id="女郎花" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">女郎花</orth>
-            <pron notation="kana">をみなへし</pron>
+            <pron notation="kana"><w lemmaRef="ri:をみな.女">をみな</w><w lemmaRef="ri:へし.圧す">へし</w></pron>
+          </form>
+          <form type="compound">
+            <ref target="#女"/>
+            <ref target="#圧す"/>
           </form>
           <gramGrp>
             <pos value="N.g">N.g</pos>

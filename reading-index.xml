@@ -9571,6 +9571,12 @@
           <hom n="5" xml:id="へ.重" corresp="li:重"/>
           <hom n="6" xml:id="へ.上" corresp="li:上"/>
         </entry>
+        <entry xml:id="へし">
+          <form type="pron">
+            <pron notation="kana">へし</pron>
+          </form>
+          <hom n="1" xml:id="へし.圧す" corresp="li:圧す"/>
+        </entry>
         <entry xml:id="へた">
           <form type="pron">
             <pron notation="kana">へた</pron>
@@ -12507,6 +12513,12 @@
             <pron notation="kana">をふ</pron>
           </form>
           <hom n="1" xml:id="をふ.麻生" corresp="li:麻生"/>
+        </entry>
+        <entry xml:id="をみな">
+          <form type="pron">
+            <pron notation="kana">をみな</pron>
+          </form>
+          <hom n="1" xml:id="をみな.女" corresp="li:女"/>
         </entry>
         <entry xml:id="をみなへし">
           <form type="pron">
