@@ -374,6 +374,19 @@
           <sense xml:id="く.s1" ana="wlsph:WLSPH.8.0071 wlsp:WLSP.7.0010"/>
           <sense xml:id="く.s2" ana="wlsph:WLSPH.7.0010 wlsp:WLSP.7.0010"/>
         </entry>
+        <entry xml:id="けし" type="simplex">
+          <form type="lemma">
+            <orth xml:lang="ja">けし</orth>
+            <pron notation="kana">けし</pron>
+          </form>
+          <gramGrp>
+            <pos value="Ai.Suff">Ai.Suff</pos>
+            <gram type="UPosTag">AUX</gram>
+            <gram type="IPAPosTag">形容詞-接尾</gram>
+            <gram type="UniDicPosTag">接尾辞-形容詞的</gram>
+          </gramGrp>
+          <sense ana="wlsp:WLSP.7.0030"/>
+        </entry>
         <entry xml:id="けむ" type="simplex">
           <form type="lemma">
             <orth xml:lang="ja">けむ</orth>
@@ -493,13 +506,24 @@
             <orth xml:lang="ja">し</orth>
             <pron notation="kana">し</pron>
           </form>
-          <gramGrp>
-            <pos value="P.Adv">P.Adv</pos>
-            <gram type="UPosTag">PART</gram>
-            <gram type="IPAPosTag">助詞-副助詞</gram>
-            <gram type="UniDicPosTag">助詞-副助詞</gram>
-          </gramGrp>
-          <sense ana="wlsph:WLSPH.8.0066 wlsp:WLSP.8.0066"/>
+          <hom n="1" xml:id="し.h1">
+            <gramGrp>
+              <pos value="P.Adv">P.Adv</pos>
+              <gram type="UPosTag">PART</gram>
+              <gram type="IPAPosTag">助詞-副助詞</gram>
+              <gram type="UniDicPosTag">助詞-副助詞</gram>
+            </gramGrp>
+            <sense ana="wlsph:WLSPH.8.0066 wlsp:WLSP.8.0066"/>
+          </hom>
+          <hom n="2" xml:id="し.h2">
+            <gramGrp>
+              <pos value="Ai.Suff">Ai.Suff</pos>
+              <gram type="UPosTag">AUX</gram>
+              <gram type="IPAPosTag">形容詞-接尾</gram>
+              <gram type="UniDicPosTag">接尾辞-形容詞的</gram>
+            </gramGrp>
+            <sense ana="wlsp:WLSP.7.0030"/>
+          </hom>
         </entry>
         <entry xml:id="しが" type="simplex">
           <form type="lemma">
@@ -7689,12 +7713,29 @@
           </gramGrp>
           <sense ana="wlsph:WLSPH.1.5520 wlsp:WLSP.1.5520"/>
         </entry>
-        <entry xml:id="如し" type="simplex">
+        <entry xml:id="ごと" type="simplex">
+          <form type="lemma">
+            <orth xml:lang="ja">ごと</orth>
+            <pron notation="kana">ごと</pron>
+          </form>
+          <gramGrp>
+            <pos value="N.Suff.Ana">N.Suff.Ana</pos>
+            <gram type="UPosTag">NOUN</gram>
+            <gram type="IPAPosTag">名詞-接尾-形容動詞語幹</gram>
+            <gram type="UniDicPosTag">接尾辞-名詞的-一般</gram>
+          </gramGrp>
+          <sense ana="wlsp:WLSP.3.1130"/>
+        </entry>
+        <entry xml:id="如し" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">如し</orth>
-            <pron notation="kana">ごとし</pron>
+            <pron notation="kana"><w lemmaRef="ri:ごと.ごと">ごと</w><w lemmaRef="ri:し.h2">し</w></pron>
             <pron notation="kana">こと</pron>
             <pron notation="kana">ごと</pron>
+          </form>
+          <form type="compound">
+            <ref target="#ごと"/>
+            <ref target="#し"/>
           </form>
           <hom n="1" xml:id="如し.h1">
             <gramGrp>
@@ -27188,10 +27229,14 @@
             <def xml:lang="ja">体-自然-物質-水・乾湿</def>
           </sense>
         </entry>
-        <entry xml:id="露けし" type="simplex">
+        <entry xml:id="露けし" type="compound">
           <form type="lemma">
             <orth xml:lang="ja">露けし</orth>
-            <pron notation="kana">つゆけし</pron>
+            <pron notation="kana"><w lemmaRef="ri:つゆ.露">つゆ</w><w lemmaRef="ri:けし.けし">けし</w></pron>
+          </form>
+          <form type="compound">
+            <ref target="#露"/>
+            <ref target="#けし"/>
           </form>
           <gramGrp>
             <pos value="Ai.free">Ai.free</pos>

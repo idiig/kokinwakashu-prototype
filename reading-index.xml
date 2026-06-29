@@ -3797,6 +3797,12 @@
           </form>
           <hom n="1" xml:id="けさ.今朝" corresp="li:今朝"/>
         </entry>
+        <entry xml:id="けし">
+          <form type="pron">
+            <pron notation="kana">けし</pron>
+          </form>
+          <hom n="1" xml:id="けし.けし" corresp="li:けし"/>
+        </entry>
         <entry xml:id="けた">
           <form type="pron">
             <pron notation="kana">けた</pron>
@@ -4292,6 +4298,7 @@
           </form>
           <hom n="1" xml:id="ごと.如し" corresp="li:如し"/>
           <hom n="2" xml:id="ごと.毎" corresp="li:毎"/>
+          <hom n="3" xml:id="ごと.ごと" corresp="li:ごと"/>
         </entry>
         <entry xml:id="ごとく">
           <form type="pron">
@@ -4820,6 +4827,7 @@
           <hom n="1" xml:id="し.き" corresp="li:き"/>
           <hom n="2" xml:id="し.し" corresp="li:し"/>
           <hom n="3" xml:id="し.す" corresp="li:す"/>
+          <hom n="4" xml:id="し.h2" corresp="li:し"/>
         </entry>
         <entry xml:id="しか">
           <form type="pron">

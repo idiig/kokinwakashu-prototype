@@ -28,10 +28,17 @@ This file is for agent-to-agent communication only.
 - Skipped `垂乳根`（乳 lemma missing; not treated as compound）.
 - Added new simplex lemma `圧す` (V.free, WLSP.2.3570); added Dict A homs `へし.圧す`, `をみな.女`.
 - Converted `女郎花` from `simplex` to `compound` as `をみな.女` + `へし.圧す`.
+- Added new simplex lemma `けし` (Ai.Suff, WLSP.7.0030); added Dict A hom `けし.けし`.
+- Converted `露けし` from `simplex` to `compound` as `つゆ.露` + `けし.けし`.
+- Added new simplex lemma `ごと` (N.Suff.Ana, WLSP.3.1130); added Dict A hom `ごと.ごと`.
+- Added hom `し.h2` (Ai.Suff) to existing `し` lemma; added Dict A hom `し.h2`.
+- Converted `如し` from `simplex` to `compound` as `ごと.ごと` + `し.h2`.
+- Skipped `如何なり`（なり suffix excluded）; `如何が`、`如何で`、`如何に` already compound.
+- Skipped `山城`、`山科`、`巻向`、`浅間`（地名）.
 
 ### Next
 
-- Continue `issues-compound.txt`; next unprocessed entry: `如し`.
+- Continue `issues-compound.txt`; next unprocessed entry: `面影`（おも|かげ）.
 
 ---
 
